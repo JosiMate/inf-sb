@@ -6,12 +6,14 @@
    neutralnych szarości do ikony; jest wczytywany jako trzeci, po
    stylesheets/extra.css, i dotyczy wyłącznie tego serwisu.
 
-   Kontrast sprawdzony rachunkiem, nie na oko (WCAG 2.1, próg AA dla tekstu
-   to 4,5:1):
-       #2e7d32 na białym            → 5,13:1  ✔ motyw jasny
-       #2e7d32 na tle slate (h 150) → 2,22:1  ✘ za mało, stąd jaśniejszy wariant
-       #81c784 na tle slate (h 150) → 5,65:1  ✔ motyw ciemny
-       tekst #141a14 na #81c784     → 8,79:1  ✔ napis na przycisku podstawowym
+   Kontrast policzony na wartościach, które CSS naprawdę wylicza w przeglądarce
+   (a nie na tle „mniej więcej takim jak slate"). Próg AA dla tekstu to 4,5:1;
+   tło motywu ciemnego wychodzi tu #1e2924:
+       #2e7d32 na białym        → 5,13:1  ✔ motyw jasny
+       #2e7d32 na tle slate     → 2,93:1  ✘ za mało, stąd jaśniejszy wariant
+       #81c784 na tle slate     → 7,47:1  ✔ motyw ciemny
+       tekst #141a14 na #81c784 → 8,79:1  ✔ napis na przycisku podstawowym
+       biel na #81c784          → 2,01:1  ✘ dlatego napis jest ciemny
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ─────────────────────────── motyw ciemny (slate) ─────────────────────────── */
