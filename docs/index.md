@@ -105,7 +105,7 @@ Prawo autorskie, wizerunek w sieci, rozwój technologii i wiarygodność źróde
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
 | 1. **[Bądź uczciwy, czyli przestrzeganie prawa w świecie informatyki](dzial-1/wymagania-i-bhp.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 2. Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci | 1 | *w przygotowaniu* |
+| 2. **[Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci](dzial-1/kim-jestem.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 3. 8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw | 1 | *w przygotowaniu* |
 | 4. Wiedza w sieci, czyli Internet mądrych ludzi | 1 | *w przygotowaniu* |
 

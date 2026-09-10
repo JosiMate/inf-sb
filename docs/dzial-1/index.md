@@ -4,7 +4,7 @@
 
 Prawo autorskie, wizerunek w sieci, rozwój technologii i wiarygodność źródeł.
 
-Gotowe materiały: **1 z 4** tematów.
+Gotowe materiały: **2 z 4** tematów.
 
 ## Tematy działu
 
@@ -14,7 +14,7 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
 | 1. | **[Bądź uczciwy, czyli przestrzeganie prawa w świecie informatyki](wymagania-i-bhp.md)** | 1 | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 2. | Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci | 1 | 2 | *w przygotowaniu* |
+| 2. | **[Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci](kim-jestem.md)** | 1 | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 3. | 8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw | 1 | 3 | *w przygotowaniu* |
 | 4. | Wiedza w sieci, czyli Internet mądrych ludzi | 1 | 4 | *w przygotowaniu* |
 

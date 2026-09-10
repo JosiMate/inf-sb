@@ -22,7 +22,10 @@ DZIALY = json.load(open(HERE / "daneSB.json", encoding="utf-8"))
 # Strona „Wymagania edukacyjne i bhp" jest treścią pierwszej lekcji, którą
 # realizujemy w ramach tematu 1, więc podpięta jest właśnie pod niego.
 GOTOWE = {
-    "I": {1: ("dzial-1/wymagania-i-bhp.md", "Wymagania edukacyjne i bhp")},
+    "I": {
+        1: ("dzial-1/wymagania-i-bhp.md", "Wymagania edukacyjne i bhp"),
+        2: ("dzial-1/kim-jestem.md", "Wizerunek w sieci"),
+    },
 }
 
 

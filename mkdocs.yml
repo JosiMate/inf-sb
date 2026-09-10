@@ -112,6 +112,7 @@ nav:
   - "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze":
       - Przegląd działu: dzial-1/index.md
       - "Wymagania edukacyjne i bhp": dzial-1/wymagania-i-bhp.md
+      - "Wizerunek w sieci": dzial-1/kim-jestem.md
   - "Dział II. Programowanie i algorytmy":
       - Przegląd działu: dzial-2/index.md
   - "Dział III. Aplikacje komputerowe pomagają w pracy":
