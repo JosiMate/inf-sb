@@ -1,0 +1,415 @@
+{
+ "id": "inf-sb-dzial-3",
+ "tytul": "Dział III. Aplikacje komputerowe pomagają w pracy",
+ "przedmiot": "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia",
+ "klasa": "1W",
+ "sufiks": "INF-SB-DZIAL-3",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Modelujemy, czyli jak projektować obiekty 3D",
+   "poziom": "temat 11 · 1 godzina · rozdział 11",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t1_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t1_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t1_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t1_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Wizualizacja pomysłów, czyli projektujemy w edytorze 3D",
+   "poziom": "temat 12 · 1 godzina · rozdział 12",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t2_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t2_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t2_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t2_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "To nie jest trudne, czyli montujemy zdjęcie reklamowe",
+   "poziom": "temat 13 · 1 godzina · rozdział 13",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t3_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t3_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t3_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t3_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki …",
+   "poziom": "temat 14 · 1 godzina · rozdział 14",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t4_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t4_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t4_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t4_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Instrukcja obsługi, czyli tworzymy zaawansowane dokumenty tekstowe",
+   "poziom": "temat 15 · 1 godzina · rozdział 15",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t5_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t5_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t5_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t5_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Oferty, wizytówki i ulotki, czyli jak wykorzystać aplikacje do twor…",
+   "poziom": "temat 16 · 1 godzina · rozdział 16",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t6_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t6_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t6_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t6_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "tytul": "Dokumentacja techniczna, czyli jak wykorzystać zaawansowane możliwo…",
+   "poziom": "temat 17 · 1 godzina · rozdział 17",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t7_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t7_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t7_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t7_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "tytul": "Z sieci do tabeli, czyli jak interpretować dane w arkuszu kalkulacy…",
+   "poziom": "temat 18 · 1 godzina · rozdział 18",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t8_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t8_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t8_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t8_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "tytul": "Kalkulujemy, czyli jak wykorzystać arkusz kalkulacyjny w zarządzani…",
+   "poziom": "temat 19 · 1 godzina · rozdział 19",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t9_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t9_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t9_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t9_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 10,
+   "tytul": "Reklama jest ważna, czyli jak samodzielnie wykonać atrakcyjną preze…",
+   "poziom": "temat 20 · 1 godzina · rozdział 20",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t10_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t10_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t10_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t10_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 11,
+   "tytul": "Co było trudne",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Napisz o tym, co nie wyszło za pierwszym razem. Nie chodzi o przyznanie się do błędu, tylko o to, żebyś umiał nazwać problem i powiedzieć, jak go obszedłeś.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "trudne_co",
+     "wiersze": 3,
+     "pytanie": "Co sprawiło kłopot"
+    },
+    {
+     "typ": "tekst",
+     "id": "trudne_jak",
+     "wiersze": 3,
+     "pytanie": "Jak sobie poradziłeś — sam, z pomocą kolegi, z instrukcji, z sieci"
+    }
+   ]
+  },
+  {
+   "nr": 12,
+   "tytul": "Do czego przyda się to w zawodzie",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ten przedmiot jest o tym, jak komputer pomaga w pracy. Pomyśl o zawodzie, którego się uczysz.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "zawod_zastosowanie",
+     "wiersze": 4,
+     "pytanie": "Gdzie w swoim zawodzie użyjesz tego, co było w tym dziale? Podaj konkretną sytuację, nie ogólnik."
+    }
+   ]
+  },
+  {
+   "nr": 13,
+   "tytul": "Samoocena",
+   "poziom": "podsumowanie działu",
+   "polecenie": "Zajrzyj do wymagań na oceny na stronie tego działu i oceń się uczciwie. Ta rubryka nie jest oceną — jest podstawą do rozmowy.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "samoocena_poziom",
+     "pytanie": "Wymagania, które według mnie spełniam w tym dziale",
+     "opcje": [
+      "konieczne (2)",
+      "podstawowe (3)",
+      "rozszerzające (4)",
+      "dopełniające (5)",
+      "wykraczające (6)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "samoocena_uzasadnienie",
+     "wiersze": 4,
+     "pytanie": "Uzasadnij: co konkretnie potrafisz zrobić samodzielnie"
+    },
+    {
+     "typ": "tekst",
+     "id": "samoocena_braki",
+     "wiersze": 3,
+     "pytanie": "Czego jeszcze nie umiesz i co zrobisz, żeby to nadrobić"
+    }
+   ]
+  }
+ ]
+}

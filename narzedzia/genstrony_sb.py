@@ -22,8 +22,18 @@ DZIALY = json.load(open(HERE / "daneSB.json", encoding="utf-8"))
 # Strona „Wymagania edukacyjne i bhp" jest treścią pierwszej lekcji, którą
 # realizujemy w ramach tematu 1, więc podpięta jest właśnie pod niego.
 GOTOWE = {
-    "I": {1: "dzial-1/wymagania-i-bhp.md"},
+    "I": {1: ("dzial-1/wymagania-i-bhp.md", "Wymagania edukacyjne i bhp")},
 }
+
+
+def sciezka(wpis):
+    """Z wpisu GOTOWE wyciąga samą ścieżkę."""
+    return wpis[0] if isinstance(wpis, (tuple, list)) else wpis
+
+
+def etykieta(wpis, zapas):
+    """Z wpisu GOTOWE wyciąga krótką etykietę do lewej nawigacji."""
+    return wpis[1] if isinstance(wpis, (tuple, list)) and len(wpis) > 1 else zapas
 
 # ─────────────────────────────────────────────── kontrola spójności
 for nr, mapa in GOTOWE.items():
@@ -38,6 +48,11 @@ if SUMA != 30:
     sys.exit(f"BŁĄD: suma godzin = {SUMA}, powinno być 30")
 if LICZBA_TEMATOW != 30:
     sys.exit(f"BŁĄD: tematów = {LICZBA_TEMATOW}, powinno być 30")
+
+
+# Numer działu w adresie: I → 1, II → 2 … Rzymskie zostają na ekranie,
+# w ścieżkach wygodniejsze są arabskie.
+NUMER = {d["nr"]: i + 1 for i, d in enumerate(DZIALY)}
 
 
 def godz(n):
@@ -63,20 +78,24 @@ def strona_startowa():
     kafelki, tabele = [], []
     for d in DZIALY:
         gotowe = GOTOWE.get(d["nr"], {})
-        pierwszy = next((gotowe[t["lp"]] for t in d["tematy"] if t["lp"] in gotowe), None)
-        stan = (f"[Otwórz dział]({pierwszy})" + "{ .md-button }") if pierwszy \
-            else "*materiały w przygotowaniu*"
+        numer = NUMER[d["nr"]]
+        # Kafelek prowadzi do STRONY DZIAŁU, nie do pierwszego tematu — inaczej
+        # kliknięcie „Otwórz dział" wrzucało od razu w treść jednej lekcji.
+        # Cel podajemy jako plik (…/index.md), a nie katalog (…/): MkDocs
+        # sprawdza wtedy odsyłacz i sam zamienia go na adres katalogowy.
+        stan = f"[Otwórz dział](dzial-{numer}/index.md)" + "{ .md-button }"
         kafelki.append(
             f"-   :{d['ikona']}:{{ .lg .middle }} **Dział {d['nr']}. {d['tytul']}**\n\n"
             f"    ---\n\n"
             f"    {d['opis']}\n\n"
-            f"    *{godz(d['godziny'])} · {tematy_sl(len(d['tematy']))}*\n\n"
+            f"    *{godz(d['godziny'])} · {tematy_sl(len(d['tematy']))}"
+            f"{'' if gotowe else ' · materiały w przygotowaniu'}*\n\n"
             f"    {stan}"
         )
 
         wiersze = []
         for t in d["tematy"]:
-            plik = gotowe.get(t["lp"])
+            plik = sciezka(gotowe[t["lp"]]) if t["lp"] in gotowe else None
             nazwa = f"**[{t['tytul']}]({plik})**" if plik else t["tytul"]
             mat = (':material-check-circle:{ title="Materiał gotowy" } gotowe'
                    if plik else "*w przygotowaniu*")
@@ -315,14 +334,246 @@ i do dokumentacji.
 """
 
 
+
+
+# ─────────────────────────────────────────────── strony działów
+def strona_dzialu(d):
+    """Strona działu: po co ten dział, spis tematów, wymagania, karta pracy."""
+    gotowe = GOTOWE.get(d["nr"], {})
+    numer = NUMER[d["nr"]]
+
+    wiersze = []
+    for t in d["tematy"]:
+        plik = sciezka(gotowe[t["lp"]]) if t["lp"] in gotowe else None
+        # Odsyłacze są względne wobec strony działu, więc odcinamy przedrostek
+        # „dzial-N/" — inaczej wychodziłoby dzial-1/dzial-1/temat.
+        cel = plik.split("/", 1)[1] if plik else None
+        nazwa = f"**[{t['tytul']}]({cel})**" if cel else t["tytul"]
+        mat = (':material-check-circle:{ title="Materiał gotowy" } gotowe'
+               if cel else "*w przygotowaniu*")
+        wiersze.append(f"| {t['lp']}. | {nazwa} | {t['godziny']} | {t['rozdzial']} | {mat} |")
+
+    poziomy = []
+    for klucz, naglowek, opis in POZIOMY:
+        punkty = d["oceny"].get(klucz, [])
+        if punkty:
+            lista = "\n".join(f"    - {x}" for x in punkty)
+            poziomy.append(f"    **{naglowek}** — *{opis}*\n\n{lista}\n")
+
+    stan = (f"Gotowe materiały: **{len(gotowe)} z {len(d['tematy'])}** tematów."
+            if gotowe else
+            "Materiały do tego działu powstają w miarę realizacji programu — "
+            "na razie znajdziesz tu spis tematów i wymagania.")
+
+    return f"""# Dział {d['nr']}. {d['tytul']}
+
+**{godz(d['godziny'])} · {tematy_sl(len(d['tematy']))} · klasa 1W · branżowa szkoła I stopnia**
+
+{d['opis']}
+
+{stan}
+
+## Tematy działu
+
+Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
+„Rozdział" odsyła do podręcznika.
+
+| Lp. | Temat | Godz. | Rozdział | Materiały |
+| :---: | --- | :---: | :---: | --- |
+{chr(10).join(wiersze)}
+
+## Wymagania na oceny w tym dziale
+
+Wymagania są kumulatywne — na ocenę wyższą trzeba spełniać także wszystkie
+niższe. Pełna lista dla całego przedmiotu jest na stronie
+[wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+??? abstract "Rozwiń wymagania — dział {d['nr']}"
+
+{chr(10).join(poziomy)}
+
+## Karta pracy działu
+
+Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
+Odpowiedzi zostają w Twojej przeglądarce, więc możesz do niej wracać. Na koniec
+działu pobierasz gotowy dokument Worda i oddajesz go przez **Zadania domowe
+w dzienniku VULCAN**.
+
+!!! info "To jest Twoje portfolio, nie sprawdzian"
+
+    Na tym przedmiocie każda lekcja kończy się czymś gotowym: plikiem,
+    dokumentem, modelem, programem. Karta zbiera te efekty w jednym miejscu —
+    razem ze zrzutami ekranu. Pod koniec roku masz komplet tego, co potrafisz
+    zrobić przy komputerze, i to jest coś, co pokazuje się pracodawcy.
+
+!!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
+
+    Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim wyjdziesz
+    z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz jeden plik
+    `postep_inf-sb-dzial-{numer}.json` — przenieś go pendrive'em, OneDrive'em
+    albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**. Ten sam plik
+    działa w obie strony.
+
+<div class="karta-pracy" data-karta="dzial-{numer}"></div>
+"""
+
+
+# ─────────────────────────────────────────────── działowa karta pracy
+def karta_dzialu(d):
+    """Karta zbierająca efekty pracy z całego działu.
+
+    Inaczej niż w ASSO, gdzie karta jest dziennikiem wdrożenia serwera, tutaj
+    liczy się WYTWÓR: dokument, arkusz, model, ulotka, program. Dlatego przy
+    każdym temacie pytamy o to, co powstało i w czym, a nie o przebieg
+    konfiguracji.
+    """
+    numer = NUMER[d["nr"]]
+    zadania = []
+
+    for i, t in enumerate(d["tematy"], start=1):
+        tytul = t["tytul"] if len(t["tytul"]) <= 70 else t["tytul"][:67] + "…"
+        zadania.append({
+            "nr": i,
+            "tytul": tytul,
+            "poziom": f"temat {t['lp']} · {godz(t['godziny'])} · rozdział {t['rozdzial']}",
+            "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś "
+                         "skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+            "pola": [
+                {"typ": "tabela", "wiersze": [
+                    [f"t{i}_plik", "nazwa pliku albo tytuł pracy", ""],
+                    [f"t{i}_program", "program, w którym to zrobiłeś", ""],
+                ]},
+                {"typ": "tekst", "id": f"t{i}_co", "wiersze": 4,
+                 "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"},
+                {"typ": "zrzut", "id": f"t{i}_zrzut",
+                 "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"},
+            ],
+        })
+
+    nr = len(zadania) + 1
+    zadania.append({
+        "nr": nr,
+        "tytul": "Co było trudne",
+        "poziom": "wymagania rozszerzające · ocena 4",
+        "polecenie": "Napisz o tym, co nie wyszło za pierwszym razem. Nie chodzi "
+                     "o przyznanie się do błędu, tylko o to, żebyś umiał nazwać problem "
+                     "i powiedzieć, jak go obszedłeś.",
+        "pola": [
+            {"typ": "tekst", "id": "trudne_co", "wiersze": 3,
+             "pytanie": "Co sprawiło kłopot"},
+            {"typ": "tekst", "id": "trudne_jak", "wiersze": 3,
+             "pytanie": "Jak sobie poradziłeś — sam, z pomocą kolegi, z instrukcji, z sieci"},
+        ],
+    })
+
+    zadania.append({
+        "nr": nr + 1,
+        "tytul": "Do czego przyda się to w zawodzie",
+        "poziom": "wymagania dopełniające · ocena 5",
+        "polecenie": "Ten przedmiot jest o tym, jak komputer pomaga w pracy. "
+                     "Pomyśl o zawodzie, którego się uczysz.",
+        "pola": [
+            {"typ": "tekst", "id": "zawod_zastosowanie", "wiersze": 4,
+             "pytanie": "Gdzie w swoim zawodzie użyjesz tego, co było w tym dziale? "
+                        "Podaj konkretną sytuację, nie ogólnik."},
+        ],
+    })
+
+    zadania.append({
+        "nr": nr + 2,
+        "tytul": "Samoocena",
+        "poziom": "podsumowanie działu",
+        "polecenie": "Zajrzyj do wymagań na oceny na stronie tego działu i oceń się "
+                     "uczciwie. Ta rubryka nie jest oceną — jest podstawą do rozmowy.",
+        "pola": [
+            {"typ": "wybor", "id": "samoocena_poziom",
+             "pytanie": "Wymagania, które według mnie spełniam w tym dziale",
+             "opcje": ["konieczne (2)", "podstawowe (3)", "rozszerzające (4)",
+                       "dopełniające (5)", "wykraczające (6)"]},
+            {"typ": "tekst", "id": "samoocena_uzasadnienie", "wiersze": 4,
+             "pytanie": "Uzasadnij: co konkretnie potrafisz zrobić samodzielnie"},
+            {"typ": "tekst", "id": "samoocena_braki", "wiersze": 3,
+             "pytanie": "Czego jeszcze nie umiesz i co zrobisz, żeby to nadrobić"},
+        ],
+    })
+
+    return {
+        # Nazwa pliku (dzial-N.json) służy do pobrania definicji, a „id" jest
+        # kluczem w localStorage. Wszystkie serwisy stoją pod jednym adresem,
+        # więc klucz musi nieść nazwę serwisu — inaczej dział I z inf-sb
+        # zderzyłby się z działem I z ASSO.
+        "id": f"inf-sb-dzial-{numer}",
+        "tytul": f"Dział {d['nr']}. {d['tytul']}",
+        "przedmiot": "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia",
+        "klasa": "1W",
+        "sufiks": f"INF-SB-DZIAL-{numer}",
+        "zadania": zadania,
+    }
+
+
+# ─────────────────────────────────────────────── nawigacja w mkdocs.yml
+# Nawigacja rośnie z każdym dopisanym tematem, więc trzymanie jej ręcznie
+# kończyłoby się rozjazdem ze spisem na stronie. Generator przepisuje blok
+# między znacznikami — reszty pliku nie dotyka.
+POCZATEK = "# ↓↓↓ nawigacja generowana przez narzedzia/genstrony_sb.py"
+KONIEC = "# ↑↑↑ koniec bloku generowanego"
+
+
+def yaml_klucz(tekst):
+    """Klucz YAML w cudzysłowie — tytuł działu może zawierać dwukropek,
+    który bez cytowania rozbiłby wpis na klucz i wartość."""
+    return '"' + tekst.replace('"', '""') + '"'
+
+
+def blok_nawigacji():
+    linie = ["nav:", "  - Start: index.md"]
+    for d in DZIALY:
+        numer = NUMER[d["nr"]]
+        gotowe = GOTOWE.get(d["nr"], {})
+        naglowek = "Dział " + d["nr"] + ". " + d["tytul"]
+        linie.append("  - " + yaml_klucz(naglowek) + ":")
+        linie.append(f"      - Przegląd działu: dzial-{numer}/index.md")
+        for t in d["tematy"]:
+            if t["lp"] in gotowe:
+                wpis = gotowe[t["lp"]]
+                linie.append("      - " + yaml_klucz(etykieta(wpis, t["tytul"]))
+                             + ": " + sciezka(wpis))
+    return "\n".join(linie)
+
+
+def zapisz_nawigacje():
+    plik = HERE.parent / "mkdocs.yml"
+    tresc = plik.read_text(encoding="utf-8")
+    if POCZATEK not in tresc or KONIEC not in tresc:
+        sys.exit(f"BŁĄD: w mkdocs.yml brakuje znaczników {POCZATEK!r} / {KONIEC!r}")
+    przed, reszta = tresc.split(POCZATEK, 1)
+    _stare, po = reszta.split(KONIEC, 1)
+    blok = blok_nawigacji()
+    plik.write_text(f"{przed}{POCZATEK}\n{blok}\n{KONIEC}{po}", encoding="utf-8")
+    print(f"  mkdocs.yml  (nawigacja: {len(blok.splitlines())} linii)")
+
+
 # ─────────────────────────────────────────────── zapis
-def zapisz(sciezka, tresc):
-    p = ROOT / sciezka
+def zapisz(sciezka_pliku, tresc):
+    p = ROOT / sciezka_pliku
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(tresc, encoding="utf-8")
-    print(f"  {sciezka}  ({len(tresc.splitlines())} linii)")
+    print(f"  {sciezka_pliku}  ({len(tresc.splitlines())} linii)")
+
+
+def zapisz_json(sciezka_pliku, dane):
+    p = ROOT / sciezka_pliku
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(dane, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"  {sciezka_pliku}  ({len(dane['zadania'])} zadań)")
 
 
 zapisz("index.md", strona_startowa())
 zapisz("dzial-1/wymagania-i-bhp.md", strona_wymagan())
+for d in DZIALY:
+    numer = NUMER[d["nr"]]
+    zapisz(f"dzial-{numer}/index.md", strona_dzialu(d))
+    zapisz_json(f"assets/karty/dzial-{numer}.json", karta_dzialu(d))
+zapisz_nawigacje()
+
 print(f"\nGotowe: {SUMA} godzin, {len(DZIALY)} działów, {LICZBA_TEMATOW} tematów.")

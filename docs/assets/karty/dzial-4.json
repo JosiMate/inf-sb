@@ -1,0 +1,177 @@
+{
+ "id": "inf-sb-dzial-4",
+ "tytul": "Dział IV. Peryferia pomagają w pracy zawodowej",
+ "przedmiot": "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia",
+ "klasa": "1W",
+ "sufiks": "INF-SB-DZIAL-4",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Jak to wykorzystać, czyli peryferia komputerowe ułatwiają pracę",
+   "poziom": "temat 21 · 1 godzina · rozdział 21",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t1_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t1_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t1_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t1_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Kupujemy świadomie, czyli poznajemy parametry urządzeń peryferyjnych",
+   "poziom": "temat 22 · 1 godzina · rozdział 22",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t2_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t2_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t2_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t2_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Nie tylko w biurze, czyli maszyny i urządzenia także współpracują z…",
+   "poziom": "temat 23 · 1 godzina · rozdział 23",
+   "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś skończyć, napisz, na czym stanąłeś — to też jest informacja.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "t3_plik",
+       "nazwa pliku albo tytuł pracy",
+       ""
+      ],
+      [
+       "t3_program",
+       "program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "t3_co",
+     "wiersze": 4,
+     "pytanie": "Co zrobiłeś i czego nowego się przy tym nauczyłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "t3_zrzut",
+     "opis": "efekt pracy — gotowy dokument, model, arkusz albo działający program"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Co było trudne",
+   "poziom": "wymagania rozszerzające · ocena 4",
+   "polecenie": "Napisz o tym, co nie wyszło za pierwszym razem. Nie chodzi o przyznanie się do błędu, tylko o to, żebyś umiał nazwać problem i powiedzieć, jak go obszedłeś.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "trudne_co",
+     "wiersze": 3,
+     "pytanie": "Co sprawiło kłopot"
+    },
+    {
+     "typ": "tekst",
+     "id": "trudne_jak",
+     "wiersze": 3,
+     "pytanie": "Jak sobie poradziłeś — sam, z pomocą kolegi, z instrukcji, z sieci"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Do czego przyda się to w zawodzie",
+   "poziom": "wymagania dopełniające · ocena 5",
+   "polecenie": "Ten przedmiot jest o tym, jak komputer pomaga w pracy. Pomyśl o zawodzie, którego się uczysz.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "zawod_zastosowanie",
+     "wiersze": 4,
+     "pytanie": "Gdzie w swoim zawodzie użyjesz tego, co było w tym dziale? Podaj konkretną sytuację, nie ogólnik."
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Samoocena",
+   "poziom": "podsumowanie działu",
+   "polecenie": "Zajrzyj do wymagań na oceny na stronie tego działu i oceń się uczciwie. Ta rubryka nie jest oceną — jest podstawą do rozmowy.",
+   "pola": [
+    {
+     "typ": "wybor",
+     "id": "samoocena_poziom",
+     "pytanie": "Wymagania, które według mnie spełniam w tym dziale",
+     "opcje": [
+      "konieczne (2)",
+      "podstawowe (3)",
+      "rozszerzające (4)",
+      "dopełniające (5)",
+      "wykraczające (6)"
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "samoocena_uzasadnienie",
+     "wiersze": 4,
+     "pytanie": "Uzasadnij: co konkretnie potrafisz zrobić samodzielnie"
+    },
+    {
+     "typ": "tekst",
+     "id": "samoocena_braki",
+     "wiersze": 3,
+     "pytanie": "Czego jeszcze nie umiesz i co zrobisz, żeby to nadrobić"
+    }
+   ]
+  }
+ ]
+}

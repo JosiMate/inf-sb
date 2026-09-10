@@ -62,6 +62,9 @@ extra_css:
   - stylesheets/motyw.css
 
 extra_javascript:
+  # docx.umd.js celowo NIE jest tu wymieniony — karta.js doczyta go dopiero
+  # przy generowaniu pliku, żeby nie obciążać czytelników materiału.
+  - assets/js/karta.js
   - assets/js/quiz.js
   - assets/js/postep.js
 
@@ -103,10 +106,21 @@ plugins:
   # nie wspiera polskiego), więc świadomie zostawiamy tokenizer domyślny.
   - search
 
+# ↓↓↓ nawigacja generowana przez narzedzia/genstrony_sb.py
 nav:
   - Start: index.md
-  - Dział I. Przestrzeganie prawa i zasad bezpieczeństwa:
-      - Wymagania edukacyjne i bhp: dzial-1/wymagania-i-bhp.md
+  - "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze":
+      - Przegląd działu: dzial-1/index.md
+      - "Wymagania edukacyjne i bhp": dzial-1/wymagania-i-bhp.md
+  - "Dział II. Programowanie i algorytmy":
+      - Przegląd działu: dzial-2/index.md
+  - "Dział III. Aplikacje komputerowe pomagają w pracy":
+      - Przegląd działu: dzial-3/index.md
+  - "Dział IV. Peryferia pomagają w pracy zawodowej":
+      - Przegląd działu: dzial-4/index.md
+  - "Dział V. Wykorzystanie sieci w pracy zawodowej":
+      - Przegląd działu: dzial-5/index.md
+# ↑↑↑ koniec bloku generowanego
 
 extra:
   social:

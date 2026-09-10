@@ -45,7 +45,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     *4 godziny · 4 tematy*
 
-    [Otwórz dział](dzial-1/wymagania-i-bhp.md){ .md-button }
+    [Otwórz dział](dzial-1/index.md){ .md-button }
 
 -   :material-code-braces:{ .lg .middle } **Dział II. Programowanie i algorytmy**
 
@@ -53,9 +53,9 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Instrukcje warunkowe, pętle i funkcje. Algorytmy NWD/NWW, ułamki, systemy liczbowe i szyfry.
 
-    *6 godzin · 6 tematów*
+    *6 godzin · 6 tematów · materiały w przygotowaniu*
 
-    *materiały w przygotowaniu*
+    [Otwórz dział](dzial-2/index.md){ .md-button }
 
 -   :material-application-brackets:{ .lg .middle } **Dział III. Aplikacje komputerowe pomagają w pracy**
 
@@ -63,9 +63,9 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Modelowanie 3D, grafika rastrowa, dokumenty techniczne, arkusz kalkulacyjny i prezentacje.
 
-    *10 godzin · 10 tematów*
+    *10 godzin · 10 tematów · materiały w przygotowaniu*
 
-    *materiały w przygotowaniu*
+    [Otwórz dział](dzial-3/index.md){ .md-button }
 
 -   :material-printer-3d:{ .lg .middle } **Dział IV. Peryferia pomagają w pracy zawodowej**
 
@@ -73,9 +73,9 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Urządzenia peryferyjne, ich parametry i maszyny sterowane komputerowo.
 
-    *3 godziny · 3 tematy*
+    *3 godziny · 3 tematy · materiały w przygotowaniu*
 
-    *materiały w przygotowaniu*
+    [Otwórz dział](dzial-4/index.md){ .md-button }
 
 -   :material-lan-connect:{ .lg .middle } **Dział V. Wykorzystanie sieci w pracy zawodowej**
 
@@ -83,9 +83,9 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Działanie Internetu, chmura, praca zespołowa, komunikacja, e-learning i szukanie pracy.
 
-    *7 godzin · 7 tematów*
+    *7 godzin · 7 tematów · materiały w przygotowaniu*
 
-    *materiały w przygotowaniu*
+    [Otwórz dział](dzial-5/index.md){ .md-button }
 
 </div>
 
