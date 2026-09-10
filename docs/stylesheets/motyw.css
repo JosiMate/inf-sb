@@ -1,0 +1,71 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Motyw kolorystyczny serwisu inf-sb — wyprowadzony z ikony serwisu.
+
+   Ikona (docs/assets/favicon.png) to monitor z kołem zębatym na tle #2e7d32:
+   zieleń „pracy zawodowej". Ten plik dopasowuje kolory akcentu i ocieplenie
+   neutralnych szarości do ikony; jest wczytywany jako trzeci, po
+   stylesheets/extra.css, i dotyczy wyłącznie tego serwisu.
+
+   Kontrast sprawdzony rachunkiem, nie na oko (WCAG 2.1, próg AA dla tekstu
+   to 4,5:1):
+       #2e7d32 na białym            → 5,13:1  ✔ motyw jasny
+       #2e7d32 na tle slate (h 150) → 2,22:1  ✘ za mało, stąd jaśniejszy wariant
+       #81c784 na tle slate (h 150) → 5,65:1  ✔ motyw ciemny
+       tekst #141a14 na #81c784     → 8,79:1  ✔ napis na przycisku podstawowym
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────── motyw ciemny (slate) ─────────────────────────── */
+/* Selektory celowo dwuczłonowe. Material ustawia --md-typeset-a-color regułą
+   [data-md-color-scheme=slate][data-md-color-primary=green], która ma wyższą
+   swoistość niż sam [data-md-color-scheme=slate] — bez dopisania drugiego
+   atrybutu odnośniki i aktywna pozycja nawigacji zostawałyby w kolorze
+   z palety Material zamiast w kolorze ikony. */
+[data-md-color-scheme="slate"][data-md-color-primary] {
+  /* Material buduje wszystkie szarości slate z jednego odcienia. Domyślne 232
+     to chłodny błękitny grafit; 150 przesuwa je ledwie zauważalnie w zieleń,
+     przez co akcent przestaje wyglądać jak wtręt z innego zestawu. Wartość
+     dobrana nisko — przy większej całe tło robi się butelkowe. */
+  --md-hue: 150;
+
+  /* Odnośniki i akcenty: jaśniejszy brat koloru ikony, żeby wyrobić kontrast. */
+  --md-typeset-a-color: #81c784;
+  --md-primary-fg-color: #81c784;
+  --md-primary-fg-color--light: #a5d6a7;
+  --md-primary-fg-color--dark: #2e7d32;
+  --md-accent-fg-color: #a5d6a7;
+
+  /* Napis na przycisku podstawowym musi być ciemny — biały na tej zieleni
+     daje 2,01:1, czyli poniżej każdego progu. */
+  --md-primary-bg-color: #141a14;
+  --md-primary-bg-color--light: #141a14;
+}
+
+/* ─────────────────────────── motyw jasny (default) ─────────────────────────── */
+[data-md-color-scheme="default"][data-md-color-primary] {
+  /* Tu wchodzi dokładnie kolor ikony — na bieli ma 5,13:1. */
+  --md-typeset-a-color: #2e7d32;
+  --md-primary-fg-color: #2e7d32;
+  --md-primary-fg-color--light: #4caf50;
+  --md-primary-fg-color--dark: #1b5e20;
+  --md-accent-fg-color: #1b5e20;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+}
+
+/* Pasek wyboru tekstu — drobiazg, ale przy zaznaczaniu widać go na każdej
+   stronie i w domyślnym indygo wyglądałby obco. */
+::selection {
+  background-color: color-mix(in srgb, var(--md-typeset-a-color) 28%, transparent);
+}
+
+/* Kafelki działów: cienka zielona obwódka zamiast neutralnej, żeby strona
+   startowa od razu niosła kolor serwisu. Działy bez gotowych materiałów
+   zostają szare — za ich wygaszenie odpowiada reguła w assets/extra.css. */
+.wybor-modulu.grid.cards > ul > li:has(.md-button) {
+  border-color: color-mix(in srgb, var(--md-typeset-a-color) 35%, var(--ui-linia));
+}
+
+/* Ikona działu na kafelku — w kolorze serwisu. */
+.wybor-modulu.grid.cards > ul > li:has(.md-button) .twemoji {
+  color: var(--md-typeset-a-color);
+}
