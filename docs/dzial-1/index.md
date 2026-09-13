@@ -88,6 +88,21 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
     - samodzielnie odnajduje wyszukiwarki branżowe lub specjalistyczne związane z danym tematem lub zawodem
 
 
+## Zadania na ocenę celującą
+
+Wybierasz **jedno** zadanie i odsyłasz je w Dzienniku VULCAN, w zadaniu
+**„Zadanie na ocenę celującą: Dział I”**, w ciągu **dwóch tygodni
+od zakończenia działu**. Lista jest widoczna od początku działu — zadanie
+da się wykonać po przerobieniu tematu, przy którym stoi.
+
+??? example "Zadania do wyboru — dział I"
+
+    | Zadanie | Z tematu |
+    | --- | --- |
+    | **A.** Własny kodeks wizerunku | [Wizerunek w sieci](kim-jestem.md) |
+    | **B.** Kradzież tożsamości od kuchni | [Wizerunek w sieci](kim-jestem.md) |
+    | **C.** Audyt śladu cyfrowego | [Wizerunek w sieci](kim-jestem.md) |
+
 ## Karta pracy działu
 
 Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.

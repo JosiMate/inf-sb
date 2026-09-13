@@ -340,6 +340,32 @@ i do dokumentacji.
 
 
 # ─────────────────────────────────────────────── strony działów
+def zadania_celujace(plik_wzgledny):
+    """(oznaczenie, tytuł) z sekcji „Na ocenę celującą” gotowej strony tematu.
+
+    Spis zadań na szóstkę na stronie działu bierze się z samych tematów —
+    nie trzeba go utrzymywać w dwóch miejscach.
+    """
+    import re
+    p = ROOT / plik_wzgledny
+    if not p.exists():
+        return []
+    s = p.read_text(encoding="utf-8")
+    m = re.search(r"^## Na ocenę celującą\s*$", s, re.M)
+    if not m:
+        return []
+    reszta = s[m.end():]
+    kon = re.search(r"^(## |---\s*$)", reszta, re.M)
+    if kon:
+        reszta = reszta[:kon.start()]
+    lit = re.findall(r"^\*\*([A-Z])\.\s+(.+?)\*\*", reszta, re.M)
+    if lit:
+        return [(a, b.rstrip(".")) for a, b in lit]
+    return [(str(i), t.rstrip("."))
+            for i, t in enumerate(
+                re.findall(r"^\d+\.\s+\*\*(.+?)\*\*", reszta, re.M), start=1)]
+
+
 def strona_dzialu(d):
     """Strona działu: po co ten dział, spis tematów, wymagania, karta pracy."""
     gotowe = GOTOWE.get(d["nr"], {})
@@ -355,6 +381,25 @@ def strona_dzialu(d):
         mat = (':material-check-circle:{ title="Materiał gotowy" } gotowe'
                if cel else "*w przygotowaniu*")
         wiersze.append(f"| {t['lp']}. | {nazwa} | {t['godziny']} | {t['rozdzial']} | {mat} |")
+
+    # zadania na ocenę celującą — zbierane z gotowych stron tematów
+    zad6 = []
+    for klucz6, wpis in gotowe.items():
+        cel = sciezka(wpis).split("/", 1)[1]
+        nazwa6 = etykieta(wpis, next(t["tytul"] for t in d["tematy"] if t["lp"] == klucz6))
+        for ozn, zad in zadania_celujace(sciezka(wpis)):
+            zad6.append(f"    | **{ozn}.** {zad} | [{nazwa6}]({cel}) |")
+    sekcja6 = ""
+    if zad6:
+        sekcja6 = (
+            "\n## Zadania na ocenę celującą\n\n"
+            "Wybierasz **jedno** zadanie i odsyłasz je w Dzienniku VULCAN, w zadaniu\n"
+            f"**„Zadanie na ocenę celującą: Dział {d['nr']}”**, w ciągu **dwóch tygodni\n"
+            "od zakończenia działu**. Lista jest widoczna od początku działu — zadanie\n"
+            "da się wykonać po przerobieniu tematu, przy którym stoi.\n\n"
+            f"??? example \"Zadania do wyboru — dział {d['nr']}\"\n\n"
+            "    | Zadanie | Z tematu |\n"
+            "    | --- | --- |\n" + "\n".join(zad6) + "\n")
 
     poziomy = []
     for klucz, naglowek, opis in POZIOMY:
@@ -394,7 +439,7 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
 ??? abstract "Rozwiń wymagania — dział {d['nr']}"
 
 {chr(10).join(poziomy)}
-
+{sekcja6}
 ## Karta pracy działu
 
 Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
