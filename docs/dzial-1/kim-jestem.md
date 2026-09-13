@@ -525,6 +525,14 @@ naruszenie dobra osobistego.
 
 ## Na ocenę celującą
 
+
+!!! info "Jak oddajesz zadanie na ocenę celującą"
+
+    W karcie pracy tego działu zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
+    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
+    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
+    *Zadanie na ocenę celującą: Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci*, w ciągu **dwóch tygodni** od
+    omówienia tematu.
 **A. Własny kodeks wizerunku.** Opracuj dla swojej klasy zestaw 8–10 zasad
 publikowania zdjęć i nagrań, w którym przy każdej zasadzie podajesz przepis
 albo konkretną konsekwencję. Zasady mają być takie, żeby dało się je stosować,
