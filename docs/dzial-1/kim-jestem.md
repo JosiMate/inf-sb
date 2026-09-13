@@ -533,6 +533,11 @@ naruszenie dobra osobistego.
     zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN w zadaniu
     *Zadanie na ocenę celującą: Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci*, w ciągu **dwóch tygodni** od
     omówienia tematu.
+
+    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
+    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
+    celującej nie trzeba startować w konkursie.
+
 **A. Własny kodeks wizerunku.** Opracuj dla swojej klasy zestaw 8–10 zasad
 publikowania zdjęć i nagrań, w którym przy każdej zasadzie podajesz przepis
 albo konkretną konsekwencję. Zasady mają być takie, żeby dało się je stosować,
