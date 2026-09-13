@@ -90,18 +90,55 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
 
 ## Zadania na ocenę celującą
 
-Wybierasz **jedno** zadanie i odsyłasz je w Dzienniku VULCAN, w zadaniu
-**„Zadanie na ocenę celującą: Dział I”**, w ciągu **dwóch tygodni
-od zakończenia działu**. Lista jest widoczna od początku działu — zadanie
-da się wykonać po przerobieniu tematu, przy którym stoi.
+Zadania na szóstkę są **działowe, nie tematyczne** — obejmują materiał całego
+działu i wymagają czegoś więcej niż powtórzenia ćwiczenia z lekcji. Wybierasz
+**jedno** z listy poniżej.
 
-??? example "Zadania do wyboru — dział I"
+Pracę oddajesz w Dzienniku VULCAN, w zadaniu **„Zadanie na ocenę celującą:
+Dział …”** założonym do tego działu, w ciągu **dwóch tygodni od zakończenia
+działu**. Plik nazwij `nr<numer w dzienniku>-<litera zadania>`, a w treści
+zadania dopisz 3–5 zdań o tym, co zrobiłeś i co z tego wyszło.
 
-    | Zadanie | Z tematu |
-    | --- | --- |
-    | **A.** Własny kodeks wizerunku | [Wizerunek w sieci](kim-jestem.md) |
-    | **B.** Kradzież tożsamości od kuchni | [Wizerunek w sieci](kim-jestem.md) |
-    | **C.** Audyt śladu cyfrowego | [Wizerunek w sieci](kim-jestem.md) |
+Cała lista jest widoczna **od początku działu**, żebyś miał czas wybrać
+i popracować. Przy każdym zadaniu jest napisane, po którym temacie da się
+je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+??? example "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze — 3 zadania do wyboru"
+
+    **A. Jak naprawdę ściga się naruszenia praw autorskich**
+
+    *Do wykonania po temacie o przestrzeganiu prawa.*
+
+    Sprawdź, jak działają firmy i kancelarie zajmujące się ochroną praw autorskich w internecie: skąd biorą informację o naruszeniu, czego żądają w pierwszym piśmie, co może zrobić osoba, która takie pismo dostała, i czym różni się wezwanie do zapłaty od pozwu.
+
+    Oprzyj opis na jednym przypadku opisanym publicznie — z podaniem źródła.
+
+    **Oddajesz:** opracowanie na jedną stronę ze wskazaniem źródeł i listą „co robić, gdy dostaniesz takie pismo”
+
+    ---
+
+    **B. Kradzież tożsamości — wystąpienie dla klasy**
+
+    *Do wykonania po temacie „Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci”.*
+
+    Przygotuj i wygłoś pięciominutowe wystąpienie pokazujące całą drogę: od wycieku danych, przez to, co oszust musi jeszcze zdobyć, po wyłudzenie pożyczki.
+
+    Przy każdym etapie wskaż **jedno zabezpieczenie, które ten etap przerywa** — zastrzeżenie numeru PESEL, logowanie dwuskładnikowe, alerty w biurze informacji kredytowej. Osią wystąpienia ma być konkretny, opisany w mediach przypadek.
+
+    **Oddajesz:** materiały do wystąpienia i jednostronicowe podsumowanie dla słuchaczy
+
+    ---
+
+    **C. Wyszukiwarki, o których klasa nie wie**
+
+    *Do wykonania po temacie o wiarygodności źródeł.*
+
+    Znajdź pięć wyszukiwarek branżowych lub specjalistycznych związanych z zawodem, którego się uczysz: bazy norm, katalogi części, wyszukiwarki patentów, bazy publikacji, wyszukiwanie obrazem.
+
+    Zadaj każdej to samo pytanie zawodowe i porównaj: co znajduje, czego nie znajduje zwykła wyszukiwarka, czy da się ufać wynikom i skąd pochodzą dane.
+
+    **Oddajesz:** zestawienie pięciu narzędzi z przykładowym zapytaniem i wynikiem oraz wskazanie dwóch, które zostawiasz sobie na stałe
+
 
 ## Karta pracy działu
 

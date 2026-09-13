@@ -523,40 +523,6 @@ naruszenie dobra osobistego.
 </script>
 </div>
 
-## Na ocenę celującą
-
-
-!!! info "Jak oddajesz zadanie na ocenę celującą"
-
-    W karcie pracy tego działu zaznaczasz tylko, **które zadanie wybrałeś**, i opisujesz
-    w kilku zdaniach, co z niego wyszło. Samą pracę — plik, kod, witrynę albo
-    zrzuty z pomiarami — oddajesz **osobno**, w Dzienniku VULCAN, w zadaniu
-    *Zadanie na ocenę celującą* założonym do tego działu. Termin: **dwa tygodnie
-    od zakończenia działu**.
-
-    Plik nazwij `nr<numer w dzienniku>-<skrót tematu>`, a w treści zadania dopisz
-    3–5 zdań: którego tematu i zadania dotyczy, co zrobiłeś i jaki jest wynik.
-
-    Wykonane i oddane w terminie zadanie liczy się jako „inne, porównywalne
-    osiągnięcie” w rozumieniu § 29 ust. 1 pkt 1 lit. c statutu — do oceny
-    celującej nie trzeba startować w konkursie. Pełne zasady opisuje strona
-    *Wymagania edukacyjne i bhp*.
-
-**A. Własny kodeks wizerunku.** Opracuj dla swojej klasy zestaw 8–10 zasad
-publikowania zdjęć i nagrań, w którym przy każdej zasadzie podajesz przepis
-albo konkretną konsekwencję. Zasady mają być takie, żeby dało się je stosować,
-a nie żeby ładnie brzmiały.
-
-**B. Kradzież tożsamości od kuchni.** Przygotuj krótkie wystąpienie dla klasy
-o tym, jak wygląda droga od wycieku danych do wyłudzenia pożyczki: skąd
-biorą się dane, co oszust musi jeszcze zdobyć, gdzie w tym łańcuchu można go
-zatrzymać. Wskaż, które zabezpieczenie łamie który etap.
-
-**C. Audyt śladu cyfrowego.** Wyszukaj siebie w dwóch różnych wyszukiwarkach
-(także w wyszukiwaniu grafiką), zestaw wyniki w tabeli i przy każdym oceń, czy
-chcesz, żeby tam był. Dla trzech wybranych opisz drogę usunięcia: kto jest
-administratorem, jaki tryb, jaki termin.
-
 ---
 
 *Stan prawny sprawdzony we wrześniu 2026 r.: RODO (rozporządzenie 2016/679),

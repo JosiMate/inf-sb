@@ -1,0 +1,34 @@
+{
+  "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze": [
+    {
+      "ozn": "A",
+      "tytul": "Jak naprawdę ściga się naruszenia praw autorskich",
+      "wymaga": "po temacie o przestrzeganiu prawa",
+      "opis": [
+        "Sprawdź, jak działają firmy i kancelarie zajmujące się ochroną praw autorskich w internecie: skąd biorą informację o naruszeniu, czego żądają w pierwszym piśmie, co może zrobić osoba, która takie pismo dostała, i czym różni się wezwanie do zapłaty od pozwu.",
+        "Oprzyj opis na jednym przypadku opisanym publicznie — z podaniem źródła."
+      ],
+      "oddajesz": "opracowanie na jedną stronę ze wskazaniem źródeł i listą „co robić, gdy dostaniesz takie pismo”"
+    },
+    {
+      "ozn": "B",
+      "tytul": "Kradzież tożsamości — wystąpienie dla klasy",
+      "wymaga": "po temacie „Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci”",
+      "opis": [
+        "Przygotuj i wygłoś pięciominutowe wystąpienie pokazujące całą drogę: od wycieku danych, przez to, co oszust musi jeszcze zdobyć, po wyłudzenie pożyczki.",
+        "Przy każdym etapie wskaż **jedno zabezpieczenie, które ten etap przerywa** — zastrzeżenie numeru PESEL, logowanie dwuskładnikowe, alerty w biurze informacji kredytowej. Osią wystąpienia ma być konkretny, opisany w mediach przypadek."
+      ],
+      "oddajesz": "materiały do wystąpienia i jednostronicowe podsumowanie dla słuchaczy"
+    },
+    {
+      "ozn": "C",
+      "tytul": "Wyszukiwarki, o których klasa nie wie",
+      "wymaga": "po temacie o wiarygodności źródeł",
+      "opis": [
+        "Znajdź pięć wyszukiwarek branżowych lub specjalistycznych związanych z zawodem, którego się uczysz: bazy norm, katalogi części, wyszukiwarki patentów, bazy publikacji, wyszukiwanie obrazem.",
+        "Zadaj każdej to samo pytanie zawodowe i porównaj: co znajduje, czego nie znajduje zwykła wyszukiwarka, czy da się ufać wynikom i skąd pochodzą dane."
+      ],
+      "oddajesz": "zestawienie pięciu narzędzi z przykładowym zapytaniem i wynikiem oraz wskazanie dwóch, które zostawiasz sobie na stałe"
+    }
+  ]
+}
