@@ -1,0 +1,13 @@
+# Plik generowany przez narzedzia/genstrony_sb.py — nie edytuj ręcznie.
+# Kolejność i nazwy tematów w tym dziale — wtyczka awesome-nav.
+# Plik dopisany bez wpisu niżej trafi na koniec listy (append_unmatched)
+# i dostanie tytuł z nagłówka pierwszego poziomu.
+
+title: "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze"
+append_unmatched: true
+nav:
+  - "Przegląd działu": index.md
+  - "Wymagania edukacyjne i bhp": wymagania-i-bhp.md
+  - "Wizerunek w sieci": kim-jestem.md
+  - "Rozwój technologii a społeczeństwo": rozwoj-technologii.md
+  - "Wiedza w sieci": wiedza-w-sieci.md

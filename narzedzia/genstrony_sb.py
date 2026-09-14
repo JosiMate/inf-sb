@@ -587,46 +587,56 @@ def karta_dzialu(d):
     }
 
 
-# ─────────────────────────────────────────────── nawigacja w mkdocs.yml
-# Nawigacja rośnie z każdym dopisanym tematem, więc trzymanie jej ręcznie
-# kończyłoby się rozjazdem ze spisem na stronie. Generator przepisuje blok
-# między znacznikami — reszty pliku nie dotyka.
-POCZATEK = "# ↓↓↓ nawigacja generowana przez narzedzia/genstrony_sb.py"
-KONIEC = "# ↑↑↑ koniec bloku generowanego"
+# ─────────────────────────────────────────────── nawigacja (awesome-nav)
+# Nawigację składa wtyczka awesome-nav z plików .nav.yml leżących w katalogach
+# docs/. Generator pisze je wszystkie, więc mkdocs.yml zostaje nietknięty —
+# wcześniej trzeba było pilnować znaczników w cudzym pliku konfiguracyjnym.
+WSTEP_KORZEN = (
+    "# Plik generowany przez narzedzia/genstrony_sb.py — nie edytuj ręcznie.\n"
+    "# Kolejność i nazwy w lewej kolumnie — wtyczka awesome-nav.\n"
+    "# Katalog dopisany bez wpisu niżej trafi na koniec listy (append_unmatched),\n"
+    "# więc nowa strona nigdy nie zniknie ze strony w sposób niezauważony.\n"
+)
+WSTEP_KATALOG = (
+    "# Plik generowany przez narzedzia/genstrony_sb.py — nie edytuj ręcznie.\n"
+    "# Kolejność i nazwy tematów w tym dziale — wtyczka awesome-nav.\n"
+    "# Plik dopisany bez wpisu niżej trafi na koniec listy (append_unmatched)\n"
+    "# i dostanie tytuł z nagłówka pierwszego poziomu.\n"
+)
 
 
 def yaml_klucz(tekst):
     """Klucz YAML w cudzysłowie — tytuł działu może zawierać dwukropek,
     który bez cytowania rozbiłby wpis na klucz i wartość."""
-    return '"' + tekst.replace('"', '""') + '"'
+    return '"' + tekst.replace('"', '\\"') + '"'
 
 
-def blok_nawigacji():
-    linie = ["nav:", "  - Start: index.md"]
+def nawigacja_korzenia():
+    linie = [WSTEP_KORZEN, "append_unmatched: true", "nav:", '  - "Start": index.md']
     for d in DZIALY:
-        numer = NUMER[d["nr"]]
-        gotowe = GOTOWE.get(d["nr"], {})
-        naglowek = "Dział " + d["nr"] + ". " + d["tytul"]
-        linie.append("  - " + yaml_klucz(naglowek) + ":")
-        linie.append(f"      - Przegląd działu: dzial-{numer}/index.md")
-        for t in d["tematy"]:
-            if t["lp"] in gotowe:
-                wpis = gotowe[t["lp"]]
-                linie.append("      - " + yaml_klucz(etykieta(wpis, t["tytul"]))
-                             + ": " + sciezka(wpis))
-    return "\n".join(linie)
+        linie.append(f"  - dzial-{NUMER[d['nr']]}")
+    return "\n".join(linie) + "\n"
+
+
+def nawigacja_dzialu(d):
+    gotowe = GOTOWE.get(d["nr"], {})
+    naglowek = "Dział " + d["nr"] + ". " + d["tytul"]
+    linie = [WSTEP_KATALOG, "title: " + yaml_klucz(naglowek),
+             "append_unmatched: true", "nav:", '  - "Przegląd działu": index.md']
+    for t in d["tematy"]:
+        if t["lp"] in gotowe:
+            wpis = gotowe[t["lp"]]
+            linie.append("  - " + yaml_klucz(etykieta(wpis, t["tytul"]))
+                         + ": " + sciezka(wpis).split("/", 1)[1])
+    return "\n".join(linie) + "\n"
 
 
 def zapisz_nawigacje():
-    plik = HERE.parent / "mkdocs.yml"
-    tresc = plik.read_text(encoding="utf-8")
-    if POCZATEK not in tresc or KONIEC not in tresc:
-        sys.exit(f"BŁĄD: w mkdocs.yml brakuje znaczników {POCZATEK!r} / {KONIEC!r}")
-    przed, reszta = tresc.split(POCZATEK, 1)
-    _stare, po = reszta.split(KONIEC, 1)
-    blok = blok_nawigacji()
-    plik.write_text(f"{przed}{POCZATEK}\n{blok}\n{KONIEC}{po}", encoding="utf-8")
-    print(f"  mkdocs.yml  (nawigacja: {len(blok.splitlines())} linii)")
+    """Pisze .nav.yml w docs/ i w każdym katalogu działu. mkdocs.yml zostaje
+    nietknięty — od wdrożenia awesome-nav nie ma w nim już klucza nav."""
+    zapisz(".nav.yml", nawigacja_korzenia())
+    for d in DZIALY:
+        zapisz(f"dzial-{NUMER[d['nr']]}/.nav.yml", nawigacja_dzialu(d))
 
 
 # ─────────────────────────────────────────────── zapis
