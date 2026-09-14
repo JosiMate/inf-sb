@@ -88,6 +88,30 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
     - samodzielnie odnajduje wyszukiwarki branżowe lub specjalistyczne związane z danym tematem lub zawodem
 
 
+## Karta pracy działu
+
+Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
+Odpowiedzi zostają w Twojej przeglądarce, więc możesz do niej wracać. Na koniec
+działu pobierasz gotowy dokument Worda i oddajesz go przez **Zadania domowe
+w dzienniku VULCAN**.
+
+!!! info "To jest Twoje portfolio, nie sprawdzian"
+
+    Na tym przedmiocie każda lekcja kończy się czymś gotowym: plikiem,
+    dokumentem, modelem, programem. Karta zbiera te efekty w jednym miejscu —
+    razem ze zrzutami ekranu. Pod koniec roku masz komplet tego, co potrafisz
+    zrobić przy komputerze, i to jest coś, co pokazuje się pracodawcy.
+
+!!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
+
+    Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim wyjdziesz
+    z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz jeden plik
+    `postep_inf-sb-dzial-1.json` — przenieś go pendrive'em, OneDrive'em
+    albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**. Ten sam plik
+    działa w obie strony.
+
+<div class="karta-pracy" data-karta="dzial-1"></div>
+
 ## Zadania na ocenę celującą
 
 Zadania na szóstkę są **działowe, nie tematyczne** — obejmują materiał całego
@@ -138,28 +162,3 @@ je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](../dzial-1/wym
     Zadaj każdej to samo pytanie zawodowe i porównaj: co znajduje, czego nie znajduje zwykła wyszukiwarka, czy da się ufać wynikom i skąd pochodzą dane.
 
     **Oddajesz:** zestawienie pięciu narzędzi z przykładowym zapytaniem i wynikiem oraz wskazanie dwóch, które zostawiasz sobie na stałe
-
-
-## Karta pracy działu
-
-Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
-Odpowiedzi zostają w Twojej przeglądarce, więc możesz do niej wracać. Na koniec
-działu pobierasz gotowy dokument Worda i oddajesz go przez **Zadania domowe
-w dzienniku VULCAN**.
-
-!!! info "To jest Twoje portfolio, nie sprawdzian"
-
-    Na tym przedmiocie każda lekcja kończy się czymś gotowym: plikiem,
-    dokumentem, modelem, programem. Karta zbiera te efekty w jednym miejscu —
-    razem ze zrzutami ekranu. Pod koniec roku masz komplet tego, co potrafisz
-    zrobić przy komputerze, i to jest coś, co pokazuje się pracodawcy.
-
-!!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
-
-    Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim wyjdziesz
-    z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz jeden plik
-    `postep_inf-sb-dzial-1.json` — przenieś go pendrive'em, OneDrive'em
-    albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**. Ten sam plik
-    działa w obie strony.
-
-<div class="karta-pracy" data-karta="dzial-1"></div>
