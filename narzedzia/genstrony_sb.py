@@ -26,6 +26,7 @@ GOTOWE = {
     "I": {
         1: ("dzial-1/wymagania-i-bhp.md", "Wymagania edukacyjne i bhp"),
         2: ("dzial-1/kim-jestem.md", "Wizerunek w sieci"),
+        3: ("dzial-1/rozwoj-technologii.md", "Rozwój technologii a społeczeństwo"),
     },
 }
 
