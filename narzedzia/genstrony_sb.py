@@ -468,7 +468,7 @@ w dzienniku VULCAN**.
     działa w obie strony.
 
 <div class="karta-pracy" data-karta="dzial-{numer}"></div>
-"""
+{sekcja_pracy_klasowej(d)}"""
 
 
 # ─────────────────────────────────────────────── działowa karta pracy
@@ -587,6 +587,229 @@ def karta_dzialu(d):
     }
 
 
+# ─────────────────────────────────────────────── praca klasowa działu
+# Karta portfolio (wyżej) zbiera efekty pracy przez cały dział. Praca klasowa
+# jest czymś innym: uczeń pisze ją na lekcji, przy komputerze, i oddaje na
+# koniec godziny. Układ zadań idzie za wymaganiami — zadania są ustawione od
+# koniecznych do dopełniających, więc ocena wynika z tego, dokąd uczeń doszedł
+# samodzielnie. Zadania na ocenę celującą są poza tą kartą, w osobnej zakładce
+# działu i oddawane osobno w VULCAN-ie.
+
+
+def praca_klasowa_dzial_1(d):
+    """Dział I: prawo autorskie i licencje, wizerunek, system dwójkowy,
+    wyszukiwanie i wiarygodność źródeł. Wszystkie zadania są do wykonania przy
+    komputerze — sprawdzamy umiejętność, nie pamięć do definicji."""
+    return {
+        "id": "inf-sb-pk-dzial-1",
+        "tytul": f"Praca klasowa — dział {d['nr']}. {d['tytul']}",
+        "przedmiot": "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia",
+        "klasa": "1W",
+        "sufiks": "INF-SB-PK-DZIAL-1",
+        "zadania": [
+            {
+                "nr": 1,
+                "tytul": "Co wolno, a co jest przestępstwem",
+                "poziom": "wymagania konieczne · ocena 2",
+                "polecenie": "Oceń każdą sytuację. Nie zgadujesz — przy każdej "
+                             "odpowiedzi piszesz jedno zdanie uzasadnienia.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z1_a", "Wrzucam na swój profil film, który nagrałem sam",
+                         "wolno / nie wolno"],
+                        ["z1_b", "Udostępniam znajomym serial pobrany z torrenta",
+                         "wolno / nie wolno"],
+                        ["z1_c", "Używam w prezentacji zdjęcia z sieci bez podania autora",
+                         "wolno / nie wolno"],
+                        ["z1_d", "Wgrywam do szkolnej gazetki utwór na licencji CC BY, "
+                                "podając autora i licencję", "wolno / nie wolno"],
+                    ]},
+                    {"typ": "tekst", "id": "z1_uzasadnienie", "wiersze": 4,
+                     "pytanie": "Uzasadnij po jednym zdaniu do każdego wiersza. "
+                                "Przy sytuacjach, których nie wolno — napisz, czym to grozi.",
+                     "podpowiedz": "a) …  b) …  c) …  d) …"},
+                    {"typ": "tekst", "id": "z1_rodo", "wiersze": 3,
+                     "pytanie": "Po co wprowadzono przepisy oparte na RODO? "
+                                "Odpowiedz własnymi słowami, jednym–dwoma zdaniami."},
+                ],
+            },
+            {
+                "nr": 2,
+                "tytul": "System dwójkowy w kalkulatorze",
+                "poziom": "wymagania podstawowe · ocena 3",
+                "polecenie": "Otwórz <strong>Kalkulator</strong> i przełącz go w tryb "
+                             "<strong>Programisty</strong> (<code>Alt + 3</code>). "
+                             "Przelicz liczby z tabeli i wpisz wynik w systemie dwójkowym.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z2_8", "8 (DEC) w systemie dwójkowym", ""],
+                        ["z2_12", "12 (DEC) w systemie dwójkowym", ""],
+                        ["z2_64", "64 (DEC) w systemie dwójkowym", ""],
+                        ["z2_100", "100 (DEC) w systemie dwójkowym", ""],
+                        ["z2_255", "255 (DEC) w systemie dwójkowym", ""],
+                    ]},
+                    {"typ": "zrzut", "id": "z2_zrzut",
+                     "opis": "kalkulator w trybie Programisty z jednym z przeliczeń"},
+                    {"typ": "tekst", "id": "z2_wagi", "wiersze": 3,
+                     "pytanie": "Wypisz wagi ośmiu pozycji bajtu, od lewej do prawej, "
+                                "i pokaż na liczbie 100, które z nich się sumują."},
+                    {"typ": "tekst", "id": "z2_bajt", "wiersze": 3,
+                     "pytanie": "Ile różnych wartości zapiszesz na jednym bajcie i "
+                                "dlaczego akurat tyle? Podaj też najmniejszą i największą."},
+                ],
+            },
+            {
+                "nr": 3,
+                "tytul": "Znajdź obiekt, którego wolno użyć",
+                "poziom": "wymagania podstawowe · ocena 3",
+                "polecenie": "Znajdź w sieci <strong>grafikę na licencji Creative "
+                             "Commons</strong>, której mógłbyś legalnie użyć w szkolnej "
+                             "prezentacji. Skorzystaj z serwisu, który pozwala filtrować "
+                             "po licencji — na przykład <code>openverse.org</code> albo "
+                             "<code>commons.wikimedia.org</code>.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z3_serwis", "Serwis, w którym szukałeś", ""],
+                        ["z3_adres", "Adres znalezionego obiektu", ""],
+                        ["z3_autor", "Autor", ""],
+                        ["z3_licencja", "Oznaczenie licencji", "np. CC BY 4.0"],
+                    ]},
+                    {"typ": "zrzut", "id": "z3_zrzut",
+                     "opis": "strona obiektu z widocznym oznaczeniem licencji"},
+                    {"typ": "tekst", "id": "z3_warunki", "wiersze": 4,
+                     "pytanie": "Czego wymaga od Ciebie ta konkretna licencja? "
+                                "Wypisz warunki i napisz, jak je spełnisz w prezentacji."},
+                    {"typ": "tekst", "id": "z3_utwor", "wiersze": 3,
+                     "pytanie": "Czym w świetle prawa jest utwór? Podaj jeden przykład "
+                                "czegoś, co utworem jest, i jeden — co nie jest."},
+                ],
+            },
+            {
+                "nr": 4,
+                "tytul": "Wyszukiwanie zaawansowane",
+                "poziom": "wymagania rozszerzające · ocena 4",
+                "polecenie": "Wykonaj trzy wyszukiwania z użyciem operatorów. Za każdym "
+                             "razem przepisz <strong>całe zapytanie</strong> i zanotuj, co "
+                             "operator zmienił w wynikach.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z4_site", "Zapytanie ograniczone do jednej domeny (operator site:)", ""],
+                        ["z4_typ", "Zapytanie szukające pliku PDF (operator filetype:)", ""],
+                        ["z4_fraza", "Zapytanie z frazą w cudzysłowie", ""],
+                    ]},
+                    {"typ": "zrzut", "id": "z4_zrzut",
+                     "opis": "wyniki jednego z tych wyszukiwań, z widocznym paskiem zapytania"},
+                    {"typ": "tekst", "id": "z4_roznica", "wiersze": 4,
+                     "pytanie": "Co dał każdy z operatorów? Napisz po jednym zdaniu, "
+                                "porównując wynik z tym samym zapytaniem bez operatora."},
+                    {"typ": "tekst", "id": "z4_domyslna", "wiersze": 3,
+                     "pytanie": "Gdzie w przeglądarce, z której korzystasz, zmienia się "
+                                "domyślną wyszukiwarkę? Opisz drogę przez menu."},
+                ],
+            },
+            {
+                "nr": 5,
+                "tytul": "Cytat, plagiat i cudzy wizerunek",
+                "poziom": "wymagania rozszerzające · ocena 4",
+                "polecenie": "Dwie sytuacje z życia szkoły. Rozstrzygnij każdą "
+                             "i powołaj się na to, co wiesz z działu.",
+                "pola": [
+                    {"typ": "tekst", "id": "z5_cytat", "wiersze": 5,
+                     "pytanie": "Kolega wkleił do swojej pracy trzy akapity z serwisu "
+                                "internetowego i dopisał na końcu adres strony. Czy to jest "
+                                "cytat, czy plagiat? Odpowiedz i wyjaśnij, czym te dwie "
+                                "rzeczy się różnią."},
+                    {"typ": "tekst", "id": "z5_wizerunek", "wiersze": 5,
+                     "pytanie": "Na wycieczce ktoś zrobił Ci zdjęcie i wrzucił je na "
+                                "publiczny profil klasy, nie pytając Cię o zgodę. Jakie masz "
+                                "prawa i co konkretnie możesz zrobić? Wypisz kolejne kroki."},
+                    {"typ": "tekst", "id": "z5_zasady", "wiersze": 4,
+                     "pytanie": "Podaj trzy zasady, których sam przestrzegasz, publikując "
+                                "zdjęcia z innymi osobami.",
+                     "podpowiedz": "1.  2.  3."},
+                ],
+            },
+            {
+                "nr": 6,
+                "tytul": "Sprawdź, komu wierzysz",
+                "poziom": "wymagania dopełniające · ocena 5",
+                "polecenie": "Wybierz <strong>jedno twierdzenie</strong> z sieci dotyczące "
+                             "techniki albo zdrowia i sprawdź je w dwóch niezależnych "
+                             "źródłach. Jednym z nich ma być wyszukiwarka specjalistyczna — "
+                             "na przykład <code>europeana.eu</code> albo katalog biblioteczny.",
+                "pola": [
+                    {"typ": "tekst", "id": "z6_twierdzenie", "wiersze": 2,
+                     "pytanie": "Sprawdzane twierdzenie"},
+                    {"typ": "tabela", "wiersze": [
+                        ["z6_a_adres", "Źródło 1 — adres", ""],
+                        ["z6_a_kto", "Źródło 1 — kto za nim stoi", ""],
+                        ["z6_b_adres", "Źródło 2 — adres (wyszukiwarka specjalistyczna)", ""],
+                        ["z6_b_kto", "Źródło 2 — kto za nim stoi", ""],
+                    ]},
+                    {"typ": "wybor", "id": "z6_werdykt",
+                     "pytanie": "Po sprawdzeniu twierdzenie uznaję za",
+                     "opcje": ["prawdziwe", "fałszywe", "częściowo prawdziwe",
+                               "nie da się rozstrzygnąć"]},
+                    {"typ": "tekst", "id": "z6_kryteria", "wiersze": 5,
+                     "pytanie": "Po czym poznałeś, które źródło jest wiarygodniejsze? "
+                                "Wymień konkretne przesłanki — autor, data, powołanie się "
+                                "na badania, cel strony — a nie samo wrażenie."},
+                    {"typ": "tekst", "id": "z6_tozsamosc", "wiersze": 4,
+                     "pytanie": "Czym może skutkować kradzież tożsamości? Podaj dwa "
+                                "konkretne skutki dla okradzionej osoby."},
+                ],
+            },
+        ],
+    }
+
+
+# Dział dostaje pracę klasową dopiero wtedy, gdy ma napisane materiały.
+PRACE_KLASOWE = {
+    "I": praca_klasowa_dzial_1,
+}
+
+
+def sekcja_pracy_klasowej(d):
+    """Blok pracy klasowej na stronie działu. Pusty napis, gdy działu jeszcze
+    nie ma w PRACE_KLASOWE — wtedy strona wygląda dokładnie jak dotąd."""
+    if d["nr"] not in PRACE_KLASOWE:
+        return ""
+    numer = NUMER[d["nr"]]
+    return f"""
+## Praca klasowa — dział {d['nr']}
+
+Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
+godziny. Zadania są ustawione od najłatwiejszych do najtrudniejszych, zgodnie
+z wymaganiami wyżej: zaczynasz od pierwszego i idziesz po kolei.
+
+!!! info "Skąd bierze się ocena"
+
+    Zadania odpowiadają kolejnym poziomom wymagań — pierwsze koniecznym, ostatnie
+    dopełniającym. Ocena wynika z tego, **dokąd doszedłeś samodzielnie**, a nie
+    z liczby zapisanych zdań. Nie ma sensu przeskakiwać do końca: wymagania są
+    kumulatywne, więc zadanie na 5 liczy się dopiero wtedy, gdy wcześniejsze są zrobione.
+
+    Zadania na ocenę celującą są poza tą pracą — masz je w zakładce działu
+    i oddajesz osobno w dzienniku VULCAN.
+
+!!! warning "Wolno korzystać z komputera — nie wolno z cudzej pracy"
+
+    Wyszukiwarka, kalkulator i strony z materiałami są na tej pracy potrzebne
+    i możesz z nich korzystać. Rozwiązanie ma być Twoje: przy sprawdzaniu mogę
+    poprosić, żebyś pokazał na komputerze, jak doszedłeś do wyniku. Zasady
+    samodzielności opisuje strona
+    [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+!!! tip "Zanim oddasz"
+
+    Kliknij pod kartą **Pobierz dokument** i oddaj plik tak, jak powiem na
+    lekcji. Odpowiedzi zostają też w tej przeglądarce — jeśli lekcja się urwie,
+    użyj **Zapisz do pliku**, żeby nic nie przepadło.
+
+<div class="karta-pracy" data-karta="dzial-{numer}-praca-klasowa"></div>
+"""
+
+
 # ─────────────────────────────────────────────── nawigacja (awesome-nav)
 # Nawigację składa wtyczka awesome-nav z plików .nav.yml leżących w katalogach
 # docs/. Generator pisze je wszystkie, więc mkdocs.yml zostaje nietknięty —
@@ -660,6 +883,9 @@ for d in DZIALY:
     numer = NUMER[d["nr"]]
     zapisz(f"dzial-{numer}/index.md", strona_dzialu(d))
     zapisz_json(f"assets/karty/dzial-{numer}.json", karta_dzialu(d))
+    if d["nr"] in PRACE_KLASOWE:
+        zapisz_json(f"assets/karty/dzial-{numer}-praca-klasowa.json",
+                    PRACE_KLASOWE[d["nr"]](d))
 zapisz_nawigacje()
 
 print(f"\nGotowe: {SUMA} godzin, {len(DZIALY)} działów, {LICZBA_TEMATOW} tematów.")
