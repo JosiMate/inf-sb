@@ -13,12 +13,12 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
-| 5. | **[Warunki, pętle, funkcje, czyli podstawy języków programowania](warunki-petle-funkcje.md)** | 1 | 5 | *w przygotowaniu* |
-| 6. | **[Największy i najmniejszy, czyli jak znaleźć NWD i NWW](najwiekszy-i-najmniejszy.md)** | 1 | 6 | *w przygotowaniu* |
-| 7. | **[Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu](komputer-znajduje-nwd-i-nww.md)** | 1 | 7 | *w przygotowaniu* |
-| 8. | **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](wspolny-mianownik.md)** | 1 | 8 | *w przygotowaniu* |
-| 9. | **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](zera-jedynki-i-wagi.md)** | 1 | 9 | *w przygotowaniu* |
-| 10. | **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy](szyfrowanie.md)** | 1 | 10 | *w przygotowaniu* |
+| 5. | Warunki, pętle, funkcje, czyli podstawy języków programowania | 1 | 5 | *w przygotowaniu* |
+| 6. | Największy i najmniejszy, czyli jak znaleźć NWD i NWW | 1 | 6 | *w przygotowaniu* |
+| 7. | Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu | 1 | 7 | *w przygotowaniu* |
+| 8. | Wspólny mianownik, czyli jak program dodaje i skraca ułamki | 1 | 8 | *w przygotowaniu* |
+| 9. | Zera, jedynki i wagi, czyli różne reprezentacje liczb | 1 | 9 | *w przygotowaniu* |
+| 10. | Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy | 1 | 10 | *w przygotowaniu* |
 
 ## Wymagania na oceny w tym dziale
 
