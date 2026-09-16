@@ -118,11 +118,11 @@ Instrukcje warunkowe, pętle i funkcje. Algorytmy NWD/NWW, ułamki, systemy licz
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
 | 5. Warunki, pętle, funkcje, czyli podstawy języków programowania | 1 | *w przygotowaniu* |
-| 6. Największy i najmniejszy, czyli jak znaleźć NWD i NWW | 1 | *w przygotowaniu* |
-| 7. Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu | 1 | *w przygotowaniu* |
-| 8. Wspólny mianownik, czyli jak program dodaje i skraca ułamki | 1 | *w przygotowaniu* |
-| 9. Zera, jedynki i wagi, czyli różne reprezentacje liczb | 1 | *w przygotowaniu* |
-| 10. Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy | 1 | *w przygotowaniu* |
+| 6. **[Największy i najmniejszy, czyli jak znaleźć NWD i NWW](dzial-2/nwd-nww.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 7. **[Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu](dzial-2/algorytm-nwd-nww.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 8. **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](dzial-2/ulamki-dodawanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 9. **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](dzial-2/systemy-liczbowe.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 10. **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy](dzial-2/szyfrowanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział III. Aplikacje komputerowe pomagają w pracy
 

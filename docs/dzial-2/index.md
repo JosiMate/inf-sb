@@ -14,11 +14,11 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
 | 5. | **[Warunki, pętle, funkcje, czyli podstawy języków programowania](warunki-petle-funkcje.md)** | 1 | 5 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 6. | Największy i najmniejszy, czyli jak znaleźć NWD i NWW | 1 | 6 | *w przygotowaniu* |
-| 7. | Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu | 1 | 7 | *w przygotowaniu* |
-| 8. | Wspólny mianownik, czyli jak program dodaje i skraca ułamki | 1 | 8 | *w przygotowaniu* |
-| 9. | Zera, jedynki i wagi, czyli różne reprezentacje liczb | 1 | 9 | *w przygotowaniu* |
-| 10. | Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy | 1 | 10 | *w przygotowaniu* |
+| 6. | **[Największy i najmniejszy, czyli jak znaleźć NWD i NWW](nwd-nww.md)** | 1 | 6 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 7. | **[Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu](algorytm-nwd-nww.md)** | 1 | 7 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 8. | **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](ulamki-dodawanie.md)** | 1 | 8 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 9. | **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](systemy-liczbowe.md)** | 1 | 9 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 10. | **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy](szyfrowanie.md)** | 1 | 10 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 
