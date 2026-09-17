@@ -39,6 +39,24 @@
     try { return JSON.parse(localStorage.getItem(KLUCZ(id))) || {}; }
     catch { return {}; }
   };
+
+  /* Wszystkie serwisy szkoły stoją pod jednym adresem (josimate.github.io),
+     więc dzielą jeden localStorage. Karty nazwane ogólnie — „labirynt",
+     „prawo-w-sieci" — prędzej czy później zderzyłyby się z kartą o tej samej
+     nazwie w innym przedmiocie. Nazwy dostają więc przedrostek serwisu,
+     ale uczeń nie może przez to stracić tego, co już wpisał: jeżeli pod nową
+     nazwą nic nie ma, a pod starą coś jest, przepisujemy odpowiedzi.
+     Starego wpisu NIE kasujemy — gdyby migracja poszła nie tak, dane wciąż
+     tam są. Definicja karty wskazuje starą nazwę polem „idPoprzedni". */
+  function przeniesStarePodNowaNazwe(def) {
+    if (!def.idPoprzedni || def.idPoprzedni === def.id) return;
+    try {
+      if (localStorage.getItem(KLUCZ(def.id))) return;
+      const stare = localStorage.getItem(KLUCZ(def.idPoprzedni));
+      if (!stare) return;
+      localStorage.setItem(KLUCZ(def.id), stare);
+    } catch { /* tryb prywatny albo brak miejsca — trudno, karta ruszy pusta */ }
+  }
   /* Zapis może się nie udać z dwóch zupełnie różnych powodów, a uczeń musi
      wiedzieć z którego: w trybie prywatnym nic nie pomoże poza pobraniem
      pliku, a przy zapełnionym magazynie wystarczy zwolnić miejsce.
@@ -297,6 +315,7 @@
   // ---------------------------------------------------------------- obsługa
   function podepnij(host, def) {
     const id = def.id;
+    przeniesStarePodNowaNazwe(def);
     let dane = wczytaj(id);
     // Wartości domyślne (klasa) są tylko w atrybucie value pola — bez tego
     // nigdy nie trafiłyby do zapisanych danych, bo nikt ich nie edytuje.
@@ -573,6 +592,7 @@
   window.KartaPracy = {
     KLUCZ, KATALOG, NAZWA_FORMATU, WERSJA_FORMATU,
     wczytaj, zapisz, policzWypelnione, policzWszystkie, wKB,
+    przeniesStarePodNowaNazwe,
   };
 
   // Material przeładowuje treść bez odświeżania strony — trzeba wpiąć się w document$

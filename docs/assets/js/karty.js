@@ -55,6 +55,10 @@
 
   function stan(def) {
     const KP = api();
+    // Przegląd bywa pierwszą stroną, jaką uczeń otworzy po zmianie nazw kart —
+    // musi więc przenieść stare odpowiedzi tak samo jak sama karta, inaczej
+    // pokazałby zera przy kartach, w których coś jest.
+    if (KP.przeniesStarePodNowaNazwe) KP.przeniesStarePodNowaNazwe(def);
     const dane = KP.wczytaj(def.id);
     return {
       id: def.id,
@@ -312,9 +316,36 @@
     if (!id) return;
     const cel = document.getElementById(id);
     if (!cel) return;
+
+    // Cel w środku sekcji — np. #zadanie-2 — wymaga otwarcia jej samej
+    // i wszystkiego, co ją obejmuje.
     for (let el = cel.parentElement; el; el = el.parentElement) {
       if (el.tagName === "DETAILS") el.open = true;
     }
+
+    /* Cel OBOK sekcji: przegląd kart prowadzi do kotwicy tuż nad kartą,
+       a sama karta wisi w <details> pod nią. Bez tego uczeń trafiałby na
+       zamkniętą sekcję, czyli pozornie w pustkę.
+
+       Robimy to WYŁĄCZNIE dla naszej kotwicy .kp-kotwica, nie dla dowolnego
+       celu. Material przy przewijaniu strony sam przepisuje adres na kotwicę
+       widocznego nagłówka — gdyby wystarczył nagłówek „Karta pracy", zwykłe
+       przewinięcie i odświeżenie otwierałoby sekcję, którą uczeń przed chwilą
+       świadomie zwinął. */
+    if (!cel.classList.contains("kp-kotwica")) { cel.scrollIntoView({ block: "start" }); return; }
+    /* Kotwica jest elementem liniowym, więc Markdown opakowuje ją w akapit —
+       „następny element" trzeba więc liczyć od tego akapitu, nie od samej
+       kotwicy, inaczej sąsiadów w ogóle nie ma. */
+    let od = cel;
+    while (od.parentElement && !od.nextElementSibling && od.parentElement !== document.body) {
+      od = od.parentElement;
+    }
+    for (let el = od.nextElementSibling; el; el = el.nextElementSibling) {
+      if (/^H[1-6]$/.test(el.tagName)) break;
+      const sekcja = el.matches("details.karta") ? el : el.querySelector("details.karta");
+      if (sekcja) { sekcja.open = true; break; }
+    }
+
     cel.scrollIntoView({ block: "start" });
   }
 

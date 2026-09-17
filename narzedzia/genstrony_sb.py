@@ -410,6 +410,8 @@ Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 
 <div class="kp-podsumowanie" data-karta="dzial-{numer}"></div>
 
+<span id="karta" class="kp-kotwica"></span>
+
 ??? karta "Rozwiń kartę pracy działu {d['nr']}"
 
     Odpowiedzi zapisują się same w Twojej przeglądarce. To nie jest sprawdzian,
@@ -442,7 +444,7 @@ def strona_kart():
             "tytul": f"Dział {d['nr']}. {d['tytul']}",
             # Karta siedzi w rozwijanej sekcji na stronie działu; kotwica
             # „#karta-pracy" to nagłówek nad nią. Samą sekcję otwiera karty.js.
-            "url": f"../dzial-{NUMER[d['nr']]}/#karta-pracy",
+            "url": f"../dzial-{NUMER[d['nr']]}/#karta",
         }
         for d in DZIALY
     ]

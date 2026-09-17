@@ -83,6 +83,8 @@ Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 
 <div class="kp-podsumowanie" data-karta="dzial-4"></div>
 
+<span id="karta" class="kp-kotwica"></span>
+
 ??? karta "Rozwiń kartę pracy działu IV"
 
     Odpowiedzi zapisują się same w Twojej przeglądarce. To nie jest sprawdzian,

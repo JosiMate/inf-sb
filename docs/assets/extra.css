@@ -389,11 +389,11 @@
 }
 
 /* ─────────────────────────────── własny typ ostrzeżenia: karta pracy
-   Karta pracy siedzi na stronie działu w rozwijanej sekcji — tuż pod drugą
-   taką sekcją z wymaganiami na oceny. Obie na wbudowanym typie „abstract"
-   wyglądały identycznie (niebiesko) i karta ginęła. Dlatego własny typ
-   „karta": fiolet odcina się od zielonego motywu serwisu i od niebieskich
-   bloków informacyjnych, a ikona notatnika mówi, po co ta sekcja jest.
+   Sekcja z kartą pracy stoi obok innych rozwijanych bloków — wymagań,
+   przykładów — i na wbudowanym typie „abstract" wyglądała dokładnie tak samo
+   jak one. Karta w tym towarzystwie ginęła, więc dostaje własny typ „karta",
+   z kolorem dobranym tak, żeby odciąć się od motywu serwisu: tutaj motywem
+   jest zieleń, więc karta idzie w fiolet. Ikona notatnika mówi, po co ta sekcja jest.
    Osobny typ zamiast przemalowania „example" — ten jest używany w tematach
    jako przykład i ma zostać, jaki był. */
 :root {
@@ -431,3 +431,10 @@
 .kp-pasek-wypelnienie {
   background: var(--kp-akcent);
 }
+
+/* Punkt dojścia dla odsyłaczy do karty. Osobny od nagłówka „Karta pracy"
+   celowo: Material przy przewijaniu strony sam przepisuje adres na kotwicę
+   widocznego nagłówka, więc gdyby przegląd kart prowadził do #karta-pracy,
+   zwykłe przewinięcie strony wyglądałoby jak wejście z odsyłacza i sekcja
+   otwierałaby się wbrew temu, co uczeń ostatnio wybrał. */
+.kp-kotwica { display: block; height: 0; scroll-margin-top: 3.6rem; }

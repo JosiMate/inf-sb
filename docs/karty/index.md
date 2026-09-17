@@ -17,27 +17,27 @@ klikając nazwę działu.
   {
     "plik": "dzial-1",
     "tytul": "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze",
-    "url": "../dzial-1/#karta-pracy"
+    "url": "../dzial-1/#karta"
   },
   {
     "plik": "dzial-2",
     "tytul": "Dział II. Programowanie i algorytmy",
-    "url": "../dzial-2/#karta-pracy"
+    "url": "../dzial-2/#karta"
   },
   {
     "plik": "dzial-3",
     "tytul": "Dział III. Aplikacje komputerowe pomagają w pracy",
-    "url": "../dzial-3/#karta-pracy"
+    "url": "../dzial-3/#karta"
   },
   {
     "plik": "dzial-4",
     "tytul": "Dział IV. Peryferia pomagają w pracy zawodowej",
-    "url": "../dzial-4/#karta-pracy"
+    "url": "../dzial-4/#karta"
   },
   {
     "plik": "dzial-5",
     "tytul": "Dział V. Wykorzystanie sieci w pracy zawodowej",
-    "url": "../dzial-5/#karta-pracy"
+    "url": "../dzial-5/#karta"
   }
 ]
 </script>
