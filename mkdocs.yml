@@ -65,6 +65,8 @@ extra_javascript:
   # docx.umd.js celowo NIE jest tu wymieniony — karta.js doczyta go dopiero
   # przy generowaniu pliku, żeby nie obciążać czytelników materiału.
   - assets/js/karta.js
+  # karty.js korzysta z window.KartaPracy, więc musi iść PO karta.js
+  - assets/js/karty.js
   - assets/js/quiz.js
   - assets/js/postep.js
 
@@ -105,9 +107,39 @@ plugins:
   # Wyszukiwarka lunr nie ma polskiego stemmera (biblioteka lunr-languages
   # nie wspiera polskiego), więc świadomie zostawiamy tokenizer domyślny.
   - search
-  # Nawigacją rządzą pliki .nav.yml w katalogach docs/ — dzięki temu
-  # dopisanie tematu nie wymaga już zaglądania do tego pliku.
-  - awesome-nav
+
+validation:
+  links:
+    # Strony tematów odsyłają do konkretnych zadań w karcie pracy
+    # (karta.md#zadanie-3). Te kotwice powstają dopiero w przeglądarce, gdy
+    # karta.js zbuduje kartę z pliku JSON, więc MkDocs ich w źródle nie widzi
+    # i przy każdym temacie zgłaszałby INFO o „braku kotwicy". Wyłączamy
+    # sprawdzanie SAMYCH KOTWIC — sprawdzanie istnienia plików, które już raz
+    # wyłapało realny błąd w odsyłaczach, zostaje włączone.
+    anchors: ignore
+
+# ↓↓↓ nawigacja generowana przez narzedzia/genstrony_sb.py
+nav:
+  - Start: index.md
+  - "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze":
+      - Przegląd działu: dzial-1/index.md
+      - "Wymagania edukacyjne i bhp": dzial-1/wymagania-i-bhp.md
+      - "Wizerunek w sieci": dzial-1/kim-jestem.md
+      - Karta pracy: dzial-1/karta.md
+  - "Dział II. Programowanie i algorytmy":
+      - Przegląd działu: dzial-2/index.md
+      - Karta pracy: dzial-2/karta.md
+  - "Dział III. Aplikacje komputerowe pomagają w pracy":
+      - Przegląd działu: dzial-3/index.md
+      - Karta pracy: dzial-3/karta.md
+  - "Dział IV. Peryferia pomagają w pracy zawodowej":
+      - Przegląd działu: dzial-4/index.md
+      - Karta pracy: dzial-4/karta.md
+  - "Dział V. Wykorzystanie sieci w pracy zawodowej":
+      - Przegląd działu: dzial-5/index.md
+      - Karta pracy: dzial-5/karta.md
+  - Karty pracy: karty/index.md
+# ↑↑↑ koniec bloku generowanego
 
 extra:
   social:
@@ -115,3 +147,6 @@ extra:
       link: https://www.pceikz.pl
       name: PCEiKZ Szczucin
   generator: false
+
+not_in_nav: |
+  /assets/

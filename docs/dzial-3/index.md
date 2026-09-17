@@ -157,23 +157,9 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
 ## Karta pracy działu
 
 Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
-Odpowiedzi zostają w Twojej przeglądarce, więc możesz do niej wracać. Na koniec
-działu pobierasz gotowy dokument Worda i oddajesz go przez **Zadania domowe
-w dzienniku VULCAN**.
+Otwiera się na osobnej stronie, więc możesz trzymać ją obok treści lekcji.
 
-!!! info "To jest Twoje portfolio, nie sprawdzian"
+<div class="kp-podsumowanie" data-karta="dzial-3"></div>
 
-    Na tym przedmiocie każda lekcja kończy się czymś gotowym: plikiem,
-    dokumentem, modelem, programem. Karta zbiera te efekty w jednym miejscu —
-    razem ze zrzutami ekranu. Pod koniec roku masz komplet tego, co potrafisz
-    zrobić przy komputerze, i to jest coś, co pokazuje się pracodawcy.
-
-!!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
-
-    Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim wyjdziesz
-    z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz jeden plik
-    `postep_inf-sb-dzial-3.json` — przenieś go pendrive'em, OneDrive'em
-    albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**. Ten sam plik
-    działa w obie strony.
-
-<div class="karta-pracy" data-karta="dzial-3"></div>
+[:material-clipboard-edit-outline: Otwórz kartę pracy działu III](karta.md){ .md-button .md-button--primary }
+[:material-folder-multiple-outline: Wszystkie karty](../karty/index.md){ .md-button }

@@ -329,3 +329,61 @@
 .wybor-modulu.grid.cards > ul > li:not(:has(.md-button)) .twemoji {
   filter: grayscale(1);
 }
+
+/* ─────────────────────────────────────────── przegląd kart pracy
+   Karta pracy ma własną stronę, a jej stan pokazujemy w dwóch miejscach:
+   paskiem na stronie działu i tabelą na zbiorczej stronie „Karty pracy".
+   Oba korzystają z tego samego paska postępu. */
+.kp-pasek {
+  display: inline-block;
+  width: 6.5rem;
+  height: .55rem;
+  flex: none;
+  border-radius: .3rem;
+  background: var(--md-default-fg-color--lightest);
+  overflow: hidden;
+  vertical-align: middle;
+}
+.kp-pasek-wypelnienie {
+  display: block;
+  height: 100%;
+  border-radius: .3rem;
+  background: var(--md-primary-fg-color);
+  transition: width .3s ease;
+}
+
+.kp-podsumowanie {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5em .9em;
+  margin: 1.1em 0;
+  padding: .7em .9em;
+  font-size: .76rem;
+  border-radius: .3rem;
+  background: var(--md-code-bg-color);
+}
+.kp-podsumowanie:empty { display: none; }
+.kp-podsumowanie-data { color: var(--md-default-fg-color--light); }
+
+.kp-przeglad-tabela { width: 100%; }
+.md-typeset .kp-przeglad-tabela td,
+.md-typeset .kp-przeglad-tabela th { vertical-align: middle; }
+.kp-przeglad-stan { display: flex; align-items: center; gap: .6em; }
+.kp-przeglad-liczby { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kp-przeglad-data {
+  font-size: .7rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+.md-typeset .kp-przeglad-tabela tfoot th,
+.md-typeset .kp-przeglad-tabela tfoot td {
+  font-weight: 700;
+  border-top: .05rem solid var(--md-default-fg-color--lighter);
+}
+
+/* Na telefonie pasek zabiera za dużo szerokości w trzykolumnowej tabeli. */
+@media screen and (max-width: 44em) {
+  .kp-pasek { width: 3.6rem; }
+  .kp-przeglad-stan { gap: .4em; }
+}
