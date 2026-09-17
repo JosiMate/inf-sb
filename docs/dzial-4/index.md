@@ -83,7 +83,7 @@ Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 
 <div class="kp-podsumowanie" data-karta="dzial-4"></div>
 
-??? abstract "Rozwiń kartę pracy działu IV"
+??? karta "Rozwiń kartę pracy działu IV"
 
     Odpowiedzi zapisują się same w Twojej przeglądarce. To nie jest sprawdzian,
     tylko Twoje portfolio: każda lekcja kończy się czymś gotowym — plikiem,
