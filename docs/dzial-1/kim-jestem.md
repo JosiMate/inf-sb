@@ -428,7 +428,7 @@ naruszenie dobra osobistego.
 !!! note "Co oddajesz"
 
     Gotowe pismo zapisz jako plik i wklej jego treść do **[zadania 2 w karcie
-    pracy działu I](karta.md#zadanie-2)**, razem ze zrzutem ekranu polityki
+    pracy działu I](index.md#zadanie-2)**, razem ze zrzutem ekranu polityki
     prywatności, na której znalazłeś adresata.
 
 ## Sprawdź się

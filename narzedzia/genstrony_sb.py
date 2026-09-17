@@ -340,7 +340,7 @@ i do dokumentacji.
 !!! note "Co oddajesz z tej lekcji"
 
     Notatkę z tych zajęć wpisujesz do **[zadania 1 w karcie pracy
-    działu I](karta.md#zadanie-1)**. Kartę prowadzisz przez cały dział
+    działu I](index.md#zadanie-1)**. Kartę prowadzisz przez cały dział
     i oddajesz na jego koniec.
 """
 
@@ -403,59 +403,33 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
 
 {chr(10).join(poziomy)}
 
-## Karta pracy działu
+## Karta pracy
 
 Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
-Otwiera się na osobnej stronie, więc możesz trzymać ją obok treści lekcji.
+Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 
 <div class="kp-podsumowanie" data-karta="dzial-{numer}"></div>
 
-[:material-clipboard-edit-outline: Otwórz kartę pracy działu {d['nr']}](karta.md){{ .md-button .md-button--primary }}
-[:material-folder-multiple-outline: Wszystkie karty](../karty/index.md){{ .md-button }}
-"""
+??? abstract "Rozwiń kartę pracy działu {d['nr']}"
 
+    Odpowiedzi zapisują się same w Twojej przeglądarce. To nie jest sprawdzian,
+    tylko Twoje portfolio: każda lekcja kończy się czymś gotowym — plikiem,
+    dokumentem, modelem, programem — a karta zbiera te efekty razem ze zrzutami
+    ekranu. Na koniec działu pobierasz gotowy dokument Worda i oddajesz go przez
+    **Zadania domowe w dzienniku VULCAN**.
 
-# ─────────────────────────────────────────────── strona karty działu
-def strona_karty(d):
-    """Karta pracy na własnej stronie.
+    !!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
 
-    Wcześniej karta wisiała pod spisem tematów na stronie działu i te dwie
-    rzeczy sobie przeszkadzały: strona działu jest MENU (wybierz temat),
-    a karta jest WARSZTATEM (wpisuj). Za każdym powrotem po następny temat
-    uczeń przewijał własną, do połowy wypełnioną pracę. Osobny adres pozwala
-    też trzymać kartę w drugiej karcie przeglądarki, obok lekcji, i wysłać
-    do niej odsyłacz.
-    """
-    numer = NUMER[d["nr"]]
-    return f"""# Karta pracy — dział {d['nr']}
+        Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim
+        wyjdziesz z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz
+        plik `postep_inf-sb-dzial-{numer}.json` — przenieś go pendrive'em,
+        OneDrive'em albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**.
+        Ten sam plik działa w obie strony. Wszystkie działy naraz zapiszesz
+        jednym plikiem na stronie [Karty pracy](../karty/index.md).
 
-**{d['tytul']} · klasa 1W**
+    <div class="karta-pracy" data-karta="dzial-{numer}"></div>
 
-Wypełniasz ją **przez cały dział**, po jednej lekcji naraz. Odpowiedzi zapisują
-się same w Twojej przeglądarce. Na koniec działu pobierasz gotowy dokument Worda
-i oddajesz go przez **Zadania domowe w dzienniku VULCAN**.
-
-[:material-arrow-left: Wróć do tematów działu {d['nr']}](index.md){{ .md-button }}
-
-!!! info "To jest Twoje portfolio, nie sprawdzian"
-
-    Na tym przedmiocie każda lekcja kończy się czymś gotowym: plikiem,
-    dokumentem, modelem, programem. Karta zbiera te efekty w jednym miejscu —
-    razem ze zrzutami ekranu. Pod koniec roku masz komplet tego, co potrafisz
-    zrobić przy komputerze, i to jest coś, co pokazuje się pracodawcy.
-
-!!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
-
-    Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim wyjdziesz
-    z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz jeden plik
-    `postep_inf-sb-dzial-{numer}.json` — przenieś go pendrive'em, OneDrive'em
-    albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**. Ten sam plik
-    działa w obie strony.
-
-    Wszystkie działy naraz zapiszesz jednym plikiem na stronie
-    [Karty pracy](../karty/index.md).
-
-<div class="karta-pracy" data-karta="dzial-{numer}"></div>
+[:material-folder-multiple-outline: Wszystkie karty pracy](../karty/index.md){{ .md-button }}
 """
 
 
@@ -466,7 +440,9 @@ def strona_kart():
         {
             "plik": f"dzial-{NUMER[d['nr']]}",
             "tytul": f"Dział {d['nr']}. {d['tytul']}",
-            "url": f"../dzial-{NUMER[d['nr']]}/karta/",
+            # Karta siedzi w rozwijanej sekcji na stronie działu; kotwica
+            # „#karta-pracy" to nagłówek nad nią. Samą sekcję otwiera karty.js.
+            "url": f"../dzial-{NUMER[d['nr']]}/#karta-pracy",
         }
         for d in DZIALY
     ]
@@ -636,8 +612,6 @@ def blok_nawigacji():
                 wpis = gotowe[t["lp"]]
                 linie.append("      - " + yaml_klucz(etykieta(wpis, t["tytul"]))
                              + ": " + sciezka(wpis))
-        # Karta na końcu działu, bo sięga się po nią po lekcji, a nie przed.
-        linie.append(f"      - Karta pracy: dzial-{numer}/karta.md")
     linie.append("  - Karty pracy: karty/index.md")
     return "\n".join(linie)
 
@@ -674,7 +648,6 @@ zapisz("dzial-1/wymagania-i-bhp.md", strona_wymagan())
 for d in DZIALY:
     numer = NUMER[d["nr"]]
     zapisz(f"dzial-{numer}/index.md", strona_dzialu(d))
-    zapisz(f"dzial-{numer}/karta.md", strona_karty(d))
     zapisz_json(f"assets/karty/dzial-{numer}.json", karta_dzialu(d))
 zapisz("karty/index.md", strona_kart())
 zapisz_nawigacje()

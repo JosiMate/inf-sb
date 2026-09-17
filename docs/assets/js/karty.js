@@ -288,7 +288,58 @@
     });
   }
 
+  /* ─────────────────────── rozwijana sekcja z kartą ───────────────────────
+     Karta siedzi na stronie działu w <details>, żeby nie zasłaniała spisu
+     tematów. Wynikają z tego dwie rzeczy do obsłużenia.
+
+     Po pierwsze kotwice: strona tematu odsyła do „#zadanie-2", a przeglądarki
+     różnie (albo wcale) radzą sobie z celem schowanym w zamkniętym <details>.
+     Otwieramy go więc sami — i dopiero wtedy, gdy karta.js zdąży zbudować
+     kartę, bo wcześniej tej kotwicy w dokumencie nie ma.
+
+     Po drugie stan: uczeń w środku działu otwiera kartę co lekcję. Zapamiętanie
+     ostatniego położenia oszczędza mu tego kliknięcia. To drobna wygoda jednej
+     przeglądarki, nie dane — dlatego zwykły klucz w localStorage i cicha
+     obsługa błędu, gdy magazyn jest zablokowany. */
+  const KLUCZ_SEKCJI = (karta) => `karta-otwarta:inf-sb-${karta}`;
+
+  function sekcjaKarty(host) {
+    return host.closest("details");
+  }
+
+  function doKotwicy() {
+    const id = decodeURIComponent((location.hash || "").slice(1));
+    if (!id) return;
+    const cel = document.getElementById(id);
+    if (!cel) return;
+    for (let el = cel.parentElement; el; el = el.parentElement) {
+      if (el.tagName === "DETAILS") el.open = true;
+    }
+    cel.scrollIntoView({ block: "start" });
+  }
+
+  function pamietajSekcje() {
+    document.querySelectorAll(".karta-pracy[data-karta]").forEach((host) => {
+      const sekcja = sekcjaKarty(host);
+      if (!sekcja || sekcja.dataset.pamiec) return;
+      sekcja.dataset.pamiec = "1";
+      const klucz = KLUCZ_SEKCJI(host.dataset.karta);
+
+      let zapamietane = null;
+      try { zapamietane = localStorage.getItem(klucz); } catch { /* tryb prywatny */ }
+      // Bez zapisanego wyboru zostaje ustawienie ze strony (???+ = otwarta).
+      if (zapamietane === "0") sekcja.open = false;
+      if (zapamietane === "1") sekcja.open = true;
+
+      sekcja.addEventListener("toggle", () => {
+        try { localStorage.setItem(klucz, sekcja.open ? "1" : "0"); }
+        catch { /* nie szkodzi — to tylko wygoda */ }
+      });
+    });
+  }
+
   function start() {
+    pamietajSekcje();
     document.querySelectorAll(".kp-podsumowanie[data-karta]").forEach((host) => {
       if (host.dataset.gotowe) return;
       host.dataset.gotowe = "1";
@@ -300,6 +351,10 @@
       przeglad(host);
     });
   }
+
+  // Karta zbudowana — dopiero teraz kotwice zadań istnieją.
+  document.addEventListener("karta-gotowa", doKotwicy);
+  window.addEventListener("hashchange", doKotwicy);
 
   if (typeof document$ !== "undefined") document$.subscribe(start);
   else document.addEventListener("DOMContentLoaded", start);

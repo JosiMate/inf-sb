@@ -605,5 +605,5 @@ i do dokumentacji.
 !!! note "Co oddajesz z tej lekcji"
 
     Notatkę z tych zajęć wpisujesz do **[zadania 1 w karcie pracy
-    działu I](karta.md#zadanie-1)**. Kartę prowadzisz przez cały dział
+    działu I](index.md#zadanie-1)**. Kartę prowadzisz przez cały dział
     i oddajesz na jego koniec.

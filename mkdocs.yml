@@ -111,7 +111,7 @@ plugins:
 validation:
   links:
     # Strony tematów odsyłają do konkretnych zadań w karcie pracy
-    # (karta.md#zadanie-3). Te kotwice powstają dopiero w przeglądarce, gdy
+    # (index.md#zadanie-3). Te kotwice powstają dopiero w przeglądarce, gdy
     # karta.js zbuduje kartę z pliku JSON, więc MkDocs ich w źródle nie widzi
     # i przy każdym temacie zgłaszałby INFO o „braku kotwicy". Wyłączamy
     # sprawdzanie SAMYCH KOTWIC — sprawdzanie istnienia plików, które już raz
@@ -125,19 +125,14 @@ nav:
       - Przegląd działu: dzial-1/index.md
       - "Wymagania edukacyjne i bhp": dzial-1/wymagania-i-bhp.md
       - "Wizerunek w sieci": dzial-1/kim-jestem.md
-      - Karta pracy: dzial-1/karta.md
   - "Dział II. Programowanie i algorytmy":
       - Przegląd działu: dzial-2/index.md
-      - Karta pracy: dzial-2/karta.md
   - "Dział III. Aplikacje komputerowe pomagają w pracy":
       - Przegląd działu: dzial-3/index.md
-      - Karta pracy: dzial-3/karta.md
   - "Dział IV. Peryferia pomagają w pracy zawodowej":
       - Przegląd działu: dzial-4/index.md
-      - Karta pracy: dzial-4/karta.md
   - "Dział V. Wykorzystanie sieci w pracy zawodowej":
       - Przegląd działu: dzial-5/index.md
-      - Karta pracy: dzial-5/karta.md
   - Karty pracy: karty/index.md
 # ↑↑↑ koniec bloku generowanego
 

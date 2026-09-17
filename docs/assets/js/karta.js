@@ -553,6 +553,11 @@
       try {
         const def = await (await fetch(url)).json();
         podepnij(host, def);
+        /* Karta powstaje asynchronicznie, więc w chwili wejścia na stronę
+           kotwic zadań jeszcze nie ma. Kto na nie poluje (karty.js, żeby
+           rozwinąć sekcję i doskoczyć do zadania), musi wiedzieć, kiedy
+           są już w dokumencie. */
+        host.dispatchEvent(new CustomEvent("karta-gotowa", { bubbles: true }));
       } catch (e) {
         host.innerHTML = `<p class="kp-blad">Nie udało się wczytać definicji karty
           (${esc(e.message)}). Pobierz kartę w Wordzie i wypełnij ją tam.</p>`;

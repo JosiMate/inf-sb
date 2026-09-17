@@ -88,12 +88,30 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
     - samodzielnie odnajduje wyszukiwarki branżowe lub specjalistyczne związane z danym tematem lub zawodem
 
 
-## Karta pracy działu
+## Karta pracy
 
 Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
-Otwiera się na osobnej stronie, więc możesz trzymać ją obok treści lekcji.
+Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 
 <div class="kp-podsumowanie" data-karta="dzial-1"></div>
 
-[:material-clipboard-edit-outline: Otwórz kartę pracy działu I](karta.md){ .md-button .md-button--primary }
-[:material-folder-multiple-outline: Wszystkie karty](../karty/index.md){ .md-button }
+??? abstract "Rozwiń kartę pracy działu I"
+
+    Odpowiedzi zapisują się same w Twojej przeglądarce. To nie jest sprawdzian,
+    tylko Twoje portfolio: każda lekcja kończy się czymś gotowym — plikiem,
+    dokumentem, modelem, programem — a karta zbiera te efekty razem ze zrzutami
+    ekranu. Na koniec działu pobierasz gotowy dokument Worda i oddajesz go przez
+    **Zadania domowe w dzienniku VULCAN**.
+
+    !!! warning "Chcesz dokończyć w domu — zapisz postęp do pliku"
+
+        Odpowiedzi zostają w **tej przeglądarce, na tym komputerze**. Zanim
+        wyjdziesz z pracowni, kliknij pod kartą **Zapisz do pliku**. Dostaniesz
+        plik `postep_inf-sb-dzial-1.json` — przenieś go pendrive'em,
+        OneDrive'em albo mailem do siebie, a w domu kliknij **Wczytaj z pliku**.
+        Ten sam plik działa w obie strony. Wszystkie działy naraz zapiszesz
+        jednym plikiem na stronie [Karty pracy](../karty/index.md).
+
+    <div class="karta-pracy" data-karta="dzial-1"></div>
+
+[:material-folder-multiple-outline: Wszystkie karty pracy](../karty/index.md){ .md-button }
