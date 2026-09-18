@@ -29,6 +29,17 @@ GOTOWE = {
         3: ("dzial-1/rozwoj-technologii.md", "Rozwój technologii a społeczeństwo"),
         4: ("dzial-1/wiedza-w-sieci.md", "Wiedza w sieci"),
     },
+    "II": {
+        5: ("dzial-2/warunki-petle-funkcje.md", "Warunki, pętle, funkcje"),
+        6: ("dzial-2/nwd-nww.md", "NWD i NWW"),
+        7: ("dzial-2/algorytm-nwd-nww.md", "Od algorytmu do programu"),
+        8: ("dzial-2/ulamki-dodawanie.md", "Dodawanie ułamków"),
+        9: ("dzial-2/systemy-liczbowe.md", "Reprezentacje liczb"),
+        10: ("dzial-2/szyfrowanie.md", "Szyfrowanie"),
+    },
+    "III": {
+        11: ("dzial-3/modelowanie-3d.md", "Modelowanie 3D"),
+    },
 }
 
 

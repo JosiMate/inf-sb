@@ -4,7 +4,7 @@
 
 Modelowanie 3D, grafika rastrowa, dokumenty techniczne, arkusz kalkulacyjny i prezentacje.
 
-Materiały do tego działu powstają w miarę realizacji programu — na razie znajdziesz tu spis tematów i wymagania.
+Gotowe materiały: **1 z 10** tematów.
 
 ## Tematy działu
 
@@ -13,7 +13,7 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
-| 11. | Modelujemy, czyli jak projektować obiekty 3D | 1 | 11 | *w przygotowaniu* |
+| 11. | **[Modelujemy, czyli jak projektować obiekty 3D](modelowanie-3d.md)** | 1 | 11 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 12. | Wizualizacja pomysłów, czyli projektujemy w edytorze 3D | 1 | 12 | *w przygotowaniu* |
 | 13. | To nie jest trudne, czyli montujemy zdjęcie reklamowe | 1 | 13 | *w przygotowaniu* |
 | 14. | Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej | 1 | 14 | *w przygotowaniu* |

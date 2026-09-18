@@ -53,7 +53,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Instrukcje warunkowe, pętle i funkcje. Algorytmy NWD/NWW, ułamki, systemy liczbowe i szyfry.
 
-    *6 godzin · 6 tematów · materiały w przygotowaniu*
+    *6 godzin · 6 tematów*
 
     [Otwórz dział](dzial-2/index.md){ .md-button }
 
@@ -63,7 +63,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Modelowanie 3D, grafika rastrowa, dokumenty techniczne, arkusz kalkulacyjny i prezentacje.
 
-    *10 godzin · 10 tematów · materiały w przygotowaniu*
+    *10 godzin · 10 tematów*
 
     [Otwórz dział](dzial-3/index.md){ .md-button }
 
@@ -117,12 +117,12 @@ Instrukcje warunkowe, pętle i funkcje. Algorytmy NWD/NWW, ułamki, systemy licz
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| 5. Warunki, pętle, funkcje, czyli podstawy języków programowania | 1 | *w przygotowaniu* |
-| 6. Największy i najmniejszy, czyli jak znaleźć NWD i NWW | 1 | *w przygotowaniu* |
-| 7. Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu | 1 | *w przygotowaniu* |
-| 8. Wspólny mianownik, czyli jak program dodaje i skraca ułamki | 1 | *w przygotowaniu* |
-| 9. Zera, jedynki i wagi, czyli różne reprezentacje liczb | 1 | *w przygotowaniu* |
-| 10. Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy | 1 | *w przygotowaniu* |
+| 5. **[Warunki, pętle, funkcje, czyli podstawy języków programowania](dzial-2/warunki-petle-funkcje.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 6. **[Największy i najmniejszy, czyli jak znaleźć NWD i NWW](dzial-2/nwd-nww.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 7. **[Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu](dzial-2/algorytm-nwd-nww.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 8. **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](dzial-2/ulamki-dodawanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 9. **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](dzial-2/systemy-liczbowe.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 10. **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy](dzial-2/szyfrowanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział III. Aplikacje komputerowe pomagają w pracy
 
@@ -132,7 +132,7 @@ Modelowanie 3D, grafika rastrowa, dokumenty techniczne, arkusz kalkulacyjny i pr
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| 11. Modelujemy, czyli jak projektować obiekty 3D | 1 | *w przygotowaniu* |
+| 11. **[Modelujemy, czyli jak projektować obiekty 3D](dzial-3/modelowanie-3d.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 12. Wizualizacja pomysłów, czyli projektujemy w edytorze 3D | 1 | *w przygotowaniu* |
 | 13. To nie jest trudne, czyli montujemy zdjęcie reklamowe | 1 | *w przygotowaniu* |
 | 14. Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej | 1 | *w przygotowaniu* |
