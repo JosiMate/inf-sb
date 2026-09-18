@@ -103,38 +103,22 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
+validation:
+  links:
+    # Strony tematów odsyłają do konkretnych zadań w karcie pracy
+    # (…#zadanie-3). Te kotwice powstają dopiero w przeglądarce, gdy karta.js
+    # zbuduje kartę z pliku JSON, więc MkDocs ich w źródle nie widzi i przy
+    # każdym temacie zgłaszałby INFO o „braku kotwicy". Wyłączamy sprawdzanie
+    # SAMYCH KOTWIC — sprawdzanie istnienia plików zostaje włączone.
+    anchors: ignore
+
 plugins:
   # Wyszukiwarka lunr nie ma polskiego stemmera (biblioteka lunr-languages
   # nie wspiera polskiego), więc świadomie zostawiamy tokenizer domyślny.
   - search
-
-validation:
-  links:
-    # Strony tematów odsyłają do konkretnych zadań w karcie pracy
-    # (index.md#zadanie-3). Te kotwice powstają dopiero w przeglądarce, gdy
-    # karta.js zbuduje kartę z pliku JSON, więc MkDocs ich w źródle nie widzi
-    # i przy każdym temacie zgłaszałby INFO o „braku kotwicy". Wyłączamy
-    # sprawdzanie SAMYCH KOTWIC — sprawdzanie istnienia plików, które już raz
-    # wyłapało realny błąd w odsyłaczach, zostaje włączone.
-    anchors: ignore
-
-# ↓↓↓ nawigacja generowana przez narzedzia/genstrony_sb.py
-nav:
-  - Start: index.md
-  - "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze":
-      - Przegląd działu: dzial-1/index.md
-      - "Wymagania edukacyjne i bhp": dzial-1/wymagania-i-bhp.md
-      - "Wizerunek w sieci": dzial-1/kim-jestem.md
-  - "Dział II. Programowanie i algorytmy":
-      - Przegląd działu: dzial-2/index.md
-  - "Dział III. Aplikacje komputerowe pomagają w pracy":
-      - Przegląd działu: dzial-3/index.md
-  - "Dział IV. Peryferia pomagają w pracy zawodowej":
-      - Przegląd działu: dzial-4/index.md
-  - "Dział V. Wykorzystanie sieci w pracy zawodowej":
-      - Przegląd działu: dzial-5/index.md
-  - Karty pracy: karty/index.md
-# ↑↑↑ koniec bloku generowanego
+  # Nawigacją rządzą pliki .nav.yml w katalogach docs/ — dzięki temu
+  # dopisanie tematu nie wymaga już zaglądania do tego pliku.
+  - awesome-nav
 
 extra:
   social:
@@ -142,6 +126,3 @@ extra:
       link: https://www.pceikz.pl
       name: PCEiKZ Szczucin
   generator: false
-
-not_in_nav: |
-  /assets/

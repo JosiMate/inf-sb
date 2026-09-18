@@ -427,9 +427,9 @@ naruszenie dobra osobistego.
 
 !!! note "Co oddajesz"
 
-    Gotowe pismo zapisz jako plik i wklej jego treść do **[zadania 2 w karcie
-    pracy działu I](index.md#zadanie-2)**, razem ze zrzutem ekranu polityki
-    prywatności, na której znalazłeś adresata.
+    Gotowe pismo zapisz jako plik i wklej jego treść do **karty pracy działu I**
+    (zadanie do tego tematu), razem ze zrzutem ekranu polityki prywatności, na
+    której znalazłeś adresata.
 
 ## Sprawdź się
 
@@ -522,23 +522,6 @@ naruszenie dobra osobistego.
 ]
 </script>
 </div>
-
-## Na ocenę celującą
-
-**A. Własny kodeks wizerunku.** Opracuj dla swojej klasy zestaw 8–10 zasad
-publikowania zdjęć i nagrań, w którym przy każdej zasadzie podajesz przepis
-albo konkretną konsekwencję. Zasady mają być takie, żeby dało się je stosować,
-a nie żeby ładnie brzmiały.
-
-**B. Kradzież tożsamości od kuchni.** Przygotuj krótkie wystąpienie dla klasy
-o tym, jak wygląda droga od wycieku danych do wyłudzenia pożyczki: skąd
-biorą się dane, co oszust musi jeszcze zdobyć, gdzie w tym łańcuchu można go
-zatrzymać. Wskaż, które zabezpieczenie łamie który etap.
-
-**C. Audyt śladu cyfrowego.** Wyszukaj siebie w dwóch różnych wyszukiwarkach
-(także w wyszukiwaniu grafiką), zestaw wyniki w tabeli i przy każdym oceń, czy
-chcesz, żeby tam był. Dla trzech wybranych opisz drogę usunięcia: kto jest
-administratorem, jaki tryb, jaki termin.
 
 ---
 

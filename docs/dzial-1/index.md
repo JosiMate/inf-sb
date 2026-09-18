@@ -4,7 +4,7 @@
 
 Prawo autorskie, wizerunek w sieci, rozwój technologii i wiarygodność źródeł.
 
-Gotowe materiały: **2 z 4** tematów.
+Gotowe materiały: **4 z 4** tematów.
 
 ## Tematy działu
 
@@ -15,8 +15,8 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 | :---: | --- | :---: | :---: | --- |
 | 1. | **[Bądź uczciwy, czyli przestrzeganie prawa w świecie informatyki](wymagania-i-bhp.md)** | 1 | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 2. | **[Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci](kim-jestem.md)** | 1 | 2 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 3. | 8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw | 1 | 3 | *w przygotowaniu* |
-| 4. | Wiedza w sieci, czyli Internet mądrych ludzi | 1 | 4 | *w przygotowaniu* |
+| 3. | **[8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw](rozwoj-technologii.md)** | 1 | 3 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 4. | **[Wiedza w sieci, czyli Internet mądrych ludzi](wiedza-w-sieci.md)** | 1 | 4 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 
@@ -88,6 +88,58 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
     - samodzielnie odnajduje wyszukiwarki branżowe lub specjalistyczne związane z danym tematem lub zawodem
 
 
+## Zadania na ocenę celującą
+
+Zadania na szóstkę są **działowe, nie tematyczne** — obejmują materiał całego
+działu i wymagają czegoś więcej niż powtórzenia ćwiczenia z lekcji. Wybierasz
+**jedno** z listy poniżej.
+
+Pracę oddajesz w Dzienniku VULCAN, w zadaniu **„Zadanie na ocenę celującą:
+Dział …”** założonym do tego działu, w ciągu **dwóch tygodni od zakończenia
+działu**. Plik nazwij `nr<numer w dzienniku>-<litera zadania>`, a w treści
+zadania dopisz 3–5 zdań o tym, co zrobiłeś i co z tego wyszło.
+
+Cała lista jest widoczna **od początku działu**, żebyś miał czas wybrać
+i popracować. Przy każdym zadaniu jest napisane, po którym temacie da się
+je wykonać. Pełne zasady opisuje strona [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+??? example "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze — 3 zadania do wyboru"
+
+    **A. Jak naprawdę ściga się naruszenia praw autorskich**
+
+    *Do wykonania po temacie o przestrzeganiu prawa.*
+
+    Sprawdź, jak działają firmy i kancelarie zajmujące się ochroną praw autorskich w internecie: skąd biorą informację o naruszeniu, czego żądają w pierwszym piśmie, co może zrobić osoba, która takie pismo dostała, i czym różni się wezwanie do zapłaty od pozwu.
+
+    Oprzyj opis na jednym przypadku opisanym publicznie — z podaniem źródła.
+
+    **Oddajesz:** opracowanie na jedną stronę ze wskazaniem źródeł i listą „co robić, gdy dostaniesz takie pismo”
+
+    ---
+
+    **B. Kradzież tożsamości — wystąpienie dla klasy**
+
+    *Do wykonania po temacie „Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci”.*
+
+    Przygotuj i wygłoś pięciominutowe wystąpienie pokazujące całą drogę: od wycieku danych, przez to, co oszust musi jeszcze zdobyć, po wyłudzenie pożyczki.
+
+    Przy każdym etapie wskaż **jedno zabezpieczenie, które ten etap przerywa** — zastrzeżenie numeru PESEL, logowanie dwuskładnikowe, alerty w biurze informacji kredytowej. Osią wystąpienia ma być konkretny, opisany w mediach przypadek.
+
+    **Oddajesz:** materiały do wystąpienia i jednostronicowe podsumowanie dla słuchaczy
+
+    ---
+
+    **C. Wyszukiwarki, o których klasa nie wie**
+
+    *Do wykonania po temacie o wiarygodności źródeł.*
+
+    Znajdź pięć wyszukiwarek branżowych lub specjalistycznych związanych z zawodem, którego się uczysz: bazy norm, katalogi części, wyszukiwarki patentów, bazy publikacji, wyszukiwanie obrazem.
+
+    Zadaj każdej to samo pytanie zawodowe i porównaj: co znajduje, czego nie znajduje zwykła wyszukiwarka, czy da się ufać wynikom i skąd pochodzą dane.
+
+    **Oddajesz:** zestawienie pięciu narzędzi z przykładowym zapytaniem i wynikiem oraz wskazanie dwóch, które zostawiasz sobie na stałe
+
+
 ## Karta pracy
 
 Kartę prowadzisz **przez cały dział**, dopisując po każdej lekcji, co zrobiłeś.
@@ -117,3 +169,41 @@ Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
     <div class="karta-pracy" data-karta="dzial-1"></div>
 
 [:material-folder-multiple-outline: Wszystkie karty pracy](../karty/index.md){ .md-button }
+
+## Praca klasowa — dział I
+
+Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
+godziny. Zadania są ustawione od najłatwiejszych do najtrudniejszych, zgodnie
+z wymaganiami wyżej: zaczynasz od pierwszego i idziesz po kolei.
+
+!!! info "Skąd bierze się ocena"
+
+    Zadania odpowiadają kolejnym poziomom wymagań — pierwsze koniecznym, ostatnie
+    dopełniającym. Ocena wynika z tego, **dokąd doszedłeś samodzielnie**, a nie
+    z liczby zapisanych zdań. Nie ma sensu przeskakiwać do końca: wymagania są
+    kumulatywne, więc zadanie na 5 liczy się dopiero wtedy, gdy wcześniejsze są zrobione.
+
+    Zadania na ocenę celującą są poza tą pracą — masz je w zakładce działu
+    i oddajesz osobno w dzienniku VULCAN.
+
+!!! warning "Wolno korzystać z komputera — nie wolno z cudzej pracy"
+
+    Wyszukiwarka, kalkulator i strony z materiałami są na tej pracy potrzebne
+    i możesz z nich korzystać. Rozwiązanie ma być Twoje: przy sprawdzaniu mogę
+    poprosić, żebyś pokazał na komputerze, jak doszedłeś do wyniku. Zasady
+    samodzielności opisuje strona
+    [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+!!! tip "Zanim oddasz"
+
+    Kliknij pod kartą **Pobierz dokument** i oddaj plik tak, jak powiem na
+    lekcji. Odpowiedzi zostają też w tej przeglądarce — jeśli lekcja się urwie,
+    użyj **Zapisz do pliku**, żeby nic nie przepadło.
+
+<span id="karta-praca-klasowa" class="kp-kotwica"></span>
+
+<div class="kp-podsumowanie" data-karta="dzial-1-praca-klasowa"></div>
+
+???+ karta "Rozwiń kartę pracy klasowej"
+
+    <div class="karta-pracy" data-karta="dzial-1-praca-klasowa"></div>

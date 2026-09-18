@@ -15,10 +15,8 @@ umowę pod kątem praw autorskich i nie dać się nabrać w sieci.
 
 !!! info "Co gdzie jest"
 
-    Na tej stronie są **treści do nauki** i **materiały do pobrania**. Twoja
-    własna praca — to, co wpisujesz po lekcjach — zbiera się w
-    [kartach pracy](karty/index.md), po jednej na dział. Oceny, terminy
-    i odsyłanie wykonanych prac — w **Dzienniku VULCAN**, który pozostaje
+    Na tej stronie są **treści do nauki** i **materiały do pobrania**. Oceny,
+    terminy i odsyłanie wykonanych prac — w **Dzienniku VULCAN**, który pozostaje
     kanałem obowiązującym.
 
 ## Plan pracy
@@ -108,8 +106,8 @@ Prawo autorskie, wizerunek w sieci, rozwój technologii i wiarygodność źróde
 | --- | :---: | --- |
 | 1. **[Bądź uczciwy, czyli przestrzeganie prawa w świecie informatyki](dzial-1/wymagania-i-bhp.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 2. **[Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci](dzial-1/kim-jestem.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 3. 8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw | 1 | *w przygotowaniu* |
-| 4. Wiedza w sieci, czyli Internet mądrych ludzi | 1 | *w przygotowaniu* |
+| 3. **[8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw](dzial-1/rozwoj-technologii.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 4. **[Wiedza w sieci, czyli Internet mądrych ludzi](dzial-1/wiedza-w-sieci.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział II. Programowanie i algorytmy
 

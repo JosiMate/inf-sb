@@ -8,8 +8,8 @@ hide:
 **Informatyka · klasa 1W · branżowa szkoła I stopnia**
 
 Tu w jednym miejscu widzisz **całą swoją pracę z tego przedmiotu**: ile masz
-wypełnione w każdym dziale i kiedy ostatnio przy tym siedziałeś. Kartę otwierasz,
-klikając nazwę działu.
+wypełnione w każdym dziale i kiedy ostatnio przy tym siedziałeś. Kartę
+otwierasz, klikając nazwę działu.
 
 <div class="kp-przeglad">
 <script type="application/json">
@@ -18,6 +18,11 @@ klikając nazwę działu.
     "plik": "dzial-1",
     "tytul": "Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze",
     "url": "../dzial-1/#karta"
+  },
+  {
+    "plik": "dzial-1-praca-klasowa",
+    "tytul": "Dział I — praca klasowa",
+    "url": "../dzial-1/#karta-praca-klasowa"
   },
   {
     "plik": "dzial-2",
@@ -50,9 +55,9 @@ wysyłane do szkoły ani nigdzie indziej. To wygodne, ale ma jeden skutek:
 w pracowni i w domu to są dwa osobne komplety.
 
 Dlatego jest przycisk **Zapisz wszystkie karty do pliku**. Dostajesz jeden plik
-`moje-karty-pracy.json` ze wszystkimi działami naraz — przenosisz go pendrive'em,
-OneDrive'em albo mailem do siebie i na drugim komputerze klikasz **Wczytaj karty
-z pliku**. Plik z pojedynczego działu też tu zadziała.
+`moje-karty-pracy.json` ze wszystkimi działami naraz — przenosisz go
+pendrive'em, OneDrive'em albo mailem do siebie i na drugim komputerze klikasz
+**Wczytaj karty z pliku**. Plik z pojedynczego działu też tu zadziała.
 
 !!! warning "Zrób to przed końcem lekcji"
 
@@ -62,6 +67,6 @@ z pliku**. Plik z pojedynczego działu też tu zadziała.
 
 !!! info "Oddawanie prac"
 
-    Gotową kartę pobierasz jako dokument Worda (przycisk na stronie karty)
-    i oddajesz przez **Zadania domowe w dzienniku VULCAN**. Ta strona nie jest
-    kanałem oddawania prac — służy tylko Tobie do pracy.
+    Gotową kartę pobierasz jako dokument Worda (przycisk pod kartą) i oddajesz
+    przez **Zadania domowe w dzienniku VULCAN**. Ta strona nie jest kanałem
+    oddawania prac — służy tylko Tobie do pracy.
