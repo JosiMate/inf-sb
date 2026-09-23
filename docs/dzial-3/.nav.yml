@@ -7,3 +7,13 @@ title: "Dział III. Aplikacje komputerowe pomagają w pracy"
 append_unmatched: true
 nav:
   - "Przegląd działu": index.md
+  - "Modelowanie 3D": modelowanie-3d.md
+  - "Projektujemy w edytorze 3D": wizualizacja-pomyslow-edytor-3d.md
+  - "Montujemy zdjęcie reklamowe": montujemy-zdjecie-reklamowe.md
+  - "Poprawiamy zdjęcia w edytorze": poprawiamy-zdjecia-grafika-rastrowa.md
+  - "Zaawansowane dokumenty tekstowe": instrukcja-obslugi-dokumenty-tekstowe.md
+  - "Materiały reklamowe": materialy-reklamowe-wizytowki-ulotki.md
+  - "Dokumentacja techniczna": dokumentacja-techniczna-edytory.md
+  - "Interpretacja danych w arkuszu": z-sieci-do-tabeli-arkusz-kalkulacyjny.md
+  - "Zarządzanie finansami w arkuszu": kalkulujemy-zarzadzanie-finansami-arkusz.md
+  - "Atrakcyjna prezentacja": reklama-atrakcyjna-prezentacja.md

@@ -73,7 +73,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Urządzenia peryferyjne, ich parametry i maszyny sterowane komputerowo.
 
-    *3 godziny · 3 tematy · materiały w przygotowaniu*
+    *3 godziny · 3 tematy*
 
     [Otwórz dział](dzial-4/index.md){ .md-button }
 
@@ -83,7 +83,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 
     Działanie Internetu, chmura, praca zespołowa, komunikacja, e-learning i szukanie pracy.
 
-    *7 godzin · 7 tematów · materiały w przygotowaniu*
+    *7 godzin · 7 tematów*
 
     [Otwórz dział](dzial-5/index.md){ .md-button }
 
@@ -133,15 +133,15 @@ Modelowanie 3D, grafika rastrowa, dokumenty techniczne, arkusz kalkulacyjny i pr
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
 | 11. **[Modelujemy, czyli jak projektować obiekty 3D](dzial-3/modelowanie-3d.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 12. Wizualizacja pomysłów, czyli projektujemy w edytorze 3D | 1 | *w przygotowaniu* |
-| 13. To nie jest trudne, czyli montujemy zdjęcie reklamowe | 1 | *w przygotowaniu* |
-| 14. Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej | 1 | *w przygotowaniu* |
-| 15. Instrukcja obsługi, czyli tworzymy zaawansowane dokumenty tekstowe | 1 | *w przygotowaniu* |
-| 16. Oferty, wizytówki i ulotki, czyli jak wykorzystać aplikacje do tworzenia materiałów reklamowych | 1 | *w przygotowaniu* |
-| 17. Dokumentacja techniczna, czyli jak wykorzystać zaawansowane możliwości edytorów | 1 | *w przygotowaniu* |
-| 18. Z sieci do tabeli, czyli jak interpretować dane w arkuszu kalkulacyjnym | 1 | *w przygotowaniu* |
-| 19. Kalkulujemy, czyli jak wykorzystać arkusz kalkulacyjny w zarządzaniu finansami | 1 | *w przygotowaniu* |
-| 20. Reklama jest ważna, czyli jak samodzielnie wykonać atrakcyjną prezentację | 1 | *w przygotowaniu* |
+| 12. **[Wizualizacja pomysłów, czyli projektujemy w edytorze 3D](dzial-3/wizualizacja-pomyslow-edytor-3d.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 13. **[To nie jest trudne, czyli montujemy zdjęcie reklamowe](dzial-3/montujemy-zdjecie-reklamowe.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 14. **[Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej](dzial-3/poprawiamy-zdjecia-grafika-rastrowa.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 15. **[Instrukcja obsługi, czyli tworzymy zaawansowane dokumenty tekstowe](dzial-3/instrukcja-obslugi-dokumenty-tekstowe.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 16. **[Oferty, wizytówki i ulotki, czyli jak wykorzystać aplikacje do tworzenia materiałów reklamowych](dzial-3/materialy-reklamowe-wizytowki-ulotki.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 17. **[Dokumentacja techniczna, czyli jak wykorzystać zaawansowane możliwości edytorów](dzial-3/dokumentacja-techniczna-edytory.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 18. **[Z sieci do tabeli, czyli jak interpretować dane w arkuszu kalkulacyjnym](dzial-3/z-sieci-do-tabeli-arkusz-kalkulacyjny.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 19. **[Kalkulujemy, czyli jak wykorzystać arkusz kalkulacyjny w zarządzaniu finansami](dzial-3/kalkulujemy-zarzadzanie-finansami-arkusz.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 20. **[Reklama jest ważna, czyli jak samodzielnie wykonać atrakcyjną prezentację](dzial-3/reklama-atrakcyjna-prezentacja.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział IV. Peryferia pomagają w pracy zawodowej
 
@@ -151,9 +151,9 @@ Urządzenia peryferyjne, ich parametry i maszyny sterowane komputerowo.
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| 21. Jak to wykorzystać, czyli peryferia komputerowe ułatwiają pracę | 1 | *w przygotowaniu* |
-| 22. Kupujemy świadomie, czyli poznajemy parametry urządzeń peryferyjnych | 1 | *w przygotowaniu* |
-| 23. Nie tylko w biurze, czyli maszyny i urządzenia także współpracują z komputerem | 1 | *w przygotowaniu* |
+| 21. **[Jak to wykorzystać, czyli peryferia komputerowe ułatwiają pracę](dzial-4/peryferia-komputerowe-ulatwiaja-prace.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 22. **[Kupujemy świadomie, czyli poznajemy parametry urządzeń peryferyjnych](dzial-4/poznajemy-parametry-urzadzen-peryferyjnych.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 23. **[Nie tylko w biurze, czyli maszyny i urządzenia także współpracują z komputerem](dzial-4/maszyny-i-urzadzenia-wspolpracuja-z-komputerem.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział V. Wykorzystanie sieci w pracy zawodowej
 
@@ -163,13 +163,13 @@ Działanie Internetu, chmura, praca zespołowa, komunikacja, e-learning i szukan
 
 | Temat | Godz. | Materiały |
 | --- | :---: | --- |
-| 24. Nie wszystko jest takie oczywiste, czyli jak działa Internet | 1 | *w przygotowaniu* |
-| 25. Firma w sieci, czyli jak informatyka oszczędza czas | 1 | *w przygotowaniu* |
-| 26. Własna chmura, czyli programy i dane poza firmą | 1 | *w przygotowaniu* |
-| 27. Chmura pomaga, czyli jak koordynować pracą zespołu | 1 | *w przygotowaniu* |
-| 28. Nie tylko poczta, czyli jak wykorzystać usługi sieciowe do komunikacji | 1 | *w przygotowaniu* |
-| 29. E-learning, czyli jak podnosić kwalifikacje bez wychodzenia z domu | 1 | *w przygotowaniu* |
-| 30. Praca jest w sieci, czyli jak wykorzystać Internet do znalezienia dobrej pracy | 1 | *w przygotowaniu* |
+| 24. **[Nie wszystko jest takie oczywiste, czyli jak działa Internet](dzial-5/jak-dziala-internet.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 25. **[Firma w sieci, czyli jak informatyka oszczędza czas](dzial-5/firma-w-sieci-oszczednosc-czasu.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 26. **[Własna chmura, czyli programy i dane poza firmą](dzial-5/wlasna-chmura-programy-i-dane.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 27. **[Chmura pomaga, czyli jak koordynować pracą zespołu](dzial-5/chmura-pomaga-koordynacja-pracy.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 28. **[Nie tylko poczta, czyli jak wykorzystać usługi sieciowe do komunikacji](dzial-5/uslugi-sieciowe-do-komunikacji.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 29. **[E-learning, czyli jak podnosić kwalifikacje bez wychodzenia z domu](dzial-5/e-learning-podnoszenie-kwalifikacji.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 30. **[Praca jest w sieci, czyli jak wykorzystać Internet do znalezienia dobrej pracy](dzial-5/internet-do-znalezienia-pracy.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 
 </div>

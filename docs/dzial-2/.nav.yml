@@ -7,3 +7,9 @@ title: "Dział II. Programowanie i algorytmy"
 append_unmatched: true
 nav:
   - "Przegląd działu": index.md
+  - "Warunki, pętle, funkcje": warunki-petle-funkcje.md
+  - "NWD i NWW": nwd-nww.md
+  - "Od algorytmu do programu": algorytm-nwd-nww.md
+  - "Dodawanie ułamków": ulamki-dodawanie.md
+  - "Reprezentacje liczb": systemy-liczbowe.md
+  - "Szyfrowanie": szyfrowanie.md
