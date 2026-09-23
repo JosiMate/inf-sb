@@ -7,3 +7,6 @@ title: "Dział IV. Peryferia pomagają w pracy zawodowej"
 append_unmatched: true
 nav:
   - "Przegląd działu": index.md
+  - "Peryferia komputerowe": peryferia-komputerowe-ulatwiaja-prace.md
+  - "Parametry urządzeń peryferyjnych": poznajemy-parametry-urzadzen-peryferyjnych.md
+  - "Maszyny współpracują z komputerem": maszyny-i-urzadzenia-wspolpracuja-z-komputerem.md
