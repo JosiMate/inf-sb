@@ -4,7 +4,7 @@
 
 Modelowanie 3D, grafika rastrowa, dokumenty techniczne, arkusz kalkulacyjny i prezentacje.
 
-Gotowe materiały: **1 z 10** tematów.
+Gotowe materiały: **10 z 10** tematów.
 
 ## Tematy działu
 
@@ -14,15 +14,15 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
 | 11. | **[Modelujemy, czyli jak projektować obiekty 3D](modelowanie-3d.md)** | 1 | 11 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 12. | Wizualizacja pomysłów, czyli projektujemy w edytorze 3D | 1 | 12 | *w przygotowaniu* |
-| 13. | To nie jest trudne, czyli montujemy zdjęcie reklamowe | 1 | 13 | *w przygotowaniu* |
-| 14. | Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej | 1 | 14 | *w przygotowaniu* |
-| 15. | Instrukcja obsługi, czyli tworzymy zaawansowane dokumenty tekstowe | 1 | 15 | *w przygotowaniu* |
-| 16. | Oferty, wizytówki i ulotki, czyli jak wykorzystać aplikacje do tworzenia materiałów reklamowych | 1 | 16 | *w przygotowaniu* |
-| 17. | Dokumentacja techniczna, czyli jak wykorzystać zaawansowane możliwości edytorów | 1 | 17 | *w przygotowaniu* |
-| 18. | Z sieci do tabeli, czyli jak interpretować dane w arkuszu kalkulacyjnym | 1 | 18 | *w przygotowaniu* |
-| 19. | Kalkulujemy, czyli jak wykorzystać arkusz kalkulacyjny w zarządzaniu finansami | 1 | 19 | *w przygotowaniu* |
-| 20. | Reklama jest ważna, czyli jak samodzielnie wykonać atrakcyjną prezentację | 1 | 20 | *w przygotowaniu* |
+| 12. | **[Wizualizacja pomysłów, czyli projektujemy w edytorze 3D](wizualizacja-pomyslow-edytor-3d.md)** | 1 | 12 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 13. | **[To nie jest trudne, czyli montujemy zdjęcie reklamowe](montujemy-zdjecie-reklamowe.md)** | 1 | 13 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 14. | **[Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej](poprawiamy-zdjecia-grafika-rastrowa.md)** | 1 | 14 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 15. | **[Instrukcja obsługi, czyli tworzymy zaawansowane dokumenty tekstowe](instrukcja-obslugi-dokumenty-tekstowe.md)** | 1 | 15 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 16. | **[Oferty, wizytówki i ulotki, czyli jak wykorzystać aplikacje do tworzenia materiałów reklamowych](materialy-reklamowe-wizytowki-ulotki.md)** | 1 | 16 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 17. | **[Dokumentacja techniczna, czyli jak wykorzystać zaawansowane możliwości edytorów](dokumentacja-techniczna-edytory.md)** | 1 | 17 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 18. | **[Z sieci do tabeli, czyli jak interpretować dane w arkuszu kalkulacyjnym](z-sieci-do-tabeli-arkusz-kalkulacyjny.md)** | 1 | 18 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 19. | **[Kalkulujemy, czyli jak wykorzystać arkusz kalkulacyjny w zarządzaniu finansami](kalkulujemy-zarzadzanie-finansami-arkusz.md)** | 1 | 19 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 20. | **[Reklama jest ważna, czyli jak samodzielnie wykonać atrakcyjną prezentację](reklama-atrakcyjna-prezentacja.md)** | 1 | 20 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 

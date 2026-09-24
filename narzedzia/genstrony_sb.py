@@ -39,6 +39,29 @@ GOTOWE = {
     },
     "III": {
         11: ("dzial-3/modelowanie-3d.md", "Modelowanie 3D"),
+        12: ("dzial-3/wizualizacja-pomyslow-edytor-3d.md", "Projektujemy w edytorze 3D"),
+        13: ("dzial-3/montujemy-zdjecie-reklamowe.md", "Montujemy zdjęcie reklamowe"),
+        14: ("dzial-3/poprawiamy-zdjecia-grafika-rastrowa.md", "Poprawiamy zdjęcia w edytorze"),
+        15: ("dzial-3/instrukcja-obslugi-dokumenty-tekstowe.md", "Zaawansowane dokumenty tekstowe"),
+        16: ("dzial-3/materialy-reklamowe-wizytowki-ulotki.md", "Materiały reklamowe"),
+        17: ("dzial-3/dokumentacja-techniczna-edytory.md", "Dokumentacja techniczna"),
+        18: ("dzial-3/z-sieci-do-tabeli-arkusz-kalkulacyjny.md", "Interpretacja danych w arkuszu"),
+        19: ("dzial-3/kalkulujemy-zarzadzanie-finansami-arkusz.md", "Zarządzanie finansami w arkuszu"),
+        20: ("dzial-3/reklama-atrakcyjna-prezentacja.md", "Atrakcyjna prezentacja"),
+    },
+    "IV": {
+        21: ("dzial-4/peryferia-komputerowe-ulatwiaja-prace.md", "Peryferia komputerowe"),
+        22: ("dzial-4/poznajemy-parametry-urzadzen-peryferyjnych.md", "Parametry urządzeń peryferyjnych"),
+        23: ("dzial-4/maszyny-i-urzadzenia-wspolpracuja-z-komputerem.md", "Maszyny współpracują z komputerem"),
+    },
+    "V": {
+        24: ("dzial-5/jak-dziala-internet.md", "Jak działa Internet"),
+        25: ("dzial-5/firma-w-sieci-oszczednosc-czasu.md", "Firma w sieci"),
+        26: ("dzial-5/wlasna-chmura-programy-i-dane.md", "Własna chmura"),
+        27: ("dzial-5/chmura-pomaga-koordynacja-pracy.md", "Koordynacja pracy zespołu"),
+        28: ("dzial-5/uslugi-sieciowe-do-komunikacji.md", "Usługi sieciowe do komunikacji"),
+        29: ("dzial-5/e-learning-podnoszenie-kwalifikacji.md", "E-learning"),
+        30: ("dzial-5/internet-do-znalezienia-pracy.md", "Internet do znalezienia pracy"),
     },
 }
 

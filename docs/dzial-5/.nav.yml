@@ -7,3 +7,10 @@ title: "Dział V. Wykorzystanie sieci w pracy zawodowej"
 append_unmatched: true
 nav:
   - "Przegląd działu": index.md
+  - "Jak działa Internet": jak-dziala-internet.md
+  - "Firma w sieci": firma-w-sieci-oszczednosc-czasu.md
+  - "Własna chmura": wlasna-chmura-programy-i-dane.md
+  - "Koordynacja pracy zespołu": chmura-pomaga-koordynacja-pracy.md
+  - "Usługi sieciowe do komunikacji": uslugi-sieciowe-do-komunikacji.md
+  - "E-learning": e-learning-podnoszenie-kwalifikacji.md
+  - "Internet do znalezienia pracy": internet-do-znalezienia-pracy.md

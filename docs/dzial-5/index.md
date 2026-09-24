@@ -4,7 +4,7 @@
 
 Działanie Internetu, chmura, praca zespołowa, komunikacja, e-learning i szukanie pracy.
 
-Materiały do tego działu powstają w miarę realizacji programu — na razie znajdziesz tu spis tematów i wymagania.
+Gotowe materiały: **7 z 7** tematów.
 
 ## Tematy działu
 
@@ -13,13 +13,13 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
-| 24. | Nie wszystko jest takie oczywiste, czyli jak działa Internet | 1 | 24 | *w przygotowaniu* |
-| 25. | Firma w sieci, czyli jak informatyka oszczędza czas | 1 | 25 | *w przygotowaniu* |
-| 26. | Własna chmura, czyli programy i dane poza firmą | 1 | 26 | *w przygotowaniu* |
-| 27. | Chmura pomaga, czyli jak koordynować pracą zespołu | 1 | 27 | *w przygotowaniu* |
-| 28. | Nie tylko poczta, czyli jak wykorzystać usługi sieciowe do komunikacji | 1 | 28 | *w przygotowaniu* |
-| 29. | E-learning, czyli jak podnosić kwalifikacje bez wychodzenia z domu | 1 | 29 | *w przygotowaniu* |
-| 30. | Praca jest w sieci, czyli jak wykorzystać Internet do znalezienia dobrej pracy | 1 | 30 | *w przygotowaniu* |
+| 24. | **[Nie wszystko jest takie oczywiste, czyli jak działa Internet](jak-dziala-internet.md)** | 1 | 24 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 25. | **[Firma w sieci, czyli jak informatyka oszczędza czas](firma-w-sieci-oszczednosc-czasu.md)** | 1 | 25 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 26. | **[Własna chmura, czyli programy i dane poza firmą](wlasna-chmura-programy-i-dane.md)** | 1 | 26 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 27. | **[Chmura pomaga, czyli jak koordynować pracą zespołu](chmura-pomaga-koordynacja-pracy.md)** | 1 | 27 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 28. | **[Nie tylko poczta, czyli jak wykorzystać usługi sieciowe do komunikacji](uslugi-sieciowe-do-komunikacji.md)** | 1 | 28 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 29. | **[E-learning, czyli jak podnosić kwalifikacje bez wychodzenia z domu](e-learning-podnoszenie-kwalifikacji.md)** | 1 | 29 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 30. | **[Praca jest w sieci, czyli jak wykorzystać Internet do znalezienia dobrej pracy](internet-do-znalezienia-pracy.md)** | 1 | 30 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 

@@ -4,7 +4,7 @@
 
 Urządzenia peryferyjne, ich parametry i maszyny sterowane komputerowo.
 
-Materiały do tego działu powstają w miarę realizacji programu — na razie znajdziesz tu spis tematów i wymagania.
+Gotowe materiały: **3 z 3** tematów.
 
 ## Tematy działu
 
@@ -13,9 +13,9 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 
 | Lp. | Temat | Godz. | Rozdział | Materiały |
 | :---: | --- | :---: | :---: | --- |
-| 21. | Jak to wykorzystać, czyli peryferia komputerowe ułatwiają pracę | 1 | 21 | *w przygotowaniu* |
-| 22. | Kupujemy świadomie, czyli poznajemy parametry urządzeń peryferyjnych | 1 | 22 | *w przygotowaniu* |
-| 23. | Nie tylko w biurze, czyli maszyny i urządzenia także współpracują z komputerem | 1 | 23 | *w przygotowaniu* |
+| 21. | **[Jak to wykorzystać, czyli peryferia komputerowe ułatwiają pracę](peryferia-komputerowe-ulatwiaja-prace.md)** | 1 | 21 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 22. | **[Kupujemy świadomie, czyli poznajemy parametry urządzeń peryferyjnych](poznajemy-parametry-urzadzen-peryferyjnych.md)** | 1 | 22 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 23. | **[Nie tylko w biurze, czyli maszyny i urządzenia także współpracują z komputerem](maszyny-i-urzadzenia-wspolpracuja-z-komputerem.md)** | 1 | 23 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 
