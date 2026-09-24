@@ -616,7 +616,13 @@ def karta_dzialu(d):
 def praca_klasowa_dzial_1(d):
     """Dział I: prawo autorskie i licencje, wizerunek, system dwójkowy,
     wyszukiwanie i wiarygodność źródeł. Wszystkie zadania są do wykonania przy
-    komputerze — sprawdzamy umiejętność, nie pamięć do definicji."""
+    komputerze — sprawdzamy umiejętność, nie pamięć do definicji.
+
+    Praca mieści się w jednej lekcji: realnie 35–40 minut pracy, bo reszta
+    godziny to wejście, zalogowanie i oddanie pliku. Stąd po jednym, dwóch
+    poleceniach na zadanie i czas orientacyjny przy każdym — sumuje się do
+    około 40 minut dla ucznia, który dochodzi do końca. Kto celuje w niższą
+    ocenę, kończy wcześniej: do trójki wystarczą zadania 1–3, około 20 minut."""
     return {
         "id": "inf-sb-pk-dzial-1",
         "tytul": f"Praca klasowa — dział {d['nr']}. {d['tytul']}",
@@ -627,153 +633,126 @@ def praca_klasowa_dzial_1(d):
             {
                 "nr": 1,
                 "tytul": "Co wolno, a co jest przestępstwem",
-                "poziom": "wymagania konieczne · ocena 2",
-                "polecenie": "Oceń każdą sytuację. Nie zgadujesz — przy każdej "
-                             "odpowiedzi piszesz jedno zdanie uzasadnienia.",
+                "poziom": "wymagania konieczne · ocena 2 · ok. 6 minut",
+                "polecenie": "Przy każdej sytuacji wpisz <strong>wolno</strong> albo "
+                             "<strong>nie wolno</strong> i dopisz krótko, dlaczego — "
+                             "kilka słów wystarczy.",
                 "pola": [
                     {"typ": "tabela", "wiersze": [
                         ["z1_a", "Wrzucam na swój profil film, który nagrałem sam",
-                         "wolno / nie wolno"],
+                         "wolno / nie wolno, bo …"],
                         ["z1_b", "Udostępniam znajomym serial pobrany z torrenta",
-                         "wolno / nie wolno"],
+                         "wolno / nie wolno, bo …"],
                         ["z1_c", "Używam w prezentacji zdjęcia z sieci bez podania autora",
-                         "wolno / nie wolno"],
+                         "wolno / nie wolno, bo …"],
                         ["z1_d", "Wgrywam do szkolnej gazetki utwór na licencji CC BY, "
-                                "podając autora i licencję", "wolno / nie wolno"],
+                                "podając autora i licencję", "wolno / nie wolno, bo …"],
                     ]},
-                    {"typ": "tekst", "id": "z1_uzasadnienie", "wiersze": 4,
-                     "pytanie": "Uzasadnij po jednym zdaniu do każdego wiersza. "
-                                "Przy sytuacjach, których nie wolno — napisz, czym to grozi.",
-                     "podpowiedz": "a) …  b) …  c) …  d) …"},
-                    {"typ": "tekst", "id": "z1_rodo", "wiersze": 3,
+                    {"typ": "tekst", "id": "z1_rodo", "wiersze": 2,
                      "pytanie": "Po co wprowadzono przepisy oparte na RODO? "
-                                "Odpowiedz własnymi słowami, jednym–dwoma zdaniami."},
+                                "Jedno zdanie, własnymi słowami."},
                 ],
             },
             {
                 "nr": 2,
                 "tytul": "System dwójkowy w kalkulatorze",
-                "poziom": "wymagania podstawowe · ocena 3",
+                "poziom": "wymagania podstawowe · ocena 3 · ok. 6 minut",
                 "polecenie": "Otwórz <strong>Kalkulator</strong> i przełącz go w tryb "
                              "<strong>Programisty</strong> (<code>Alt + 3</code>). "
                              "Przelicz liczby z tabeli i wpisz wynik w systemie dwójkowym.",
                 "pola": [
                     {"typ": "tabela", "wiersze": [
-                        ["z2_8", "8 (DEC) w systemie dwójkowym", ""],
                         ["z2_12", "12 (DEC) w systemie dwójkowym", ""],
-                        ["z2_64", "64 (DEC) w systemie dwójkowym", ""],
                         ["z2_100", "100 (DEC) w systemie dwójkowym", ""],
                         ["z2_255", "255 (DEC) w systemie dwójkowym", ""],
                     ]},
                     {"typ": "zrzut", "id": "z2_zrzut",
                      "opis": "kalkulator w trybie Programisty z jednym z przeliczeń"},
-                    {"typ": "tekst", "id": "z2_wagi", "wiersze": 3,
-                     "pytanie": "Wypisz wagi ośmiu pozycji bajtu, od lewej do prawej, "
-                                "i pokaż na liczbie 100, które z nich się sumują."},
-                    {"typ": "tekst", "id": "z2_bajt", "wiersze": 3,
-                     "pytanie": "Ile różnych wartości zapiszesz na jednym bajcie i "
-                                "dlaczego akurat tyle? Podaj też najmniejszą i największą."},
+                    {"typ": "tekst", "id": "z2_wagi", "wiersze": 2,
+                     "pytanie": "Pozycje bajtu mają wagi 128, 64, 32, 16, 8, 4, 2, 1. "
+                                "Które z nich składają się na liczbę 100?",
+                     "podpowiedz": "100 = … + … + …"},
                 ],
             },
             {
                 "nr": 3,
                 "tytul": "Znajdź obiekt, którego wolno użyć",
-                "poziom": "wymagania podstawowe · ocena 3",
+                "poziom": "wymagania podstawowe · ocena 3 · ok. 7 minut",
                 "polecenie": "Znajdź w sieci <strong>grafikę na licencji Creative "
                              "Commons</strong>, której mógłbyś legalnie użyć w szkolnej "
-                             "prezentacji. Skorzystaj z serwisu, który pozwala filtrować "
+                             "prezentacji. Szukaj w serwisie, który pozwala filtrować "
                              "po licencji — na przykład <code>openverse.org</code> albo "
                              "<code>commons.wikimedia.org</code>.",
                 "pola": [
                     {"typ": "tabela", "wiersze": [
-                        ["z3_serwis", "Serwis, w którym szukałeś", ""],
                         ["z3_adres", "Adres znalezionego obiektu", ""],
                         ["z3_autor", "Autor", ""],
                         ["z3_licencja", "Oznaczenie licencji", "np. CC BY 4.0"],
                     ]},
-                    {"typ": "zrzut", "id": "z3_zrzut",
-                     "opis": "strona obiektu z widocznym oznaczeniem licencji"},
-                    {"typ": "tekst", "id": "z3_warunki", "wiersze": 4,
-                     "pytanie": "Czego wymaga od Ciebie ta konkretna licencja? "
-                                "Wypisz warunki i napisz, jak je spełnisz w prezentacji."},
-                    {"typ": "tekst", "id": "z3_utwor", "wiersze": 3,
-                     "pytanie": "Czym w świetle prawa jest utwór? Podaj jeden przykład "
-                                "czegoś, co utworem jest, i jeden — co nie jest."},
+                    {"typ": "tekst", "id": "z3_warunki", "wiersze": 3,
+                     "pytanie": "Co musisz zrobić, żeby użyć tej grafiki zgodnie "
+                                "z licencją? Napisz, jak to będzie wyglądało na slajdzie."},
                 ],
             },
             {
                 "nr": 4,
                 "tytul": "Wyszukiwanie zaawansowane",
-                "poziom": "wymagania rozszerzające · ocena 4",
-                "polecenie": "Wykonaj trzy wyszukiwania z użyciem operatorów. Za każdym "
-                             "razem przepisz <strong>całe zapytanie</strong> i zanotuj, co "
-                             "operator zmienił w wynikach.",
+                "poziom": "wymagania rozszerzające · ocena 4 · ok. 7 minut",
+                "polecenie": "Wykonaj dwa wyszukiwania z użyciem operatorów. Przepisz "
+                             "<strong>całe zapytanie</strong> dokładnie tak, jak je wpisałeś.",
                 "pola": [
                     {"typ": "tabela", "wiersze": [
                         ["z4_site", "Zapytanie ograniczone do jednej domeny (operator site:)", ""],
                         ["z4_typ", "Zapytanie szukające pliku PDF (operator filetype:)", ""],
-                        ["z4_fraza", "Zapytanie z frazą w cudzysłowie", ""],
                     ]},
-                    {"typ": "zrzut", "id": "z4_zrzut",
-                     "opis": "wyniki jednego z tych wyszukiwań, z widocznym paskiem zapytania"},
-                    {"typ": "tekst", "id": "z4_roznica", "wiersze": 4,
-                     "pytanie": "Co dał każdy z operatorów? Napisz po jednym zdaniu, "
-                                "porównując wynik z tym samym zapytaniem bez operatora."},
-                    {"typ": "tekst", "id": "z4_domyslna", "wiersze": 3,
-                     "pytanie": "Gdzie w przeglądarce, z której korzystasz, zmienia się "
-                                "domyślną wyszukiwarkę? Opisz drogę przez menu."},
+                    {"typ": "tekst", "id": "z4_roznica", "wiersze": 3,
+                     "pytanie": "Co każdy z operatorów zmienił w wynikach? Po jednym zdaniu, "
+                                "w porównaniu z tym samym zapytaniem bez operatora."},
                 ],
             },
             {
                 "nr": 5,
                 "tytul": "Cytat, plagiat i cudzy wizerunek",
-                "poziom": "wymagania rozszerzające · ocena 4",
+                "poziom": "wymagania rozszerzające · ocena 4 · ok. 6 minut",
                 "polecenie": "Dwie sytuacje z życia szkoły. Rozstrzygnij każdą "
-                             "i powołaj się na to, co wiesz z działu.",
+                             "w dwóch–trzech zdaniach.",
                 "pola": [
-                    {"typ": "tekst", "id": "z5_cytat", "wiersze": 5,
+                    {"typ": "tekst", "id": "z5_cytat", "wiersze": 3,
                      "pytanie": "Kolega wkleił do swojej pracy trzy akapity z serwisu "
-                                "internetowego i dopisał na końcu adres strony. Czy to jest "
-                                "cytat, czy plagiat? Odpowiedz i wyjaśnij, czym te dwie "
-                                "rzeczy się różnią."},
-                    {"typ": "tekst", "id": "z5_wizerunek", "wiersze": 5,
+                                "internetowego i dopisał na końcu adres strony. Cytat czy "
+                                "plagiat? Czym te dwie rzeczy się różnią?"},
+                    {"typ": "tekst", "id": "z5_wizerunek", "wiersze": 3,
                      "pytanie": "Na wycieczce ktoś zrobił Ci zdjęcie i wrzucił je na "
-                                "publiczny profil klasy, nie pytając Cię o zgodę. Jakie masz "
-                                "prawa i co konkretnie możesz zrobić? Wypisz kolejne kroki."},
-                    {"typ": "tekst", "id": "z5_zasady", "wiersze": 4,
-                     "pytanie": "Podaj trzy zasady, których sam przestrzegasz, publikując "
-                                "zdjęcia z innymi osobami.",
-                     "podpowiedz": "1.  2.  3."},
+                                "publiczny profil klasy, nie pytając Cię o zgodę. Co "
+                                "konkretnie możesz zrobić? Wypisz kolejne kroki."},
                 ],
             },
             {
                 "nr": 6,
                 "tytul": "Sprawdź, komu wierzysz",
-                "poziom": "wymagania dopełniające · ocena 5",
-                "polecenie": "Wybierz <strong>jedno twierdzenie</strong> z sieci dotyczące "
-                             "techniki albo zdrowia i sprawdź je w dwóch niezależnych "
-                             "źródłach. Jednym z nich ma być wyszukiwarka specjalistyczna — "
-                             "na przykład <code>europeana.eu</code> albo katalog biblioteczny.",
+                "poziom": "wymagania dopełniające · ocena 5 · ok. 8 minut",
+                "polecenie": "Wybierz <strong>jedno twierdzenie</strong> i sprawdź je "
+                             "w dwóch niezależnych źródłach. Przynajmniej jedno ma być "
+                             "stroną producenta albo instytucji — nie forum i nie poradnikiem "
+                             "bez autora.",
                 "pola": [
-                    {"typ": "tekst", "id": "z6_twierdzenie", "wiersze": 2,
-                     "pytanie": "Sprawdzane twierdzenie"},
+                    {"typ": "wybor", "id": "z6_twierdzenie",
+                     "pytanie": "Sprawdzane twierdzenie",
+                     "opcje": ["Ładowanie telefonu przez całą noc niszczy baterię.",
+                               "Zamykanie aplikacji w tle oszczędza baterię telefonu.",
+                               "W trybie samolotowym telefon ładuje się szybciej."]},
                     {"typ": "tabela", "wiersze": [
-                        ["z6_a_adres", "Źródło 1 — adres", ""],
-                        ["z6_a_kto", "Źródło 1 — kto za nim stoi", ""],
-                        ["z6_b_adres", "Źródło 2 — adres (wyszukiwarka specjalistyczna)", ""],
-                        ["z6_b_kto", "Źródło 2 — kto za nim stoi", ""],
+                        ["z6_a", "Źródło 1 — adres i kto za nim stoi", ""],
+                        ["z6_b", "Źródło 2 — adres i kto za nim stoi", ""],
                     ]},
                     {"typ": "wybor", "id": "z6_werdykt",
                      "pytanie": "Po sprawdzeniu twierdzenie uznaję za",
                      "opcje": ["prawdziwe", "fałszywe", "częściowo prawdziwe",
                                "nie da się rozstrzygnąć"]},
-                    {"typ": "tekst", "id": "z6_kryteria", "wiersze": 5,
+                    {"typ": "tekst", "id": "z6_kryteria", "wiersze": 3,
                      "pytanie": "Po czym poznałeś, które źródło jest wiarygodniejsze? "
-                                "Wymień konkretne przesłanki — autor, data, powołanie się "
-                                "na badania, cel strony — a nie samo wrażenie."},
-                    {"typ": "tekst", "id": "z6_tozsamosc", "wiersze": 4,
-                     "pytanie": "Czym może skutkować kradzież tożsamości? Podaj dwa "
-                                "konkretne skutki dla okradzionej osoby."},
+                                "Podaj konkretne przesłanki — autor, data, cel strony — "
+                                "a nie samo wrażenie."},
                 ],
             },
         ],
@@ -796,8 +775,10 @@ def sekcja_pracy_klasowej(d):
 ## Praca klasowa — dział {d['nr']}
 
 Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
-godziny. Zadania są ustawione od najłatwiejszych do najtrudniejszych, zgodnie
-z wymaganiami wyżej: zaczynasz od pierwszego i idziesz po kolei.
+godziny. Na całą pracę masz **około 35–40 minut** — przy każdym zadaniu jest
+podany czas orientacyjny. Zadania są ustawione od najłatwiejszych do
+najtrudniejszych, zgodnie z wymaganiami wyżej: zaczynasz od pierwszego
+i idziesz po kolei.
 
 !!! info "Skąd bierze się ocena"
 
@@ -819,9 +800,10 @@ z wymaganiami wyżej: zaczynasz od pierwszego i idziesz po kolei.
 
 !!! tip "Zanim oddasz"
 
-    Kliknij pod kartą **Pobierz dokument** i oddaj plik tak, jak powiem na
-    lekcji. Odpowiedzi zostają też w tej przeglądarce — jeśli lekcja się urwie,
-    użyj **Zapisz do pliku**, żeby nic nie przepadło.
+    Zostaw sobie **3 minuty przed dzwonkiem**. Kliknij pod kartą **Pobierz jako
+    dokument Word** i oddaj plik tak, jak powiem na lekcji. Odpowiedzi zostają
+    też w tej przeglądarce — jeśli lekcja się urwie, użyj **Zapisz do pliku**,
+    żeby nic nie przepadło.
 
 <span id="karta-praca-klasowa" class="kp-kotwica"></span>
 

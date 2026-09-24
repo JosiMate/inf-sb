@@ -173,8 +173,10 @@ Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 ## Praca klasowa — dział I
 
 Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
-godziny. Zadania są ustawione od najłatwiejszych do najtrudniejszych, zgodnie
-z wymaganiami wyżej: zaczynasz od pierwszego i idziesz po kolei.
+godziny. Na całą pracę masz **około 35–40 minut** — przy każdym zadaniu jest
+podany czas orientacyjny. Zadania są ustawione od najłatwiejszych do
+najtrudniejszych, zgodnie z wymaganiami wyżej: zaczynasz od pierwszego
+i idziesz po kolei.
 
 !!! info "Skąd bierze się ocena"
 
@@ -196,9 +198,10 @@ z wymaganiami wyżej: zaczynasz od pierwszego i idziesz po kolei.
 
 !!! tip "Zanim oddasz"
 
-    Kliknij pod kartą **Pobierz dokument** i oddaj plik tak, jak powiem na
-    lekcji. Odpowiedzi zostają też w tej przeglądarce — jeśli lekcja się urwie,
-    użyj **Zapisz do pliku**, żeby nic nie przepadło.
+    Zostaw sobie **3 minuty przed dzwonkiem**. Kliknij pod kartą **Pobierz jako
+    dokument Word** i oddaj plik tak, jak powiem na lekcji. Odpowiedzi zostają
+    też w tej przeglądarce — jeśli lekcja się urwie, użyj **Zapisz do pliku**,
+    żeby nic nie przepadło.
 
 <span id="karta-praca-klasowa" class="kp-kotwica"></span>
 
