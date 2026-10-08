@@ -6,20 +6,34 @@
 
     Koordynacja pracy zespołu, planowanie zadań, zarządzanie kalendarzem firmowym oraz sprawne przydzielanie prac w chmurze stanowi podstawę sprawnego funkcjonowania nowoczesnego warsztatu i firmy usługowej. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wykorzystywać narzędzia chmurowe do koordynacji zespołu (Kalendarz Google/Outlook, Trello/Asana, Google Workspace), organizować zasoby oraz synchronizować kontakty i zadania między komputerem a smartfonem.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię zalety koordynowania pracy zespołu przy użyciu narzędzi w chmurze
+    2. Utworzę, udostępnię i nałożę na siebie kalendarze firmowe (np. Kalendarz Google / Outlook)
+    3. Zaplanuję wydarzenia, spotkania i zlecenia z automatycznym powiadomieniem uczestników
+    4. Zarządzę listą kontaktów w chmurze oraz importować/eksportować pliki kontaktów (vCard / CSV)
+    5. Zastosuję metodykę Kanban i tablice zadań (np. Trello / Google Tasks) w pracy warsztatowej
+    6. Przydzielę zadania konkretnym pracownikom z wyznaczaniem terminów (Deadline)
+    7. Zsynchronizuję wydarzenia i zadania z chmury ze smartfonem
+    8. Zastosuję powiadomień push oraz przypomnień SMS/e-mail dla klientów
+    9. Zarządzę zasobami firmowymi (np. rezerwacja auto-serwisu, stanowiska, sprzętu)
+    10. Zastosuję zasady zasad netykiety i higieny komunikacji cyfrowej w zespole
 
-    1. wyjaśnić zalety koordynowania pracy zespołu przy użyciu narzędzi w chmurze
-    2. tworzyć, udostępniać i nakładać na siebie kalendarze firmowe (np. Kalendarz Google / Outlook)
-    3. planować wydarzenia, spotkania i zlecenia z automatycznym powiadomieniem uczestników
-    4. zarządzać listą kontaktów w chmurze oraz importować/eksportować pliki kontaktów (vCard / CSV)
-    5. stosować metodykę Kanban i tablice zadań (np. Trello / Google Tasks) w pracy warsztatowej
-    6. przydzielać zadania konkretnym pracownikom z wyznaczaniem terminów (Deadline)
-    7. synchronizować wydarzenia i zadania z chmury ze smartfonem
-    8. używać powiadomień push oraz przypomnień SMS/e-mail dla klientów
-    9. zarządzać zasobami firmowymi (np. rezerwacja auto-serwisu, stanowiska, sprzętu)
-    10. przestrzegać zasad netykiety i higieny komunikacji cyfrowej w zespole
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jaka jest główna różnica między modelami chmury SaaS, PaaS i IaaS?
+    2. **Sprzed kilku tygodni.** Dlaczego warto stosować kopię zapasową 3-2-1?
+    3. **Z dawniejszych tematów.** Jakie są zagrożenia związane ze wspólnym korzystaniem z jednego konta chmurowego?
+
+    ??? success "Odpowiedzi"
+
+        1. SaaS to gotowa aplikacja, PaaS to środowisko programistyczne, a IaaS to surowa infrastruktura (serwery/dysk).
+        2. Oznacza 3 kopie danych, na 2 różnych nośnikach, z czego 1 kopia przechowywana poza siedzibą (np. w chmurze).
+        3. Nadpisanie cudzych plików, brak rozliczalności zmian i ryzyko wycieku haseł.
 
 ## 1. Narzędzia koordynacji pracy zespołu w chmurze
 

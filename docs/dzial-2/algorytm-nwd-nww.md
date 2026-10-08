@@ -2,16 +2,36 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 7**
 
-W poprzedniej lekcji nauczyliśmy się, jak wyznaczać NWD i NWW „na kartce”, korzystając z rozkładu na czynniki pierwsze. Jednak dla komputera rozkładanie liczb na czynniki (szczególnie bardzo dużych) jest czasochłonne i trudne. Programiści używają dlatego specjalnych „przepisów” zwanych **algorytmami**, które pozwalają znaleźć wynik znacznie szybciej.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział II. Programowanie i algorytmy · rozdział 7
 
-    Po tej lekcji potrafisz:
+    W poprzedniej lekcji nauczyliśmy się, jak wyznaczać NWD i NWW „na kartce”, korzystając z rozkładu na czynniki pierwsze. Jednak dla komputera rozkładanie liczb na czynniki (szczególnie bardzo dużych) jest czasochłonne i trudne. Programiści używają dlatego specjalnych „przepisów” zwanych **algorytmami**, które pozwalają znaleźć wynik znacznie szybciej.
 
-    1. wyjaśnić, czym jest algorytm i dlaczego jest potrzebny w programowaniu
-    2. odróżnić nieoptymalną metodę odejmowania od optymalnego algorytmu Euklidesa
-    3. przełożyć kroki algorytmu na konstrukcje programistyczne (pętle i warunki)
-    4. zaprojektować logikę programu obliczającego NWD i NWW w środowisku Scratch
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Wyjaśnię, czym jest algorytm i dlaczego jest potrzebny w programowaniu
+    2. Odróżnię nieoptymalną metodę odejmowania od optymalnego algorytmu Euklidesa
+    3. Przełożyć kroki algorytmu na konstrukcje programistyczne (pętle i warunki)
+    4. Zaprojektuję logikę programu obliczającego NWD i NWW w środowisku Scratch
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Co oznacza skrót NWD oraz NWW dwoch liczb naturalnych?
+    2. **Sprzed kilku tygodni.** Jaki jest wynik operacji `12 % 5` w Pythonie?
+    3. **Z dawniejszych tematów.** Jaka jest zależność między NWD(a, b) i NWW(a, b)?
+
+    ??? success "Odpowiedzi"
+
+        1. NWD to Największy Wspólny Dzielnik, a NWW to Najmniejsza Wspólna Wielokrotność.
+        2. Wynik to `2` (reszta z dzielenia 12 przez 5).
+        3. Iloczyn NWD(a, b) * NWW(a, b) jest równy iloczynowi a * b.
 
 ## 1. Czym jest algorytm?
 

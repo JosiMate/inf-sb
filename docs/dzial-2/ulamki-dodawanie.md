@@ -2,16 +2,36 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 8**
 
-Do tej pory uczyliśmy się NWD i NWW jako abstrakcyjnych pojęć matematycznych i algorytmów. Czas sprawdzić, gdzie one „pracują” w rzeczywistości. Jednym z najważniejszych zastosowań tych algorytmów w informatyce jest obsługa ułamków. Komputery nie lubią ułamków zwykłych (takich jak $1/3$), wolą ułamki dziesiętne ($0,333...$), ale w wielu zawodach precyzja ułamka zwykłego jest niezbędna.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział II. Programowanie i algorytmy · rozdział 8
 
-    Po tej lekcji potrafisz:
+    Do tej pory uczyliśmy się NWD i NWW jako abstrakcyjnych pojęć matematycznych i algorytmów. Czas sprawdzić, gdzie one „pracują” w rzeczywistości. Jednym z najważniejszych zastosowań tych algorytmów w informatyce jest obsługa ułamków. Komputery nie lubią ułamków zwykłych (takich jak $1/3$), wolą ułamki dziesiętne ($0,333...$), ale w wielu zawodach precyzja ułamka zwykłego jest niezbędna.
 
-    1. wyjaśnić rolę NWD w procesie skracania ułamków
-    2. wyjaśnić rolę NWW w procesie sprowadzania ułamków do wspólnego mianownika
-    3. rozpisać algorytm dodawania dwóch ułamków zwykłych
-    4. zaprojektować logikę programu, który sumuje ułamki i automatycznie upraszcza wynik
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Wyjaśnię rolę NWD w procesie skracania ułamków
+    2. Wyjaśnię rolę NWW w procesie sprowadzania ułamków do wspólnego mianownika
+    3. Rozpiszę algorytm dodawania dwóch ułamków zwykłych
+    4. Zaprojektuję logikę programu, który sumuje ułamki i automatycznie upraszcza wynik
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jak zapisać pętlę pętli algorytmu Euklidesa z odejmowaniem w Pythonie?
+    2. **Sprzed kilku tygodni.** Co robi funkcja `input()` w języku Python?
+    3. **Z dawniejszych tematów.** Jak wyznaczyć NWW mając obliczone NWD dwoch liczb?
+
+    ??? success "Odpowiedzi"
+
+        1. `while a != b: if a > b: a = a - b else: b = b - a`.
+        2. Pobiera tekst wprowadzony przez użytkownika z klawiatury.
+        3. Obliczając `(a * b) // NWD(a, b)`.
 
 ## 1. Skracanie ułamków (Zastosowanie NWD)
 
