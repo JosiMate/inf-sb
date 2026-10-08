@@ -2,17 +2,37 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 10**
 
-Wyobraź sobie, że chcesz wysłać do kolegi wiadomość, której nie może odczytać nikt inny, kto przypadkiem przejmie Twoją kartkę z notatką. Aby to osiągnąć, musisz zamienić zrozumiały tekst na „bełkot”, który tylko osoba posiadająca specjalny klucz będzie w stanie odczytać. To właśnie jest **szyfrowanie**.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział II. Programowanie i algorytmy · rozdział 10
 
-    Po tej lekcji potrafisz:
+    Wyobraź sobie, że chcesz wysłać do kolegi wiadomość, której nie może odczytać nikt inny, kto przypadkiem przejmie Twoją kartkę z notatką. Aby to osiągnąć, musisz zamienić zrozumiały tekst na „bełkot”, który tylko osoba posiadająca specjalny klucz będzie w stanie odczytać. To właśnie jest **szyfrowanie**.
 
-    1. zdefiniować pojęcia: tekst jawny, szyfrogram i klucz
-    2. wyjaśnić zasadę działania szyfru przedstawieniowego
-    3. samodzielnie zaszyfrować i odszyfrować wiadomość szyfrem Cezara
-    4. powiązać proces szyfrowania z operacjami na listach i przesunięciami w programowaniu
-    5. odróżnić słabe szyfry od silnego szyfrowania stosowanego w sieci (np. HTTPS)
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Zdefiniuję pojęcia: tekst jawny, szyfrogram i klucz
+    2. Wyjaśnię zasadę działania szyfru przedstawieniowego
+    3. Samodzielnie zaszyfrować i odszyfruję wiadomość szyfrem Cezara
+    4. Powiązać proces szyfrowania z operacjami na listach i przesunięciami w programowaniu
+    5. Odróżnię słabe szyfry od silnego szyfrowania stosowanego w sieci (np. HTTPS)
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jak zapisać liczbę 5 w systemie dwójkowym (binarnym)?
+    2. **Sprzed kilku tygodni.** Ile bitów mieści się w jednym bajcie?
+    3. **Z dawniejszych tematów.** Jaka cyfra odpowiada liczbie 10 w systemie szesnastkowym (HEX)?
+
+    ??? success "Odpowiedzi"
+
+        1. Liczba 5 dziesiętnie to `101` dwójkowo (4 + 0 + 1).
+        2. Jeden bajt składa się z 8 bitów.
+        3. Literka `A` (lub `a`).
 
 ## 1. Podstawy tajnej komunikacji
 

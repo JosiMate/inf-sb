@@ -6,20 +6,34 @@
 
     Sprawny marketing małej firmy lub warsztatu wymaga szybkiego przygotowywania ofert handlowych, wizytówek, ulotek i broszur. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się dobierać i modyfikować szablony dokumentów, układać treść w polach tekstowych, tworzyć czytelne cenniki i tabele oraz generować wykresy sprzedażowe.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Przeszukam i wczytam gotowe szablony dokumentów biznesowych (Word, Publisher, Canva)
+    2. Dostosuję kolorystykę, czcionki i układ szablonu do identyfikacji wizualnej firmy
+    3. Zastosuję pola tekstowe (Text Box) do precyzyjnego rozmieszczania treści na ulotce
+    4. Sformatuję tabele cennikowe oraz oferty handlowe
+    5. Zaprojektuję dwustronne wizytówki firmowe zgodne ze standardami drukarskimi (np. 90x50 mm)
+    6. Dobiorę i wstawiać odpowiedni typ wykresu (kolumnowy, kołowy, liniowy) dla danych branżowych
+    7. Edytuję i formatować serie danych na wykresach
+    8. Osadzać wykresy i tabele w dokumentach tekstowych oraz broszurach
+    9. Przygotuję materiały reklamowe do druku z uwzględnieniem spadów i marginesów
+    10. Wyeksportuję projekty do formatów drukarskich (PDF X-1a, PNG)
 
-    1. przeszukiwać i wczytywać gotowe szablony dokumentów biznesowych (Word, Publisher, Canva)
-    2. dostosowywać kolorystykę, czcionki i układ szablonu do identyfikacji wizualnej firmy
-    3. stosować pola tekstowe (Text Box) do precyzyjnego rozmieszczania treści na ulotce
-    4. formatować tabele cennikowe oraz oferty handlowe
-    5. projektować dwustronne wizytówki firmowe zgodne ze standardami drukarskimi (np. 90x50 mm)
-    6. dobierać i wstawiać odpowiedni typ wykresu (kolumnowy, kołowy, liniowy) dla danych branżowych
-    7. edytować i formatować serie danych na wykresach
-    8. osadzać wykresy i tabele w dokumentach tekstowych oraz broszurach
-    9. przygotowywać materiały reklamowe do druku z uwzględnieniem spadów i marginesów
-    10. eksportować projekty do formatów drukarskich (PDF X-1a, PNG)
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Po co stosuje się style nagłówków (Nagłówek 1, 2) w edytorze tekstu?
+    2. **Sprzed kilku tygodni.** Jak automatycznie wygenerować spis treści w dokumencie tekstowym?
+    3. **Z dawniejszych tematów.** Czym różni się twarda spacja od zwykłej spacji?
+
+    ??? success "Odpowiedzi"
+
+        1. Zapewniają spójne formatowanie dokumentu i umożliwiają automatyczne zbudowanie spisu treści oraz nawigacji.
+        2. Używając funkcji wstawiania spisu treści opierającej się na zdefiniowanych stylach nagłówkowych.
+        3. Twarda spacja (Ctrl+Shift+Spacja) zapobiega rozdzielaniu słów na końcu wiersza.
 
 ## 1. Wykorzystanie szablonów w komunikacji biznesowej
 
@@ -105,12 +119,73 @@ Aplikacje do tworzenia materiałów reklamowych pozwalają na szybkie przygotowa
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Wybierz szablon wizytówki w edytorze, wprowadź własne dane, logo oraz dopasuj kolorystykę do Twojego zawodu.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Utwórz w edytorze tekstu tabelę cennikową zawierającą 5 pozycji z wyliczoną kwotą brutto (z zastosowaniem prostego wzoru lub przeliczenia).
-3. **Ćwiczenie 3 (Branżowe):** Zaprojektuj dwustronną ulotkę reklamową formatu A5 dla swojego warsztatu/usługi. Użyj pól tekstowych, cennika oraz wstawianych zdjęć wyrobów.
-4. **Ćwiczenie 4 (Zaawansowane):** Przygotuj kompletną ofertę handlową w formacie PDF zawierającą nagłówek firmowy, opis usługi, cennik tabelaryczny oraz wykres porównujący koszty eksploatacji.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Wybierz szablon wizytówki w edytorze, wprowadź własne dane, logo oraz dopasuj kolorystykę do Twojego zawodu.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Utwórz w edytorze tekstu tabelę cennikową zawierającą 5 pozycji z wyliczoną kwotą brutto (z zastosowaniem prostego wzoru lub przeliczenia).
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Zaprojektuj dwustronną ulotkę reklamową formatu A5 dla swojego warsztatu/usługi. Użyj pól tekstowych, cennika oraz wstawianych zdjęć wyrobów.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Przygotuj kompletną ofertę handlową w formacie PDF zawierającą nagłówek firmowy, opis usługi, cennik tabelaryczny oraz wykres porównujący koszty eksploatacji.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

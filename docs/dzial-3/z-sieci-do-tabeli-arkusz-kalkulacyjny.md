@@ -6,20 +6,34 @@
 
     Pozyskiwanie, importowanie i interpretowanie danych gospodarczych oraz branżowych ze źródeł internetowych (np. GUS, urzędy pracy, portale branżowe) to kluczowa umiejętność w analizie rynku. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się pobierać dane tabelaryczne ze stron WWW, czyścić i formatować dane w arkuszu kalkulacyjnym, używać funkcji statystycznych oraz budować czytelne kosztorysy i wykresy analityczne.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Zidentyfikuję oficjalne źródła danych statystycznych i gospodarczych (GUS - stat.gov.pl, Eurostat, CEIDG)
+    2. Zaimportuję tabele z witryn internetowych do arkusza kalkulacyjnego (Excel / Calc)
+    3. Oczyszczę zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego)
+    4. Skonwertuję dane tekstowe na wartości liczbowe oraz formatować waluty i procenty
+    5. Zastosuję serie danych i mechanizm automatycznego wypełniania komórek (AutoFill)
+    6. Wykonywać obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`)
+    7. Utworzę prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym
+    8. Dobiorę i utworzę wykresy do wizualizacji importowanych danych statystycznych
+    9. Zinterpretuję wyniki oraz wyciągnę wnioski na podstawie analizy tabelarycznej
+    10. Wyeksportuję i udostępnię arkusz w formacie XLSX lub PDF
 
-    1. identyfikować oficjalne źródła danych statystycznych i gospodarczych (GUS - stat.gov.pl, Eurostat, CEIDG)
-    2. importować tabele z witryn internetowych do arkusza kalkulacyjnego (Excel / Calc)
-    3. czyścić zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego)
-    4. konwertować dane tekstowe na wartości liczbowe oraz formatować waluty i procenty
-    5. stosować serie danych i mechanizm automatycznego wypełniania komórek (AutoFill)
-    6. wykonywać obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`)
-    7. tworzyć prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym
-    8. dobierać i tworzyć wykresy do wizualizacji importowanych danych statystycznych
-    9. interpretować wyniki oraz wyciągać wnioski na podstawie analizy tabelarycznej
-    10. eksportować i udostępniać arkusz w formacie XLSX lub PDF
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Do czego służą sekcje i podziały stron w długich dokumentach technicznych?
+    2. **Sprzed kilku tygodni.** Jak dodać automatyczną numerację stron od drugiej strony dokumentu?
+    3. **Z dawniejszych tematów.** Czym jest szablon dokumentu (.dotx / .ott)?
+
+    ??? success "Odpowiedzi"
+
+        1. Pozwalają zmieniać nagłówki, stopki, orientację stron (pionowa/pozioma) i numerację w różnych częściach dokumentu.
+        2. Wstawiając podział sekcji i wyłączając opcję „Połącz z poprzednim” w nagłówku/stopce nowej sekcji.
+        3. Gotowy wzorzec dokumentu ze zdefiniowanymi stylami, układem i elementami stałymi.
 
 ## 1. Źródła danych w sieci i sposoby ich importu
 
@@ -110,12 +124,73 @@ Pobieranie danych z sieci i ich interpretacja w arkuszu kalkulacyjnym to podstaw
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Skopiuj prostą tabelę z cenami paliw lub materiałów ze strony internetowej do arkusza. Zamień ewentualne kropki na przecinki i nadaj kolumnie format walutowy.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Utwórz arkusz z cenami 5 surowców/części. Użyj funkcji `SUMA`, `ŚREDNIA`, `MIN` i `MAKS` do analizy ich wartości.
-3. **Ćwiczenie 3 (Branżowe):** Pobierz z sieci aktualny cennik materiałów potrzebnych w Twoim zawodzie i przygotuj kosztorys wykonania konkretnej usługi dla klienta z uwzględnieniem narzutu robocizny.
-4. **Ćwiczenie 4 (Zaawansowane):** Zaimportuj tabelę danych statystycznych GUS dotyczących zatrudnienia lub produkcji, przelicz wartości procentowe i sporządź wykres kołowy z etykietami danych.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Skopiuj prostą tabelę z cenami paliw lub materiałów ze strony internetowej do arkusza. Zamień ewentualne kropki na przecinki i nadaj kolumnie format walutowy.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Utwórz arkusz z cenami 5 surowców/części. Użyj funkcji `SUMA`, `ŚREDNIA`, `MIN` i `MAKS` do analizy ich wartości.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Pobierz z sieci aktualny cennik materiałów potrzebnych w Twoim zawodzie i przygotuj kosztorys wykonania konkretnej usługi dla klienta z uwzględnieniem narzutu robocizny.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Zaimportuj tabelę danych statystycznych GUS dotyczących zatrudnienia lub produkcji, przelicz wartości procentowe i sporządź wykres kołowy z etykietami danych.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

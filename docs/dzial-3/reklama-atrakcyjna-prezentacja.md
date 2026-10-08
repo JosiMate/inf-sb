@@ -6,20 +6,34 @@
 
     Przygotowanie atrakcyjnej i przekonującej prezentacji handlowej to klucz do sukcesu w przedstawianiu oferty firmy, produktów i usług. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się układać scenariusz prezentacji, korzystać z nowoczesnych narzędzi w chmurze (np. Prezi, Canva, Google Slides) i edytorów stacjonarnych (Impress, PowerPoint), dobierać szablony graficzne oraz dbać o estetykę i zasady wystąpień publicznych.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię cel i znaczenie dobrze zaplanowanej prezentacji biznesowej
+    2. Opracuję scenariusz prezentacji dostosowany do grupy docelowej (np. klienta, inwestora)
+    3. Zastosuję zasadę 10/20/30 w tworzeniu slajdów (10 slajdów, 20 minut, czcionka 30 pt)
+    4. Wybiorę i zmodyfikuję nowoczesne szablony prezentacji w edytorach stacjonarnych i chmurowych
+    5. Zakładać konto i nawigować w płóciennym środowisku Prezi.com / Canva
+    6. Osadzać elementy multimedialne (zdjęcia wyrobów, krótkie wideo, dźwięk, wykresy)
+    7. Zadbam o kontrast i czytelność typografii na slajdach
+    8. Zastosuję przejścia slajdów i animacje obiektów z umiarkowaniem
+    9. Przygotuję i drukować materiały dla słuchaczy (Handouts)
+    10. Przeprowadzać płynną prezentację oferty i wyeksportuję plik do formatu PDF / MP4
 
-    1. wyjaśnić cel i znaczenie dobrze zaplanowanej prezentacji biznesowej
-    2. opracować scenariusz prezentacji dostosowany do grupy docelowej (np. klienta, inwestora)
-    3. stosować zasadę 10/20/30 w tworzeniu slajdów (10 slajdów, 20 minut, czcionka 30 pt)
-    4. wybierać i modyfikować nowoczesne szablony prezentacji w edytorach stacjonarnych i chmurowych
-    5. zakładać konto i nawigować w płóciennym środowisku Prezi.com / Canva
-    6. osadzać elementy multimedialne (zdjęcia wyrobów, krótkie wideo, dźwięk, wykresy)
-    7. dbać o kontrast i czytelność typografii na slajdach
-    8. stosować przejścia slajdów i animacje obiektów z umiarkowaniem
-    9. przygotowywać i drukować materiały dla słuchaczy (Handouts)
-    10. przeprowadzać płynną prezentację oferty i eksportować plik do formatu PDF / MP4
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Do czego służy funkcja `SUMA.JEŻELI` w arkuszu kalkulacyjnym?
+    2. **Sprzed kilku tygodni.** Jak zablokować nagłówki tabeli przy przewijaniu arkusza?
+    3. **Z dawniejszych tematów.** Jak stworzyć wykres kolumnowy na podstawie danych z tabeli?
+
+    ??? success "Odpowiedzi"
+
+        1. Sumuje wartości z podanego zakresu komórek, które spełniają określone kryterium.
+        2. Używając opcji „Zablokuj wiersze / widok” (Zablokuj górny wiersz).
+        3. Zaznaczając zakres danych i wybierając Wstaw -> Wykres kolumnowy.
 
 ## 1. Scenariusz i struktura udanej prezentacji
 
@@ -106,12 +120,73 @@ Atrakcyjna prezentacja to potężne narzędzie marketingowe. Przemyślany scenar
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Przygotuj 3-slajdową prezentację w oparciu o wbudowany szablon: slajd tytułowy, slajd ze zdjęciem i opisem oraz slajd kontaktowy.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Załóż bezpłatne konto w serwisie Canva lub Prezi i stwórz prezentację prezentującą zalety wybranego narzędzia lub technologii.
-3. **Ćwiczenie 3 (Branżowe):** Opracuj pełną, 5-slajdową prezentację oferty handlowej swojej wymarzonej firmy/warsztatu. Uwzględnij scenariusz, cennik, galerię i Wezwanie do Działania.
-4. **Ćwiczenie 4 (Zaawansowane):** Stwórz interaktywną prezentację w Prezi z wykorzystaniem struktur połączonych (Topics / Subtopics), osadzonym krótkim materiałem wideo oraz wyeksportowanym materiałem do druku dla słuchaczy.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Przygotuj 3-slajdową prezentację w oparciu o wbudowany szablon: slajd tytułowy, slajd ze zdjęciem i opisem oraz slajd kontaktowy.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Załóż bezpłatne konto w serwisie Canva lub Prezi i stwórz prezentację prezentującą zalety wybranego narzędzia lub technologii.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Opracuj pełną, 5-slajdową prezentację oferty handlowej swojej wymarzonej firmy/warsztatu. Uwzględnij scenariusz, cennik, galerię i Wezwanie do Działania.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Stwórz interaktywną prezentację w Prezi z wykorzystaniem struktur połączonych (Topics / Subtopics), osadzonym krótkim materiałem wideo oraz wyeksportowanym materiałem do druku dla słuchaczy.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

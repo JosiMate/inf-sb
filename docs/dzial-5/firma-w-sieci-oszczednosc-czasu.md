@@ -6,20 +6,34 @@
 
     Informatyzacja procesów biznesowych, wykorzystanie e-Urzędów, ePUAP, Profilu Zaufanego, Podpisu Kwalifikowanego oraz outsourcingu IT pozwala na drastyczne skrócenie czasu załatwiania spraw formalnych w małej firmie. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się zakładać i używać Profil Zaufany, korzystać z portali e-Administracji (CEIDG, ZUS PUE, mObywatel, Biznes.gov.pl) oraz rozumieć zalety usług outsourcingowych.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię korzyści wynikające z przeniesienia procesów firmowych do sieci
+    2. Zdefiniuję pojęcie i rolę ePUAP oraz e-Administracji
+    3. Opiszę procedurę uzyskiwania i potwierdzania Profilu Zaufanego (PZ)
+    4. Odróżnię Profil Zaufany od Podpisu Kwalifikowanego pod kątem prawnym i zastosowania
+    5. Zastosuję portalu Biznes.gov.pl / CEIDG do załatwiania spraw rejestracyjnych i zmian w firmie
+    6. Opiszę działanie Platformy Usług Elektronicznych ZUS (PUE ZUS / eZUS)
+    7. Wyjaśnię pojęcie outsourcingu usług IT i infrastruktury
+    8. Podpiszę dokumenty cyfrowe (np. umowy, wnioski) za pomocą Profilu Zaufanego (mObywatel)
+    9. Zadbam o bezpieczeństwo danych osobowych i haseł podczas korzystania z e-Urzędów
+    10. Ocenię oszczędności czasowe i finansowe wynikające z cyfryzacji biura (Paperless Office)
 
-    1. wyjaśnić korzyści wynikające z przeniesienia procesów firmowych do sieci
-    2. zdefiniować pojęcie i rolę ePUAP oraz e-Administracji
-    3. opisać procedurę uzyskiwania i potwierdzania Profilu Zaufanego (PZ)
-    4. odróżniać Profil Zaufany od Podpisu Kwalifikowanego pod kątem prawnym i zastosowania
-    5. używać portalu Biznes.gov.pl / CEIDG do załatwiania spraw rejestracyjnych i zmian w firmie
-    6. opisać działanie Platformy Usług Elektronicznych ZUS (PUE ZUS / eZUS)
-    7. wyjaśnić pojęcie outsourcingu usług IT i infrastruktury
-    8. podpisywać dokumenty cyfrowe (np. umowy, wnioski) za pomocą Profilu Zaufanego (mObywatel)
-    9. dbać o bezpieczeństwo danych osobowych i haseł podczas korzystania z e-Urzędów
-    10. oceniać oszczędności czasowe i finansowe wynikające z cyfryzacji biura (Paperless Office)
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Do czego służy protokół DHCP oraz serwer DNS w sieci komputerowej?
+    2. **Sprzed kilku tygodni.** Czym różni się adres IP prywatny od publicznego?
+    3. **Z dawniejszych tematów.** Co oznacza skrót URL?
+
+    ??? success "Odpowiedzi"
+
+        1. DHCP automatycznie przydziela adresy IP urządzeniom, a DNS tłumaczy nazwy domenowe (np. wp.pl) na adresy IP.
+        2. Adres prywatny działa tylko wewnątrz sieci lokalnej (LAN), a publiczny identyfikuje sieć w globalnym Internecie.
+        3. Uniform Resource Locator — ujednolicony adres zasobu w sieci Internet.
 
 ## 1. Cyfryzacja firmy i e-Administracja publiczna
 
@@ -105,12 +119,73 @@ Informatyka oszczędza czas przedsiębiorcy poprzez cyfryzację procedur formaln
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Sprawdź na stronie `gov.pl` jak krok po kroku założyć Profil Zaufany przez bankowość elektroniczną.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Odszukaj na portalu `Biznes.gov.pl` formularz służący do wpisu lub zmiany danych w CEIDG i przeanalizuj wymagane pola.
-3. **Ćwiczenie 3 (Branżowe):** Przygotuj plik PDF z prośbą o wycenę lub umową i przeprowadź (w trybie testowym lub rzeczywistym) proces podpisywania dokumentu Profilem Zaufanym na stronie `gov.pl`.
-4. **Ćwiczenie 4 (Zaawansowane):** Przygotuj analizę opłacalności zakupu własnego serwera firmowego w porównaniu do outsourcingu usługi chmurowej dla małego warsztatu z 3 stanowiskami.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Sprawdź na stronie `gov.pl` jak krok po kroku założyć Profil Zaufany przez bankowość elektroniczną.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Odszukaj na portalu `Biznes.gov.pl` formularz służący do wpisu lub zmiany danych w CEIDG i przeanalizuj wymagane pola.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Przygotuj plik PDF z prośbą o wycenę lub umową i przeprowadź (w trybie testowym lub rzeczywistym) proces podpisywania dokumentu Profilem Zaufanym na stronie `gov.pl`.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Przygotuj analizę opłacalności zakupu własnego serwera firmowego w porównaniu do outsourcingu usługi chmurowej dla małego warsztatu z 3 stanowiskami.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

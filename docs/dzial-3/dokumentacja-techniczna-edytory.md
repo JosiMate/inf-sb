@@ -6,20 +6,34 @@
 
     Tworzenie profesjonalnej dokumentacji technicznej, paszportów maszyn oraz rysunków wykonawczych i złożeniowych wymaga opanowania edytorów tekstu i grafiki wektorowej. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się tworzyć rysunki złożeniowe, dodawać odnośniki i numerację pozycji, podpisować ilustracje i tabele oraz generować automatyczne spisy ilustracji i tabel.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię pojęcie i rolę rysunku złożeniowego (Assembly Drawing) w dokumentacji
+    2. Wymienię cechy prawidłowo sporządzonej dokumentacji technicznej
+    3. Utworzę proste schematy i rysunki wektorowe przy użyciu narzędzi rysunkowych (LibreOffice Draw, Word)
+    4. Dodam i formatować odnośniki liczbowe (balony / pozycje) do elementów rysunku
+    5. Wstawiać podpisy pod ilustracjami i rysunkami technycznymi (Captions)
+    6. Wstawiać podpisy i numerację tabel (np. Tabela 1: Wykaz części)
+    7. Generować automatyczny spis ilustracji oraz spis tabel w edytorze tekstu
+    8. Zarządzę pozycjonowaniem i zakotwiczeniem rysunków w tekście (Anchor/Position)
+    9. Utworzę tabele specyfikacji materiałowej (BOM - Bill of Materials)
+    10. Zastosuję zasady zasad spójności i czytelności dokumentacji techniczno-ruchowej (DTR)
 
-    1. wyjaśnić pojęcie i rolę rysunku złożeniowego (Assembly Drawing) w dokumentacji
-    2. wymieniać cechy prawidłowo sporządzonej dokumentacji technicznej
-    3. tworzyć proste schematy i rysunki wektorowe przy użyciu narzędzi rysunkowych (LibreOffice Draw, Word)
-    4. dodawać i formatować odnośniki liczbowe (balony / pozycje) do elementów rysunku
-    5. wstawiać podpisy pod ilustracjami i rysunkami technycznymi (Captions)
-    6. wstawiać podpisy i numerację tabel (np. Tabela 1: Wykaz części)
-    7. generować automatyczny spis ilustracji oraz spis tabel w edytorze tekstu
-    8. zarządzać pozycjonowaniem i zakotwiczeniem rysunków w tekście (Anchor/Position)
-    9. tworzyć tabele specyfikacji materiałowej (BOM - Bill of Materials)
-    10. przestrzegać zasad spójności i czytelności dokumentacji techniczno-ruchowej (DTR)
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Co to jest spad (bleed) w przygotowaniu dokumentu do druku?
+    2. **Sprzed kilku tygodni.** Jaki model kolorów stosuje się w druku, a jaki na ekranie?
+    3. **Z dawniejszych tematów.** Do czego służą linie pomocnicze (siatka) w układzie strony?
+
+    ??? success "Odpowiedzi"
+
+        1. Obszar drukowany poza krawędzią czystego formatu, zapobiegający białym brzegom po przycięciu papieru.
+        2. W druku stosuje się model CMYK, a na ekranie RGB.
+        3. Pomagają równo wyrównać i rozmieścić elementy tekstowe i graficzne na stronie.
 
 ## 1. Wprowadzenie do Dokumentacji Techniczno-Ruchowej (DTR)
 
@@ -106,12 +120,73 @@ Zaawansowane możliwości edytorów tekstu umożliwiają sprawne tworzenie profe
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Wstaw obraz do dokumentu, użyj funkcji *Wstaw podpis* i sprawdź, czy dodanie drugiego obrazka powyżej automatycznie zmieni numerację.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Utwórz proste schematyczne rysunki wektorowe w edytorze i nałóż na nie 3 odnośniki z numerami pozycji. Zgrupuj obiekty.
-3. **Ćwiczenie 3 (Branżowe):** Przygotuj kartę techniczną wyrobu/maszyny ze swojego zawodu. Zamieść rysunek, tabelę parametrów technicznych oraz tabelę zestawieniową części (BOM).
-4. **Ćwiczenie 4 (Zaawansowane):** Stwórz 3-stronicową dokumentację techniczną zawierającą co najmniej 3 rysunki z odnośnikami, 2 tabele specyfikacji oraz wygenerowany automatyczny spis ilustracji i spis tabel.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Wstaw obraz do dokumentu, użyj funkcji *Wstaw podpis* i sprawdź, czy dodanie drugiego obrazka powyżej automatycznie zmieni numerację.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Utwórz proste schematyczne rysunki wektorowe w edytorze i nałóż na nie 3 odnośniki z numerami pozycji. Zgrupuj obiekty.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Przygotuj kartę techniczną wyrobu/maszyny ze swojego zawodu. Zamieść rysunek, tabelę parametrów technicznych oraz tabelę zestawieniową części (BOM).
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Stwórz 3-stronicową dokumentację techniczną zawierającą co najmniej 3 rysunki z odnośnikami, 2 tabele specyfikacji oraz wygenerowany automatyczny spis ilustracji i spis tabel.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

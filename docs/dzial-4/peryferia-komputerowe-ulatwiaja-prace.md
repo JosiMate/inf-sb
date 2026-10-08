@@ -6,20 +6,34 @@
 
     Urządzenia peryferyjne, takie jak skanery, czytniki kodów kreskowych, drukarki etykiet czy autoryzatory biometryczne, automatyzują pracę w warsztatach, magazynach i biurach. W ramach tej lekcji (1h) w Dziale IV serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wykorzystywać skanery dokumentów, cyfryzować dokumentację papierową, stosować oprogramowanie OCR do rozpoznawania tekstu oraz poznasz standard TWAIN i różnice w konstrukcji przetworników optycznych (CIS vs CCD).
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Sklasyfikuję urządzenia peryferyjne pod kątem ich zastosowania w pracy zawodowej
+    2. Wyjaśnię zasadę działania skanera optycznego i panelu sterowania urządzenia
+    3. Opiszę różnice konstrukcyjne i jakościowe między przetwornikami CIS a CCD
+    4. Wyjaśnię pojęcie oraz skrót OCR (Optical Character Recognition)
+    5. Dobiorę optymalną rozdzielczość skanowania (DPI) dla dokumentu tekstu oraz dla grafiki
+    6. Zdefiniuję standard komunikacji TWAIN / WIA i wyjaśnię jego rolę
+    7. Scyfryzuję drukowaną dokumentację i przekształcać ją w edytowalny plik tekstowy
+    8. Zastosuję oprogramowania OCR (stacjonarnego lub w chmurze) do rozpoznawania tabel
+    9. Przygotuję dokumentację warsztatową i magazynową do archiwizacji cyfrowej
+    10. Zastosuję zasady zasad bezpiecznej i ergonomicznej pracy z urządzeniami peryferyjnymi
 
-    1. sklasyfikować urządzenia peryferyjne pod kątem ich zastosowania w pracy zawodowej
-    2. wyjaśnić zasadę działania skanera optycznego i panelu sterowania urządzenia
-    3. opisać różnice konstrukcyjne i jakościowe między przetwornikami CIS a CCD
-    4. wyjaśnić pojęcie oraz skrót OCR (Optical Character Recognition)
-    5. dobrać optymalną rozdzielczość skanowania (DPI) dla dokumentu tekstu oraz dla grafiki
-    6. zdefiniować standard komunikacji TWAIN / WIA i wyjaśnić jego rolę
-    7. cyfryzować drukowaną dokumentację i przekształcać ją w edytowalny plik tekstowy
-    8. używać oprogramowania OCR (stacjonarnego lub w chmurze) do rozpoznawania tabel
-    9. przygotowywać dokumentację warsztatową i magazynową do archiwizacji cyfrowej
-    10. przestrzegać zasad bezpiecznej i ergonomicznej pracy z urządzeniami peryferyjnymi
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jaka jest zasada kontraście i umiaru w projektowaniu slajdów prezentacji?
+    2. **Sprzed kilku tygodni.** Do czego służy wzorzec slajdów (Slide Master)?
+    3. **Z dawniejszych tematów.** Dlaczego należy unikać nadmiaru przejść i animacji na slajdach?
+
+    ??? success "Odpowiedzi"
+
+        1. Tekst musi być wyraźnie skontrastowany z tłem, a slajd powinien zawierać zwięzłe hasła zamiast długich bloków tekstu.
+        2. Umożliwia jednolitą zmianę tła, czcionek i układu dla wszystkich slajdów w prezentacji naraz.
+        3. Odciągają uwagę słuchaczy od treści wystąpienia i obniżają czytelność.
 
 ## 1. Rola urządzeń peryferyjnych w pracy zawodowej
 
@@ -106,12 +120,73 @@ Urządzenia peryferyjne, a w szczególności skanery w połączeniu z technologi
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Zeskanuj dokument papierowy lub zrób czytelne zdjęcie smartfonem, ustawiając odpowiednie kadrowanie.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Użyj bezpłatnego narzędzia OCR w chmurze do przekształcenia zdjęcia jednostronicowej instrukcji na edytowalny tekst.
-3. **Ćwiczenie 3 (Branżowe):** Zeskanuj tabelę cennikową z papierowego katalogu i użyj oprogramowania OCR, aby zaimportować dane w postaci komórek do arkusza kalkulacyjnego.
-4. **Ćwiczenie 4 (Zaawansowane):** Przeprowadź analizę porównawczą jakości skanowania tego samego dokumentu w rozdzielczościach 100 DPI, 300 DPI i 600 DPI. Porównaj czas skanowania, rozmiar pliku oraz skuteczność OCR.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Zeskanuj dokument papierowy lub zrób czytelne zdjęcie smartfonem, ustawiając odpowiednie kadrowanie.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Użyj bezpłatnego narzędzia OCR w chmurze do przekształcenia zdjęcia jednostronicowej instrukcji na edytowalny tekst.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Zeskanuj tabelę cennikową z papierowego katalogu i użyj oprogramowania OCR, aby zaimportować dane w postaci komórek do arkusza kalkulacyjnego.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Przeprowadź analizę porównawczą jakości skanowania tego samego dokumentu w rozdzielczościach 100 DPI, 300 DPI i 600 DPI. Porównaj czas skanowania, rozmiar pliku oraz skuteczność OCR.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

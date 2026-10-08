@@ -6,20 +6,34 @@
 
     Fotomontaż i przygotowanie grafiki promocyjnej to podstawowa umiejętność w marketingu i prezentacji produktów własnej firmy. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wykorzystywać mechanizm warstw, narzędzia zaznaczania, wycinania oraz dopasowania kolorystycznego w programie GIMP lub edytorze rastrowym do stworzenia profesjonalnego zdjęcia reklamowego.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię pojęcie grafiki rastrowej oraz różnicę między nią a grafiką wektorową
+    2. Zdefiniuję pojęcie i działanie warstw w edytorze graficznym (np. GIMP)
+    3. Zastosuję narzędzia zaznaczania (Prostokątne, Elipsa, Lasso, Różdżka)
+    4. Wycinam obiekty z tła z wykorzystaniem masek warstw lub przezroczystości (kanał Alpha)
+    5. Dodam i formatować warstwy tekstowe na potrzeby haseł reklamowych
+    6. Dopasowywać jasność, kontrast, nasycenie i poziom kolorów montowanych elementów
+    7. Skaluję, obrócę i przekształcać obiekty na osobnych warstwach
+    8. Zastosuję tryby mieszania warstw (Mnożenie, Nakładka, Ekran) dla uzyskania efektów specjalnych
+    9. Wyeksportuję gotowy projekt do formatu produkcyjnego (PNG, JPG) oraz zapisywać plik roboczy (XCF)
+    10. Zastosuję zasady praw autorskich przy doborze zdjęć składowych do fotomontażu
 
-    1. wyjaśnić pojęcie grafiki rastrowej oraz różnicę między nią a grafiką wektorową
-    2. zdefiniować pojęcie i działanie warstw w edytorze graficznym (np. GIMP)
-    3. stosować narzędzia zaznaczania (Prostokątne, Elipsa, Lasso, Różdżka)
-    4. wycinać obiekty z tła z wykorzystaniem masek warstw lub przezroczystości (kanał Alpha)
-    5. dodawać i formatować warstwy tekstowe na potrzeby haseł reklamowych
-    6. dopasowywać jasność, kontrast, nasycenie i poziom kolorów montowanych elementów
-    7. skalować, obracać i przekształcać obiekty na osobnych warstwach
-    8. stosować tryby mieszania warstw (Mnożenie, Nakładka, Ekran) dla uzyskania efektów specjalnych
-    9. eksportować gotowy projekt do formatu produkcyjnego (PNG, JPG) oraz zapisywać plik roboczy (XCF)
-    10. przestrzegać praw autorskich przy doborze zdjęć składowych do fotomontażu
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Na czym polega operacja wyciągnięcia (extrude) w modelowaniu 3D?
+    2. **Sprzed kilku tygodni.** Co to jest perspektywa zbieżna w grafice 3D?
+    3. **Z dawniejszych tematów.** Czym różni się grafika rastrowa od wektorowej?
+
+    ??? success "Odpowiedzi"
+
+        1. Wyciągnięcie przekształca płaski profil dwuwymiarowy (2D) w trójwymiarowy obiekt (3D) poprzez dodanie głębokości.
+        2. Sposób przedstawiania przestrzeni, w którym odległe obiekty wydają się mniejsze, a linie równoległe zbiegają się w punkcie zbiegu.
+        3. Grafika rastrowa składa się z pikseli (traci jakość przy powiększaniu), a wektorowa z opisów matematycznych (jest bezstratnie skalowalna).
 
 ## 1. Zasada działania warstw w edytorze graficznym
 
@@ -105,12 +119,73 @@ Montaż zdjęcia reklamowego w edytorze grafiki rastrowej polega na umiejętnej 
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Utwórz prosty dokument z dwoma warstwami: tłem jednokolorowym oraz wyciętym prostokątnym zdjęciem wyrobu branżowego. Dodaj prosty napis z nazwą firmy.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Wytnij za pomocą *Różdżki* lub *Lasso* skomplikowany produkt ze zdjęcia z niejednolitym tłem i wklej go na plenerowe tło reklamowe. Dodaj cień pod obiektem.
-3. **Ćwiczenie 3 (Branżowe):** Przygotuj grafikę promocyjną na portal społecznościowy przedstawiającą produkt lub usługę z Twojej branży (np. naprawa auta, mebel na wymiar, usługa fryzjerska/gastronomiczna). Użyj tekstu, logo i ozdobnej ramki.
-4. **Ćwiczenie 4 (Zaawansowane):** Zastosuj maskę warstwy (Layer Mask) oraz gradient do łagodnego przejścia (przenikania) dwóch zdjęć tła w projekcie reklamowym.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Utwórz prosty dokument z dwoma warstwami: tłem jednokolorowym oraz wyciętym prostokątnym zdjęciem wyrobu branżowego. Dodaj prosty napis z nazwą firmy.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Wytnij za pomocą *Różdżki* lub *Lasso* skomplikowany produkt ze zdjęcia z niejednolitym tłem i wklej go na plenerowe tło reklamowe. Dodaj cień pod obiektem.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Przygotuj grafikę promocyjną na portal społecznościowy przedstawiającą produkt lub usługę z Twojej branży (np. naprawa auta, mebel na wymiar, usługa fryzjerska/gastronomiczna). Użyj tekstu, logo i ozdobnej ramki.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Zastosuj maskę warstwy (Layer Mask) oraz gradient do łagodnego przejścia (przenikania) dwóch zdjęć tła w projekcie reklamowym.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
+
 
 ## Sprawdź się
 

@@ -2,23 +2,43 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 4**
 
-Wyszukiwarka zwraca miliony wyników w pół sekundy — i to jest jej najmniejsza
+!!! abstract "O tym temacie"
+
+    **1 godzina lekcyjna** · Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze · rozdział 4
+
+    Wyszukiwarka zwraca miliony wyników w pół sekundy — i to jest jej najmniejsza
 zaleta. Problem zaczyna się dalej: **który z tych wyników jest prawdziwy**
 i **co wolno z nim zrobić**. Ta lekcja jest o trzech umiejętnościach, które
 przydają się w warsztacie tak samo jak w szkole: szybko trafić do konkretu,
 sprawdzić, czy można temu wierzyć, i użyć znalezionego materiału legalnie.
 
-!!! success "Cele lekcji"
 
-    Po tej lekcji potrafisz:
 
-    1. dobrać słowa i operatory wyszukiwania tak, żeby trafić do konkretu zamiast przeglądać setki wyników
-    2. poprawić własne zapytanie, kiedy pierwsze nie zadziałało
-    3. ocenić wiarygodność strony według pięciu kryteriów i wskazać, na którym dana strona wypada źle
-    4. rozpoznać typowe chwyty dezinformacji i sprawdzić zdjęcie wyszukiwaniem wstecznym
-    5. wymienić sześć licencji Creative Commons i powiedzieć, co przy każdej wolno zrobić
-    6. wskazać różnicę między cytatem a plagiatem
-    7. znaleźć i wykorzystać wyszukiwarkę branżową związaną ze swoim zawodem
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Dobiorę słowa i operatory wyszukiwania tak, żeby trafić do konkretu zamiast przeglądać setki wyników
+    2. Poprawić własne zapytanie, kiedy pierwsze nie zadziałało
+    3. Ocenię wiarygodność strony według pięciu kryteriów i wskażę, na którym dana strona wypada źle
+    4. Rozpoznam typowe chwyty dezinformacji i sprawdzę zdjęcie wyszukiwaniem wstecznym
+    5. Wymienię sześć licencji Creative Commons i powiem, co przy każdej wolno zrobię
+    6. Wskażę różnicę między cytatem a plagiatem
+    7. Znajdę i wykorzystać wyszukiwarkę branżową związaną ze swoim zawodem
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Dlaczego dane EXIF z aparatu w telefonie mogą zagrażać prywatności?
+    2. **Sprzed kilku tygodni.** Co to jest art. 190a § 2 kodeksu karnego?
+    3. **Z dawniejszych tematów.** Jakie są dwa główne wyjątki od obowiązku uzyskania zgody na rozpowszechnianie wizerunku?
+
+    ??? success "Odpowiedzi"
+
+        1. Mąją zapisane m.in. dokładne współrzędne GPS miejsca wykonania zdjęcia oraz datę i czas.
+        2. Przepis o przestępstwie podszywania się pod inną osobę z wykorzystaniem jej wizerunku lub danych.
+        3. Osoba powszechnie znana pełniąca funkcje publiczne oraz osoba stanowiąca jedynie szczegół całości (np. zgromadzenia).
 
 ## 1. Mądre wyszukiwanie — operatory
 
