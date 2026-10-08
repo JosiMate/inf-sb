@@ -6,20 +6,34 @@
 
     Przetwarzanie w chmurze obliczeniowej (Cloud Computing) umożliwia bezpieczne przechowywanie danych firmowych, pracę zdalną oraz dostęp do zaawansowanego oprogramowania bez konieczności inwestowania we własne kosztowne serwery. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się korzystać z dysków chmurowych (Google Drive, OneDrive, Nextcloud), edytować dokumenty online, udostępniać pliki z odpowiednimi uprawnieniami oraz organizować e-pracę.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię pojęcie chmury obliczeniowej (Cloud Computing) i zasady jej działania
+    2. Wymienię modele usług chmurowych (IaaS, PaaS, SaaS) i podawać przykłady
+    3. Zakładać konto i skorzystam z dysków chmurowych (Google Drive, MS OneDrive, Nextcloud)
+    4. Spakuję, wyślę i zsynchronizuję pliki pomiędzy komputerem a chmurą
+    5. Utworzę i edytuję dokumenty, arkusze i prezentacje bezpośrednio w przeglądarce
+    6. Udostępnię pliki innym użytkownikom z ograniczeniem uprawnień (Podgląd, Komentowanie, Edycja)
+    7. Zarządzę łączami publicznymi z zabezpieczeniem hasłem i terminem wygaśnięcia
+    8. Przeprowadzę współedycję dokumentów w czasie rzeczywistym z zespołem
+    9. Zorganizuję bezpieczną e-pracę i zdalny dostęp do zasobów warsztatu
+    10. Ocenię zagrożenia prywatności i zastosuję dwuskładnikowe uwierzytelnianie (2FA) w chmurze
 
-    1. wyjaśnić pojęcie chmury obliczeniowej (Cloud Computing) i zasady jej działania
-    2. wymieniać modele usług chmurowych (IaaS, PaaS, SaaS) i podawać przykłady
-    3. zakładać konto i korzystać z dysków chmurowych (Google Drive, MS OneDrive, Nextcloud)
-    4. pakować, wysyłać i synchronizować pliki pomiędzy komputerem a chmurą
-    5. tworzyć i edytować dokumenty, arkusze i prezentacje bezpośrednio w przeglądarce
-    6. udostępniać pliki innym użytkownikom z ograniczeniem uprawnień (Podgląd, Komentowanie, Edycja)
-    7. zarządzać łączami publicznymi z zabezpieczeniem hasłem i terminem wygaśnięcia
-    8. prowadzić współedycję dokumentów w czasie rzeczywistym z zespołem
-    9. organizować bezpieczną e-pracę i zdalny dostęp do zasobów warsztatu
-    10. oceniać zagrożenia prywatności i stosować dwuskładnikowe uwierzytelnianie (2FA) w chmurze
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Co to jest podpis kwalifikowany i profil zaufany?
+    2. **Sprzed kilku tygodni.** Czym różni się system ERP od CRM w przedsiębiorstwie?
+    3. **Z dawniejszych tematów.** Do czego służy bankowość elektroniczna i przelew Elixir?
+
+    ??? success "Odpowiedzi"
+
+        1. Narzędzia do elektronicznego potwierdzania tożsamości i podpisywania dokumentów z mocą prawną.
+        2. ERP wspiera zarządzanie całą firmą (zasoby, magazyn), a CRM obsługuje relacje z klientami.
+        3. Do bezpiecznego zarządzania kontem i wykonywania rozliczeń pieniężnych przez sieć.
 
 ## 1. Co to jest chmura obliczeniowa (Cloud Computing)?
 

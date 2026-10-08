@@ -6,20 +6,34 @@
 
     Nowoczesne przetwórstwo, przemysł, elektronika i automatyka bazują na maszynach sterowanych komputerowo. W ramach tej lekcji (1h) w Dziale IV serwisu `inf-sb` dla Szkoły Branżowej nauczysz się rozpoznawać rolę mikrosterowników, komputerów jednopłytkowych (np. Raspberry Pi, Arduino), maszyn CNC, obrabiarek oraz robotów przemysłowych. Poznasz również zasady sterowania algorytmicznego i symulowania pracy robotów w środowiskach bloczkowych (np. Scratch).
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię pojęcie mikrosterownika i mikrokontrolera jednopłytkowego
+    2. Rozróżnię zadania komputera biurowego od komputera sterującego procesem technologicznym
+    3. Wyjaśnię pojęcie i rozwinięcie skrótu CNC (Computer Numerical Control)
+    4. Opiszę cykl powstawania wyrobu na maszynach CNC (Projekt CAD -> Program CAM / G-Code -> Obróbka CNC)
+    5. Wymienię rodzaje maszyn sterowanych numerycznie (frezarki, tokarki, wycinarki laserowe, drukarki 3D)
+    6. Opiszę rolę robotów przemysłowych w automatyzacji linii produkcyjnych i warsztatowych
+    7. Ułożę schemat blokowy / algorytm sterowania pracą prostego robota
+    8. Napiszę i testować programy symulujące pracę robota (np. segregowanie detali wg koloru w Scratch)
+    9. Zidentyfikuję czujniki (sensory) i elementy wykonawcze (aktulatory) w maszynach
+    10. Zastosuję zasady zasad BHP przy pracy i przebywaniu w strefie działania maszyn i robotów CNC
 
-    1. wyjaśnić pojęcie mikrosterownika i mikrokontrolera jednopłytkowego
-    2. rozróżniać zadania komputera biurowego od komputera sterującego procesem technologicznym
-    3. wyjaśnić pojęcie i rozwinięcie skrótu CNC (Computer Numerical Control)
-    4. opisać cykl powstawania wyrobu na maszynach CNC (Projekt CAD -> Program CAM / G-Code -> Obróbka CNC)
-    5. wymieniać rodzaje maszyn sterowanych numerycznie (frezarki, tokarki, wycinarki laserowe, drukarki 3D)
-    6. opisać rolę robotów przemysłowych w automatyzacji linii produkcyjnych i warsztatowych
-    7. układać schemat blokowy / algorytm sterowania pracą prostego robota
-    8. pisać i testować programy symulujące pracę robota (np. segregowanie detali wg koloru w Scratch)
-    9. identyfikować czujniki (sensory) i elementy wykonawcze (aktulatory) w maszynach
-    10. przestrzegać zasad BHP przy pracy i przebywaniu w strefie działania maszyn i robotów CNC
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Czym różni się drukarka atramentowa od laserowej pod względem eksploatacji?
+    2. **Sprzed kilku tygodni.** Co to jest czas reakcji matrycy w monitorze?
+    3. **Z dawniejszych tematów.** Do czego służy sterownik (driver) urządzenia?
+
+    ??? success "Odpowiedzi"
+
+        1. Atramentowa używa płynnego tuszu (ryzyko zaschnięcia), a laserowa proszku (tonera) utrwalanego temperaturą.
+        2. Czas potrzebny pikselowi na zmianę swojego stanu (wyrażany w milisekundach ms).
+        3. Program pośredniczący między systemem operacyjnym a sprzętem, pozwalający na ich prawidłową komunikację.
 
 ## 1. Komputery jednopłytkowe i mikrosterowniki w technice
 

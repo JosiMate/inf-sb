@@ -2,17 +2,37 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 11**
 
-Wyobraź sobie, że chcesz stworzyć nową obudowę do telefonu, uchwyt na narzędzia w warsztacie albo element maszyny, którego nie można kupić w sklepie. Zamiast rzeźbić w plastiku czy drewnie metodą prób i błędów, możesz najpierw stworzyć idealny model w komputerze. Modelowanie 3D to dzisiaj nie tylko domena gier i filmów, ale przede wszystkim potężne narzędzie w przemyśle, budownictwie i rzemiośle.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział III. Aplikacje komputerowe pomagają w pracy · rozdział 11
 
-    Po tej lekcji potrafisz:
+    Wyobraź sobie, że chcesz stworzyć nową obudowę do telefonu, uchwyt na narzędzia w warsztacie albo element maszyny, którego nie można kupić w sklepie. Zamiast rzeźbić w plastiku czy drewnie metodą prób i błędów, możesz najpierw stworzyć idealny model w komputerze. Modelowanie 3D to dzisiaj nie tylko domena gier i filmów, ale przede wszystkim potężne narzędzie w przemyśle, budownictwie i rzemiośle.
 
-    1. zdefiniować pojęcie modelowania 3D i odróżnić je od rysunku 2D
-    2. zidentyfikować trzy osie układu współrzędnych (X, Y, Z) i ich znaczenie
-    3. wymienić podstawowe bryły (prymitywy) używane w modelowaniu
-    4. wyjaśnić podstawowe operacje modelowania: wyciąganie, skalowanie i operacje boole'owskie
-    5. odróżnić modelowanie parametryczne (CAD) od rzeźbienia cyfrowego (sculpting)
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Zdefiniuję pojęcie modelowania 3D i odróżnię je od rysunku 2D
+    2. Zidentyfikuję trzy osie układu współrzędnych (X, Y, Z) i ich znaczenie
+    3. Wymienię podstawowe bryły (prymitywy) używane w modelowaniu
+    4. Wyjaśnię podstawowe operacje modelowania: wyciąganie, skalowanie i operacje boole'owskie
+    5. Odróżnię modelowanie parametryczne (CAD) od rzeźbienia cyfrowego (sculpting)
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Na czym polega Szyfr Cezara z przesunięciem k?
+    2. **Sprzed kilku tygodni.** Jaka jest różnica między szyfrowaniem symetrycznym a asymetrycznym?
+    3. **Z dawniejszych tematów.** Co to jest ślad cyfrowy pasywny?
+
+    ??? success "Odpowiedzi"
+
+        1. Zastępuje każdy znak tekstu znakiem przesuniętym o k pozycji dalej w alfabecie.
+        2. W szyfrowaniu symetrycznym używa się tego samego klucza do szyfrowania i odszyfrowywania; w asymetrycznym — pary kluczy (publiczny i prywatny).
+        3. Dane zbierane o użytkowniku automatycznie w tle przez urządzenia i serwisy (np. IP, geolokalizacja).
 
 ## 1. Czym jest modelowanie 3D?
 

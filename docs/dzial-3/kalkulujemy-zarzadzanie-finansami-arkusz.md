@@ -6,20 +6,34 @@
 
     Zarządzanie finansami własnej firmy lub budżetem domowym wymaga umiejętności automatycznego wyliczania podatków, cen usług oraz symulacji wariantów biznesowych. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wyliczać podatek VAT, tworzyć listy rozwijane (prawidłowy dobór stawki), używać formuł warunkowych (`JEŻELI`), zaokrąglać kwoty (`ZAOKR`) oraz budować kalkulator symulacji usług.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wyjaśnię pojęcie kwoty netto, kwoty brutto oraz podatku VAT (23%, 8%, 5%)
+    2. Obliczę kwotę podatku VAT oraz kwotę brutto z kwoty netto w arkuszu kalkulacyjnym
+    3. Przeliczę kwotę netto na podstawie znanej kwoty brutto („odrachowanie” VAT)
+    4. Zastosuję funkcję `ZAOKR` do prawidłowego zaokrąglania wyliczeń finansowych do 2 miejsc po przecinku
+    5. Utworzę i skonfiguruję Poprawność Danych (Validation Lists) — listy rozwijane stawki VAT
+    6. Zastosuję formułę warunkową `JEŻELI` do automatycznego przydzielania rabatów lub narzutów
+    7. Konstruować arkusz symulacji finansowej oferty (wariant tani vs wariant rozszerzony)
+    8. Zastosuję adresowanie względne i bezwzględne (blokowanie komórki znakiem `$`)
+    9. Sformatuję komórki finansowe (zastosowanie czerwonego koloru dla ujemnych bilansów)
+    10. Zaprojektuję przejrzysty arkusz kalkulacyjny kalkulatora usług dla klienta
 
-    1. wyjaśnić pojęcie kwoty netto, kwoty brutto oraz podatku VAT (23%, 8%, 5%)
-    2. obliczać kwotę podatku VAT oraz kwotę brutto z kwoty netto w arkuszu kalkulacyjnym
-    3. przeliczać kwotę netto na podstawie znanej kwoty brutto („odrachowanie” VAT)
-    4. stosować funkcję `ZAOKR` do prawidłowego zaokrąglania wyliczeń finansowych do 2 miejsc po przecinku
-    5. tworzyć i konfigurować Poprawność Danych (Validation Lists) — listy rozwijane stawki VAT
-    6. stosować formułę warunkową `JEŻELI` do automatycznego przydzielania rabatów lub narzutów
-    7. konstruować arkusz symulacji finansowej oferty (wariant tani vs wariant rozszerzony)
-    8. stosować adresowanie względne i bezwzględne (blokowanie komórki znakiem `$`)
-    9. formatować komórki finansowe (zastosowanie czerwonego koloru dla ujemnych bilansów)
-    10. projektować przejrzysty arkusz kalkulacyjny kalkulatora usług dla klienta
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jak zaimportować dane z tabeli na stronie WWW do arkusza kalkulacyjnego?
+    2. **Sprzed kilku tygodni.** Do czego służy funkcja `JEŻELI` w arkuszu kalkulacyjnym?
+    3. **Z dawniejszych tematów.** Czym różni się adresowanie względne od bezwzględnego (ze znakiem `$`)?
+
+    ??? success "Odpowiedzi"
+
+        1. Używając opcji importu danych z sieci (lub wklejając dane i używając narzędzia „Tekst jako kolumny”).
+        2. Sprawdza warunek i zwraca jedną wartość, gdy warunek jest prawdziwy, a inną, gdy jest fałszywy.
+        3. Adres względny (np. A1) zmienia się przy kopiowaniu formuły, a bezwzględny (np. `$A$1`) pozostaje stały.
 
 ## 1. Podstawy wyliczeń podatkowych w firmie
 
