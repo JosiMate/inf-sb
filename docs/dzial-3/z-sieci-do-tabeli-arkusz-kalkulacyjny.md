@@ -6,34 +6,35 @@
 
     Pozyskiwanie, importowanie i interpretowanie danych gospodarczych oraz branżowych ze źródeł internetowych (np. GUS, urzędy pracy, portale branżowe) to kluczowa umiejętność w analizie rynku. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się pobierać dane tabelaryczne ze stron WWW, czyścić i formatować dane w arkuszu kalkulacyjnym, używać funkcji statystycznych oraz budować czytelne kosztorysy i wykresy analityczne.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Zidentyfikuję oficjalne źródła danych statystycznych i gospodarczych (GUS - stat.gov.pl, Eurostat, CEIDG)
-    2. Zaimportuję tabele z witryn internetowych do arkusza kalkulacyjnego (Excel / Calc)
-    3. Oczyszczę zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego)
-    4. Skonwertuję dane tekstowe na wartości liczbowe oraz formatować waluty i procenty
-    5. Zastosuję serie danych i mechanizm automatycznego wypełniania komórek (AutoFill)
-    6. Wykonywać obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`)
-    7. Utworzę prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym
-    8. Dobiorę i utworzę wykresy do wizualizacji importowanych danych statystycznych
-    9. Zinterpretuję wyniki oraz wyciągnę wnioski na podstawie analizy tabelarycznej
-    10. Wyeksportuję i udostępnię arkusz w formacie XLSX lub PDF
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Do czego służą sekcje i podziały stron w długich dokumentach technicznych?
-    2. **Sprzed kilku tygodni.** Jak dodać automatyczną numerację stron od drugiej strony dokumentu?
-    3. **Z dawniejszych tematów.** Czym jest szablon dokumentu (.dotx / .ott)?
+    1. **Z poprzedniej lekcji.** Do czego służy podział sekcji w dokumencie tekstowym?
+    2. **Sprzed kilku tygodni.** Czym różni się spis treści od spisu ilustracji?
+    3. **Z dawniejszych tematów.** Co to są style akapitowe?
 
     ??? success "Odpowiedzi"
 
-        1. Pozwalają zmieniać nagłówki, stopki, orientację stron (pionowa/pozioma) i numerację w różnych częściach dokumentu.
-        2. Wstawiając podział sekcji i wyłączając opcję „Połącz z poprzednim” w nagłówku/stopce nowej sekcji.
-        3. Gotowy wzorzec dokumentu ze zdefiniowanymi stylami, układem i elementami stałymi.
+        1. Umożliwia różnicowanie nagłówków, stopek oraz orientacji stron w jednym dokumencie.
+        2. Spis treści bazuje na nagłówkach tekstu, a spis ilustracji na automatycznych podpisach rysunków.
+        3. Zapisane zestawy formatowania (czcionka, rozmiar, interlinia) nakładane na akapity.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Zidentyfikuję oficjalne źródła danych statystycznych i gospodarczych (GUS - stat.gov.pl, Eurostat, CEIDG).
+    2. Zaimportuję tabele z witryn internetowych do arkusza kalkulacyjnego (Excel / Calc).
+    3. Oczyszczę zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego).
+    4. Skonwertuję dane tekstowe na wartości liczbowe oraz sformatuję waluty i procenty.
+    5. Zastosuję serie danych i mechanizm automatycznego wypełniania komórek (AutoFill).
+    6. wykonam obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`).
+    7. Utworzę prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym.
+    8. Dobiorę i utworzę wykresy do wizualizacji importowanych danych statystycznych.
+    9. Zinterpretuję wyniki oraz wyciągnę wnioski na podstawie analizy tabelarycznej.
+    10. Wyeksportuję i udostępnię arkusz w formacie XLSX lub PDF.
 
 ## 1. Źródła danych w sieci i sposoby ich importu
 
@@ -128,52 +129,13 @@ Pobieranie danych z sieci i ich interpretacja w arkuszu kalkulacyjnym to podstaw
 
     Skopiuj prostą tabelę z cenami paliw lub materiałów ze strony internetowej do arkusza. Zamień ewentualne kropki na przecinki i nadaj kolumnie format walutowy.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Utwórz arkusz z cenami 5 surowców/części. Użyj funkcji `SUMA`, `ŚREDNIA`, `MIN` i `MAKS` do analizy ich wartości.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Pobierz z sieci aktualny cennik materiałów potrzebnych w Twoim zawodzie i przygotuj kosztorys wykonania konkretnej usługi dla klienta z uwzględnieniem narzutu robocizny.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -181,16 +143,15 @@ Pobieranie danych z sieci i ich interpretacja w arkuszu kalkulacyjnym to podstaw
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

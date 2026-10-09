@@ -6,34 +6,35 @@
 
     Przetwarzanie w chmurze obliczeniowej (Cloud Computing) umożliwia bezpieczne przechowywanie danych firmowych, pracę zdalną oraz dostęp do zaawansowanego oprogramowania bez konieczności inwestowania we własne kosztowne serwery. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się korzystać z dysków chmurowych (Google Drive, OneDrive, Nextcloud), edytować dokumenty online, udostępniać pliki z odpowiednimi uprawnieniami oraz organizować e-pracę.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie chmury obliczeniowej (Cloud Computing) i zasady jej działania
-    2. Wymienię modele usług chmurowych (IaaS, PaaS, SaaS) i podawać przykłady
-    3. Zakładać konto i skorzystam z dysków chmurowych (Google Drive, MS OneDrive, Nextcloud)
-    4. Spakuję, wyślę i zsynchronizuję pliki pomiędzy komputerem a chmurą
-    5. Utworzę i edytuję dokumenty, arkusze i prezentacje bezpośrednio w przeglądarce
-    6. Udostępnię pliki innym użytkownikom z ograniczeniem uprawnień (Podgląd, Komentowanie, Edycja)
-    7. Zarządzę łączami publicznymi z zabezpieczeniem hasłem i terminem wygaśnięcia
-    8. Przeprowadzę współedycję dokumentów w czasie rzeczywistym z zespołem
-    9. Zorganizuję bezpieczną e-pracę i zdalny dostęp do zasobów warsztatu
-    10. Ocenię zagrożenia prywatności i zastosuję dwuskładnikowe uwierzytelnianie (2FA) w chmurze
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Co to jest podpis kwalifikowany i profil zaufany?
-    2. **Sprzed kilku tygodni.** Czym różni się system ERP od CRM w przedsiębiorstwie?
-    3. **Z dawniejszych tematów.** Do czego służy bankowość elektroniczna i przelew Elixir?
+    1. **Z poprzedniej lekcji.** Co to jest Profil Zaufany i do czego służy?
+    2. **Sprzed kilku tygodni.** Jakie korzyści daje załatwianie spraw przez portal Biznes.gov.pl?
+    3. **Z dawniejszych tematów.** Co to jest serwer DNS?
 
     ??? success "Odpowiedzi"
 
-        1. Narzędzia do elektronicznego potwierdzania tożsamości i podpisywania dokumentów z mocą prawną.
-        2. ERP wspiera zarządzanie całą firmą (zasoby, magazyn), a CRM obsługuje relacje z klientami.
-        3. Do bezpiecznego zarządzania kontem i wykonywania rozliczeń pieniężnych przez sieć.
+        1. Bezpłatne narzędzie do potwierdzania tożsamości w portalach e-administracji.
+        2. Oszczędność czasu i możliwość rejestracji oraz modyfikacji danych firmy online.
+        3. System nazewnictwa domenowego zamieniający nazwy słowne na adresy IP.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie chmury obliczeniowej (Cloud Computing) i zasady jej działania.
+    2. Wymienię modele usług chmurowych (IaaS, PaaS, SaaS) i podam przykłady.
+    3. założę konto i skorzystam z dysków chmurowych (Google Drive, MS OneDrive, Nextcloud).
+    4. Spakuję, wyślę i zsynchronizuję pliki pomiędzy komputerem a chmurą.
+    5. Utworzę i edytuję dokumenty, arkusze i prezentacje bezpośrednio w przeglądarce.
+    6. Udostępnię pliki innym użytkownikom z ograniczeniem uprawnień (Podgląd, Komentowanie, Edycja).
+    7. Zarządzę łączami publicznymi z zabezpieczeniem hasłem i terminem wygaśnięcia.
+    8. Przeprowadzę współedycję dokumentów w czasie rzeczywistym z zespołem.
+    9. Zorganizuję bezpieczną e-pracę i zdalny dostęp do zasobów warsztatu.
+    10. Ocenię zagrożenia prywatności i zastosuję dwuskładnikowe uwierzytelnianie (2FA) w chmurze.
 
 ## 1. Co to jest chmura obliczeniowa (Cloud Computing)?
 
@@ -128,52 +129,13 @@ Własna chmura obliczeniowa zapewnia dostęp do dokumentów firmowych z każdego
 
     Zaloguj się na darmowe konto chmurowe, utwórz folder, wgraj do niego 2 pliki i zmień ich nazwy.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Utwórz w chmurze plik tekstowy i wygeneruj link publiczny do podglądu z ograniczonym uprawnieniem (tylko do odczytu).
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Przeprowadź z kolegą z ławki współedycję w czasie rzeczywistym dokumentu kosztorysu w chmurze. Użyj komentarzy i sugerowania zmian.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -181,16 +143,15 @@ Własna chmura obliczeniowa zapewnia dostęp do dokumentów firmowych z każdego
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

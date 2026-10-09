@@ -8,30 +8,29 @@
 
     Wyobraź sobie, że masz do wyłożenia podłogę w łazience o wymiarach 240 cm na 360 cm. Chcesz użyć do tego największych możliwych kwadratowych płytek, żeby nie trzeba było ich ciąć, a spoiny były jak najrzadsze. Albo masz dwa budziki: jeden dzwoni co 15 minut, a drugi co 20 minut. Kiedy oba zadzwonią w tym samym czasie po raz pierwszy? To nie są zagadki z podręcznika do matematyki — to konkretne problemy, które rozwiązujemy za pomocą NWD i NWW.
 
-
-
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Odróżnię dzielnik liczby od jej wielokrotności
-    2. Znajdę największy wspólny dzielnik (NWD) dwóch liczb za pomocą rozkładu na czynniki pierwsze
-    3. Znajdę najmniejszą wspólną wielokrotność (NWW) dwóch liczb za pomocą rozkładu na czynniki pierwsze
-    4. Skorzystać z zależności między NWD a NWW do szybkiego obliczenia jednej z tych wartości
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Czym różni się pętla `while` od instrukcji warunkowej `if`?
-    2. **Sprzed kilku tygodni.** Jak w języku Python zdefiniować własną funkcję?
-    3. **Z dawniejszych tematów.** Do czego służy operator reszty z dzielenia `%`?
+    1. **Z poprzedniej lekcji.** Czym różni się pętla `while` od instrukcji warunkowej `if` w Pythonie?
+    2. **Sprzed kilku tygodni.** Do czego służy operator reszty z dzielenia `%`?
+    3. **Z dawniejszych tematów.** Co oznacza skrót RODO?
 
     ??? success "Odpowiedzi"
 
-        1. `if` wykonuje kod raz, gdy warunek jest spełniony; `while` powtarza kod wielokrotnie, dopóki warunek jest prawdziwy.
-        2. Za pomocą słowa kluczowego `def nazwa_funkcji(argumenty):`.
-        3. Zwraca resztę z dzielenia całkowitego dwóch liczb, np. `7 % 3` daje `1`.
+        1. `if` wykonuje kod raz przy spełnionym warunku, a `while` powtarza kod, dopóki warunek jest prawdziwy.
+        2. Zwraca resztę z dzielenia całkowitego dwóch liczb (np. 7 % 3 daje 1).
+        3. Rozporządzenie o Ochronie Danych Osobowych.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Odróżnię dzielnik liczby od jej wielokrotności.
+    2. Znajdę największy wspólny dzielnik (NWD) dwóch liczb za pomocą rozkładu na czynniki pierwsze.
+    3. Znajdę najmniejszą wspólną wielokrotność (NWW) dwóch liczb za pomocą rozkładu na czynniki pierwsze.
+    4. skorzystam z zależności między NWD a NWW do szybkiego obliczenia jednej z tych wartości.
 
 ## 1. Podstawa: Dzielniki i wielokrotności
 

@@ -6,34 +6,35 @@
 
     Nowoczesne przetwórstwo, przemysł, elektronika i automatyka bazują na maszynach sterowanych komputerowo. W ramach tej lekcji (1h) w Dziale IV serwisu `inf-sb` dla Szkoły Branżowej nauczysz się rozpoznawać rolę mikrosterowników, komputerów jednopłytkowych (np. Raspberry Pi, Arduino), maszyn CNC, obrabiarek oraz robotów przemysłowych. Poznasz również zasady sterowania algorytmicznego i symulowania pracy robotów w środowiskach bloczkowych (np. Scratch).
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie mikrosterownika i mikrokontrolera jednopłytkowego
-    2. Rozróżnię zadania komputera biurowego od komputera sterującego procesem technologicznym
-    3. Wyjaśnię pojęcie i rozwinięcie skrótu CNC (Computer Numerical Control)
-    4. Opiszę cykl powstawania wyrobu na maszynach CNC (Projekt CAD -> Program CAM / G-Code -> Obróbka CNC)
-    5. Wymienię rodzaje maszyn sterowanych numerycznie (frezarki, tokarki, wycinarki laserowe, drukarki 3D)
-    6. Opiszę rolę robotów przemysłowych w automatyzacji linii produkcyjnych i warsztatowych
-    7. Ułożę schemat blokowy / algorytm sterowania pracą prostego robota
-    8. Napiszę i testować programy symulujące pracę robota (np. segregowanie detali wg koloru w Scratch)
-    9. Zidentyfikuję czujniki (sensory) i elementy wykonawcze (aktulatory) w maszynach
-    10. Zastosuję zasady zasad BHP przy pracy i przebywaniu w strefie działania maszyn i robotów CNC
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Czym różni się drukarka atramentowa od laserowej pod względem eksploatacji?
-    2. **Sprzed kilku tygodni.** Co to jest czas reakcji matrycy w monitorze?
-    3. **Z dawniejszych tematów.** Do czego służy sterownik (driver) urządzenia?
+    1. **Z poprzedniej lekcji.** Czym różni się drukarka atramentowa od laserowej pod względem tonerów/tuszy?
+    2. **Sprzed kilku tygodni.** Co określa wskaźnik TCO przy zakupie sprzętu?
+    3. **Z dawniejszych tematów.** Przez jakie cyfrowe złącze najczęściej podłącza się nowoczesne monitory?
 
     ??? success "Odpowiedzi"
 
-        1. Atramentowa używa płynnego tuszu (ryzyko zaschnięcia), a laserowa proszku (tonera) utrwalanego temperaturą.
-        2. Czas potrzebny pikselowi na zmianę swojego stanu (wyrażany w milisekundach ms).
-        3. Program pośredniczący między systemem operacyjnym a sprzętem, pozwalający na ich prawidłową komunikację.
+        1. Atramentowa stosuje płynne tusze, a laserowa proszkowy toner utrwalany termicznie.
+        2. Total Cost of Ownership — całkowity koszt posiadania i eksploatacji urządzenia.
+        3. Złącze HDMI lub DisplayPort.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie mikrosterownika i mikrokontrolera jednopłytkowego.
+    2. Rozróżnię zadania komputera biurowego od komputera sterującego procesem technologicznym.
+    3. Wyjaśnię pojęcie i rozwinięcie skrótu CNC (Computer Numerical Control).
+    4. Opiszę cykl powstawania wyrobu na maszynach CNC (Projekt CAD -> Program CAM / G-Code -> Obróbka CNC).
+    5. Wymienię rodzaje maszyn sterowanych numerycznie (frezarki, tokarki, wycinarki laserowe, drukarki 3D).
+    6. Opiszę rolę robotów przemysłowych w automatyzacji linii produkcyjnych i warsztatowych.
+    7. Ułożę schemat blokowy / algorytm sterowania pracą prostego robota.
+    8. Napiszę i przetestuję programy symulujące pracę robota (np. segregowanie detali wg koloru w Scratch).
+    9. Zidentyfikuję czujniki (sensory) i elementy wykonawcze (aktulatory) w maszynach.
+    10. Zastosuję zasady zasad BHP przy pracy i przebywaniu w strefie działania maszyn i robotów CNC.
 
 ## 1. Komputery jednopłytkowe i mikrosterowniki w technice
 
@@ -122,52 +123,13 @@ Komputery i urządzenia peryferyjne to nie tylko sprzęt biurowy, ale przede wsz
 
     Wyjaśnij rozwinięcie skrótu CNC oraz podaj 3 przykłady maszyn sterowanych numerycznie stosowanych w Twoim zawodzie.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Narysuj schemat blokowy algorytmu sterującego automatyczną bramą wjazdową (czujnik ruchu, otwieranie, odczekanie 10 sekund, zamykanie).
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Przygotuj w środowisku Scratch lub w postaci kroków algorytmu program symulujący pracę robota lakierniczego/sortującego wyroby w Twojej branży.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -175,16 +137,15 @@ Komputery i urządzenia peryferyjne to nie tylko sprzęt biurowy, ale przede wsz
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

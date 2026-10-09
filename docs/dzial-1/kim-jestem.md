@@ -12,32 +12,31 @@ pięć lat — na rozmowie o pracę albo w rękach kogoś, kto chce Ci zaszkodzi
 Ta lekcja jest o tym, **co po Tobie zostaje w sieci**, jakie masz do tego prawa
 i co konkretnie zrobić, kiedy ktoś te prawa naruszy.
 
-
-
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię, czym jest wizerunek i ślad cyfrowy, i wskażę, co go tworzy
-    2. Wskażę przepisy chroniące wizerunek i dane osobowe — RODO, art. 81 prawa autorskiego, art. 190a kodeksu karnego — i powiem, po co je wprowadzono
-    3. Powiem, czym grozi upowszechnienie cudzego wizerunku bez zgody
-    4. Opiszę cyberzagrożenia dla wizerunku i wskażę, które są najgroźniejsze
-    5. Wykonam żądanie usunięcia danych i będę wiedzieć, gdzie je wysłać oraz co zrobić, gdy nie ma odpowiedzi
-    6. Wymienię własne zasady ochrony wizerunku i zastosuję je także wobec innych
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Jakie są najważniejsze zasady bhp w pracowni komputerowej przed włączeniem komputera?
-    2. **Sprzed kilku tygodni.** Dlaczego przestrzeganie regulaminu pracowni podlega ocenie na zajęciach?
-    3. **Z dawniejszych tematów.** Gdzie na stronie przedmiotu znajdziesz zasady oceniania i wymagania edukacyjne?
+    1. **Z poprzedniej lekcji.** Jakie są najważniejsze zasady bhp w pracowni przed włączeniem komputera?
+    2. **Sprzed kilku tygodni.** W jakich godzinach uczeń może zgłosić się na poprawę oceny?
+    3. **Z dawniejszych tematów.** Ile bitów mieści się w jednym bajcie?
 
     ??? success "Odpowiedzi"
 
-        1. Obejrzeć stanowisko, sprawdzić przewody, gniazda i brak śladów zalania — ewentualne usterki zgłosić od razu nauczycielowi.
-        2. Ponieważ znajomość i stosowanie zasad bhp chroni zdrowie uczniów i sprzęt oraz stanowi jedno z wymagań na ocenę dopuszczającą.
-        3. Na stronie „Wymagania edukacyjne i bhp” w Dziale I.
+        1. Obejrzeć stanowisko, sprawdzić przewody i gniazda, ewentualne usterki zgłosić nauczycielowi.
+        2. W terminach ustalonych z nauczycielem zgodnie z przedmiotowym systemem oceniania.
+        3. W jednym bajcie mieści się 8 bitów.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię, czym jest wizerunek i ślad cyfrowy, i wskażę, co go tworzy.
+    2. Wskażę przepisy chroniące wizerunek i dane osobowe — RODO, art. 81 prawa autorskiego, art. 190a kodeksu karnego — i powiem, po co je wprowadzono.
+    3. Powiem, czym grozi upowszechnienie cudzego wizerunku bez zgody.
+    4. Opiszę cyberzagrożenia dla wizerunku i wskażę, które są najgroźniejsze.
+    5. Wykonam żądanie usunięcia danych i będę będę wiedział, gdzie je wyślę oraz co zrobię, gdy nie ma odpowiedzi.
+    6. Wymienię własne zasady ochrony wizerunku i zastosuję je także wobec innych.
 
 ## 1. Dwa znaczenia słowa „wizerunek"
 
@@ -59,6 +58,10 @@ ten budujesz albo psujesz sam.
     który da się z Tobą powiązać — i to jest Twój wizerunek w sensie drugim.
     Pracodawca w branży IT sprawdza kandydata w wyszukiwarce. To nie jest
     straszenie, to standardowy element rekrutacji.
+
+    ??? success "Przewiduj, potem sprawdź wynik"
+
+        Przeanalizuj powiązane reguły i upewnij się, że wynik w Twoim programie/arkuszu zgadza się z oczekiwaniem.
 
 ## 2. Ślad cyfrowy — co po Tobie zostaje
 

@@ -8,31 +8,30 @@
 
     Wyobraź sobie, że chcesz wysłać do kolegi wiadomość, której nie może odczytać nikt inny, kto przypadkiem przejmie Twoją kartkę z notatką. Aby to osiągnąć, musisz zamienić zrozumiały tekst na „bełkot”, który tylko osoba posiadająca specjalny klucz będzie w stanie odczytać. To właśnie jest **szyfrowanie**.
 
-
-
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Zdefiniuję pojęcia: tekst jawny, szyfrogram i klucz
-    2. Wyjaśnię zasadę działania szyfru przedstawieniowego
-    3. Samodzielnie zaszyfrować i odszyfruję wiadomość szyfrem Cezara
-    4. Powiązać proces szyfrowania z operacjami na listach i przesunięciami w programowaniu
-    5. Odróżnię słabe szyfry od silnego szyfrowania stosowanego w sieci (np. HTTPS)
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Jak zapisać liczbę 5 w systemie dwójkowym (binarnym)?
-    2. **Sprzed kilku tygodni.** Ile bitów mieści się w jednym bajcie?
-    3. **Z dawniejszych tematów.** Jaka cyfra odpowiada liczbie 10 w systemie szesnastkowym (HEX)?
+    1. **Z poprzedniej lekcji.** Jak zapisać liczbę 10 w dziesiętnym systemie dwójkowym (binarnym)?
+    2. **Sprzed kilku tygodni.** Jaka cyfra odpowiada liczbie 12 w systemie szesnastkowym (HEX)?
+    3. **Z dawniejszych tematów.** Ile bajtów ma kilobajt w przeliczeniu potęgowym 2^10?
 
     ??? success "Odpowiedzi"
 
-        1. Liczba 5 dziesiętnie to `101` dwójkowo (4 + 0 + 1).
-        2. Jeden bajt składa się z 8 bitów.
-        3. Literka `A` (lub `a`).
+        1. 1010 dwójkowo (8 + 2).
+        2. Literka C (A=10, B=11, C=12).
+        3. 1024 bajty.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Zdefiniuję pojęcia: tekst jawny, szyfrogram i klucz.
+    2. Wyjaśnię zasadę działania szyfru przedstawieniowego.
+    3. Samodzielnie zaszyfruję i odszyfruję wiadomość szyfrem Cezara.
+    4. powiążę proces szyfrowania z operacjami na listach i przesunięciami w programowaniu.
+    5. Odróżnię słabe szyfry od silnego szyfrowania stosowanego w sieci (np. HTTPS).
 
 ## 1. Podstawy tajnej komunikacji
 

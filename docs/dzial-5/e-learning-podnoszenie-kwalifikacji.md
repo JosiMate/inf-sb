@@ -6,34 +6,35 @@
 
     Konieczność ciągłego podnoszenia kwalifikacji zawodowych i śledzenia nowych technologii sprawia, że nauka zdalna (E-learning) stała się podstawowym elementem rozwoju zawodowego. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się korzystać z platform szkoleniowych (Moodle, Coursera, Udemy), szukać kursów branżowych, przygotowywać się do egzaminów kwalifikacyjnych (kwalifikacje zawodowe) oraz weryfikować certyfikaty wydawane w formie cyfrowej.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Zdefiniuję pojęcie e-learningu oraz wymienię jego formy (synchroniczna vs asynchroniczna)
-    2. Porównam zalety i wady nauczania tradycyjnego oraz kształcenia na odległość
-    3. Opiszę strukturę lekcji i modułu na profesjonalnej platformie e-learningowej (np. Moodle)
-    4. Odnajdywać w sieci darmowe i płatne kursy podnoszące kwalifikacje w Twoim zawodzie
-    5. Skorzystam z państwowych portali edukacyjnych oraz platform przygotowujących do egzaminów zawodowych
-    6. Pobiorę materiały dydaktyczne, wykonywać testy samosprawdzające i zadania praktyczne online
-    7. Wyjaśnię pojęcie mikropoświadczeń (Micro-credentials) oraz odznak cyfrowych (Digital Badges)
-    8. Zweryfikuję autentyczność wydanych certyfikatów ukończenia kursu e-learningowego
-    9. Zaplanuję własną ścieżkę rozwoju zawodowego z wykorzystaniem kursów sieciowych
-    10. Zastosuję zasady zasad dyscypliny i organizacji czasu podczas samodzielnej nauki w domu
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
     1. **Z poprzedniej lekcji.** Czym różni się komunikacja synchroniczna od asynchronicznej?
-    2. **Sprzed kilku tygodni.** Co to jest protokół IMAP i SMTP w poczcie elektronicznej?
-    3. **Z dawniejszych tematów.** Jakie są zasady netykiety podczas wideokonferencji?
+    2. **Sprzed kilku tygodni.** Do czego służy oprogramowanie do zdalnego pulpitu (np. TeamViewer)?
+    3. **Z dawniejszych tematów.** Na czym polega zasada bezpiecznego dzielenia się plikami w chmurze?
 
     ??? success "Odpowiedzi"
 
-        1. Synchroniczna odbywa się na żywo (np. rozmowa wideo), a asynchroniczna z przesunięciem czasowym (np. e-mail).
-        2. IMAP służy do odbierania i synchronizacji poczty na serwerze, a SMTP do jej wysyłania.
-        3. Wyciszanie mikrofonu gdy się nie mówi, odpowiedni ubiór i tło oraz punktualne dołączanie.
+        1. Synchroniczna zachodzi w czasie rzeczywistym (rozmowa vido), a asynchroniczna z przesunięciem (e-mail).
+        2. Pozwala na zdalne sterowanie komputerem i udzielanie pomocy technicznej przez sieć.
+        3. Udostępnia się je tylko uprawnionym osobom i zabezpiecza łączem wygasającym z czasem.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Zdefiniuję pojęcie e-learningu oraz wymienię jego formy (synchroniczna vs asynchroniczna).
+    2. Porównam zalety i wady nauczania tradycyjnego oraz kształcenia na odległość.
+    3. Opiszę strukturę lekcji i modułu na profesjonalnej platformie e-learningowej (np. Moodle).
+    4. odnajdę w sieci darmowe i płatne kursy podnoszące kwalifikacje w Twoim zawodzie.
+    5. Skorzystam z państwowych portali edukacyjnych oraz platform przygotowujących do egzaminów zawodowych.
+    6. Pobiorę materiały dydaktyczne, wykonam testy samosprawdzające i zadania praktyczne online.
+    7. Wyjaśnię pojęcie mikropoświadczeń (Micro-credentials) oraz odznak cyfrowych (Digital Badges).
+    8. Zweryfikuję autentyczność wydanych certyfikatów ukończenia kursu e-learningowego.
+    9. Zaplanuję własną ścieżkę rozwoju zawodowego z wykorzystaniem kursów sieciowych.
+    10. Zastosuję zasady zasad dyscypliny i organizacji czasu podczas samodzielnej nauki w domu.
 
 ## 1. Czym jest E-learning i jakie posiada formy?
 
@@ -120,52 +121,13 @@ E-learning jest nowoczesną i skuteczną formą podnoszenia kwalifikacji w bran�
 
     Załóż konto na portalu `zpe.gov.pl` i odszukaj e-materiał dydaktyczny przypisany do Twojej branży.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Przeprowadź wyszukiwanie 2 darmowych i 2 płatnych kursów internetowych podnoszących kwalifikacje w Twoim zawodzie. Porównaj ich czas trwania i program.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Rozwiąż test próbny z kwalifikacji zawodowej na jednym z dedykowanych portali testowych i przeanalizuj swoje wyniki.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -173,16 +135,15 @@ E-learning jest nowoczesną i skuteczną formą podnoszenia kwalifikacji w bran�
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

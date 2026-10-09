@@ -12,33 +12,32 @@ i **co wolno z nim zrobić**. Ta lekcja jest o trzech umiejętnościach, które
 przydają się w warsztacie tak samo jak w szkole: szybko trafić do konkretu,
 sprawdzić, czy można temu wierzyć, i użyć znalezionego materiału legalnie.
 
-
-
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Dobiorę słowa i operatory wyszukiwania tak, żeby trafić do konkretu zamiast przeglądać setki wyników
-    2. Poprawić własne zapytanie, kiedy pierwsze nie zadziałało
-    3. Ocenię wiarygodność strony według pięciu kryteriów i wskażę, na którym dana strona wypada źle
-    4. Rozpoznam typowe chwyty dezinformacji i sprawdzę zdjęcie wyszukiwaniem wstecznym
-    5. Wymienię sześć licencji Creative Commons i powiem, co przy każdej wolno zrobię
-    6. Wskażę różnicę między cytatem a plagiatem
-    7. Znajdę i wykorzystać wyszukiwarkę branżową związaną ze swoim zawodem
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Dlaczego dane EXIF z aparatu w telefonie mogą zagrażać prywatności?
-    2. **Sprzed kilku tygodni.** Co to jest art. 190a § 2 kodeksu karnego?
-    3. **Z dawniejszych tematów.** Jakie są dwa główne wyjątki od obowiązku uzyskania zgody na rozpowszechnianie wizerunku?
+    1. **Z poprzedniej lekcji.** Na czym polega prawo Moore'a dotyczące rozwoju mikroprocesorów?
+    2. **Sprzed kilku tygodni.** Czym różni się ślad cyfrowy aktywny od pasywnego?
+    3. **Z dawniejszych tematów.** Jaki artykuł kodeksu karnego reguluje podszywanie się pod inną osobę w sieci?
 
     ??? success "Odpowiedzi"
 
-        1. Mąją zapisane m.in. dokładne współrzędne GPS miejsca wykonania zdjęcia oraz datę i czas.
-        2. Przepis o przestępstwie podszywania się pod inną osobę z wykorzystaniem jej wizerunku lub danych.
-        3. Osoba powszechnie znana pełniąca funkcje publiczne oraz osoba stanowiąca jedynie szczegół całości (np. zgromadzenia).
+        1. Liczba tranzystorów w układach scalonych podwaja się w przybliżeniu co dwa lata.
+        2. Aktywny zostawiamy świadomie (posty, komentarze), a pasywny zapisuje się w tle (IP, pliki cookie).
+        3. Art. 190a § 2 kodeksu karnego.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Dobiorę słowa i operatory wyszukiwania tak, żeby trafię do konkretu zamiast przejrzę setki wyników.
+    2. poprawię własne zapytanie, kiedy pierwsze nie zadziałało.
+    3. Ocenię wiarygodność strony według pięciu kryteriów i wskażę, na którym dana strona wypada źle.
+    4. Rozpoznam typowe chwyty dezinformacji i sprawdzę zdjęcie wyszukiwaniem wstecznym.
+    5. Wymienię sześć licencji Creative Commons i powiem, co przy każdej wolno zrobię.
+    6. Wskażę różnicę między cytatem a plagiatem.
+    7. Znajdę i wykorzystam wyszukiwarkę branżową związaną ze swoim zawodem.
 
 ## 1. Mądre wyszukiwanie — operatory
 
@@ -110,6 +109,10 @@ anglojęzycznej ten zestaw nosi skrót **CRAAP** — od pierwszych liter angiels
 
     Karta techniczna wygrywa na czterech kryteriach z pięciu. Forum bywa cenne —
     ale jako sygnał, czego szukać w karcie, nie jako źródło.
+
+    ??? success "Przewiduj, potem sprawdź wynik"
+
+        Przeanalizuj powiązane reguły i upewnij się, że wynik w Twoim programie/arkuszu zgadza się z oczekiwaniem.
 
 ## 3. Dezinformacja — jak to działa i jak to sprawdzić
 

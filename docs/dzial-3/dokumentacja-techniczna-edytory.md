@@ -6,34 +6,35 @@
 
     Tworzenie profesjonalnej dokumentacji technicznej, paszportów maszyn oraz rysunków wykonawczych i złożeniowych wymaga opanowania edytorów tekstu i grafiki wektorowej. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się tworzyć rysunki złożeniowe, dodawać odnośniki i numerację pozycji, podpisować ilustracje i tabele oraz generować automatyczne spisy ilustracji i tabel.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie i rolę rysunku złożeniowego (Assembly Drawing) w dokumentacji
-    2. Wymienię cechy prawidłowo sporządzonej dokumentacji technicznej
-    3. Utworzę proste schematy i rysunki wektorowe przy użyciu narzędzi rysunkowych (LibreOffice Draw, Word)
-    4. Dodam i formatować odnośniki liczbowe (balony / pozycje) do elementów rysunku
-    5. Wstawiać podpisy pod ilustracjami i rysunkami technycznymi (Captions)
-    6. Wstawiać podpisy i numerację tabel (np. Tabela 1: Wykaz części)
-    7. Generować automatyczny spis ilustracji oraz spis tabel w edytorze tekstu
-    8. Zarządzę pozycjonowaniem i zakotwiczeniem rysunków w tekście (Anchor/Position)
-    9. Utworzę tabele specyfikacji materiałowej (BOM - Bill of Materials)
-    10. Zastosuję zasady zasad spójności i czytelności dokumentacji techniczno-ruchowej (DTR)
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Co to jest spad (bleed) w przygotowaniu dokumentu do druku?
-    2. **Sprzed kilku tygodni.** Jaki model kolorów stosuje się w druku, a jaki na ekranie?
-    3. **Z dawniejszych tematów.** Do czego służą linie pomocnicze (siatka) w układzie strony?
+    1. **Z poprzedniej lekcji.** Co to jest spad (bleed) w projektowaniu materiałów do druku?
+    2. **Sprzed kilku tygodni.** Jaki model barw stosuje się do druku, a jaki do wyświetlania na ekranie?
+    3. **Z dawniejszych tematów.** Jak wstawić automatyczny spis treści w edytorze tekstu?
 
     ??? success "Odpowiedzi"
 
-        1. Obszar drukowany poza krawędzią czystego formatu, zapobiegający białym brzegom po przycięciu papieru.
-        2. W druku stosuje się model CMYK, a na ekranie RGB.
-        3. Pomagają równo wyrównać i rozmieścić elementy tekstowe i graficzne na stronie.
+        1. Obszar wychodzący poza linię cięcia, zapobiegający powstawaniu białych brzegów po docięciu.
+        2. Do druku stosuje się model CMYK, a na ekranie model RGB.
+        3. Używając dedykowanej opcji w zakładce Odwołania, pod warunkiem oznaczenia nagłówków stylami.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie i rolę rysunku złożeniowego (Assembly Drawing) w dokumentacji.
+    2. Wymienię cechy prawidłowo sporządzonej dokumentacji technicznej.
+    3. Utworzę proste schematy i rysunki wektorowe przy użyciu narzędzi rysunkowych (LibreOffice Draw, Word).
+    4. Dodam i sformatuję odnośniki liczbowe (balony / pozycje) do elementów rysunku.
+    5. wstawię podpisy pod ilustracjami i rysunkami technycznymi (Captions).
+    6. wstawię podpisy i numerację tabel (np. Tabela 1: Wykaz części).
+    7. wygeneruję automatyczny spis ilustracji oraz spis tabel w edytorze tekstu.
+    8. Zarządzę pozycjonowaniem i zakotwiczeniem rysunków w tekście (Anchor/Position).
+    9. Utworzę tabele specyfikacji materiałowej (BOM - Bill of Materials).
+    10. Zastosuję zasady zasad spójności i czytelności dokumentacji techniczno-ruchowej (DTR).
 
 ## 1. Wprowadzenie do Dokumentacji Techniczno-Ruchowej (DTR)
 
@@ -124,52 +125,13 @@ Zaawansowane możliwości edytorów tekstu umożliwiają sprawne tworzenie profe
 
     Wstaw obraz do dokumentu, użyj funkcji *Wstaw podpis* i sprawdź, czy dodanie drugiego obrazka powyżej automatycznie zmieni numerację.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Utwórz proste schematyczne rysunki wektorowe w edytorze i nałóż na nie 3 odnośniki z numerami pozycji. Zgrupuj obiekty.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Przygotuj kartę techniczną wyrobu/maszyny ze swojego zawodu. Zamieść rysunek, tabelę parametrów technicznych oraz tabelę zestawieniową części (BOM).
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -177,16 +139,15 @@ Zaawansowane możliwości edytorów tekstu umożliwiają sprawne tworzenie profe
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

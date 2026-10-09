@@ -12,33 +12,32 @@ chce się uruchomić na nowym sprzęcie. Ta lekcja jest o dwóch rzeczach naraz:
 **skąd się biorą te liczby** i **co zmieniło się w życiu ludzi**, kiedy urządzenia
 liczące stały się tanie i powszechne.
 
-
-
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię, czym jest bit i bajt, i powiem, skąd biorą się liczby 8, 16, 32, 64
-    2. Uzasadnić, dlaczego układy komputera projektuje się w kodzie dwójkowym, a nie dziesiętnym
-    3. Odczytać liczbę binarną z wag pozycji i zamienię ją na dziesiętną — na kartce i w kalkulatorze
-    4. Powiem, co w praktyce znaczy „system 64-bitowy" i czym różni się od 32-bitowego
-    5. Podać przykłady wpływu postępu technologicznego na zastosowanie komputerów
-    6. Omówić wpływ rozwoju technologii informacyjnych na rozwój społeczeństw, w tym zalety i koszty zdalnego nauczania
-    7. Wskażę, czym jest wykluczenie cyfrowe, i podać liczby, które je opisują
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Czym różni się ślad cyfrowy aktywny od pasywnego?
-    2. **Sprzed kilku tygodni.** Jaki przepis prawa autorskiego reguluje rozpowszechnianie wizerunku osoby?
-    3. **Z dawniejszych tematów.** Co to jest RODO i po co je wprowadzono?
+    1. **Z poprzedniej lekcji.** Czym różni się wizerunek w sensie prawnym od wizerunku w sensie potocznym?
+    2. **Sprzed kilku tygodni.** Przez ile minut pracy przy monitorze należy zrobić krótką przerwę dla oczu?
+    3. **Z dawniejszych tematów.** Ile bitów mieści się w jednym bajcie?
 
     ??? success "Odpowiedzi"
 
-        1. Ślad aktywny zostawiamy świadomie (posty, komentarze), a pasywny zapisuje się w tle (IP, pliki cookie, dane EXIF).
-        2. Art. 81 ust. 1 ustawy o prawie autorskim i prawach pokrewnych.
-        3. RODO to unijne rozporządzenie o ochronie danych osobowych, dające obywatelom kontrolę nad ich danymi.
+        1. Prawny to rozpoznawalna podobizna chroniona prawem, a potoczny to opinia budowana przez ślad cyfrowy.
+        2. Po każdych 45 minutach pracy należy oderwać wzrok i spojrzeć w dal.
+        3. 8 bitów.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię, czym jest bit i bajt, i powiem, skąd biorą się liczby 8, 16, 32, 64.
+    2. Uzasadnię, dlaczego układy komputera projektuje się w kodzie dwójkowym, a nie dziesiętnym.
+    3. odczytam liczbę binarną z wag pozycji i zamienię ją na dziesiętną — na kartce i w kalkulatorze.
+    4. Powiem, co w praktyce znaczy „system 64-bitowy" i czym różni się od 32-bitowego.
+    5. podam przykłady wpływu postępu technologicznego na zastosowanie komputerów.
+    6. omówię wpływ rozwoju technologii informacyjnych na rozwój społeczeństw, w tym zalety i koszty zdalnego nauczania.
+    7. Wskażę, czym jest wykluczenie cyfrowe, i podam liczby, które je opisują.
 
 ## 1. Skąd się biorą 8, 16, 32 i 64
 
@@ -69,6 +68,10 @@ Liczba różnych układów, jakie można zapisać na *n* bitach, to **2ⁿ**:
     Dlatego mówi się o „kolorze 24-bitowym" — 3 bajty po 8 bitów. Kiedy widzisz
     zapis `#FF8800`, każda para znaków to jedna składowa zapisana szesnastkowo:
     `FF` = 255, `88` = 136, `00` = 0.
+
+    ??? success "Przewiduj, potem sprawdź wynik"
+
+        Przeanalizuj powiązane reguły i upewnij się, że wynik w Twoim programie/arkuszu zgadza się z oczekiwaniem.
 
 ## 2. Dlaczego komputer liczy dwójkowo
 
@@ -124,6 +127,10 @@ i pytasz „czy się mieści":
     | 1 | nie | 0 | 0 |
 
     Wynik: `11001000`. Sprawdzenie: 128 + 64 + 8 = 200. ✔
+
+    ??? success "Przewiduj, potem sprawdź wynik"
+
+        Przeanalizuj powiązane reguły i upewnij się, że wynik w Twoim programie/arkuszu zgadza się z oczekiwaniem.
 
 ### Kalkulator w trybie Programisty
 

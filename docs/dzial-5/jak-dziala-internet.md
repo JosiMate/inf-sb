@@ -6,34 +6,35 @@
 
     Świadome i bezpieczne korzystanie z sieci w pracy zawodowej wymaga zrozumienia podstawowych mechanizmów rządzących globalną siecią Internet. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się jak działają protokoły sieciowe (TCP/IP), adresy IP (IPv4 vs IPv6), system nazw domenowych (DNS), protokół DHCP oraz jak diagnozować i śledzić połączenia za pomocą poleceń systemowych (`ping`, `tracert`) i programów diagnostycznych.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie i rolę protokołów sieciowych (TCP/IP) w przesyłaniu danych
-    2. Odróżnię adresy IP prywatne od publicznych oraz wersję IPv4 od IPv6
-    3. Wyjaśnię rolę i działanie serwerów nazw domenowych (DNS - Domain Name System)
-    4. Opiszę działanie i zadania protokołu automatycznej konfiguracji DHCP
-    5. Zastosuję polecenie `ping` w Wierszu poleceń do sprawdzania łączności z serwerem
-    6. Zastosuję polecenia `tracert` / `traceroute` do śledzenia trasy pakietów w sieci
-    7. Wyjaśnię pojęcie domeny internetowej, jej struktury (TLD, subdomeny) oraz podmiotów je przydzielających (IANA/NASK)
-    8. Zinterpretuję parametry opóźnień sieciowych (ping / latency w milisekundach)
-    9. Rozpoznawać funkcję rutera i przełącznika (switcha) w sieci firmowej
-    10. Sdiagnozuję podstawowe usterki braku dostępu do sieci na stanowisku pracy
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Co to jest kontroler CNC lub sterownik PLC w maszynach przemysłowych?
-    2. **Sprzed kilku tygodni.** Do czego służy interfejs USB-C w nowo podłączanych urządzeniach?
-    3. **Z dawniejszych tematów.** Co to jest druk 3D (wytwarzanie przyrostowe)?
+    1. **Z poprzedniej lekcji.** Co oznacza skrót CNC w sterowaniu maszyn przemysłowych?
+    2. **Sprzed kilku tygodni.** Do czego służy sterownik PLC w automatyce?
+    3. **Z dawniejszych tematów.** Czym charakteryzuje się proces druku 3D?
 
     ??? success "Odpowiedzi"
 
-        1. Komputerowy układ sterujący pracą obrabiarki (CNC) lub programowalny przekaźnik automatyki przemysłowej (PLC).
-        2. Symetryczny interfejs do szybkiego przesyłania danych, wideo oraz zasilania urządzeń (Power Delivery).
-        3. Proces tworzenia trójwymiarowych obiektów fizycznych poprzez nakładanie kolejnych warstw materiału.
+        1. Computer Numerical Control — komputerowe sterowanie numeryczne.
+        2. Do programowalnego sterowania pracą linii produkcyjnych i maszyn.
+        3. Jest to wytwarzanie przyrostowe polegające na nakładaniu kolejnych warstw materiału.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie i rolę protokołów sieciowych (TCP/IP) w przesyłaniu danych.
+    2. Odróżnię adresy IP prywatne od publicznych oraz wersję IPv4 od IPv6.
+    3. Wyjaśnię rolę i działanie serwerów nazw domenowych (DNS - Domain Name System).
+    4. Opiszę działanie i zadania protokołu automatycznej konfiguracji DHCP.
+    5. Zastosuję polecenie `ping` w Wierszu poleceń do sprawdzania łączności z serwerem.
+    6. Zastosuję polecenia `tracert` / `traceroute` do śledzenia trasy pakietów w sieci.
+    7. Wyjaśnię pojęcie domeny internetowej, jej struktury (TLD, subdomeny) oraz podmiotów je przydzielających (IANA/NASK).
+    8. Zinterpretuję parametry opóźnień sieciowych (ping / latency w milisekundach).
+    9. rozpoznam funkcję rutera i przełącznika (switcha) w sieci firmowej.
+    10. Sdiagnozuję podstawowe usterki braku dostępu do sieci na stanowisku pracy.
 
 ## 1. Jak dane podróżują po sieci: Protokół TCP/IP i adresy IP
 
@@ -128,52 +129,13 @@ Internet działa w oparciu o zestaw protokołów TCP/IP, adresację IP, automaty
 
     Uruchom Wiersz poleceń i odczytaj swój adres IP oraz adres bramy domyślnej za pomocą polecenia `ipconfig`.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Przeprowadź test łączności poleceniem `ping` dla trzech różnych serwisów internetowych i porównaj ich średnie czasy opóźnień (ms).
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Za pomocą polecenia `tracert` prześledź trasę pakietów do serwera hurtowni/portalu branżowego. Policz, przez ile ruterów przechodzi połączenie.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -181,16 +143,15 @@ Internet działa w oparciu o zestaw protokołów TCP/IP, adresację IP, automaty
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

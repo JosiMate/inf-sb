@@ -6,34 +6,35 @@
 
     Internet rewolucjonizuje rynek pracy, stanowiąc główne miejsce poszukiwania ofert, budowania wizerunku zawodowego oraz aplikowania na stanowiska w wybranym zawodzie. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wyszukiwać oferty pracy na portalach rekrutacyjnych, tworzyć nowoczesne CV i List Motywacyjny w edytorach i kreatorach (Canva, Pracuj.pl), chronić swoje dane osobowe podczas rekrutacji oraz budować profesjonalny profil w mediach społecznościowych (LinkedIn / Pracuj).
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wymienię i skorzystam z branżowych i ogólnopolskich portali pracy (Pracuj.pl, OLX Praca, Pracuj w Unii - EURES)
-    2. Ocenię wiarygodność i bezpieczeństwo ogłoszeń o pracę w sieci
-    3. Wyjaśnię różnicę między Życiorysem Zawodowym (CV) a Listem Motywacyjnym
-    4. Utworzę profesjonalne CV z wykorzystaniem nowoczesnych szablonów i kreatorów
-    5. Umieszczę w CV obowiązkową klauzulę o ochronie danych osobowych (RODO)
-    6. Zastosuję zasady higieny cyfrowej i ochronię dane wrażliwe (PESEL, numer dowodu) podczas aplikacji
-    7. Zbuduję profesjonalny profil zawodowy w sieci (np. LinkedIn / Portfolio)
-    8. Przygotuję i dołączać cyfrowe załączniki do aplikacji (zdjęcia prac, certyfikaty w PDF)
-    9. Przygotuję się do rozmowy kwalifikacyjnej prowadzonej online (Google Meet, MS Teams)
-    10. Zastosuję zasady zasad etykiety biznesowej w korespondencji e-mail z rekruterem
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Co to jest kurs MOOC i jakie daje możliwości?
-    2. **Sprzed kilku tygodni.** Czym różni się certyfikat imienny od zaświadczenia o ukończeniu szkolenia?
-    3. **Z dawniejszych tematów.** Do czego służy platforma e-learningowa Moodle?
+    1. **Z poprzedniej lekcji.** Czym jest e-learning asynchroniczny?
+    2. **Sprzed kilku tygodni.** Co to są mikropoświadczenia i cyfrowe odznaki?
+    3. **Z dawniejszych tematów.** Czym różni się Profil Zaufany od kwalifikowanego podpisu elektronicznego?
 
     ??? success "Odpowiedzi"
 
-        1. Massively Open Online Course — otwarty kurs internetowy dostępny dla dowolnej liczby uczestników.
-        2. Certyfikat wymaga zwykle zdanego egzaminu weryfikującego wiedzę, a zaświadczenie potwierdza sam udział.
-        3. Do udostępniania materiałów dydaktycznych, testów, zadań i kontaktów między nauczycielem a uczniami.
+        1. Forma nauki, w której uczeń przerabia udostępnione materiały i testy w dowolnym dla siebie czasie.
+        2. Elektroniczne certyfikaty potwierdzające zdobycie konkretnych umiejętności na kursach online.
+        3. Profil Zaufany jest bezpłatny i służy do e-Urzędów, a podpis kwalifikowany jest płatny i komercyjny.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wymienię i skorzystam z branżowych i ogólnopolskich portali pracy (Pracuj.pl, OLX Praca, Pracuj w Unii - EURES).
+    2. Ocenię wiarygodność i bezpieczeństwo ogłoszeń o pracę w sieci.
+    3. Wyjaśnię różnicę między Życiorysem Zawodowym (CV) a Listem Motywacyjnym.
+    4. Utworzę profesjonalne CV z wykorzystaniem nowoczesnych szablonów i kreatorów.
+    5. Umieszczę w CV obowiązkową klauzulę o ochronie danych osobowych (RODO).
+    6. Zastosuję zasady higieny cyfrowej i ochronię dane wrażliwe (PESEL, numer dowodu) podczas aplikacji.
+    7. Zbuduję profesjonalny profil zawodowy w sieci (np. LinkedIn / Portfolio).
+    8. Przygotuję i dołączę cyfrowe załączniki do aplikacji (zdjęcia prac, certyfikaty w PDF).
+    9. Przygotuję się do rozmowy kwalifikacyjnej prowadzonej online (Google Meet, MS Teams).
+    10. Zastosuję zasady zasad etykiety biznesowej w korespondencji e-mail z rekruterem.
 
 ## 1. Poszukiwanie pracy w sieci i ocena wiarygodności ofert
 
@@ -132,52 +133,13 @@ Internet jest głównym narzędziem poszukiwania dobrej pracy. Przygotowanie czy
 
     Utwórz profesjonalny adres e-mail przeznaczony do rekrutacji (np. w usłudze Gmail/Outlook).
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Odszukaj na portalu pracy 3 ogłoszenia w swoim zawodzie i wypisz najczęściej powtarzające się wymagania pracodawców.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Przygotuj w kreatorze własne CV w formacie PDF zawierające dane o szkole branżowej, umiejętnościach i aktualną klauzulę RODO.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -185,16 +147,15 @@ Internet jest głównym narzędziem poszukiwania dobrej pracy. Przygotowanie czy
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

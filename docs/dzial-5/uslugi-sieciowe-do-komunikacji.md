@@ -6,34 +6,35 @@
 
     Komunikacja biznesowa w nowoczesnym przedsiębiorstwie wykracza daleko poza tradycyjną pocztę e-mail. Komunikatory internetowe, aplikacje do wideokonferencji oraz oprogramowanie do zdalnej pomocy i pulpitu (np. TeamViewer, AnyDesk) pozwalają na błyskawiczne konsultacje techniczne, diagnozowanie usterek oraz sterowanie komputerami na odległość. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się sprawnie i bezpiecznie wykorzystywać komunikatory sieciowe oraz narzędzia zdalnego pulpitu.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Scharakteryzuję i porównywać kanały komunikacji w firmie (E-mail, Komunikatory, Wideokonferencje, VoIP)
-    2. Wymienię funkcje i obszary zastosowań komunikatorów internetowych (MS Teams, Google Meet/Chat, WhatsApp Business)
-    3. Przeprowadzać rozmowy wideo i udostępnię pulpit/ekran w trakcie konsultacji technicznych
-    4. Wyjaśnię zasadę działania i architekturę oprogramowania do zdalnego pulpitu (TeamViewer, AnyDesk, RDP)
-    5. Zainstaluję, uruchomię i bezpiecznie skonfiguruję połączenia w programie TeamViewer / AnyDesk
-    6. Nawiążę połączenie zdalne między smartfonem a komputerem PC
-    7. Zarządzę uprawnieniami dostępu (hasła jednorazowe, autoryzacja dostępu) przy pomocy zdalnej
-    8. Prześlę pliki i dokumentację za pośrednictwem bezpiecznego kanału komunikatora
-    9. Zastosuję zasady zasad BHP i ergonomii podczas pracy zdalnej i wideokonferencji
-    10. Ochronię firmę przed zagrożeniami socjotechnicznymi i nieautoryzowanym przejęciem pulpitu
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Do czego służą narzędzia do wspólnej edycji dokumentów w czasie rzeczywistym?
-    2. **Sprzed kilku tygodni.** Jakie zalety ma tablica Kanban (np. w Trello) w pracy zespołowej?
-    3. **Z dawniejszych tematów.** Na czym polega wersjonowanie plików w dysku chmurowym?
+    1. **Z poprzedniej lekcji.** Na czym polega praca z tablicą Kanban?
+    2. **Sprzed kilku tygodni.** Do czego służy wspólny kalendarz w chmurze?
+    3. **Z dawniejszych tematów.** Czym jest model chmury obliczeniowej SaaS?
 
     ??? success "Odpowiedzi"
 
-        1. Pozwalają wielu osobom jednocześnie pracować nad jednym plikiem bez tworzenia sprzecznych wersji.
-        2. Wizualizuje etap realizacji zadań (Do zrobienia, W trakcie, Zrobione) i zapobiega przeciążeniu pracą.
-        3. Zapamiętuje wcześniejsze zapisy pliku, umożliwiając przywrócenie poprzedniej wersji w razie pomyłki.
+        1. Wizualizuje etap realizacji zadań w kolumnach (np. Do zrobienia, W trakcie, Zrobione).
+        2. Umożliwia rezerwację terminów, zasobów i planowanie spotkań w zespole.
+        3. Gotową aplikacją udostępnianą przez przeglądarkę bez konieczności instalacji.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Scharakteryzuję i porównam kanały komunikacji w firmie (E-mail, Komunikatory, Wideokonferencje, VoIP).
+    2. Wymienię funkcje i obszary zastosowań komunikatorów internetowych (MS Teams, Google Meet/Chat, WhatsApp Business).
+    3. przeprowadzę rozmowy wideo i udostępnię pulpit/ekran w trakcie konsultacji technicznych.
+    4. Wyjaśnię zasadę działania i architekturę oprogramowania do zdalnego pulpitu (TeamViewer, AnyDesk, RDP).
+    5. Zainstaluję, uruchomię i bezpiecznie skonfiguruję połączenia w programie TeamViewer / AnyDesk.
+    6. Nawiążę połączenie zdalne między smartfonem a komputerem PC.
+    7. Zarządzę uprawnieniami dostępu (hasła jednorazowe, autoryzacja dostępu) przy pomocy zdalnej.
+    8. Prześlę pliki i dokumentację za pośrednictwem bezpiecznego kanału komunikatora.
+    9. Zastosuję zasady zasad BHP i ergonomii podczas pracy zdalnej i wideokonferencji.
+    10. Ochronię firmę przed zagrożeniami socjotechnicznymi i nieautoryzowanym przejęciem pulpitu.
 
 ## 1. Komunikacja wielokanałowa w nowoczesnej firmie
 
@@ -123,52 +124,13 @@ Nowoczesna komunikacja w firmie opiera się na zestawieniu e-maila, komunikator�
 
     Zainstaluj lub uruchom w wersji przenośnej program zdalnego pulpitu i zidentyfikuj swój numer ID oraz hasło.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Dołącz do wideokonferencji (Google Meet / MS Teams) i przeprowadź udostępnienie okna z kalkulatorem lub rysunkiem.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Przeprowadź z kolegą z ławki symulację zdalnej pomocy technicznej: połącz się z jego komputerem, przejmij kontrolę nad myszką i prześlij plik z instrukcją.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -176,16 +138,15 @@ Nowoczesna komunikacja w firmie opiera się na zestawieniu e-maila, komunikator�
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

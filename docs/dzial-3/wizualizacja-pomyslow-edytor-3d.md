@@ -6,34 +6,35 @@
 
     Wizualizacja 3D w edytorze CAD / budowlanym umożliwia szybkie przekształcenie szkicu w trójwymiarowy projekt architektoniczny lub wzorniczy. W ramach tego tematu (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się projektować obiekty architektoniczne i przestrzenne w edytorze SketchUp, lokalizować je w terenie oraz przygotowywać modele do prezentacji zawodowej.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Uruchomię i nawigować w środowisku edytora 3D (np. SketchUp)
-    2. Wymienię i zastosuję narzędzia rysowania 2D (linia, prostokąt, okrąg) do tworzenia rzutów
-    3. Zastosuję narzędzie Push/Pull (Wyciągnij) do przekształcania płaskich kształtów w bryły
-    4. Nałożę materiały, kolory oraz tekstury na poszczególne ściany modelu
-    5. Zaimportuję i dopasowywać podkłady mapowe oraz zdjęcia obiektów
-    6. Przeglądać i wykorzystywać trójwymiarowe modele z biblioteki chmurowej 3D Warehouse
-    7. Grupować elementy i utworzę komponenty w celu usprawnienia edycji
-    8. Wymiarować obiekty i sprawdzać ich zgodność ze specyfikacją
-    9. Ustalać położenie geograficzne modelu i przeanalizuję jego nasłonecznienie
-    10. Wyeksportuję gotowy widok 3D do pliku graficznego na potrzeby dokumentacji
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Czym różni się siatka wielokątów (mesh) od bryły podstawowej w edytorze 3D?
-    2. **Sprzed kilku tygodni.** Jakie są trzy podstawowe osie w przestrzeni 3D?
-    3. **Z dawniejszych tematów.** Do czego służy operacja grupowa grupuj/grupuj obiekty w programach graficznych?
+    1. **Z poprzedniej lekcji.** Co oznacza skrót CAD w projektowaniu inżynieryjnym?
+    2. **Sprzed kilku tygodni.** Czym różni się bryła podstawowa (prymityw) od złożonego modelu 3D?
+    3. **Z dawniejszych tematów.** Na czym polega zasada szyfrowania symetrycznego?
 
     ??? success "Odpowiedzi"
 
-        1. Bryła podstawowa to prosty obiekt (np. sześcian), a siatka składa się z wierzchołków, krawędzi i ścianek tworzących złożony kształt.
-        2. Osie X (szerokość), Y (głębokość/długość) i Z (wysokość).
-        3. Połączenie kilku obiektów w jeden, aby łatwiej nimi przesuwać, skalować lub obracać.
+        1. Computer-Aided Design (projektowanie wspomagane komputerowo).
+        2. Prymityw to prosty kształt (sześcian, kula), a złożony model powstaje z ich łączenia i modyfikacji.
+        3. Używa tego samego klucza do szyfrowania i odszyfrowywania wiadomości.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Uruchomię i będę przejdę w środowisku edytora 3D (np. SketchUp).
+    2. Wymienię i zastosuję narzędzia rysowania 2D (linia, prostokąt, okrąg) do tworzenia rzutów.
+    3. Zastosuję narzędzie Push/Pull (Wyciągnij) do przekształcania płaskich kształtów w bryły.
+    4. Nałożę materiały, kolory oraz tekstury na poszczególne ściany modelu.
+    5. Zaimportuję i dopasuję podkłady mapowe oraz zdjęcia obiektów.
+    6. przejrzę i wykorzystam trójwymiarowe modele z biblioteki chmurowej 3D Warehouse.
+    7. zgrupuję elementy i utworzę komponenty w celu usprawnienia edycji.
+    8. zwymiaruję obiekty i sprawdzę ich zgodność ze specyfikacją.
+    9. ustalę położenie geograficzne modelu i przeanalizuję jego nasłonecznienie.
+    10. Wyeksportuję gotowy widok 3D do pliku graficznego na potrzeby dokumentacji.
 
 ## 1. Wprowadzenie do projektowania architektonicznego 3D
 
@@ -122,52 +123,13 @@ Wizualizacja w edytorze 3D to potężne narzędzie do prezentowania pomysłów w
 
     Zaprojektuj w edytorze 3D prostopadłościenny stolik warsztatowy o wymiarach 120 cm x 80 cm x 85 cm. Nałóż teksturę drewna na blat i metalu na nogi.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Utwórz model wiaty garażowej. Zastosuj narzędzie *Miarka* do wyznaczenia linii pomocniczych i wykonaj otwory okienne oraz drzwiowe.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Pobierz z *3D Warehouse* model maszyny lub mebla charakterystycznego dla Twojego zawodu, wstaw go do utworzonego pomieszczenia, ustaw odpowiednie oświetlenie/cienie i wyeksportuj plik JPG.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -175,16 +137,15 @@ Wizualizacja w edytorze 3D to potężne narzędzie do prezentowania pomysłów w
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

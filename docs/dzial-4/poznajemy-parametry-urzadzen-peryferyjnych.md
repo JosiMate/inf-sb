@@ -6,34 +6,35 @@
 
     Świadomy dobór urządzeń peryferyjnych do stanowiska pracy w firmie pozwala zoptymalizować koszty eksploatacji, zapewnić odpowiednią jakość wydruków oraz ergonomię pracy. W ramach tej lekcji (1h) w Dziale IV serwisu `inf-sb` dla Szkoły Branżowej nauczysz się analizować parametry techniczne drukarek (atramentowych, laserowych, igłowych, termicznych), monitorów (przekątna, matryca, interfejsy) oraz szacować Całkowity Koszt Posiadania (TCO - Total Cost of Ownership).
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wymienię i wyjaśnię podstawowe parametry drukarek (DPI, PPM, duplex, cykl pracy)
-    2. Porównam technologie druku: atramentową, laserową (monochromatyczną i kolorową), termiczną oraz igłową
-    3. Oszacuję koszt jednostkowy wydruku jednej strony i wyliczę wskaźnik TCO
-    4. Zidentyfikuję i dobierać złącza i interfejsy wideo monitorów (HDMI, DisplayPort, USB-C, VGA)
-    5. Wyjaśnię kluczowe parametry monitorów (przekątna, rozdzielczość, typ matrycy IPS/VA/TN, jasność, czas reakcji)
-    6. Zastosuję zasady doboru monitora do wymogów ergonomii na stanowisku pracy
-    7. Zinterpretuję parametry skanerów (rozdzielczość optyczna vs interpolowana, głębia koloru)
-    8. Dobiorę drukarkę etykiet / kodów kreskowych do pracy w magazynie lub warsztacie
-    9. Przeanalizuję specyfikacje katalogowe urządzeń peryferyjnych pod kątem wymagań branżowych
-    10. Wybiorę urządzenia peryferyjne spełniające kryteria ekologiczne i oszczędności energii (Energy Star)
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Jaka jest różnica między urządzeniem wejścia a wyjścia?
-    2. **Sprzed kilku tygodni.** Co oznacza skrót DPI przy opisie myszy komputerowej lub skanera?
-    3. **Z dawniejszych tematów.** Przez jakie złącze najczęściej podłącza się nowoczesny monitor?
+    1. **Z poprzedniej lekcji.** Czym różni się urządzenie wejściowe od wyjściowego?
+    2. **Sprzed kilku tygodni.** Co oznacza skrót OCR?
+    3. **Z dawniejszych tematów.** Jaka jest podstawowa jednostka rozdzielczości skanowania i druku?
 
     ??? success "Odpowiedzi"
 
-        1. Urządzenie wejścia wprowadza dane do komputera (np. klawiatura), a wyjścia wyprowadza przetworzone dane (np. monitor).
-        2. Dots Per Inch — liczba punktów na cal określająca rozdzielczość/czułość urządzenia.
-        3. Przez złącze HDMI lub DisplayPort.
+        1. Wejściowe wprowadza dane do komputera (klawiatura), a wyjściowe prezentuje wyniki (monitor).
+        2. Optical Character Recognition — optyczne rozpoznawanie znaków w skanowanym tekście.
+        3. DPI (Dots Per Inch) — liczba punktów na cal.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wymienię i wyjaśnię podstawowe parametry drukarek (DPI, PPM, duplex, cykl pracy).
+    2. Porównam technologie druku: atramentową, laserową (monochromatyczną i kolorową), termiczną oraz igłową.
+    3. Oszacuję koszt jednostkowy wydruku jednej strony i wyliczę wskaźnik TCO.
+    4. Zidentyfikuję i dobiorę złącza i interfejsy wideo monitorów (HDMI, DisplayPort, USB-C, VGA).
+    5. Wyjaśnię kluczowe parametry monitorów (przekątna, rozdzielczość, typ matrycy IPS/VA/TN, jasność, czas reakcji).
+    6. Zastosuję zasady doboru monitora do wymogów ergonomii na stanowisku pracy.
+    7. Zinterpretuję parametry skanerów (rozdzielczość optyczna vs interpolowana, głębia koloru).
+    8. Dobiorę drukarkę etykiet / kodów kreskowych do pracy w magazynie lub warsztacie.
+    9. Przeanalizuję specyfikacje katalogowe urządzeń peryferyjnych pod kątem wymagań branżowych.
+    10. Wybiorę urządzenia peryferyjne spełniające kryteria ekologiczne i oszczędności energii (Energy Star).
 
 ## 1. Technologie i parametry drukarek
 
@@ -132,52 +133,13 @@ Monitor na stanowisku pracy odpowiada za wzrok i komfort pracownika.
 
     Rozpoznaj i opisz złącza sygnałowe z tyłu komputera/monitora (HDMI, DisplayPort, USB, VGA).
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Porównaj koszty wydruku 1000 stron na podstawie cen tonerów dla dwóch wybranych modeli drukarek laserowych.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Dobierz zestaw urządzeń peryferyjnych (monitor, drukarka, skaner/czytnik) dla stanowiska przyjęć w Twojej branży (np. serwis samochodowy, recepcja, magazyn). Uzasadnij wybór.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -185,16 +147,15 @@ Monitor na stanowisku pracy odpowiada za wzrok i komfort pracownika.
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

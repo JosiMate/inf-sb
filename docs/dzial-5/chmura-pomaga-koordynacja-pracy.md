@@ -6,34 +6,35 @@
 
     Koordynacja pracy zespołu, planowanie zadań, zarządzanie kalendarzem firmowym oraz sprawne przydzielanie prac w chmurze stanowi podstawę sprawnego funkcjonowania nowoczesnego warsztatu i firmy usługowej. W ramach tej lekcji (1h) w Dziale V serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wykorzystywać narzędzia chmurowe do koordynacji zespołu (Kalendarz Google/Outlook, Trello/Asana, Google Workspace), organizować zasoby oraz synchronizować kontakty i zadania między komputerem a smartfonem.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię zalety koordynowania pracy zespołu przy użyciu narzędzi w chmurze
-    2. Utworzę, udostępnię i nałożę na siebie kalendarze firmowe (np. Kalendarz Google / Outlook)
-    3. Zaplanuję wydarzenia, spotkania i zlecenia z automatycznym powiadomieniem uczestników
-    4. Zarządzę listą kontaktów w chmurze oraz importować/eksportować pliki kontaktów (vCard / CSV)
-    5. Zastosuję metodykę Kanban i tablice zadań (np. Trello / Google Tasks) w pracy warsztatowej
-    6. Przydzielę zadania konkretnym pracownikom z wyznaczaniem terminów (Deadline)
-    7. Zsynchronizuję wydarzenia i zadania z chmury ze smartfonem
-    8. Zastosuję powiadomień push oraz przypomnień SMS/e-mail dla klientów
-    9. Zarządzę zasobami firmowymi (np. rezerwacja auto-serwisu, stanowiska, sprzętu)
-    10. Zastosuję zasady zasad netykiety i higieny komunikacji cyfrowej w zespole
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Jaka jest główna różnica między modelami chmury SaaS, PaaS i IaaS?
-    2. **Sprzed kilku tygodni.** Dlaczego warto stosować kopię zapasową 3-2-1?
-    3. **Z dawniejszych tematów.** Jakie są zagrożenia związane ze wspólnym korzystaniem z jednego konta chmurowego?
+    1. **Z poprzedniej lekcji.** Co oznacza skrót SaaS w usługach chmurowych?
+    2. **Sprzed kilku tygodni.** Jakie uprawnienia można nadać przy udostępnianiu pliku na dysku chmurowym?
+    3. **Z dawniejszych tematów.** Do czego służy dwuskładnikowe uwierzytelnianie (2FA)?
 
     ??? success "Odpowiedzi"
 
-        1. SaaS to gotowa aplikacja, PaaS to środowisko programistyczne, a IaaS to surowa infrastruktura (serwery/dysk).
-        2. Oznacza 3 kopie danych, na 2 różnych nośnikach, z czego 1 kopia przechowywana poza siedzibą (np. w chmurze).
-        3. Nadpisanie cudzych plików, brak rozliczalności zmian i ryzyko wycieku haseł.
+        1. Software as a Service — oprogramowanie dostarczane jako usługa w przeglądarce.
+        2. Podgląd (odczyt), komentowanie oraz pełna edycja.
+        3. Zabezpiecza konto dodatkowym kodem przy logowaniu oprócz tradycyjnego hasła.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię zalety koordynowania pracy zespołu przy użyciu narzędzi w chmurze.
+    2. Utworzę, udostępnię i nałożę na siebie kalendarze firmowe (np. Kalendarz Google / Outlook).
+    3. Zaplanuję wydarzenia, spotkania i zlecenia z automatycznym powiadomieniem uczestników.
+    4. Zarządzę listą kontaktów w chmurze oraz zaimportuję i wyeksportuję pliki kontaktów (vCard / CSV).
+    5. Zastosuję metodykę Kanban i tablice zadań (np. Trello / Google Tasks) w pracy warsztatowej.
+    6. Przydzielę zadania konkretnym pracownikom z wyznaczaniem terminów (Deadline).
+    7. Zsynchronizuję wydarzenia i zadania z chmury ze smartfonem.
+    8. Zastosuję powiadomień push oraz przypomnień SMS/e-mail dla klientów.
+    9. Zarządzę zasobami firmowymi (np. rezerwacja auto-serwisu, stanowiska, sprzętu).
+    10. Zastosuję zasady zasad netykiety i higieny komunikacji cyfrowej w zespole.
 
 ## 1. Narzędzia koordynacji pracy zespołu w chmurze
 
@@ -133,52 +134,13 @@ Chmura obliczeniowa rewolucjonizuje koordynację pracy zespołu. Zastosowanie ws
 
     Utwórz w kalendarzu chmurowym wydarzenie z przypomnieniem na 15 minut przed i wyślij zaproszenie na adres e-mail kolegi.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Utwórz w serwisie Trello tablicę z 3 kolumnami i utwórz kartę zadania zawierającą listę kontrolną (checkłistę).
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Przygotuj w kalendarzu chmurowym tygodniowy grafik pracy dla 3-osobowego zespołu w Twoim zawodzie z uwzględnieniem rezerwacji głównego sprzętu/podnośnika.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -186,16 +148,15 @@ Chmura obliczeniowa rewolucjonizuje koordynację pracy zespołu. Zastosowanie ws
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

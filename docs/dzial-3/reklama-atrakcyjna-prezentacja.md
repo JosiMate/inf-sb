@@ -6,34 +6,35 @@
 
     Przygotowanie atrakcyjnej i przekonującej prezentacji handlowej to klucz do sukcesu w przedstawianiu oferty firmy, produktów i usług. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się układać scenariusz prezentacji, korzystać z nowoczesnych narzędzi w chmurze (np. Prezi, Canva, Google Slides) i edytorów stacjonarnych (Impress, PowerPoint), dobierać szablony graficzne oraz dbać o estetykę i zasady wystąpień publicznych.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię cel i znaczenie dobrze zaplanowanej prezentacji biznesowej
-    2. Opracuję scenariusz prezentacji dostosowany do grupy docelowej (np. klienta, inwestora)
-    3. Zastosuję zasadę 10/20/30 w tworzeniu slajdów (10 slajdów, 20 minut, czcionka 30 pt)
-    4. Wybiorę i zmodyfikuję nowoczesne szablony prezentacji w edytorach stacjonarnych i chmurowych
-    5. Zakładać konto i nawigować w płóciennym środowisku Prezi.com / Canva
-    6. Osadzać elementy multimedialne (zdjęcia wyrobów, krótkie wideo, dźwięk, wykresy)
-    7. Zadbam o kontrast i czytelność typografii na slajdach
-    8. Zastosuję przejścia slajdów i animacje obiektów z umiarkowaniem
-    9. Przygotuję i drukować materiały dla słuchaczy (Handouts)
-    10. Przeprowadzać płynną prezentację oferty i wyeksportuję plik do formatu PDF / MP4
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Do czego służy funkcja `SUMA.JEŻELI` w arkuszu kalkulacyjnym?
-    2. **Sprzed kilku tygodni.** Jak zablokować nagłówki tabeli przy przewijaniu arkusza?
-    3. **Z dawniejszych tematów.** Jak stworzyć wykres kolumnowy na podstawie danych z tabeli?
+    1. **Z poprzedniej lekcji.** Co oblicza funkcja SUMA.JEŻELI w arkuszu kalkulacyjnym?
+    2. **Sprzed kilku tygodni.** Jaka jest różnica między kwotą netto a brutto?
+    3. **Z dawniejszych tematów.** Dlaczego stosuje się znaki $ w adresowaniu komórek arkusza?
 
     ??? success "Odpowiedzi"
 
-        1. Sumuje wartości z podanego zakresu komórek, które spełniają określone kryterium.
-        2. Używając opcji „Zablokuj wiersze / widok” (Zablokuj górny wiersz).
-        3. Zaznaczając zakres danych i wybierając Wstaw -> Wykres kolumnowy.
+        1. Sumuje wartości z wybranego zakresu komórek spełniające określone kryterium.
+        2. Kwota brutto zawiera podatek VAT, a netto jest kwotą bez podatku.
+        3. Aby zablokować zmianę kolumny lub wiersza podczas przeciągania formuły.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię cel i znaczenie dobrze zaplanowanej prezentacji biznesowej.
+    2. Opracuję scenariusz prezentacji dostosowany do grupy docelowej (np. klienta, inwestora).
+    3. Zastosuję zasadę 10/20/30 w tworzeniu slajdów (10 slajdów, 20 minut, czcionka 30 pt).
+    4. Wybiorę i zmodyfikuję nowoczesne szablony prezentacji w edytorach stacjonarnych i chmurowych.
+    5. założę konto i będę sprawnie przejdę w płóciennym środowisku Prezi.com / Canva.
+    6. osadzę elementy multimedialne (zdjęcia wyrobów, krótkie wideo, dźwięk, wykresy).
+    7. Zadbam o kontrast i czytelność typografii na slajdach.
+    8. Zastosuję przejścia slajdów i animacje obiektów z umiarkowaniem.
+    9. Przygotuję i wydrukuję materiały dla słuchaczy (Handouts).
+    10. przeprowadzę płynną prezentację oferty i wyeksportuję plik do formatu PDF / MP4.
 
 ## 1. Scenariusz i struktura udanej prezentacji
 
@@ -124,52 +125,13 @@ Atrakcyjna prezentacja to potężne narzędzie marketingowe. Przemyślany scenar
 
     Przygotuj 3-slajdową prezentację w oparciu o wbudowany szablon: slajd tytułowy, slajd ze zdjęciem i opisem oraz slajd kontaktowy.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 2 (Średnio zaawansowane):"
 
     Załóż bezpłatne konto w serwisie Canva lub Prezi i stwórz prezentację prezentującą zalety wybranego narzędzia lub technologii.
 
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
-
 !!! note "Ćwiczenie 3 (Branżowe):"
 
     Opracuj pełną, 5-slajdową prezentację oferty handlowej swojej wymarzonej firmy/warsztatu. Uwzględnij scenariusz, cennik, galerię i Wezwanie do Działania.
-
-??? tip "Podpowiedź 1"
-
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
-
-??? tip "Podpowiedź 2"
-
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
-
-??? tip "Podpowiedź 3"
-
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
 
 !!! note "Ćwiczenie 4 (Zaawansowane):"
 
@@ -177,16 +139,15 @@ Atrakcyjna prezentacja to potężne narzędzie marketingowe. Przemyślany scenar
 
 ??? tip "Podpowiedź 1"
 
-    Kierunek: zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do zadania.
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
 
 ??? tip "Podpowiedź 2"
 
-    Konkretne narzędzie: zapoznaj się z odpowiednią sekcją w treści lekcji, gdzie opisano niezbędną funkcję/polecenie krok po kroku.
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
 
 ??? tip "Podpowiedź 3"
 
-    Prawie gotowe rozwiązanie: przetestuj poszczególne opcje w programie i upewnij się, że efekt końcowy zgadza się z wymaganiami w karcie pracy.
-
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 
