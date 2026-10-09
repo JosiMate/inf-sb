@@ -6,20 +6,34 @@
 
     Korekta i retusz zdjęć zrobionych smartfonem w warsztacie lub na budowie to niezbędny etap przygotowania profesjonalnej dokumentacji technicznej i materiałów ofertowych. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wyostrzania, retuszowania skaz i niedoskonałości, kadrowania oraz korekcji tonalnej zdjęć przy użyciu edytorów rastrowych w chmurze (np. Pixlr.com) oraz stacjonarnych (GIMP).
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Sprawnie logować się i skorzystam z chmurowego edytora grafiki (np. Pixlr.com)
+    2. Skadruję zdjęcia i sprostuję horyzont zgodnie z zasadą trójpodziału
+    3. Skoryguję jasność, kontrast, ekspozycję i poziom bieli/czerni
+    4. Skoryguję temperaturę barwową i balans bieli na zdjęciach warsztatowych
+    5. Usunę niechciane obiekty i skazy za pomocą narzędzia Stempel (Clone Stamp) oraz Naprawianie (Heal)
+    6. Wyostrzać oraz rozmywać wybrane partie obrazu w celu wyeksponowania detalu
+    7. Redukować szumy cyfrowe powstałe przy słabym oświetleniu
+    8. Zastosuję filtry i korekty automatyczne z wyczuciem estetycznym
+    9. Porównywać efekty przed i po retuszu na osobnych warstwach
+    10. Zapisywać poprawione pliki z optymalizacją rozmiaru na potrzeby sieci i druku
 
-    1. sprawnie logować się i korzystać z chmurowego edytora grafiki (np. Pixlr.com)
-    2. kadrować zdjęcia i prostować horyzont zgodnie z zasadą trójpodziału
-    3. regulować jasność, kontrast, ekspozycję i poziom bieli/czerni
-    4. korygować temperaturę barwową i balans bieli na zdjęciach warsztatowych
-    5. usuwać niechciane obiekty i skazy za pomocą narzędzia Stempel (Clone Stamp) oraz Naprawianie (Heal)
-    6. wyostrzać oraz rozmywać wybrane partie obrazu w celu wyeksponowania detalu
-    7. redukować szumy cyfrowe powstałe przy słabym oświetleniu
-    8. stosować filtry i korekty automatyczne z wyczuciem estetycznym
-    9. porównywać efekty przed i po retuszu na osobnych warstwach
-    10. zapisywać poprawione pliki z optymalizacją rozmiaru na potrzeby sieci i druku
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Do czego służą warstwy i maski w edytorze grafiki rastrowej?
+    2. **Sprzed kilku tygodni.** Co to jest kanał alfa w pliku graficznym?
+    3. **Z dawniejszych tematów.** Jaki format pliku graficznego obsługuje przezroczystość bez utraty jakości?
+
+    ??? success "Odpowiedzi"
+
+        1. Warstwy pozwalają układać elementy niezależnie od siebie, a maski ukrywać fragmenty warstwy bez ich usuwania.
+        2. Dodatkowy kanał określający stopień przezroczystości pikseli.
+        3. Format PNG (lub WEBP).
 
 ## 1. Dlaczego zdjęcia wymagają korekty?
 

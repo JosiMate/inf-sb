@@ -2,17 +2,37 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 9**
 
-Czy zastanawiałeś się kiedyś, jak komputer „widzi” liczbę 5, kolor czerwony albo literę „A”? Dla nas liczby są zapisane w systemie dziesiętnym, bo mamy dziesięć palców u rąk. Komputer nie ma palców — ma miliardy mikroskopijnych przełączników, które mogą być tylko w dwóch stanach: **włączone (1)** lub **wyłączone (0)**. To dlatego świat informatyki opiera się na zerach i jedynkach.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział II. Programowanie i algorytmy · rozdział 9
 
-    Po tej lekcji potrafisz:
+    Czy zastanawiałeś się kiedyś, jak komputer „widzi” liczbę 5, kolor czerwony albo literę „A”? Dla nas liczby są zapisane w systemie dziesiętnym, bo mamy dziesięć palców u rąk. Komputer nie ma palców — ma miliardy mikroskopijnych przełączników, które mogą być tylko w dwóch stanach: **włączone (1)** lub **wyłączone (0)**. To dlatego świat informatyki opiera się na zerach i jedynkach.
 
-    1. wyjaśnić, dlaczego komputery używają systemu dwójkowego
-    2. określić wagę poszczególnych bitów w bajcie
-    3. zamienić prostą liczbę binarną na dziesiętną i odwrotnie
-    4. korzystać z kalkulatora systemowego do konwersji liczb
-    5. odróżnić bit od bajtu i rozumieć ich znaczenie w przechowywaniu danych
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Wyjaśnię, dlaczego komputery używają systemu dwójkowego
+    2. Określę wagę poszczególnych bitów w bajcie
+    3. Zamienię prostą liczbę binarną na dziesiętną i odwrotnie
+    4. Skorzystam z kalkulatora systemowego do konwersji liczb
+    5. Odróżnię bit od bajtu i rozumieć ich znaczenie w przechowywaniu danych
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jak znaleźć wspólny mianownik dwóch ułamków zwykłych a/b i c/d?
+    2. **Sprzed kilku tygodni.** Co oznacza pojęcie ułamka nieskracalnego?
+    3. **Z dawniejszych tematów.** Do czego służy dzielenie całkowite `//` w Pythonie?
+
+    ??? success "Odpowiedzi"
+
+        1. Najmniejszym wspólnym mianownikiem jest Najmniejsza Wspólna Wielokrotność (NWW) mianowników b i d.
+        2. Ułamek, w którym licznik i mianownik są względnie pierwsze (ich NWD wynosi 1).
+        3. Oblicza iloraz całkowity z dzielenia bez reszty (np. `7 // 2` daje `3`).
 
 ## 1. System dziesiętny vs dwójkowy
 

@@ -2,16 +2,36 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 6**
 
-Wyobraź sobie, że masz do wyłożenia podłogę w łazience o wymiarach 240 cm na 360 cm. Chcesz użyć do tego największych możliwych kwadratowych płytek, żeby nie trzeba było ich ciąć, a spoiny były jak najrzadsze. Albo masz dwa budziki: jeden dzwoni co 15 minut, a drugi co 20 minut. Kiedy oba zadzwonią w tym samym czasie po raz pierwszy? To nie są zagadki z podręcznika do matematyki — to konkretne problemy, które rozwiązujemy za pomocą NWD i NWW.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział II. Programowanie i algorytmy · rozdział 6
 
-    Po tej lekcji potrafisz:
+    Wyobraź sobie, że masz do wyłożenia podłogę w łazience o wymiarach 240 cm na 360 cm. Chcesz użyć do tego największych możliwych kwadratowych płytek, żeby nie trzeba było ich ciąć, a spoiny były jak najrzadsze. Albo masz dwa budziki: jeden dzwoni co 15 minut, a drugi co 20 minut. Kiedy oba zadzwonią w tym samym czasie po raz pierwszy? To nie są zagadki z podręcznika do matematyki — to konkretne problemy, które rozwiązujemy za pomocą NWD i NWW.
 
-    1. odróżnić dzielnik liczby od jej wielokrotności
-    2. znaleźć największy wspólny dzielnik (NWD) dwóch liczb za pomocą rozkładu na czynniki pierwsze
-    3. znaleźć najmniejszą wspólną wielokrotność (NWW) dwóch liczb za pomocą rozkładu na czynniki pierwsze
-    4. skorzystać z zależności między NWD a NWW do szybkiego obliczenia jednej z tych wartości
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Odróżnię dzielnik liczby od jej wielokrotności
+    2. Znajdę największy wspólny dzielnik (NWD) dwóch liczb za pomocą rozkładu na czynniki pierwsze
+    3. Znajdę najmniejszą wspólną wielokrotność (NWW) dwóch liczb za pomocą rozkładu na czynniki pierwsze
+    4. Skorzystać z zależności między NWD a NWW do szybkiego obliczenia jednej z tych wartości
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Czym różni się pętla `while` od instrukcji warunkowej `if`?
+    2. **Sprzed kilku tygodni.** Jak w języku Python zdefiniować własną funkcję?
+    3. **Z dawniejszych tematów.** Do czego służy operator reszty z dzielenia `%`?
+
+    ??? success "Odpowiedzi"
+
+        1. `if` wykonuje kod raz, gdy warunek jest spełniony; `while` powtarza kod wielokrotnie, dopóki warunek jest prawdziwy.
+        2. Za pomocą słowa kluczowego `def nazwa_funkcji(argumenty):`.
+        3. Zwraca resztę z dzielenia całkowitego dwóch liczb, np. `7 % 3` daje `1`.
 
 ## 1. Podstawa: Dzielniki i wielokrotności
 

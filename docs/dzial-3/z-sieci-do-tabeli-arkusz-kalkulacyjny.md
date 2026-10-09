@@ -6,20 +6,34 @@
 
     Pozyskiwanie, importowanie i interpretowanie danych gospodarczych oraz branżowych ze źródeł internetowych (np. GUS, urzędy pracy, portale branżowe) to kluczowa umiejętność w analizie rynku. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się pobierać dane tabelaryczne ze stron WWW, czyścić i formatować dane w arkuszu kalkulacyjnym, używać funkcji statystycznych oraz budować czytelne kosztorysy i wykresy analityczne.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Zidentyfikuję oficjalne źródła danych statystycznych i gospodarczych (GUS - stat.gov.pl, Eurostat, CEIDG)
+    2. Zaimportuję tabele z witryn internetowych do arkusza kalkulacyjnego (Excel / Calc)
+    3. Oczyszczę zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego)
+    4. Skonwertuję dane tekstowe na wartości liczbowe oraz formatować waluty i procenty
+    5. Zastosuję serie danych i mechanizm automatycznego wypełniania komórek (AutoFill)
+    6. Wykonywać obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`)
+    7. Utworzę prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym
+    8. Dobiorę i utworzę wykresy do wizualizacji importowanych danych statystycznych
+    9. Zinterpretuję wyniki oraz wyciągnę wnioski na podstawie analizy tabelarycznej
+    10. Wyeksportuję i udostępnię arkusz w formacie XLSX lub PDF
 
-    1. identyfikować oficjalne źródła danych statystycznych i gospodarczych (GUS - stat.gov.pl, Eurostat, CEIDG)
-    2. importować tabele z witryn internetowych do arkusza kalkulacyjnego (Excel / Calc)
-    3. czyścić zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego)
-    4. konwertować dane tekstowe na wartości liczbowe oraz formatować waluty i procenty
-    5. stosować serie danych i mechanizm automatycznego wypełniania komórek (AutoFill)
-    6. wykonywać obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`)
-    7. tworzyć prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym
-    8. dobierać i tworzyć wykresy do wizualizacji importowanych danych statystycznych
-    9. interpretować wyniki oraz wyciągać wnioski na podstawie analizy tabelarycznej
-    10. eksportować i udostępniać arkusz w formacie XLSX lub PDF
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Do czego służą sekcje i podziały stron w długich dokumentach technicznych?
+    2. **Sprzed kilku tygodni.** Jak dodać automatyczną numerację stron od drugiej strony dokumentu?
+    3. **Z dawniejszych tematów.** Czym jest szablon dokumentu (.dotx / .ott)?
+
+    ??? success "Odpowiedzi"
+
+        1. Pozwalają zmieniać nagłówki, stopki, orientację stron (pionowa/pozioma) i numerację w różnych częściach dokumentu.
+        2. Wstawiając podział sekcji i wyłączając opcję „Połącz z poprzednim” w nagłówku/stopce nowej sekcji.
+        3. Gotowy wzorzec dokumentu ze zdefiniowanymi stylami, układem i elementami stałymi.
 
 ## 1. Źródła danych w sieci i sposoby ich importu
 

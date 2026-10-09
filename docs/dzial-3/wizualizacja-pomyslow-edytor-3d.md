@@ -6,20 +6,34 @@
 
     Wizualizacja 3D w edytorze CAD / budowlanym umożliwia szybkie przekształcenie szkicu w trójwymiarowy projekt architektoniczny lub wzorniczy. W ramach tego tematu (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się projektować obiekty architektoniczne i przestrzenne w edytorze SketchUp, lokalizować je w terenie oraz przygotowywać modele do prezentacji zawodowej.
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Uruchomię i nawigować w środowisku edytora 3D (np. SketchUp)
+    2. Wymienię i zastosuję narzędzia rysowania 2D (linia, prostokąt, okrąg) do tworzenia rzutów
+    3. Zastosuję narzędzie Push/Pull (Wyciągnij) do przekształcania płaskich kształtów w bryły
+    4. Nałożę materiały, kolory oraz tekstury na poszczególne ściany modelu
+    5. Zaimportuję i dopasowywać podkłady mapowe oraz zdjęcia obiektów
+    6. Przeglądać i wykorzystywać trójwymiarowe modele z biblioteki chmurowej 3D Warehouse
+    7. Grupować elementy i utworzę komponenty w celu usprawnienia edycji
+    8. Wymiarować obiekty i sprawdzać ich zgodność ze specyfikacją
+    9. Ustalać położenie geograficzne modelu i przeanalizuję jego nasłonecznienie
+    10. Wyeksportuję gotowy widok 3D do pliku graficznego na potrzeby dokumentacji
 
-    1. uruchomić i nawigować w środowisku edytora 3D (np. SketchUp)
-    2. wymienić i stosować narzędzia rysowania 2D (linia, prostokąt, okrąg) do tworzenia rzutów
-    3. stosować narzędzie Push/Pull (Wyciągnij) do przekształcania płaskich kształtów w bryły
-    4. nakładać materiały, kolory oraz tekstury na poszczególne ściany modelu
-    5. importować i dopasowywać podkłady mapowe oraz zdjęcia obiektów
-    6. przeglądać i wykorzystywać trójwymiarowe modele z biblioteki chmurowej 3D Warehouse
-    7. grupować elementy i tworzyć komponenty w celu usprawnienia edycji
-    8. wymiarować obiekty i sprawdzać ich zgodność ze specyfikacją
-    9. ustalać położenie geograficzne modelu i analizować jego nasłonecznienie
-    10. eksportować gotowy widok 3D do pliku graficznego na potrzeby dokumentacji
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Czym różni się siatka wielokątów (mesh) od bryły podstawowej w edytorze 3D?
+    2. **Sprzed kilku tygodni.** Jakie są trzy podstawowe osie w przestrzeni 3D?
+    3. **Z dawniejszych tematów.** Do czego służy operacja grupowa grupuj/grupuj obiekty w programach graficznych?
+
+    ??? success "Odpowiedzi"
+
+        1. Bryła podstawowa to prosty obiekt (np. sześcian), a siatka składa się z wierzchołków, krawędzi i ścianek tworzących złożony kształt.
+        2. Osie X (szerokość), Y (głębokość/długość) i Z (wysokość).
+        3. Połączenie kilku obiektów w jeden, aby łatwiej nimi przesuwać, skalować lub obracać.
 
 ## 1. Wprowadzenie do projektowania architektonicznego 3D
 

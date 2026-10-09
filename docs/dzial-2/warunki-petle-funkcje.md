@@ -2,19 +2,39 @@
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 5**
 
-Wyobraź sobie, że program komputerowy to bardzo dokładna instrukcja dla kogoś, kto nie ma własnej intuicji i rozumie tylko polecenia typu „zrób to” albo „jeśli stanie się X, zrób Y”. Jeśli pominiesz jeden krok albo pomylisz kolejność, komputer nie „domyśli się”, o co Ci chodziło — po prostu zrobi dokładnie to, co napisałeś, nawet jeśli skończy się to błędem. Ta lekcja jest o tym, jak pisać takie instrukcje, żeby komputer nas rozumiał.
+!!! abstract "O tym temacie"
 
-!!! success "Cele lekcji"
+    **1 godzina lekcyjna** · Dział II. Programowanie i algorytmy · rozdział 5
 
-    Po tej lekcji potrafisz:
+    Wyobraź sobie, że program komputerowy to bardzo dokładna instrukcja dla kogoś, kto nie ma własnej intuicji i rozumie tylko polecenia typu „zrób to” albo „jeśli stanie się X, zrób Y”. Jeśli pominiesz jeden krok albo pomylisz kolejność, komputer nie „domyśli się”, o co Ci chodziło — po prostu zrobi dokładnie to, co napisałeś, nawet jeśli skończy się to błędem. Ta lekcja jest o tym, jak pisać takie instrukcje, żeby komputer nas rozumiał.
 
-    1. zdefiniować pojęcia: kod programu, interpreter, kompilator i debugger
-    2. wymienić kolejne etapy powstawania programu komputerowego
-    3. założyć konto w serwisie Scratch i odnaleźć się w jego interfejsie
-    4. wyjaśnić, czym są zmienne i jak tworzyć je w Scratch
-    5. używać instrukcji wejścia i wyjścia danych
-    6. odróżnić pętlę od instrukcji warunkowej i zastosować je w programie
-    7. korzystać z operatorów logicznych i matematycznych do budowania warunków
+
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+    1. Zdefiniuję pojęcia: kod programu, interpreter, kompilator i debugger
+    2. Wymienię kolejne etapy powstawania programu komputerowego
+    3. Założyć konto w serwisie Scratch i odnaleźć się w jego interfejsie
+    4. Wyjaśnię, czym są zmienne i jak utworzę je w Scratch
+    5. Zastosuję instrukcji wejścia i wyjścia danych
+    6. Odróżnię pętlę od instrukcji warunkowej i zastosować je w programie
+    7. Skorzystam z operatorów logicznych i matematycznych do budowania warunków
+
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Czym różni się cytat od plagiatu przy korzystaniu ze źródeł internetowych?
+    2. **Sprzed kilku tygodni.** Do czego służy operator `site:` w wyszukiwarkach internetowych?
+    3. **Z dawniejszych tematów.** Na czym polega licencja Creative Commons (CC BY)?
+
+    ??? success "Odpowiedzi"
+
+        1. Cytat wyraźnie zaznacza cudzą treść i podaje źródło oraz autora; plagiat przypisuje sobie cudze dzieło.
+        2. Ogranicza wyniki wyszukiwania do konkretnej domeny lub witryny internetowej.
+        3. Pozwala na bezpłatne użycie utworu pod warunkiem podania autora i informacji o licencji.
 
 ## 1. Od pomysłu do działającego programu
 

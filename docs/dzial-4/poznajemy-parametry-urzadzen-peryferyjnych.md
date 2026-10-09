@@ -6,20 +6,34 @@
 
     Świadomy dobór urządzeń peryferyjnych do stanowiska pracy w firmie pozwala zoptymalizować koszty eksploatacji, zapewnić odpowiednią jakość wydruków oraz ergonomię pracy. W ramach tej lekcji (1h) w Dziale IV serwisu `inf-sb` dla Szkoły Branżowej nauczysz się analizować parametry techniczne drukarek (atramentowych, laserowych, igłowych, termicznych), monitorów (przekątna, matryca, interfejsy) oraz szacować Całkowity Koszt Posiadania (TCO - Total Cost of Ownership).
 
-!!! success "Cele lekcji"
+!!! success "Kryteria sukcesu"
 
-    Po tej lekcji potrafisz:
+    Po tej lekcji:
+    1. Wymienię i wyjaśnię podstawowe parametry drukarek (DPI, PPM, duplex, cykl pracy)
+    2. Porównam technologie druku: atramentową, laserową (monochromatyczną i kolorową), termiczną oraz igłową
+    3. Oszacuję koszt jednostkowy wydruku jednej strony i wyliczę wskaźnik TCO
+    4. Zidentyfikuję i dobierać złącza i interfejsy wideo monitorów (HDMI, DisplayPort, USB-C, VGA)
+    5. Wyjaśnię kluczowe parametry monitorów (przekątna, rozdzielczość, typ matrycy IPS/VA/TN, jasność, czas reakcji)
+    6. Zastosuję zasady doboru monitora do wymogów ergonomii na stanowisku pracy
+    7. Zinterpretuję parametry skanerów (rozdzielczość optyczna vs interpolowana, głębia koloru)
+    8. Dobiorę drukarkę etykiet / kodów kreskowych do pracy w magazynie lub warsztacie
+    9. Przeanalizuję specyfikacje katalogowe urządzeń peryferyjnych pod kątem wymagań branżowych
+    10. Wybiorę urządzenia peryferyjne spełniające kryteria ekologiczne i oszczędności energii (Energy Star)
 
-    1. wymienić i wyjaśnić podstawowe parametry drukarek (DPI, PPM, duplex, cykl pracy)
-    2. porównać technologie druku: atramentową, laserową (monochromatyczną i kolorową), termiczną oraz igłową
-    3. oszacować koszt jednostkowy wydruku jednej strony i wyliczyć wskaźnik TCO
-    4. identyfikować i dobierać złącza i interfejsy wideo monitorów (HDMI, DisplayPort, USB-C, VGA)
-    5. wyjaśnić kluczowe parametry monitorów (przekątna, rozdzielczość, typ matrycy IPS/VA/TN, jasność, czas reakcji)
-    6. stosować zasady doboru monitora do wymogów ergonomii na stanowisku pracy
-    7. interpretować parametry skanerów (rozdzielczość optyczna vs interpolowana, głębia koloru)
-    8. dobierać drukarkę etykiet / kodów kreskowych do pracy w magazynie lub warsztacie
-    9. analizować specyfikacje katalogowe urządzeń peryferyjnych pod kątem wymagań branżowych
-    10. wybierać urządzenia peryferyjne spełniające kryteria ekologiczne i oszczędności energii (Energy Star)
+??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
+
+    Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
+    dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
+
+    1. **Z poprzedniej lekcji.** Jaka jest różnica między urządzeniem wejścia a wyjścia?
+    2. **Sprzed kilku tygodni.** Co oznacza skrót DPI przy opisie myszy komputerowej lub skanera?
+    3. **Z dawniejszych tematów.** Przez jakie złącze najczęściej podłącza się nowoczesny monitor?
+
+    ??? success "Odpowiedzi"
+
+        1. Urządzenie wejścia wprowadza dane do komputera (np. klawiatura), a wyjścia wyprowadza przetworzone dane (np. monitor).
+        2. Dots Per Inch — liczba punktów na cal określająca rozdzielczość/czułość urządzenia.
+        3. Przez złącze HDMI lub DisplayPort.
 
 ## 1. Technologie i parametry drukarek
 
