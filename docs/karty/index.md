@@ -30,6 +30,11 @@ otwierasz, klikając nazwę działu.
     "url": "../dzial-2/#karta"
   },
   {
+    "plik": "dzial-2-praca-klasowa",
+    "tytul": "Dział II — praca klasowa",
+    "url": "../dzial-2/#karta-praca-klasowa"
+  },
+  {
     "plik": "dzial-3",
     "tytul": "Dział III. Aplikacje komputerowe pomagają w pracy",
     "url": "../dzial-3/#karta"

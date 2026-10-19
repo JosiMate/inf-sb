@@ -782,9 +782,161 @@ def praca_klasowa_dzial_1(d):
     }
 
 
+def praca_klasowa_dzial_2(d):
+    """Dział II: pojęcia programowania, NWD i NWW (także przy ułamkach),
+    algorytm Euklidesa, system
+    dwójkowy i szesnastkowy, jednostki informacji, szyfr Cezara i HTTPS.
+
+    Krótsza niż w dziale I: realnie około 35 minut pracy dla ucznia, który
+    dochodzi do końca (5 + 5 + 6 + 6 + 6 + 7). Do trójki wystarczą zadania 1–3,
+    około 16 minut. Wszystkie wartości w zadaniach są przeliczone; klucz leży
+    w _materialy-nauczycielskie/1W, nie w repozytorium."""
+    return {
+        "id": "inf-sb-pk-dzial-2",
+        "tytul": f"Praca klasowa — dział {d['nr']}. {d['tytul']}",
+        "przedmiot": "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia",
+        "klasa": "1W",
+        "sufiks": "INF-SB-PK-DZIAL-2",
+        "zadania": [
+            {
+                "nr": 1,
+                "tytul": "Szybki start: NWD, bajt i szyfrowanie",
+                "poziom": "wymagania konieczne · ocena 2 · ok. 5 minut",
+                "polecenie": "Uzupełnij tabelę. Przy NWD możesz liczyć na kartce "
+                             "albo w kalkulatorze.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z1_nwd1", "NWD(12, 18)", ""],
+                        ["z1_nwd2", "NWD(20, 30)", ""],
+                        ["z1_ulamek", "Skróć ułamek 20/30, korzystając z NWD "
+                                      "z wiersza wyżej", ""],
+                        ["z1_bajt", "Ile bitów ma jeden bajt?", ""],
+                        ["z1_https", "Po czym w przeglądarce poznasz, że strona "
+                                     "szyfruje przesyłane dane? Podaj dwie oznaki.", ""],
+                    ]},
+                    {"typ": "tekst", "id": "z1_cel", "wiersze": 2,
+                     "pytanie": "Po co szyfruje się dane? Jedno zdanie, własnymi słowami."},
+                ],
+            },
+            {
+                "nr": 2,
+                "tytul": "Jak powstaje program",
+                "poziom": "wymagania podstawowe · ocena 3 · ok. 5 minut",
+                "polecenie": "Przy każdym opisie wpisz, o które pojęcie chodzi: "
+                             "<strong>kod programu</strong>, <strong>interpreter</strong>, "
+                             "<strong>kompilator</strong> albo <strong>debugger</strong>.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z2_kompilator", "Tłumaczy od razu cały program i tworzy "
+                                          "plik wykonywalny, np. .exe", ""],
+                        ["z2_debugger", "Pozwala zatrzymać program i podejrzeć, "
+                                        "jakie wartości mają zmienne", ""],
+                        ["z2_kod", "Tekst z instrukcjami zapisanymi w języku "
+                                   "programowania", ""],
+                        ["z2_interpreter", "Czyta program linijka po linijce i każdą "
+                                           "od razu wykonuje", ""],
+                    ]},
+                    {"typ": "tekst", "id": "z2_etapy", "wiersze": 2,
+                     "pytanie": "Ułóż etapy powstawania programu we właściwej kolejności: "
+                                "kodowanie, dokumentacja, analiza problemu, testowanie "
+                                "i poprawianie, opracowanie algorytmu.",
+                     "podpowiedz": "1. … 2. … 3. … 4. … 5. …"},
+                ],
+            },
+            {
+                "nr": 3,
+                "tytul": "Szyfr Cezara i liczba dwójkowa",
+                "poziom": "wymagania podstawowe · ocena 3 · ok. 6 minut",
+                "polecenie": "Szyfr Cezara z <strong>kluczem 3</strong> przesuwa każdą "
+                             "literę o 3 miejsca w prawo w alfabecie łacińskim "
+                             "(A–Z, bez polskich liter); po Z wracamy do A. Zrób to na "
+                             "kartce, bez programu.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z3_szyfr", "Zaszyfruj kluczem 3 słowo SZKOLA", ""],
+                        ["z3_odszyfr", "Odszyfruj kluczem 3 szyfrogram OHNFMD", ""],
+                        ["z3_bin", "Ile to dziesiętnie: 00011010 (BIN)?", ""],
+                    ]},
+                    {"typ": "tekst", "id": "z3_wagi", "wiersze": 2,
+                     "pytanie": "Pokaż, jak policzyłeś liczbę 00011010: które wagi "
+                                "bitów dodałeś?",
+                     "podpowiedz": "… + … + … = …"},
+                ],
+            },
+            {
+                "nr": 4,
+                "tytul": "Algorytm Euklidesa krok po kroku",
+                "poziom": "wymagania rozszerzające · ocena 4 · ok. 6 minut",
+                "polecenie": "Znajdź <strong>NWD(84, 36)</strong> algorytmem Euklidesa "
+                             "z dzieleniem z resztą (modulo). W każdym kroku zapisz "
+                             "parę liczb i resztę z dzielenia, np. "
+                             "<code>48 i 18 → reszta 12</code>.",
+                "pola": [
+                    {"typ": "tekst", "id": "z4_kroki", "wiersze": 4,
+                     "pytanie": "Kolejne kroki algorytmu"},
+                    {"typ": "tabela", "wiersze": [
+                        ["z4_nwd", "NWD(84, 36)", ""],
+                        ["z4_nww", "NWW(84, 36) — policz ze wzoru z lekcji", ""],
+                        ["z4_odejm", "Ile odejmowań wykona dla tych liczb metoda "
+                                     "„na odejmowanie”?", ""],
+                    ]},
+                ],
+            },
+            {
+                "nr": 5,
+                "tytul": "Bity, bajty i system szesnastkowy",
+                "poziom": "wymagania rozszerzające · ocena 4 · ok. 6 minut",
+                "polecenie": "Liczby w systemie dwójkowym zamieniaj na kartce, metodą "
+                             "wag. Kalkulatora w trybie <strong>Programisty</strong> "
+                             "użyj dopiero do sprawdzenia i do systemu szesnastkowego.",
+                "pola": [
+                    {"typ": "tabela", "wiersze": [
+                        ["z5_bin", "Liczba 37 (DEC) w systemie dwójkowym — 8 bitów", ""],
+                        ["z5_4bity", "Ile różnych liczb zapiszesz na 4 bitach?", ""],
+                        ["z5_hex", "Ile to dziesiętnie: FF (HEX)?", ""],
+                        ["z5_hexbity", "Ile bitów zastępuje jedna cyfra szesnastkowa?", ""],
+                    ]},
+                    {"typ": "tekst", "id": "z5_dlaczego", "wiersze": 2,
+                     "pytanie": "Dlaczego układy komputera działają w systemie dwójkowym? "
+                                "Jedno, dwa zdania."},
+                ],
+            },
+            {
+                "nr": 6,
+                "tytul": "NWD w Scratchu",
+                "poziom": "wymagania dopełniające · ocena 5 · ok. 7 minut",
+                "polecenie": "W <code>scratch.mit.edu</code> ułóż program, który "
+                             "<strong>pyta o dwie liczby</strong>, liczy ich NWD "
+                             "<strong>algorytmem Euklidesa</strong> (pętla i modulo) "
+                             "i <strong>mówi wynik</strong>. Przetestuj go na liczbach "
+                             "z tabeli.",
+                "pola": [
+                    {"typ": "zrzut", "id": "z6_zrzut",
+                     "opis": "cały skrypt programu w obszarze skryptów"},
+                    {"typ": "tabela", "wiersze": [
+                        ["z6_test1", "Co powiedział program dla 84 i 36?", ""],
+                        ["z6_test2", "Co powiedział program dla 17 i 5?", ""],
+                    ]},
+                    {"typ": "tekst", "id": "z6_wydajnosc", "wiersze": 3,
+                     "pytanie": "Którą metodę — „na odejmowanie” czy Euklidesa "
+                                "z modulo — wybrałbyś dla liczb 1 000 000 i 2? "
+                                "Uzasadnij liczbą kroków."},
+                ],
+            },
+        ],
+    }
+
+
 # Dział dostaje pracę klasową dopiero wtedy, gdy ma napisane materiały.
 PRACE_KLASOWE = {
     "I": praca_klasowa_dzial_1,
+    "II": praca_klasowa_dzial_2,
+}
+
+# Czas pracy podany uczniom nad kartą — praca działu II jest krótsza.
+CZAS_PRACY_KLASOWEJ = {
+    "I": "około 35–40 minut",
+    "II": "około 35 minut",
 }
 
 
@@ -794,11 +946,18 @@ def sekcja_pracy_klasowej(d):
     if d["nr"] not in PRACE_KLASOWE:
         return ""
     numer = NUMER[d["nr"]]
+    # Odsyłamy do zakładki z zadaniami na 6 tylko wtedy, gdy dział ją ma.
+    if ZADANIA6.get(f"Dział {d['nr']}. {d['tytul']}"):
+        celujaca = ("Zadania na ocenę celującą są poza tą pracą — masz je w zakładce działu\n"
+                    "    i oddajesz osobno w dzienniku VULCAN.")
+    else:
+        celujaca = ("Ocena celująca jest poza tą pracą — zdobywa się ją działowym zadaniem\n"
+                    "    na ocenę celującą, oddawanym osobno w dzienniku VULCAN.")
     return f"""
 ## Praca klasowa — dział {d['nr']}
 
 Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
-godziny. Na całą pracę masz **około 35–40 minut** — przy każdym zadaniu jest
+godziny. Na całą pracę masz **{CZAS_PRACY_KLASOWEJ[d['nr']]}** — przy każdym zadaniu jest
 podany czas orientacyjny. Zadania są ustawione od najłatwiejszych do
 najtrudniejszych, zgodnie z wymaganiami wyżej: zaczynasz od pierwszego
 i idziesz po kolei.
@@ -810,8 +969,7 @@ i idziesz po kolei.
     z liczby zapisanych zdań. Nie ma sensu przeskakiwać do końca: wymagania są
     kumulatywne, więc zadanie na 5 liczy się dopiero wtedy, gdy wcześniejsze są zrobione.
 
-    Zadania na ocenę celującą są poza tą pracą — masz je w zakładce działu
-    i oddajesz osobno w dzienniku VULCAN.
+    {celujaca}
 
 !!! warning "Wolno korzystać z komputera — nie wolno z cudzej pracy"
 
