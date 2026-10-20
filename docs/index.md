@@ -94,7 +94,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 Możesz odhaczać przerobione tematy — zaznaczenia zostają w Twojej przeglądarce
 i nie mają nic wspólnego z ocenami.
 
-<div class="spis-tematow" data-postep="inf-sb-1w" markdown>
+<div class="spis-tematow" data-postep="inf-sb-1w" data-zmienione='{"10. Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy": "10. Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr podstawieniowy"}' markdown>
 
 ### Dział I. Przestrzeganie prawa i zasad bezpieczeństwa podczas pracy przy komputerze
 
