@@ -1,4 +1,4 @@
-# Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy
+# Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr podstawieniowy
 
 **Informatyka · klasa 1W · branżowa szkoła I stopnia · 1 godzina · rozdział 10**
 
@@ -28,7 +28,7 @@
     Po tej lekcji:
 
     1. Zdefiniuję pojęcia: tekst jawny, szyfrogram i klucz.
-    2. Wyjaśnię zasadę działania szyfru przedstawieniowego.
+    2. Wyjaśnię zasadę działania szyfru podstawieniowego.
     3. Samodzielnie zaszyfruję i odszyfruję wiadomość szyfrem Cezara.
     4. Powiążę proces szyfrowania z operacjami na listach i przesunięciami w programowaniu.
     5. Odróżnię słabe szyfry od silnego szyfrowania stosowanego w sieci (np. HTTPS).
@@ -46,7 +46,7 @@ Zanim przejdziemy do konkretnych metod, musimy poznać trzy kluczowe pojęcia:
 
 ---
 
-## 2. Szyfr przedstawieniowy (Podstawieniowy)
+## 2. Szyfr podstawieniowy
 
 To jedna z najstarszych i najprostszych metod szyfrowania. Polega na stworzeniu „mapy” (tabeli), w której każdej literze alfabetu przypisujemy inną, zastępczą literę lub symbol.
 
@@ -66,7 +66,7 @@ Aby odszyfrować wiadomość, odbiorca musi mieć dokładnie taką samą tabelę
 
 ## 3. Szyfr Cezara (Szyfr przesuwany)
 
-Szyfr Cezara to szczególny rodzaj szyfru przedstawieniowego. Zamiast tworzyć losową tabelę, używamy prostej zasady: **przesuwamy cały alfabet o określoną liczbę miejsc**.
+Szyfr Cezara to szczególny rodzaj szyfru podstawieniowego. Zamiast tworzyć losową tabelę, używamy prostej zasady: **przesuwamy cały alfabet o określoną liczbę miejsc**.
 
 Tą liczbą miejsc jest właśnie nasz **klucz**.
 
@@ -148,15 +148,15 @@ To oznacza, że Twoja przeglądarka i serwer strony wymieniły klucze szyfrując
     "wyjasnienie": "Przesunięcie o 1: A $\rightarrow$ B, L $\rightarrow$ M, A $\rightarrow$ B. Wynik to BMB."
   },
   {
-    "pytanie": "Czym różni się szyfr przedstawieniowy od szyfru Cezara?",
+    "pytanie": "Czym różni się szyfr podstawieniowy od szyfru Cezara?",
     "opcje": [
       "Szyfr Cezara nie wymaga klucza",
-      "Szyfr przedstawieniowy używa tylko liczb, a Cezara tylko liter",
-      "Szyfr Cezara jest rodzajem szyfru przedstawieniowego, w którym zamiana odbywa się według stałego przesunięcia",
+      "Szyfr podstawieniowy używa tylko liczb, a Cezara tylko liter",
+      "Szyfr Cezara jest rodzajem szyfru podstawieniowego, w którym zamiana odbywa się według stałego przesunięcia",
       "Nie ma między nimi żadnej różnicy"
     ],
     "poprawna": 2,
-    "wyjasnienie": "Szyfr przedstawieniowy to ogólna metoda zamiany znaków na inne. Szyfr Cezara to konkretny przypadek tej metody, gdzie zamiana wynika z przesunięcia w alfabecie."
+    "wyjasnienie": "Szyfr podstawieniowy to ogólna metoda zamiany znaków na inne. Szyfr Cezara to konkretny przypadek tej metody, gdzie zamiana wynika z przesunięcia w alfabecie."
   },
   {
     "pytanie": "Dlaczego w programowaniu do szyfru Cezara używamy operatora modulo?",

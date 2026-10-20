@@ -379,7 +379,7 @@ kumulatywne — na ocenę wyższą trzeba spełniać także wszystkie niższe.
     - z pomocą podręcznika definiuje i opisuje systemy (kody) dwójkowe NAKB i U2
     - na podstawie podręcznika umie opisać metodę zamiany liczby dziesiętnej na postać binarną
     - zna zastosowanie różnych systemów liczbowych w informatyce
-    - na przykładzie tabeli tłumaczy metodę przestawieniową i umie zaszyfrować tekst tą metodą
+    - na przykładzie tabeli tłumaczy metodę podstawieniową i umie zaszyfrować tekst tą metodą
     - omawia metodę szyfrowania szyfrem Cezara na podstawie rysunku z podręcznika
 
     **Ocena dobra (4)** — *wymagania rozszerzające*

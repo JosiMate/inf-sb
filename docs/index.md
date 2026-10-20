@@ -122,7 +122,7 @@ Instrukcje warunkowe, pętle i funkcje. Algorytmy NWD/NWW, ułamki, systemy licz
 | 7. **[Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu](dzial-2/algorytm-nwd-nww.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 8. **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](dzial-2/ulamki-dodawanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 9. **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](dzial-2/systemy-liczbowe.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 10. **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy](dzial-2/szyfrowanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 10. **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr podstawieniowy](dzial-2/szyfrowanie.md)** | 1 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ### Dział III. Aplikacje komputerowe pomagają w pracy
 

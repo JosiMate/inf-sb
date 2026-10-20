@@ -18,7 +18,7 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 | 7. | **[Komputer znajduje NWD i NWW, czyli jak ułożyć program na podstawie algorytmu](algorytm-nwd-nww.md)** | 1 | 7 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 8. | **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](ulamki-dodawanie.md)** | 1 | 8 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 9. | **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](systemy-liczbowe.md)** | 1 | 9 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
-| 10. | **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy](szyfrowanie.md)** | 1 | 10 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| 10. | **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr podstawieniowy](szyfrowanie.md)** | 1 | 10 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 
@@ -62,7 +62,7 @@ niższe. Pełna lista dla całego przedmiotu jest na stronie
     - z pomocą podręcznika definiuje i opisuje systemy (kody) dwójkowe NAKB i U2
     - na podstawie podręcznika umie opisać metodę zamiany liczby dziesiętnej na postać binarną
     - zna zastosowanie różnych systemów liczbowych w informatyce
-    - na przykładzie tabeli tłumaczy metodę przestawieniową i umie zaszyfrować tekst tą metodą
+    - na przykładzie tabeli tłumaczy metodę podstawieniową i umie zaszyfrować tekst tą metodą
     - omawia metodę szyfrowania szyfrem Cezara na podstawie rysunku z podręcznika
 
     **Ocena dobra (4)** — *wymagania rozszerzające*
