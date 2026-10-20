@@ -30,7 +30,7 @@
     3. Zastosuję narzędzia zaznaczania (Prostokątne, Elipsa, Lasso, Różdżka).
     4. Wycinam obiekty z tła z wykorzystaniem masek warstw lub przezroczystości (kanał Alpha).
     5. Dodam i sformatuję warstwy tekstowe na potrzeby haseł reklamowych.
-    6. dopasuję jasność, kontrast, nasycenie i poziom kolorów montowanych elementów.
+    6. Dopasuję jasność, kontrast, nasycenie i poziom kolorów montowanych elementów.
     7. Skaluję, obrócę i przekształcę obiekty na osobnych warstwach.
     8. Zastosuję tryby mieszania warstw (Mnożenie, Nakładka, Ekran) dla uzyskania efektów specjalnych.
     9. Wyeksportuję gotowy projekt do formatu produkcyjnego (PNG, JPG) oraz zapiszę plik roboczy (XCF).

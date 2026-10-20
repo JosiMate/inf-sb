@@ -27,7 +27,7 @@
 
     1. Scharakteryzuję i porównam kanały komunikacji w firmie (E-mail, Komunikatory, Wideokonferencje, VoIP).
     2. Wymienię funkcje i obszary zastosowań komunikatorów internetowych (MS Teams, Google Meet/Chat, WhatsApp Business).
-    3. przeprowadzę rozmowy wideo i udostępnię pulpit/ekran w trakcie konsultacji technicznych.
+    3. Przeprowadzę rozmowy wideo i udostępnię pulpit/ekran w trakcie konsultacji technicznych.
     4. Wyjaśnię zasadę działania i architekturę oprogramowania do zdalnego pulpitu (TeamViewer, AnyDesk, RDP).
     5. Zainstaluję, uruchomię i bezpiecznie skonfiguruję połączenia w programie TeamViewer / AnyDesk.
     6. Nawiążę połączenie zdalne między smartfonem a komputerem PC.

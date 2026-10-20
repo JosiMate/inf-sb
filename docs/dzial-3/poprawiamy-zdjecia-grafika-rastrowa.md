@@ -30,11 +30,11 @@
     3. Skoryguję jasność, kontrast, ekspozycję i poziom bieli/czerni.
     4. Skoryguję temperaturę barwową i balans bieli na zdjęciach warsztatowych.
     5. Usunę niechciane obiekty i skazy za pomocą narzędzia Stempel (Clone Stamp) oraz Naprawianie (Heal).
-    6. wyostrzę oraz rozmyję wybrane partie obrazu w celu wyeksponowania detalu.
-    7. zredukuję szumy cyfrowe powstałe przy słabym oświetleniu.
+    6. Wyostrzę oraz rozmyję wybrane partie obrazu w celu wyeksponowania detalu.
+    7. Zredukuję szumy cyfrowe powstałe przy słabym oświetleniu.
     8. Zastosuję filtry i korekty automatyczne z wyczuciem estetycznym.
-    9. porównam efekty przed i po retuszu na osobnych warstwach.
-    10. zapiszę poprawione pliki z optymalizacją rozmiaru na potrzeby sieci i druku.
+    9. Porównam efekty przed i po retuszu na osobnych warstwach.
+    10. Zapiszę poprawione pliki z optymalizacją rozmiaru na potrzeby sieci i druku.
 
 ## 1. Dlaczego zdjęcia wymagają korekty?
 

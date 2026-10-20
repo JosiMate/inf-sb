@@ -30,7 +30,7 @@
     1. Odróżnię dzielnik liczby od jej wielokrotności.
     2. Znajdę największy wspólny dzielnik (NWD) dwóch liczb za pomocą rozkładu na czynniki pierwsze.
     3. Znajdę najmniejszą wspólną wielokrotność (NWW) dwóch liczb za pomocą rozkładu na czynniki pierwsze.
-    4. skorzystam z zależności między NWD a NWW do szybkiego obliczenia jednej z tych wartości.
+    4. Skorzystam z zależności między NWD a NWW do szybkiego obliczenia jednej z tych wartości.
 
 ## 1. Podstawa: Dzielniki i wielokrotności
 

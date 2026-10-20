@@ -29,7 +29,7 @@
 
     1. Wyjaśnię, czym jest algorytm i dlaczego jest potrzebny w programowaniu.
     2. Odróżnię nieoptymalną metodę odejmowania od optymalnego algorytmu Euklidesa.
-    3. przełożę kroki algorytmu na konstrukcje programistyczne (pętle i warunki).
+    3. Przełożę kroki algorytmu na konstrukcje programistyczne (pętle i warunki).
     4. Zaprojektuję logikę programu obliczającego NWD i NWW w środowisku Scratch.
 
 ## 1. Czym jest algorytm?

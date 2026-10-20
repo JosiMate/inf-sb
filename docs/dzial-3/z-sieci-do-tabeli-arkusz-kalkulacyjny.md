@@ -30,7 +30,7 @@
     3. Oczyszczę zaimportowane dane (usuwanie zbędnych spacji, zmiana separatora dziesiętnego).
     4. Skonwertuję dane tekstowe na wartości liczbowe oraz sformatuję waluty i procenty.
     5. Zastosuję serie danych i mechanizm automatycznego wypełniania komórek (AutoFill).
-    6. wykonam obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`).
+    6. Wykonam obliczenia przy użyciu podstawowych funkcji (`SUMA`, `ŚREDNIA`, `MIN`, `MAKS`).
     7. Utworzę prosty kosztorys materiałowy i robocizny w arkuszu kalkulacyjnym.
     8. Dobiorę i utworzę wykresy do wizualizacji importowanych danych statystycznych.
     9. Zinterpretuję wyniki oraz wyciągnę wnioski na podstawie analizy tabelarycznej.

@@ -29,9 +29,9 @@
     2. Wymienię cechy prawidłowo sporządzonej dokumentacji technicznej.
     3. Utworzę proste schematy i rysunki wektorowe przy użyciu narzędzi rysunkowych (LibreOffice Draw, Word).
     4. Dodam i sformatuję odnośniki liczbowe (balony / pozycje) do elementów rysunku.
-    5. wstawię podpisy pod ilustracjami i rysunkami technycznymi (Captions).
-    6. wstawię podpisy i numerację tabel (np. Tabela 1: Wykaz części).
-    7. wygeneruję automatyczny spis ilustracji oraz spis tabel w edytorze tekstu.
+    5. Wstawię podpisy pod ilustracjami i rysunkami technicznymi (Captions).
+    6. Wstawię podpisy i numerację tabel (np. Tabela 1: Wykaz części).
+    7. Wygeneruję automatyczny spis ilustracji oraz spis tabel w edytorze tekstu.
     8. Zarządzę pozycjonowaniem i zakotwiczeniem rysunków w tekście (Anchor/Position).
     9. Utworzę tabele specyfikacji materiałowej (BOM - Bill of Materials).
     10. Zastosuję zasady zasad spójności i czytelności dokumentacji techniczno-ruchowej (DTR).

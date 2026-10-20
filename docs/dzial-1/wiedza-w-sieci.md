@@ -32,10 +32,10 @@ sprawdzić, czy można temu wierzyć, i użyć znalezionego materiału legalnie.
     Po tej lekcji:
 
     1. Dobiorę słowa i operatory wyszukiwania tak, żeby trafię do konkretu zamiast przejrzę setki wyników.
-    2. poprawię własne zapytanie, kiedy pierwsze nie zadziałało.
+    2. Poprawię własne zapytanie, kiedy pierwsze nie zadziałało.
     3. Ocenię wiarygodność strony według pięciu kryteriów i wskażę, na którym dana strona wypada źle.
     4. Rozpoznam typowe chwyty dezinformacji i sprawdzę zdjęcie wyszukiwaniem wstecznym.
-    5. Wymienię sześć licencji Creative Commons i powiem, co przy każdej wolno zrobię.
+    5. Wymienię sześć licencji Creative Commons i powiem, co przy każdej wolno zrobić.
     6. Wskażę różnicę między cytatem a plagiatem.
     7. Znajdę i wykorzystam wyszukiwarkę branżową związaną ze swoim zawodem.
 

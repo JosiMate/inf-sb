@@ -29,12 +29,12 @@
     2. Opracuję scenariusz prezentacji dostosowany do grupy docelowej (np. klienta, inwestora).
     3. Zastosuję zasadę 10/20/30 w tworzeniu slajdów (10 slajdów, 20 minut, czcionka 30 pt).
     4. Wybiorę i zmodyfikuję nowoczesne szablony prezentacji w edytorach stacjonarnych i chmurowych.
-    5. założę konto i będę sprawnie przejdę w płóciennym środowisku Prezi.com / Canva.
-    6. osadzę elementy multimedialne (zdjęcia wyrobów, krótkie wideo, dźwięk, wykresy).
+    5. Założę konto i sprawnie poruszę się w płóciennym środowisku Prezi.com / Canva.
+    6. Osadzę elementy multimedialne (zdjęcia wyrobów, krótkie wideo, dźwięk, wykresy).
     7. Zadbam o kontrast i czytelność typografii na slajdach.
     8. Zastosuję przejścia slajdów i animacje obiektów z umiarkowaniem.
     9. Przygotuję i wydrukuję materiały dla słuchaczy (Handouts).
-    10. przeprowadzę płynną prezentację oferty i wyeksportuję plik do formatu PDF / MP4.
+    10. Przeprowadzę płynną prezentację oferty i wyeksportuję plik do formatu PDF / MP4.
 
 ## 1. Scenariusz i struktura udanej prezentacji
 

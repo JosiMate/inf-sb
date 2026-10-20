@@ -28,12 +28,12 @@
     1. Wyjaśnię pojęcie konspektu i struktury nagłówków w zaawansowanym dokumencie.
     2. Zastosuję i zmodyfikuję wbudowane style akapitowe (Nagłówek 1, Nagłówek 2, Tekst podstawowy).
     3. Utworzę i sformatuję automatyczny spis treści na podstawie użytych stylów.
-    4. podzielę dokument na sekcje (zastępując prosty podział strony).
+    4. Podzielę dokument na sekcje (zastępując prosty podział strony).
     5. Zastosuję wielokolumnowy układ tekstu dla instrukcji i ostrzeżeń.
-    6. wstawię i edytuję nagłówki oraz stopki odmienne dla różnych sekcji.
+    6. Wstawię i edytuję nagłówki oraz stopki odmienne dla różnych sekcji.
     7. Sformatuję wielopoziomowe listy numerowane i punktowane dla procedur krok po kroku.
-    8. wstawię ramki ostrzegawcze (alerty) oraz symbole techniczne.
-    9. będę zastosuję operacje na wglądem struktury dokumentu (Panel Nawigacji / Konspekt).
+    8. Wstawię ramki ostrzegawcze (alerty) oraz symbole techniczne.
+    9. Posłużę się widokiem struktury dokumentu (Panel Nawigacji / Konspekt).
     10. Wyeksportuję gotową instrukcję do nieedytowalnego formatu PDF.
 
 ## 1. Struktura i rola stylów w dokumencie technicznym

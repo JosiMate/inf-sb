@@ -32,7 +32,7 @@
     5. Zaprojektuję dwustronne wizytówki firmowe zgodne ze standardami drukarskimi (np. 90x50 mm).
     6. Dobiorę i wstawię odpowiedni typ wykresu (kolumnowy, kołowy, liniowy) dla danych branżowych.
     7. Edytuję i sformatuję serie danych na wykresach.
-    8. osadzę wykresy i tabele w dokumentach tekstowych oraz broszurach.
+    8. Osadzę wykresy i tabele w dokumentach tekstowych oraz broszurach.
     9. Przygotuję materiały reklamowe do druku z uwzględnieniem spadów i marginesów.
     10. Wyeksportuję projekty do formatów drukarskich (PDF X-1a, PNG).
 

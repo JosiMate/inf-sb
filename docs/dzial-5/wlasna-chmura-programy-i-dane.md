@@ -27,7 +27,7 @@
 
     1. Wyjaśnię pojęcie chmury obliczeniowej (Cloud Computing) i zasady jej działania.
     2. Wymienię modele usług chmurowych (IaaS, PaaS, SaaS) i podam przykłady.
-    3. założę konto i skorzystam z dysków chmurowych (Google Drive, MS OneDrive, Nextcloud).
+    3. Założę konto i skorzystam z dysków chmurowych (Google Drive, MS OneDrive, Nextcloud).
     4. Spakuję, wyślę i zsynchronizuję pliki pomiędzy komputerem a chmurą.
     5. Utworzę i edytuję dokumenty, arkusze i prezentacje bezpośrednio w przeglądarce.
     6. Udostępnię pliki innym użytkownikom z ograniczeniem uprawnień (Podgląd, Komentowanie, Edycja).

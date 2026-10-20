@@ -30,7 +30,7 @@
     1. Zdefiniuję pojęcia: tekst jawny, szyfrogram i klucz.
     2. Wyjaśnię zasadę działania szyfru przedstawieniowego.
     3. Samodzielnie zaszyfruję i odszyfruję wiadomość szyfrem Cezara.
-    4. powiążę proces szyfrowania z operacjami na listach i przesunięciami w programowaniu.
+    4. Powiążę proces szyfrowania z operacjami na listach i przesunięciami w programowaniu.
     5. Odróżnię słabe szyfry od silnego szyfrowania stosowanego w sieci (np. HTTPS).
 
 ## 1. Podstawy tajnej komunikacji

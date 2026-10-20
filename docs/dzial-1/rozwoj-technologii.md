@@ -33,10 +33,10 @@ liczące stały się tanie i powszechne.
 
     1. Wyjaśnię, czym jest bit i bajt, i powiem, skąd biorą się liczby 8, 16, 32, 64.
     2. Uzasadnię, dlaczego układy komputera projektuje się w kodzie dwójkowym, a nie dziesiętnym.
-    3. odczytam liczbę binarną z wag pozycji i zamienię ją na dziesiętną — na kartce i w kalkulatorze.
+    3. Odczytam liczbę binarną z wag pozycji i zamienię ją na dziesiętną — na kartce i w kalkulatorze.
     4. Powiem, co w praktyce znaczy „system 64-bitowy" i czym różni się od 32-bitowego.
-    5. podam przykłady wpływu postępu technologicznego na zastosowanie komputerów.
-    6. omówię wpływ rozwoju technologii informacyjnych na rozwój społeczeństw, w tym zalety i koszty zdalnego nauczania.
+    5. Podam przykłady wpływu postępu technologicznego na zastosowanie komputerów.
+    6. Omówię wpływ rozwoju technologii informacyjnych na rozwój społeczeństw, w tym zalety i koszty zdalnego nauczania.
     7. Wskażę, czym jest wykluczenie cyfrowe, i podam liczby, które je opisują.
 
 ## 1. Skąd się biorą 8, 16, 32 i 64

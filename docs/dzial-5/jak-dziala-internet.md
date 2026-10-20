@@ -33,7 +33,7 @@
     6. Zastosuję polecenia `tracert` / `traceroute` do śledzenia trasy pakietów w sieci.
     7. Wyjaśnię pojęcie domeny internetowej, jej struktury (TLD, subdomeny) oraz podmiotów je przydzielających (IANA/NASK).
     8. Zinterpretuję parametry opóźnień sieciowych (ping / latency w milisekundach).
-    9. rozpoznam funkcję rutera i przełącznika (switcha) w sieci firmowej.
+    9. Rozpoznam funkcję rutera i przełącznika (switcha) w sieci firmowej.
     10. Sdiagnozuję podstawowe usterki braku dostępu do sieci na stanowisku pracy.
 
 ## 1. Jak dane podróżują po sieci: Protokół TCP/IP i adresy IP

@@ -30,10 +30,10 @@
     3. Zastosuję narzędzie Push/Pull (Wyciągnij) do przekształcania płaskich kształtów w bryły.
     4. Nałożę materiały, kolory oraz tekstury na poszczególne ściany modelu.
     5. Zaimportuję i dopasuję podkłady mapowe oraz zdjęcia obiektów.
-    6. przejrzę i wykorzystam trójwymiarowe modele z biblioteki chmurowej 3D Warehouse.
-    7. zgrupuję elementy i utworzę komponenty w celu usprawnienia edycji.
-    8. zwymiaruję obiekty i sprawdzę ich zgodność ze specyfikacją.
-    9. ustalę położenie geograficzne modelu i przeanalizuję jego nasłonecznienie.
+    6. Przejrzę i wykorzystam trójwymiarowe modele z biblioteki chmurowej 3D Warehouse.
+    7. Zgrupuję elementy i utworzę komponenty w celu usprawnienia edycji.
+    8. Zwymiaruję obiekty i sprawdzę ich zgodność ze specyfikacją.
+    9. Ustalę położenie geograficzne modelu i przeanalizuję jego nasłonecznienie.
     10. Wyeksportuję gotowy widok 3D do pliku graficznego na potrzeby dokumentacji.
 
 ## 1. Wprowadzenie do projektowania architektonicznego 3D

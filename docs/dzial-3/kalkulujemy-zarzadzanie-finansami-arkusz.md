@@ -31,7 +31,7 @@
     4. Zastosuję funkcję `ZAOKR` do prawidłowego zaokrąglania wyliczeń finansowych do 2 miejsc po przecinku.
     5. Utworzę i skonfiguruję Poprawność Danych (Validation Lists) — listy rozwijane stawki VAT.
     6. Zastosuję formułę warunkową `JEŻELI` do automatycznego przydzielania rabatów lub narzutów.
-    7. skonstruuję arkusz symulacji finansowej oferty (wariant tani vs wariant rozszerzony).
+    7. Skonstruuję arkusz symulacji finansowej oferty (wariant tani vs wariant rozszerzony).
     8. Zastosuję adresowanie względne i bezwzględne (blokowanie komórki znakiem `$`).
     9. Sformatuję komórki finansowe (zastosowanie czerwonego koloru dla ujemnych bilansów).
     10. Zaprojektuję przejrzysty arkusz kalkulacyjny kalkulatora usług dla klienta.

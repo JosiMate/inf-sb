@@ -29,9 +29,9 @@
 
     1. Zdefiniuję pojęcia: kod programu, interpreter, kompilator i debugger.
     2. Wymienię kolejne etapy powstawania programu komputerowego.
-    3. założę konto w serwisie Scratch i odnajdę się w jego interfejsie.
+    3. Założę konto w serwisie Scratch i odnajdę się w jego interfejsie.
     4. Wyjaśnię, czym są zmienne i jak utworzę je w Scratch.
-    5. Zastosuję instrukcji wejścia i wyjścia danych.
+    5. Zastosuję instrukcje wejścia i wyjścia danych.
     6. Odróżnię pętlę od instrukcji warunkowej i zastosuję je w programie.
     7. Skorzystam z operatorów logicznych i matematycznych do budowania warunków.
 

@@ -28,7 +28,7 @@
     1. Zdefiniuję pojęcie e-learningu oraz wymienię jego formy (synchroniczna vs asynchroniczna).
     2. Porównam zalety i wady nauczania tradycyjnego oraz kształcenia na odległość.
     3. Opiszę strukturę lekcji i modułu na profesjonalnej platformie e-learningowej (np. Moodle).
-    4. odnajdę w sieci darmowe i płatne kursy podnoszące kwalifikacje w Twoim zawodzie.
+    4. Odnajdę w sieci darmowe i płatne kursy podnoszące kwalifikacje w moim zawodzie.
     5. Skorzystam z państwowych portali edukacyjnych oraz platform przygotowujących do egzaminów zawodowych.
     6. Pobiorę materiały dydaktyczne, wykonam testy samosprawdzające i zadania praktyczne online.
     7. Wyjaśnię pojęcie mikropoświadczeń (Micro-credentials) oraz odznak cyfrowych (Digital Badges).
