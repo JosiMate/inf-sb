@@ -6,34 +6,35 @@
 
     Tworzenie czytelnej instrukcji obsługi, instrukcji stanowiskowej BHP czy procedury serwisowej wymaga opanowania zaawansowanych funkcji edytorów tekstu (Word, LibreOffice Writer). W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się stosować style akapitowe, układy wielokolumnowe, podziały sekcji, automatyczne spisy treści oraz wypunktowania procedur technicznych.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie konspektu i struktury nagłówków w zaawansowanym dokumencie
-    2. Zastosuję i zmodyfikuję wbudowane style akapitowe (Nagłówek 1, Nagłówek 2, Tekst podstawowy)
-    3. Utworzę i formatować automatyczny spis treści na podstawie użytych stylów
-    4. Dzielić dokument na sekcje (zastępując prosty podział strony)
-    5. Zastosuję wielokolumnowy układ tekstu dla instrukcji i ostrzeżeń
-    6. Wstawiać i edytuję nagłówki oraz stopki odmienne dla różnych sekcji
-    7. Sformatuję wielopoziomowe listy numerowane i punktowane dla procedur krok po kroku
-    8. Wstawiać ramki ostrzegawcze (alerty) oraz symbole techniczne
-    9. Operować wglądem struktury dokumentu (Panel Nawigacji / Konspekt)
-    10. Wyeksportuję gotową instrukcję do nieedytowalnego formatu PDF
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Do czego służy narzędzie stempel/klonowanie w edytorze grafiki?
-    2. **Sprzed kilku tygodni.** Na czym polega korekcja ekspozycji i kadrowanie zdjęcia?
-    3. **Z dawniejszych tematów.** Co to są metadane EXIF w zdjęciu?
+    1. **Z poprzedniej lekcji.** Do czego służy narzędzie kadrowania w edytorze grafiki?
+    2. **Sprzed kilku tygodni.** Co to jest balans bieli w fotografii cyfrowej?
+    3. **Z dawniejszych tematów.** Co oznacza skrót EXIF?
 
     ??? success "Odpowiedzi"
 
-        1. Kopiuje fragment obrazu z wybranego punktu źródłowego w inne miejsce, np. w celu usunięcia plamy.
-        2. Korekcja ekspozycji poprawia jasność i kontrast zdjęcia, a kadrowanie wycina niepotrzebne brzegi obrazu.
-        3. Dane zapisane w pliku zdjęcia zawierające parametry aparatu, datę i opcjonalnie pozycję GPS.
+        1. Ocina niepotrzebne brzegi zdjęcia i poprawia kompozycję kadru.
+        2. Ustawienie temperatury barwowej, zapewniające naturalne odwzorowanie kolorów.
+        3. Exchangeable Image File Format — metadane dołączane do pliku zdjęcia.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie konspektu i struktury nagłówków w zaawansowanym dokumencie.
+    2. Zastosuję i zmodyfikuję wbudowane style akapitowe (Nagłówek 1, Nagłówek 2, Tekst podstawowy).
+    3. Utworzę i sformatuję automatyczny spis treści na podstawie użytych stylów.
+    4. Podzielę dokument na sekcje (zastępując prosty podział strony).
+    5. Zastosuję wielokolumnowy układ tekstu dla instrukcji i ostrzeżeń.
+    6. Wstawię i edytuję nagłówki oraz stopki odmienne dla różnych sekcji.
+    7. Sformatuję wielopoziomowe listy numerowane i punktowane dla procedur krok po kroku.
+    8. Wstawię ramki ostrzegawcze (alerty) oraz symbole techniczne.
+    9. Posłużę się widokiem struktury dokumentu (Panel Nawigacji / Konspekt).
+    10. Wyeksportuję gotową instrukcję do nieedytowalnego formatu PDF.
 
 ## 1. Struktura i rola stylów w dokumencie technicznym
 
@@ -126,12 +127,33 @@ Tworzenie zaawansowanych dokumentów tekstowych w pracy zawodowej opiera się na
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Przygotuj jednostronicowy dokument zawierający trzy nagłówki pierwszego stopnia oraz skompletowaną listę wielopoziomową. Zastosuj wbudowane style.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Utwórz dokument złożony z dwóch sekcji. Pierwsza sekcja (strona tytułowa) nie może posiadać numeru strony, natomiast druga sekcja musi zaczynać się od numeru 1.
-3. **Ćwiczenie 3 (Branżowe):** Opracuj dwustronicową instrukcję stanowiskową BHP dla wybranego urządzenia z Twojego zawodu (np. obrabiarek, podnośnika, pieca konwekcyjnego). Użyj tabel ostrzegawczych oraz podziału tekstu na dwie kolumny.
-4. **Ćwiczenie 4 (Zaawansowane):** Stwórz rozbudowaną instrukcję obsługi wyrobu zawierającą stronę tytułową, automatyczny spis treści, nagłówki dwóch poziomów, zagnieżdżoną listę numerowaną oraz wyeksportowany plik PDF.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Przygotuj jednostronicowy dokument zawierający trzy nagłówki pierwszego stopnia oraz skompletowaną listę wielopoziomową. Zastosuj wbudowane style.
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Utwórz dokument złożony z dwóch sekcji. Pierwsza sekcja (strona tytułowa) nie może posiadać numeru strony, natomiast druga sekcja musi zaczynać się od numeru 1.
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Opracuj dwustronicową instrukcję stanowiskową BHP dla wybranego urządzenia z Twojego zawodu (np. obrabiarek, podnośnika, pieca konwekcyjnego). Użyj tabel ostrzegawczych oraz podziału tekstu na dwie kolumny.
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Stwórz rozbudowaną instrukcję obsługi wyrobu zawierającą stronę tytułową, automatyczny spis treści, nagłówki dwóch poziomów, zagnieżdżoną listę numerowaną oraz wyeksportowany plik PDF.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

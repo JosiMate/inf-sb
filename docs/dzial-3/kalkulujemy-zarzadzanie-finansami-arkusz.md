@@ -6,34 +6,35 @@
 
     Zarządzanie finansami własnej firmy lub budżetem domowym wymaga umiejętności automatycznego wyliczania podatków, cen usług oraz symulacji wariantów biznesowych. W ramach tej lekcji (1h) w Dziale III serwisu `inf-sb` dla Szkoły Branżowej nauczysz się wyliczać podatek VAT, tworzyć listy rozwijane (prawidłowy dobór stawki), używać formuł warunkowych (`JEŻELI`), zaokrąglać kwoty (`ZAOKR`) oraz budować kalkulator symulacji usług.
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie kwoty netto, kwoty brutto oraz podatku VAT (23%, 8%, 5%)
-    2. Obliczę kwotę podatku VAT oraz kwotę brutto z kwoty netto w arkuszu kalkulacyjnym
-    3. Przeliczę kwotę netto na podstawie znanej kwoty brutto („odrachowanie” VAT)
-    4. Zastosuję funkcję `ZAOKR` do prawidłowego zaokrąglania wyliczeń finansowych do 2 miejsc po przecinku
-    5. Utworzę i skonfiguruję Poprawność Danych (Validation Lists) — listy rozwijane stawki VAT
-    6. Zastosuję formułę warunkową `JEŻELI` do automatycznego przydzielania rabatów lub narzutów
-    7. Konstruować arkusz symulacji finansowej oferty (wariant tani vs wariant rozszerzony)
-    8. Zastosuję adresowanie względne i bezwzględne (blokowanie komórki znakiem `$`)
-    9. Sformatuję komórki finansowe (zastosowanie czerwonego koloru dla ujemnych bilansów)
-    10. Zaprojektuję przejrzysty arkusz kalkulacyjny kalkulatora usług dla klienta
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Jak zaimportować dane z tabeli na stronie WWW do arkusza kalkulacyjnego?
-    2. **Sprzed kilku tygodni.** Do czego służy funkcja `JEŻELI` w arkuszu kalkulacyjnym?
-    3. **Z dawniejszych tematów.** Czym różni się adresowanie względne od bezwzględnego (ze znakiem `$`)?
+    1. **Z poprzedniej lekcji.** Jak zaimportować tabelę ze strony WWW do arkusza kalkulacyjnego?
+    2. **Sprzed kilku tygodni.** Czym różni się adresowanie względne od bezwzględnego (z cyfrą $)?
+    3. **Z dawniejszych tematów.** Do czego służy funkcja JEŻELI w arkuszu kalkulacyjnym?
 
     ??? success "Odpowiedzi"
 
-        1. Używając opcji importu danych z sieci (lub wklejając dane i używając narzędzia „Tekst jako kolumny”).
-        2. Sprawdza warunek i zwraca jedną wartość, gdy warunek jest prawdziwy, a inną, gdy jest fałszywy.
-        3. Adres względny (np. A1) zmienia się przy kopiowaniu formuły, a bezwzględny (np. `$A$1`) pozostaje stały.
+        1. Używając narzędzia Pobieranie danych z sieci / Tekst jako kolumny.
+        2. Adres względny przesuwa się przy kopiowaniu formuły, a bezwzględny ($A$1) pozostaje stały.
+        3. Zwraca jedną wartość, gdy warunek logiczny jest spełniony, a inną gdy nie jest.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie kwoty netto, kwoty brutto oraz podatku VAT (23%, 8%, 5%).
+    2. Obliczę kwotę podatku VAT oraz kwotę brutto z kwoty netto w arkuszu kalkulacyjnym.
+    3. Przeliczę kwotę netto na podstawie znanej kwoty brutto („odrachowanie” VAT).
+    4. Zastosuję funkcję `ZAOKR` do prawidłowego zaokrąglania wyliczeń finansowych do 2 miejsc po przecinku.
+    5. Utworzę i skonfiguruję Poprawność Danych (Validation Lists) — listy rozwijane stawki VAT.
+    6. Zastosuję formułę warunkową `JEŻELI` do automatycznego przydzielania rabatów lub narzutów.
+    7. Skonstruuję arkusz symulacji finansowej oferty (wariant tani vs wariant rozszerzony).
+    8. Zastosuję adresowanie względne i bezwzględne (blokowanie komórki znakiem `$`).
+    9. Sformatuję komórki finansowe (zastosowanie czerwonego koloru dla ujemnych bilansów).
+    10. Zaprojektuję przejrzysty arkusz kalkulacyjny kalkulatora usług dla klienta.
 
 ## 1. Podstawy wyliczeń podatkowych w firmie
 
@@ -116,12 +117,33 @@ Arkusz kalkulacyjny jest niezastąpionym narzędziem w zarządzaniu finansami ma
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Przygotuj prosty arkusz przeliczający 5 kwot netto na kwoty brutto przy stałej stawce VAT 23% umieszczonej w zablokowanej komórce `$B$1`.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Utwórz listę rozwijaną ze stawkami VAT (23%, 8%, 5%, 0%) i napisz formułę wyliczającą kwotę podatku z użyciem funkcji `ZAOKR`.
-3. **Ćwiczenie 3 (Branżowe):** Zaprojektuj kalkulator usługowy dla Twojej branży (np. koszt wymiany części, robocizna, dojazd). Zastosuj funkcję `JEŻELI` naliczającą 10% zniżki dla stałych klientów.
-4. **Ćwiczenie 4 (Zaawansowane):** Przygotuj arkusz symulacji finansowej zawierający dwa warianty wykonania usługi (Podstawowy i Premium), automatyczne wyliczenie podatku, marży zysku oraz wykres porównawczy obu wariantów.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Przygotuj prosty arkusz przeliczający 5 kwot netto na kwoty brutto przy stałej stawce VAT 23% umieszczonej w zablokowanej komórce `$B$1`.
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Utwórz listę rozwijaną ze stawkami VAT (23%, 8%, 5%, 0%) i napisz formułę wyliczającą kwotę podatku z użyciem funkcji `ZAOKR`.
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Zaprojektuj kalkulator usługowy dla Twojej branży (np. koszt wymiany części, robocizna, dojazd). Zastosuj funkcję `JEŻELI` naliczającą 10% zniżki dla stałych klientów.
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Przygotuj arkusz symulacji finansowej zawierający dwa warianty wykonania usługi (Podstawowy i Premium), automatyczne wyliczenie podatku, marży zysku oraz wykres porównawczy obu wariantów.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 

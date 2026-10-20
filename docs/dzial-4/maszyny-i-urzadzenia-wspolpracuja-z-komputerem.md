@@ -6,34 +6,35 @@
 
     Nowoczesne przetwórstwo, przemysł, elektronika i automatyka bazują na maszynach sterowanych komputerowo. W ramach tej lekcji (1h) w Dziale IV serwisu `inf-sb` dla Szkoły Branżowej nauczysz się rozpoznawać rolę mikrosterowników, komputerów jednopłytkowych (np. Raspberry Pi, Arduino), maszyn CNC, obrabiarek oraz robotów przemysłowych. Poznasz również zasady sterowania algorytmicznego i symulowania pracy robotów w środowiskach bloczkowych (np. Scratch).
 
-!!! success "Kryteria sukcesu"
-
-    Po tej lekcji:
-    1. Wyjaśnię pojęcie mikrosterownika i mikrokontrolera jednopłytkowego
-    2. Rozróżnię zadania komputera biurowego od komputera sterującego procesem technologicznym
-    3. Wyjaśnię pojęcie i rozwinięcie skrótu CNC (Computer Numerical Control)
-    4. Opiszę cykl powstawania wyrobu na maszynach CNC (Projekt CAD -> Program CAM / G-Code -> Obróbka CNC)
-    5. Wymienię rodzaje maszyn sterowanych numerycznie (frezarki, tokarki, wycinarki laserowe, drukarki 3D)
-    6. Opiszę rolę robotów przemysłowych w automatyzacji linii produkcyjnych i warsztatowych
-    7. Ułożę schemat blokowy / algorytm sterowania pracą prostego robota
-    8. Napiszę i testować programy symulujące pracę robota (np. segregowanie detali wg koloru w Scratch)
-    9. Zidentyfikuję czujniki (sensory) i elementy wykonawcze (aktulatory) w maszynach
-    10. Zastosuję zasady zasad BHP przy pracy i przebywaniu w strefie działania maszyn i robotów CNC
-
 ??? rozgrzewka "Na rozgrzewkę — 3 minuty, bez zaglądania"
 
     Odpowiedz w zeszycie, zanim zaczniesz nowy temat. Odpowiedzi rozwiń
     dopiero wtedy, gdy wszyscy skończą — nie liczą się do oceny.
 
-    1. **Z poprzedniej lekcji.** Czym różni się drukarka atramentowa od laserowej pod względem eksploatacji?
-    2. **Sprzed kilku tygodni.** Co to jest czas reakcji matrycy w monitorze?
-    3. **Z dawniejszych tematów.** Do czego służy sterownik (driver) urządzenia?
+    1. **Z poprzedniej lekcji.** Czym różni się drukarka atramentowa od laserowej pod względem tonerów/tuszy?
+    2. **Sprzed kilku tygodni.** Co określa wskaźnik TCO przy zakupie sprzętu?
+    3. **Z dawniejszych tematów.** Przez jakie cyfrowe złącze najczęściej podłącza się nowoczesne monitory?
 
     ??? success "Odpowiedzi"
 
-        1. Atramentowa używa płynnego tuszu (ryzyko zaschnięcia), a laserowa proszku (tonera) utrwalanego temperaturą.
-        2. Czas potrzebny pikselowi na zmianę swojego stanu (wyrażany w milisekundach ms).
-        3. Program pośredniczący między systemem operacyjnym a sprzętem, pozwalający na ich prawidłową komunikację.
+        1. Atramentowa stosuje płynne tusze, a laserowa proszkowy toner utrwalany termicznie.
+        2. Total Cost of Ownership — całkowity koszt posiadania i eksploatacji urządzenia.
+        3. Złącze HDMI lub DisplayPort.
+
+!!! success "Kryteria sukcesu"
+
+    Po tej lekcji:
+
+    1. Wyjaśnię pojęcie mikrosterownika i mikrokontrolera jednopłytkowego.
+    2. Rozróżnię zadania komputera biurowego od komputera sterującego procesem technologicznym.
+    3. Wyjaśnię pojęcie i rozwinięcie skrótu CNC (Computer Numerical Control).
+    4. Opiszę cykl powstawania wyrobu na maszynach CNC (Projekt CAD -> Program CAM / G-Code -> Obróbka CNC).
+    5. Wymienię rodzaje maszyn sterowanych numerycznie (frezarki, tokarki, wycinarki laserowe, drukarki 3D).
+    6. Opiszę rolę robotów przemysłowych w automatyzacji linii produkcyjnych i warsztatowych.
+    7. Ułożę schemat blokowy / algorytm sterowania pracą prostego robota.
+    8. Napiszę i przetestuję programy symulujące pracę robota (np. segregowanie detali wg koloru w Scratch).
+    9. Zidentyfikuję czujniki (sensory) i elementy wykonawcze (aktulatory) w maszynach.
+    10. Zastosuję zasady zasad BHP przy pracy i przebywaniu w strefie działania maszyn i robotów CNC.
 
 ## 1. Komputery jednopłytkowe i mikrosterowniki w technice
 
@@ -118,12 +119,33 @@ Komputery i urządzenia peryferyjne to nie tylko sprzęt biurowy, ale przede wsz
 
 ## Ćwiczenia
 
-1. **Ćwiczenie 1 (Podstawowe):** Wyjaśnij rozwinięcie skrótu CNC oraz podaj 3 przykłady maszyn sterowanych numerycznie stosowanych w Twoim zawodzie.
-2. **Ćwiczenie 2 (Średnio zaawansowane):** Narysuj schemat blokowy algorytmu sterującego automatyczną bramą wjazdową (czujnik ruchu, otwieranie, odczekanie 10 sekund, zamykanie).
-3. **Ćwiczenie 3 (Branżowe):** Przygotuj w środowisku Scratch lub w postaci kroków algorytmu program symulujący pracę robota lakierniczego/sortującego wyroby w Twojej branży.
-4. **Ćwiczenie 4 (Zaawansowane):** Opracuj kompletny opis procesu produkcyjnego wybranego elementu: od trójwymiarowego projektu CAD, przez wygenerowanie kodu G w programie CAM, po obróbkę na frezarce CNC.
+!!! note "Ćwiczenie 1 (Podstawowe):"
 
----
+    Wyjaśnij rozwinięcie skrótu CNC oraz podaj 3 przykłady maszyn sterowanych numerycznie stosowanych w Twoim zawodzie.
+
+!!! note "Ćwiczenie 2 (Średnio zaawansowane):"
+
+    Narysuj schemat blokowy algorytmu sterującego automatyczną bramą wjazdową (czujnik ruchu, otwieranie, odczekanie 10 sekund, zamykanie).
+
+!!! note "Ćwiczenie 3 (Branżowe):"
+
+    Przygotuj w środowisku Scratch lub w postaci kroków algorytmu program symulujący pracę robota lakierniczego/sortującego wyroby w Twojej branży.
+
+!!! note "Ćwiczenie 4 (Zaawansowane):"
+
+    Opracuj kompletny opis procesu produkcyjnego wybranego elementu: od trójwymiarowego projektu CAD, przez wygenerowanie kodu G w programie CAM, po obróbkę na frezarce CNC.
+
+??? tip "Podpowiedź 1"
+
+    Kierunek: Zastanów się, od czego zacząć i jakich narzędzi z tej lekcji użyć do wykonania zadania.
+
+??? tip "Podpowiedź 2"
+
+    Konkretne narzędzie: Przejrzyj sekcję w treści lekcji z dokładnym opisem wymaganej funkcji lub polecenia menu.
+
+??? tip "Podpowiedź 3"
+
+    Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
 ## Sprawdź się
 
