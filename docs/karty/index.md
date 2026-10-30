@@ -32,7 +32,7 @@ otwierasz, klikając nazwę działu.
   {
     "plik": "dzial-2-praca-klasowa",
     "tytul": "Dział II — praca klasowa",
-    "url": "../dzial-2/#karta-praca-klasowa"
+    "url": "../dzial-2/praca-klasowa/#karta-praca-klasowa"
   },
   {
     "plik": "dzial-3",

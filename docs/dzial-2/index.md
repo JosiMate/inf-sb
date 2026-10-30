@@ -19,6 +19,7 @@ Przy jednej godzinie tygodniowo każdy temat to **jedna lekcja**. Kolumna
 | 8. | **[Wspólny mianownik, czyli jak program dodaje i skraca ułamki](ulamki-dodawanie.md)** | 1 | 8 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 9. | **[Zera, jedynki i wagi, czyli różne reprezentacje liczb](systemy-liczbowe.md)** | 1 | 9 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 | 10. | **[Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr podstawieniowy](szyfrowanie.md)** | 1 | 10 | :material-check-circle:{ title="Materiał gotowy" } gotowe |
+| — | **[Praca klasowa — dział II](praca-klasowa.md)** | 1 | — | :material-check-circle:{ title="Materiał gotowy" } gotowe |
 
 ## Wymagania na oceny w tym dziale
 
@@ -143,41 +144,8 @@ Jest tu, pod spisem tematów — rozwiń ją, kiedy masz coś do wpisania.
 
 ## Praca klasowa — dział II
 
-Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
-godziny. Na całą pracę masz **około 35 minut** — przy każdym zadaniu jest
-podany czas orientacyjny. Zadania są ustawione od najłatwiejszych do
-najtrudniejszych, zgodnie z wymaganiami wyżej: zaczynasz od pierwszego
-i idziesz po kolei.
+Praca klasowa z tego działu ma **osobną stronę**:
+[Praca klasowa — dział II](praca-klasowa.md). Tam są zasady, czas pracy
+i karta, którą wypełniasz na lekcji.
 
-!!! info "Skąd bierze się ocena"
-
-    Zadania odpowiadają kolejnym poziomom wymagań — pierwsze koniecznym, ostatnie
-    dopełniającym. Ocena wynika z tego, **dokąd doszedłeś samodzielnie**, a nie
-    z liczby zapisanych zdań. Nie ma sensu przeskakiwać do końca: wymagania są
-    kumulatywne, więc zadanie na 5 liczy się dopiero wtedy, gdy wcześniejsze są zrobione.
-
-    Ocena celująca jest poza tą pracą — zdobywa się ją działowym zadaniem
-    na ocenę celującą, oddawanym osobno w dzienniku VULCAN.
-
-!!! warning "Wolno korzystać z komputera — nie wolno z cudzej pracy"
-
-    Wyszukiwarka, kalkulator i strony z materiałami są na tej pracy potrzebne
-    i możesz z nich korzystać. Rozwiązanie ma być Twoje: przy sprawdzaniu mogę
-    poprosić, żebyś pokazał na komputerze, jak doszedłeś do wyniku. Zasady
-    samodzielności opisuje strona
-    [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
-
-!!! tip "Zanim oddasz"
-
-    Zostaw sobie **3 minuty przed dzwonkiem**. Kliknij pod kartą **Pobierz jako
-    dokument Word** i oddaj plik tak, jak powiem na lekcji. Odpowiedzi zostają
-    też w tej przeglądarce — jeśli lekcja się urwie, użyj **Zapisz do pliku**,
-    żeby nic nie przepadło.
-
-<span id="karta-praca-klasowa" class="kp-kotwica"></span>
-
-<div class="kp-podsumowanie" data-karta="dzial-2-praca-klasowa"></div>
-
-???+ karta "Rozwiń kartę pracy klasowej"
-
-    <div class="karta-pracy" data-karta="dzial-2-praca-klasowa"></div>
+[:material-clipboard-edit-outline: Przejdź do pracy klasowej](praca-klasowa.md#karta-praca-klasowa){ .md-button }

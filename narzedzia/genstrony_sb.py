@@ -66,6 +66,20 @@ GOTOWE = {
 }
 
 
+# Zmienione tytuły tematów: postęp ucznia (postep.js) jest zapisany pod starym
+# tytułem wiersza, więc stary tytuł przenosi się na nowy — data-zmienione.
+ZMIENIONE_TYTULY = {
+    "10. Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr przedstawieniowy":
+        "10. Szyfrowanie, czyli poznajemy szyfr Cezara i szyfr podstawieniowy",
+}
+
+
+def atrybut_zmienione():
+    if not ZMIENIONE_TYTULY:
+        return ""
+    return " data-zmienione='" + json.dumps(ZMIENIONE_TYTULY, ensure_ascii=False) + "'"
+
+
 def sciezka(wpis):
     """Z wpisu GOTOWE wyciąga samą ścieżkę."""
     return wpis[0] if isinstance(wpis, (tuple, list)) else wpis
@@ -194,7 +208,7 @@ Kto systematycznie kończy ćwiczenia, ma komplet ocen bez pisania dodatkowych p
 Możesz odhaczać przerobione tematy — zaznaczenia zostają w Twojej przeglądarce
 i nie mają nic wspólnego z ocenami.
 
-<div class="spis-tematow" data-postep="inf-sb-1w" markdown>
+<div class="spis-tematow" data-postep="inf-sb-1w"{atrybut_zmienione()} markdown>
 
 {chr(10).join(tabele)}
 
@@ -435,6 +449,9 @@ def strona_dzialu(d):
         mat = (':material-check-circle:{ title="Materiał gotowy" } gotowe'
                if cel else "*w przygotowaniu*")
         wiersze.append(f"| {t['lp']}. | {nazwa} | {t['godziny']} | {t['rozdzial']} | {mat} |")
+    if d["nr"] in PRACE_KLASOWE and d["nr"] in PRACA_NA_OSOBNEJ_STRONIE:
+        wiersze.append(f"| — | **[Praca klasowa — dział {d['nr']}](praca-klasowa.md)** | 1 | — | "
+                       ':material-check-circle:{ title="Materiał gotowy" } gotowe |')
 
     # zadania na ocenę celującą — treść z narzedzia/zadania6.json
     sekcja6 = zadania_celujace_md(f"Dział {d['nr']}. {d['tytul']}",
@@ -933,18 +950,50 @@ PRACE_KLASOWE = {
     "II": praca_klasowa_dzial_2,
 }
 
-# Czas pracy podany uczniom nad kartą — praca działu II jest krótsza.
+# Czas pracy podany uczniom nad kartą. W dziale II zadania zajmują około
+# 35 minut, a 40 to cała praca razem z rozpoczęciem i oddaniem.
 CZAS_PRACY_KLASOWEJ = {
     "I": "około 35–40 minut",
-    "II": "około 35 minut",
+    "II": "około 40 minut",
 }
+
+# Działy, w których praca klasowa jest osobnym tematem (własna strona w menu
+# działu, wiersz w spisie tematów), a nie sekcją na dole strony działu.
+# Identyfikator karty się nie zmienia, więc odpowiedzi uczniów zostają.
+PRACA_NA_OSOBNEJ_STRONIE = {"II"}
+
+
+def adres_pracy_klasowej(d, wzgledem="karty"):
+    """Odnośnik do karty pracy klasowej — ze strony „Karty pracy” albo ze strony działu."""
+    numer = NUMER[d["nr"]]
+    if d["nr"] in PRACA_NA_OSOBNEJ_STRONIE:
+        return (f"../dzial-{numer}/praca-klasowa/#karta-praca-klasowa" if wzgledem == "karty"
+                else "praca-klasowa.md#karta-praca-klasowa")
+    return f"../dzial-{numer}/#karta-praca-klasowa" if wzgledem == "karty" else "#karta-praca-klasowa"
 
 
 def sekcja_pracy_klasowej(d):
     """Blok pracy klasowej na stronie działu. Pusty napis, gdy działu jeszcze
-    nie ma w PRACE_KLASOWE — wtedy strona wygląda dokładnie jak dotąd."""
+    nie ma w PRACE_KLASOWE — wtedy strona wygląda dokładnie jak dotąd.
+    Gdy praca ma osobną stronę, na stronie działu zostaje tylko odnośnik."""
     if d["nr"] not in PRACE_KLASOWE:
         return ""
+    if d["nr"] in PRACA_NA_OSOBNEJ_STRONIE:
+        return f"""
+## Praca klasowa — dział {d['nr']}
+
+Praca klasowa z tego działu ma **osobną stronę**:
+[Praca klasowa — dział {d['nr']}](praca-klasowa.md). Tam są zasady, czas pracy
+i karta, którą wypełniasz na lekcji.
+
+[:material-clipboard-edit-outline: Przejdź do pracy klasowej]({adres_pracy_klasowej(d, "dzial")}){{ .md-button }}
+"""
+    return "\n## Praca klasowa — dział " + d["nr"] + "\n" + tresc_pracy_klasowej(d)
+
+
+def tresc_pracy_klasowej(d):
+    """Zasady i karta pracy klasowej — ta sama treść na stronie działu
+    albo na osobnej stronie tematu."""
     numer = NUMER[d["nr"]]
     # Odsyłamy do zakładki z zadaniami na 6 tylko wtedy, gdy dział ją ma.
     if ZADANIA6.get(f"Dział {d['nr']}. {d['tytul']}"):
@@ -954,8 +1003,6 @@ def sekcja_pracy_klasowej(d):
         celujaca = ("Ocena celująca jest poza tą pracą — zdobywa się ją działowym zadaniem\n"
                     "    na ocenę celującą, oddawanym osobno w dzienniku VULCAN.")
     return f"""
-## Praca klasowa — dział {d['nr']}
-
 Tę kartę wypełniasz **na lekcji, przy komputerze**, i oddajesz na koniec
 godziny. Na całą pracę masz **{CZAS_PRACY_KLASOWEJ[d['nr']]}** — przy każdym zadaniu jest
 podany czas orientacyjny. Zadania są ustawione od najłatwiejszych do
@@ -996,6 +1043,22 @@ i idziesz po kolei.
 """
 
 
+def strona_pracy_klasowej(d):
+    """Osobna strona tematu „Praca klasowa” w dziale z PRACA_NA_OSOBNEJ_STRONIE."""
+    return f"""# Praca klasowa — dział {d['nr']}. {d['tytul']}
+
+!!! abstract "O tej pracy"
+
+    **1 godzina lekcyjna** · {CZAS_PRACY_KLASOWEJ[d['nr']]} · praca na lekcji, przy komputerze
+
+    Praca obejmuje cały dział {d['nr']}. Zakres i wymagania na poszczególne oceny
+    są na stronie [przeglądu działu](index.md) — tam też znajdziesz tematy,
+    do których warto wrócić przed pracą.
+{tresc_pracy_klasowej(d)}
+[:material-arrow-left: Przegląd działu {d['nr']}](index.md){{ .md-button }}
+"""
+
+
 # ─────────────────────────────────────────────── zbiorcza strona kart
 def strona_kart():
     """Spis wszystkich kart ze stanem wypełnienia — „ćwiczeniówka" serwisu.
@@ -1016,7 +1079,7 @@ def strona_kart():
             pozycje.append({
                 "plik": f"dzial-{numer}-praca-klasowa",
                 "tytul": f"Dział {d['nr']} — praca klasowa",
-                "url": f"../dzial-{numer}/#karta-praca-klasowa",
+                "url": adres_pracy_klasowej(d),
             })
     dane = json.dumps(pozycje, ensure_ascii=False, indent=2)
 
@@ -1106,6 +1169,8 @@ def nawigacja_dzialu(d):
             wpis = gotowe[t["lp"]]
             linie.append("  - " + yaml_klucz(etykieta(wpis, t["tytul"]))
                          + ": " + sciezka(wpis).split("/", 1)[1])
+    if d["nr"] in PRACE_KLASOWE and d["nr"] in PRACA_NA_OSOBNEJ_STRONIE:
+        linie.append('  - "Praca klasowa": praca-klasowa.md')
     return "\n".join(linie) + "\n"
 
 
@@ -1141,6 +1206,8 @@ for d in DZIALY:
     if d["nr"] in PRACE_KLASOWE:
         zapisz_json(f"assets/karty/dzial-{numer}-praca-klasowa.json",
                     PRACE_KLASOWE[d["nr"]](d))
+        if d["nr"] in PRACA_NA_OSOBNEJ_STRONIE:
+            zapisz(f"dzial-{numer}/praca-klasowa.md", strona_pracy_klasowej(d))
 zapisz("karty/index.md", strona_kart())
 zapisz_nawigacje()
 
