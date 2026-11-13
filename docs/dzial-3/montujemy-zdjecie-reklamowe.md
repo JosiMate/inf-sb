@@ -148,6 +148,27 @@ Montaż zdjęcia reklamowego w edytorze grafiki rastrowej polega na umiejętnej 
 
     Prawie gotowe rozwiązanie: Wykonaj czynności krok po kroku według instrukcji i zweryfikuj efekt w karcie pracy.
 
+## Karta projektu
+
+Projekt z tej lekcji oddajesz **tą kartą**. Opisz w niej ćwiczenia, które
+zrobiłeś, wklej zrzuty ekranu, a pliki — plik projektu w formacie edytora (`.xcf` z GIMP-a albo `.psd`) i gotowa grafika (`.png` lub `.jpg`) — dołącz w ramce
+**Załączniki** pod kartą. Potem kliknij **Wyślij do nauczyciela**: karta
+z plikami trafia prosto do nauczyciela, a jej kopia zostaje na Dysku, więc
+po uwagach możesz ją wczytać (**Wczytaj → Z Dysku**), poprawić i wysłać
+jeszcze raz. Nie masz kodu z karteczki? Pobierz dokument Worda i oddaj go
+razem z plikami przez **Zadania domowe w dzienniku VULCAN**.
+
+Termin: najbliższa lekcja informatyki. Zasady terminu dodatkowego są na
+stronie [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+<div class="kp-podsumowanie" data-karta="montujemy-zdjecie-reklamowe"></div>
+
+<span id="karta" class="kp-kotwica"></span>
+
+???+ karta "Rozwiń kartę projektu"
+
+    <div class="karta-pracy" data-karta="montujemy-zdjecie-reklamowe"></div>
+
 ## Sprawdź się
 
 <div class="quiz" markdown="0">

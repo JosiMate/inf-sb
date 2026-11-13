@@ -1,0 +1,152 @@
+{
+ "id": "inf-sb-poprawiamy-zdjecia-grafika-rastrowa",
+ "tytul": "Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej",
+ "przedmiot": "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia",
+ "klasa": "1W",
+ "sufiks": "INF-SB-T14",
+ "zadania": [
+  {
+   "nr": 1,
+   "tytul": "Ćwiczenie 1",
+   "poziom": "ćwiczenie podstawowe",
+   "polecenie": "Otwórz w edytorze chmurowym przechylone zdjęcie i skoryguj jego kadrowanie oraz prostoliniowość horyzontu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "c1_co",
+     "wiersze": 3,
+     "pytanie": "Co zrobiłeś — najważniejsze kroki i narzędzia, a jeśli nie skończyłeś, na czym stanąłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "c1_zrzut",
+     "opis": "efekt ćwiczenia 1"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "tytul": "Ćwiczenie 2",
+   "poziom": "ćwiczenie średnio zaawansowane",
+   "polecenie": "Za pomocą narzędzi korekcji tonalnej (<em>Poziomy</em> lub <em>Jasność/Kontrast</em>) popraw niedoświetlone zdjęcie wykonane w ciemnym pomieszczeniu.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "c2_co",
+     "wiersze": 3,
+     "pytanie": "Co zrobiłeś — najważniejsze kroki i narzędzia, a jeśli nie skończyłeś, na czym stanąłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "c2_zrzut",
+     "opis": "efekt ćwiczenia 2"
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "tytul": "Ćwiczenie 3",
+   "poziom": "ćwiczenie branżowe",
+   "polecenie": "Pobierz zdjęcie elementu technicznego z rysą lub zabrudzeniem. Użyj narzędzia <em>Stempel</em> / <em>Naprawianie</em>, aby bezśladowo usunąć uszkodzenie z powierzchni.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "c3_plik",
+       "Nazwa pliku z tym ćwiczeniem",
+       ""
+      ],
+      [
+       "c3_program",
+       "Program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "c3_co",
+     "wiersze": 3,
+     "pytanie": "Co zrobiłeś — najważniejsze kroki i narzędzia, a jeśli nie skończyłeś, na czym stanąłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "c3_zrzut",
+     "opis": "efekt ćwiczenia 3"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "tytul": "Ćwiczenie 4",
+   "poziom": "ćwiczenie zaawansowane",
+   "polecenie": "Wykonaj pełną korektę zdjęcia produktowego dla swojej branży: skadruj obraz, popraw balans bieli, wyretuszuj tło, wyostrz kluczowy detal i wyeksportuj wynik w dwóch wersjach (do druku i na stronę www).",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "c4_plik",
+       "Nazwa pliku z tym ćwiczeniem",
+       ""
+      ],
+      [
+       "c4_program",
+       "Program, w którym to zrobiłeś",
+       ""
+      ]
+     ]
+    },
+    {
+     "typ": "tekst",
+     "id": "c4_co",
+     "wiersze": 3,
+     "pytanie": "Co zrobiłeś — najważniejsze kroki i narzędzia, a jeśli nie skończyłeś, na czym stanąłeś"
+    },
+    {
+     "typ": "zrzut",
+     "id": "c4_zrzut",
+     "opis": "efekt ćwiczenia 4"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "tytul": "Pliki projektu",
+   "poziom": "",
+   "polecenie": "Dołącz w ramce <strong>Załączniki</strong> pod kartą: poprawione zdjęcia (<code>.jpg</code> albo <code>.png</code>); przy ćwiczeniu 4 obie wersje: do druku i na stronę www. Najwyżej 5 plików, razem do 10 MB. Plików nie trzeba wklejać do karty — jadą razem z nią po kliknięciu <strong>Wyślij do nauczyciela</strong>.",
+   "pola": [
+    {
+     "typ": "tabela",
+     "wiersze": [
+      [
+       "pliki_lista",
+       "Nazwy dołączonych plików",
+       ""
+      ],
+      [
+       "pliki_link",
+       "Link do pracy w chmurze, jeśli jest",
+       "np. Canva, Prezi, Dysk Google"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "tytul": "Co sprawiło kłopot",
+   "poziom": "",
+   "polecenie": "Krótko i szczerze — ta rubryka nie jest oceniana.",
+   "pola": [
+    {
+     "typ": "tekst",
+     "id": "klopot",
+     "wiersze": 3,
+     "pytanie": "Co nie wyszło za pierwszym razem i jak sobie z tym poradziłeś"
+    }
+   ]
+  }
+ ]
+}

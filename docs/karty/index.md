@@ -40,6 +40,51 @@ otwierasz, klikając nazwę działu.
     "url": "../dzial-3/#karta"
   },
   {
+    "plik": "wizualizacja-pomyslow-edytor-3d",
+    "tytul": "Temat 12. Wizualizacja pomysłów, czyli projektujemy w edytorze 3D",
+    "url": "../dzial-3/wizualizacja-pomyslow-edytor-3d/#karta"
+  },
+  {
+    "plik": "montujemy-zdjecie-reklamowe",
+    "tytul": "Temat 13. To nie jest trudne, czyli montujemy zdjęcie reklamowe",
+    "url": "../dzial-3/montujemy-zdjecie-reklamowe/#karta"
+  },
+  {
+    "plik": "poprawiamy-zdjecia-grafika-rastrowa",
+    "tytul": "Temat 14. Szturmowiec w chmurze, czyli poprawiamy zdjęcia w edytorze grafiki rastrowej",
+    "url": "../dzial-3/poprawiamy-zdjecia-grafika-rastrowa/#karta"
+  },
+  {
+    "plik": "instrukcja-obslugi-dokumenty-tekstowe",
+    "tytul": "Temat 15. Instrukcja obsługi, czyli tworzymy zaawansowane dokumenty tekstowe",
+    "url": "../dzial-3/instrukcja-obslugi-dokumenty-tekstowe/#karta"
+  },
+  {
+    "plik": "materialy-reklamowe-wizytowki-ulotki",
+    "tytul": "Temat 16. Oferty, wizytówki i ulotki, czyli jak wykorzystać aplikacje do tworzenia materiałów reklamowych",
+    "url": "../dzial-3/materialy-reklamowe-wizytowki-ulotki/#karta"
+  },
+  {
+    "plik": "dokumentacja-techniczna-edytory",
+    "tytul": "Temat 17. Dokumentacja techniczna, czyli jak wykorzystać zaawansowane możliwości edytorów",
+    "url": "../dzial-3/dokumentacja-techniczna-edytory/#karta"
+  },
+  {
+    "plik": "z-sieci-do-tabeli-arkusz-kalkulacyjny",
+    "tytul": "Temat 18. Z sieci do tabeli, czyli jak interpretować dane w arkuszu kalkulacyjnym",
+    "url": "../dzial-3/z-sieci-do-tabeli-arkusz-kalkulacyjny/#karta"
+  },
+  {
+    "plik": "kalkulujemy-zarzadzanie-finansami-arkusz",
+    "tytul": "Temat 19. Kalkulujemy, czyli jak wykorzystać arkusz kalkulacyjny w zarządzaniu finansami",
+    "url": "../dzial-3/kalkulujemy-zarzadzanie-finansami-arkusz/#karta"
+  },
+  {
+    "plik": "reklama-atrakcyjna-prezentacja",
+    "tytul": "Temat 20. Reklama jest ważna, czyli jak samodzielnie wykonać atrakcyjną prezentację",
+    "url": "../dzial-3/reklama-atrakcyjna-prezentacja/#karta"
+  },
+  {
     "plik": "dzial-4",
     "tytul": "Dział IV. Peryferia pomagają w pracy zawodowej",
     "url": "../dzial-4/#karta"

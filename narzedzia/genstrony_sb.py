@@ -546,7 +546,12 @@ def karta_dzialu(d):
             "nr": i,
             "tytul": tytul,
             "poziom": f"temat {t['lp']} · {godz(t['godziny'])} · rozdział {t['rozdzial']}",
-            "polecenie": "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś "
+            "polecenie": ("Ten temat ma własną <strong>kartę projektu</strong> na "
+                          f"<a href=\"{slug_karty_tematu(t['lp'])}/#karta\">stronie tematu</a> — tam "
+                          "opisujesz projekt, dołączasz pliki i wysyłasz pracę. Tu zapisz krótko, "
+                          "co powstało: to Twoje portfolio działu.")
+                         if slug_karty_tematu(t["lp"]) else
+                         "Zapisz, co powstało na tej lekcji. Jeżeli nie zdążyłeś "
                          "skończyć, napisz, na czym stanąłeś — to też jest informacja.",
             "pola": [
                 {"typ": "tabela", "wiersze": [
@@ -1075,6 +1080,11 @@ def strona_kart():
             "tytul": f"Dział {d['nr']}. {d['tytul']}",
             "url": f"../dzial-{numer}/#karta",
         })
+        for t in d["tematy"]:
+            slug = slug_karty_tematu(t["lp"]) if d["nr"] == "III" else None
+            if slug:
+                pozycje.append({"plik": slug, "tytul": f"Temat {t['lp']}. {t['tytul']}",
+                                "url": f"../dzial-{numer}/{slug}/#karta"})
         if d["nr"] in PRACE_KLASOWE:
             pozycje.append({
                 "plik": f"dzial-{numer}-praca-klasowa",
@@ -1125,6 +1135,129 @@ pendrive'em, OneDrive'em albo mailem do siebie i na drugim komputerze klikasz
     przez **Zadania domowe w dzienniku VULCAN**. Ta strona nie jest kanałem
     oddawania prac — służy tylko Tobie do pracy.
 """
+
+
+# ─────────────────────────────────────── karty projektów przy tematach
+# Tematy działu III, w których powstaje projekt (plik), mają własną kartę na
+# dole strony tematu: opis ćwiczeń, zrzuty, pliki w „Załącznikach” i wysłanie
+# przez serwis. Treść ćwiczeń przepisana ze stron tematów leży w
+# karty_tematow.json; temat 12 (Tinkercad) ma kartę napisaną osobno.
+KARTY_TEMATOW = json.load(open(HERE / "karty_tematow.json", encoding="utf-8"))
+SLUG_WIZUALIZACJI = "wizualizacja-pomyslow-edytor-3d"
+PRZEDMIOT = "PCEiKZ Szczucin · informatyka · klasa 1W, branżowa szkoła I stopnia"
+
+
+def temat_po_lp(lp):
+    for d in DZIALY:
+        for t in d["tematy"]:
+            if t["lp"] == lp:
+                return t
+    raise KeyError(lp)
+
+
+def slug_karty_tematu(lp):
+    """Plik karty projektu tematu o numerze lp albo None, gdy temat jej nie ma."""
+    sciezka = GOTOWE["III"].get(lp, ("", ""))[0]
+    slug = sciezka.split("/")[-1].removesuffix(".md")
+    return slug if slug in KARTY_TEMATOW or slug == SLUG_WIZUALIZACJI else None
+
+
+def zadania_koncowe(nr, pliki):
+    return [
+        {"nr": nr, "tytul": "Pliki projektu", "poziom": "",
+         "polecenie": "Dołącz w ramce <strong>Załączniki</strong> pod kartą: " + pliki +
+                      ". Najwyżej 5 plików, razem do 10 MB. Plików nie trzeba wklejać do karty — "
+                      "jadą razem z nią po kliknięciu <strong>Wyślij do nauczyciela</strong>.",
+         "pola": [{"typ": "tabela", "wiersze": [
+             ["pliki_lista", "Nazwy dołączonych plików", ""],
+             ["pliki_link", "Link do pracy w chmurze, jeśli jest", "np. Canva, Prezi, Dysk Google"],
+         ]}]},
+        {"nr": nr + 1, "tytul": "Co sprawiło kłopot", "poziom": "",
+         "polecenie": "Krótko i szczerze — ta rubryka nie jest oceniana.",
+         "pola": [{"typ": "tekst", "id": "klopot", "wiersze": 3,
+                   "pytanie": "Co nie wyszło za pierwszym razem i jak sobie z tym poradziłeś"}]},
+    ]
+
+
+def karta_tematu(slug):
+    """Karta projektu przy temacie: cztery ćwiczenia ze strony, pliki, kłopoty."""
+    dane = KARTY_TEMATOW[slug]
+    zadania = []
+    for c in dane["cwiczenia"]:
+        n = c["nr"]
+        pola = []
+        if n >= 3:
+            pola.append({"typ": "tabela", "wiersze": [
+                [f"c{n}_plik", "Nazwa pliku z tym ćwiczeniem", ""],
+                [f"c{n}_program", "Program, w którym to zrobiłeś", ""],
+            ]})
+        pola += [
+            {"typ": "tekst", "id": f"c{n}_co", "wiersze": 3,
+             "pytanie": "Co zrobiłeś — najważniejsze kroki i narzędzia, a jeśli nie skończyłeś, na czym stanąłeś"},
+            {"typ": "zrzut", "id": f"c{n}_zrzut", "opis": f"efekt ćwiczenia {n}"},
+        ]
+        zadania.append({"nr": n, "tytul": f"Ćwiczenie {n}", "poziom": f"ćwiczenie {c['poziom'].lower()}",
+                        "polecenie": c["tresc"], "pola": pola})
+    zadania += zadania_koncowe(5, dane["pliki"])
+    t = temat_po_lp(dane["lp"])
+    return {"id": f"inf-sb-{slug}", "tytul": t["tytul"], "przedmiot": PRZEDMIOT,
+            "klasa": "1W", "sufiks": f"INF-SB-T{dane['lp']}", "zadania": zadania}
+
+
+def karta_wizualizacji():
+    """Temat 12: uchwyt na śrubokręty w Tinkercadzie (ćwiczenia ze strony tematu)."""
+    zadania = [
+        {"nr": 1, "tytul": "Ćwiczenia 1–2. Podstawa z czterema otworami",
+         "poziom": "wymagania konieczne i podstawowe · oceny 2–3",
+         "polecenie": "Podstawa <strong>120 × 40 × 15 mm</strong> i cztery otwory na wylot "
+                      "<strong>Ø 10 mm</strong> co <strong>25 mm</strong>, pierwszy 22,5 mm od lewej krawędzi. "
+                      "Wymiary odczytaj w Tinkercadzie z pól wymiarów, nie przepisuj ze strony.",
+         "pola": [
+             {"typ": "tabela", "wiersze": [
+                 ["w1_nazwa", "Nazwa projektu w Tinkercadzie", "np. nr07-uchwyt"],
+                 ["w1_podstawa", "Wymiary podstawy: szerokość × głębokość × wysokość", "w mm"],
+                 ["w1_otwory", "Średnica otworów i odległość między ich środkami", "w mm"],
+             ]},
+             {"typ": "tekst", "id": "w1_co", "wiersze": 3,
+              "pytanie": "Jak ustawiłeś otwory w równych odstępach — jakich narzędzi użyłeś"},
+             {"typ": "zrzut", "id": "w1_zrzut", "opis": "model z góry — widać cztery otwory"},
+         ]},
+        {"nr": 2, "tytul": "Ćwiczenie 3. Ściana do przykręcenia",
+         "poziom": "wymagania rozszerzające · ocena 4",
+         "polecenie": "Ścianka <strong>120 × 4 × 50 mm</strong> z tyłu podstawy i dwa otwory na wkręty "
+                      "<strong>Ø 4 mm</strong>, 15 mm od bocznych krawędzi i 40 mm nad dołem. "
+                      "Wszystko zgrupowane w jeden obiekt.",
+         "pola": [
+             {"typ": "tabela", "wiersze": [
+                 ["w3_scianka", "Wymiary ścianki", "w mm"],
+                 ["w3_wkrety", "Średnica otworów na wkręty i ich wysokość nad dołem", "w mm"],
+             ]},
+             {"typ": "tekst", "id": "w3_co", "wiersze": 3,
+              "pytanie": "Jak obróciłeś i ustawiłeś otwory na wkręty"},
+             {"typ": "zrzut", "id": "w3_zrzut", "opis": "model od tyłu — widać ściankę z otworami na wkręty"},
+         ]},
+        {"nr": 3, "tytul": "Ćwiczenie 4. Uchwyt do Twojego narzędzia",
+         "poziom": "wymagania dopełniające · ocena 5",
+         "polecenie": "Uchwyt albo organizer na narzędzie z Twojego zawodu: otwór lub wycięcie dopasowane "
+                      "do zmierzonego narzędzia z zapasem 1 mm i napis z Twoim numerem wycięty na 1 mm w głąb.",
+         "pola": [
+             {"typ": "tabela", "wiersze": [
+                 ["w4_nazwa", "Nazwa projektu", "np. nr07-uchwyt-zawod"],
+                 ["w4_narzedzie", "Narzędzie z Twojego zawodu", ""],
+                 ["w4_wymiary", "Zmierzone wymiary narzędzia", "w mm"],
+                 ["w4_wyciecie", "Wymiary otworu lub wycięcia (z zapasem 1 mm)", "w mm"],
+             ]},
+             {"typ": "tekst", "id": "w4_co", "wiersze": 3,
+              "pytanie": "Co zaprojektowałeś i dlaczego właśnie tak"},
+             {"typ": "zrzut", "id": "w4_zrzut", "opis": "gotowy uchwyt z narzędziem — widać wycięcie i napis"},
+         ]},
+    ]
+    zadania += zadania_koncowe(
+        4, "model wyeksportowany z Tinkercada — przycisk <strong>Export</strong>, format "
+           "<code>.stl</code> (przy ćwiczeniu 4 oba projekty)")
+    t = temat_po_lp(12)
+    return {"id": f"inf-sb-{SLUG_WIZUALIZACJI}", "tytul": t["tytul"], "przedmiot": PRZEDMIOT,
+            "klasa": "1W", "sufiks": "INF-SB-T12", "zadania": zadania}
 
 
 # ─────────────────────────────────────────────── nawigacja (awesome-nav)
@@ -1208,6 +1341,9 @@ for d in DZIALY:
                     PRACE_KLASOWE[d["nr"]](d))
         if d["nr"] in PRACA_NA_OSOBNEJ_STRONIE:
             zapisz(f"dzial-{numer}/praca-klasowa.md", strona_pracy_klasowej(d))
+for slug in KARTY_TEMATOW:
+    zapisz_json(f"assets/karty/{slug}.json", karta_tematu(slug))
+zapisz_json(f"assets/karty/{SLUG_WIZUALIZACJI}.json", karta_wizualizacji())
 zapisz("karty/index.md", strona_kart())
 zapisz_nawigacje()
 

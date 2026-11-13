@@ -1,0 +1,210 @@
+{
+ "montujemy-zdjecie-reklamowe": {
+  "lp": 13,
+  "pliki": "plik projektu w formacie edytora (<code>.xcf</code> z GIMP-a albo <code>.psd</code>) i gotowa grafika (<code>.png</code> lub <code>.jpg</code>)",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Utwórz prosty dokument z dwoma warstwami: tłem jednokolorowym oraz wyciętym prostokątnym zdjęciem wyrobu branżowego. Dodaj prosty napis z nazwą firmy."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Wytnij za pomocą <em>Różdżki</em> lub <em>Lasso</em> skomplikowany produkt ze zdjęcia z niejednolitym tłem i wklej go na plenerowe tło reklamowe. Dodaj cień pod obiektem."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Przygotuj grafikę promocyjną na portal społecznościowy przedstawiającą produkt lub usługę z Twojej branży (np. naprawa auta, mebel na wymiar, usługa fryzjerska/gastronomiczna). Użyj tekstu, logo i ozdobnej ramki."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Zastosuj maskę warstwy (Layer Mask) oraz gradient do łagodnego przejścia (przenikania) dwóch zdjęć tła w projekcie reklamowym."
+   }
+  ]
+ },
+ "poprawiamy-zdjecia-grafika-rastrowa": {
+  "lp": 14,
+  "pliki": "poprawione zdjęcia (<code>.jpg</code> albo <code>.png</code>); przy ćwiczeniu 4 obie wersje: do druku i na stronę www",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Otwórz w edytorze chmurowym przechylone zdjęcie i skoryguj jego kadrowanie oraz prostoliniowość horyzontu."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Za pomocą narzędzi korekcji tonalnej (<em>Poziomy</em> lub <em>Jasność/Kontrast</em>) popraw niedoświetlone zdjęcie wykonane w ciemnym pomieszczeniu."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Pobierz zdjęcie elementu technicznego z rysą lub zabrudzeniem. Użyj narzędzia <em>Stempel</em> / <em>Naprawianie</em>, aby bezśladowo usunąć uszkodzenie z powierzchni."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Wykonaj pełną korektę zdjęcia produktowego dla swojej branży: skadruj obraz, popraw balans bieli, wyretuszuj tło, wyostrz kluczowy detal i wyeksportuj wynik w dwóch wersjach (do druku i na stronę www)."
+   }
+  ]
+ },
+ "instrukcja-obslugi-dokumenty-tekstowe": {
+  "lp": 15,
+  "pliki": "dokument (<code>.docx</code> albo <code>.odt</code>), a przy ćwiczeniu 4 także wyeksportowany <code>.pdf</code>",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Przygotuj jednostronicowy dokument zawierający trzy nagłówki pierwszego stopnia oraz skompletowaną listę wielopoziomową. Zastosuj wbudowane style."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Utwórz dokument złożony z dwóch sekcji. Pierwsza sekcja (strona tytułowa) nie może posiadać numeru strony, natomiast druga sekcja musi zaczynać się od numeru 1."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Opracuj dwustronicową instrukcję stanowiskową BHP dla wybranego urządzenia z Twojego zawodu (np. obrabiarek, podnośnika, pieca konwekcyjnego). Użyj tabel ostrzegawczych oraz podziału tekstu na dwie kolumny."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Stwórz rozbudowaną instrukcję obsługi wyrobu zawierającą stronę tytułową, automatyczny spis treści, nagłówki dwóch poziomów, zagnieżdżoną listę numerowaną oraz wyeksportowany plik PDF."
+   }
+  ]
+ },
+ "materialy-reklamowe-wizytowki-ulotki": {
+  "lp": 16,
+  "pliki": "wizytówka, ulotka albo oferta (<code>.pdf</code>, <code>.docx</code> albo <code>.odt</code>)",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Wybierz szablon wizytówki w edytorze, wprowadź własne dane, logo oraz dopasuj kolorystykę do Twojego zawodu."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Utwórz w edytorze tekstu tabelę cennikową zawierającą 5 pozycji z wyliczoną kwotą brutto (z zastosowaniem prostego wzoru lub przeliczenia)."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Zaprojektuj dwustronną ulotkę reklamową formatu A5 dla swojego warsztatu/usługi. Użyj pól tekstowych, cennika oraz wstawianych zdjęć wyrobów."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Przygotuj kompletną ofertę handlową w formacie PDF zawierającą nagłówek firmowy, opis usługi, cennik tabelaryczny oraz wykres porównujący koszty eksploatacji."
+   }
+  ]
+ },
+ "dokumentacja-techniczna-edytory": {
+  "lp": 17,
+  "pliki": "dokument z dokumentacją (<code>.docx</code> albo <code>.odt</code>)",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Wstaw obraz do dokumentu, użyj funkcji <em>Wstaw podpis</em> i sprawdź, czy dodanie drugiego obrazka powyżej automatycznie zmieni numerację."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Utwórz proste schematyczne rysunki wektorowe w edytorze i nałóż na nie 3 odnośniki z numerami pozycji. Zgrupuj obiekty."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Przygotuj kartę techniczną wyrobu/maszyny ze swojego zawodu. Zamieść rysunek, tabelę parametrów technicznych oraz tabelę zestawieniową części (BOM)."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Stwórz 3-stronicową dokumentację techniczną zawierającą co najmniej 3 rysunki z odnośnikami, 2 tabele specyfikacji oraz wygenerowany automatyczny spis ilustracji i spis tabel."
+   }
+  ]
+ },
+ "z-sieci-do-tabeli-arkusz-kalkulacyjny": {
+  "lp": 18,
+  "pliki": "arkusz (<code>.xlsx</code> albo <code>.ods</code>)",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Skopiuj prostą tabelę z cenami paliw lub materiałów ze strony internetowej do arkusza. Zamień ewentualne kropki na przecinki i nadaj kolumnie format walutowy."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Utwórz arkusz z cenami 5 surowców/części. Użyj funkcji <code>SUMA</code>, <code>ŚREDNIA</code>, <code>MIN</code> i <code>MAKS</code> do analizy ich wartości."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Pobierz z sieci aktualny cennik materiałów potrzebnych w Twoim zawodzie i przygotuj kosztorys wykonania konkretnej usługi dla klienta z uwzględnieniem narzutu robocizny."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Zaimportuj tabelę danych statystycznych GUS dotyczących zatrudnienia lub produkcji, przelicz wartości procentowe i sporządź wykres kołowy z etykietami danych."
+   }
+  ]
+ },
+ "kalkulujemy-zarzadzanie-finansami-arkusz": {
+  "lp": 19,
+  "pliki": "arkusz (<code>.xlsx</code> albo <code>.ods</code>)",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Przygotuj prosty arkusz przeliczający 5 kwot netto na kwoty brutto przy stałej stawce VAT 23% umieszczonej w zablokowanej komórce <code>$B$1</code>."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Utwórz listę rozwijaną ze stawkami VAT (23%, 8%, 5%, 0%) i napisz formułę wyliczającą kwotę podatku z użyciem funkcji <code>ZAOKR</code>."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Zaprojektuj kalkulator usługowy dla Twojej branży (np. koszt wymiany części, robocizna, dojazd). Zastosuj funkcję <code>JEŻELI</code> naliczającą 10% zniżki dla stałych klientów."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Przygotuj arkusz symulacji finansowej zawierający dwa warianty wykonania usługi (Podstawowy i Premium), automatyczne wyliczenie podatku, marży zysku oraz wykres porównawczy obu wariantów."
+   }
+  ]
+ },
+ "reklama-atrakcyjna-prezentacja": {
+  "lp": 20,
+  "pliki": "prezentacja (<code>.pptx</code>, <code>.odp</code> albo <code>.pdf</code>); prezentację z Canvy albo Prezi podaj linkiem",
+  "cwiczenia": [
+   {
+    "nr": 1,
+    "poziom": "Podstawowe",
+    "tresc": "Przygotuj 3-slajdową prezentację w oparciu o wbudowany szablon: slajd tytułowy, slajd ze zdjęciem i opisem oraz slajd kontaktowy."
+   },
+   {
+    "nr": 2,
+    "poziom": "Średnio zaawansowane",
+    "tresc": "Załóż bezpłatne konto w serwisie Canva lub Prezi i stwórz prezentację prezentującą zalety wybranego narzędzia lub technologii."
+   },
+   {
+    "nr": 3,
+    "poziom": "Branżowe",
+    "tresc": "Opracuj pełną, 5-slajdową prezentację oferty handlowej swojej wymarzonej firmy/warsztatu. Uwzględnij scenariusz, cennik, galerię i Wezwanie do Działania."
+   },
+   {
+    "nr": 4,
+    "poziom": "Zaawansowane",
+    "tresc": "Stwórz interaktywną prezentację w Prezi z wykorzystaniem struktur połączonych (Topics / Subtopics), osadzonym krótkim materiałem wideo oraz wyeksportowanym materiałem do druku dla słuchaczy."
+   }
+  ]
+ }
+}

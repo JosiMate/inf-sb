@@ -233,22 +233,37 @@ widok z góry (podstawa 120 × 40 mm)
 
 ### Co oddajesz
 
-Zadanie wpisujesz do **karty pracy działu III**, w temacie „Wizualizacja
-pomysłów”:
-
-- **nazwa pliku albo tytuł pracy** — nazwa projektu, np. `nr07-uchwyt`;
-- **program** — Tinkercad;
-- **co zrobiłeś** — które ćwiczenia, jakie wymiary, co sprawiło kłopot; przy
-  ćwiczeniu 4 — wymiary zmierzonego narzędzia;
-- **zrzut ekranu** gotowego modelu, obróconego tak, żeby było widać otwory.
-
-Projekt w Tinkercadzie zostaw — sprawdzam go w zakładce klasy.
+Zadanie opisujesz i wysyłasz w **karcie projektu** na dole tej strony:
+nazwa projektu, wymiary odczytane w Tinkercadzie, zrzut ekranu modelu i plik
+`.stl` (w Tinkercadzie przycisk **Export** → **.STL**). Projekt w Tinkercadzie
+zostaw — sprawdzam go też w zakładce klasy.
 
 !!! info "Wymagania mówią o SketchUpie"
 
     W wymaganiach na oceny do tego tematu jest program SketchUp. Na lekcji
     używamy Tinkercada, bo nie wymaga zakładania konta. Umiejętności są te
     same: kreślenie brył, projekt z wymiarami, kolory i otwory.
+
+## Karta projektu
+
+Projekt z tej lekcji oddajesz **tą kartą**. Opisz w niej ćwiczenia, które
+zrobiłeś, wklej zrzuty ekranu, a pliki — model wyeksportowany z Tinkercada w formacie <code>.stl</code> — dołącz w ramce
+**Załączniki** pod kartą. Potem kliknij **Wyślij do nauczyciela**: karta
+z plikami trafia prosto do nauczyciela, a jej kopia zostaje na Dysku, więc
+po uwagach możesz ją wczytać (**Wczytaj → Z Dysku**), poprawić i wysłać
+jeszcze raz. Nie masz kodu z karteczki? Pobierz dokument Worda i oddaj go
+razem z plikami przez **Zadania domowe w dzienniku VULCAN**.
+
+Termin: najbliższa lekcja informatyki. Zasady terminu dodatkowego są na
+stronie [wymagań edukacyjnych](../dzial-1/wymagania-i-bhp.md).
+
+<div class="kp-podsumowanie" data-karta="wizualizacja-pomyslow-edytor-3d"></div>
+
+<span id="karta" class="kp-kotwica"></span>
+
+???+ karta "Rozwiń kartę projektu"
+
+    <div class="karta-pracy" data-karta="wizualizacja-pomyslow-edytor-3d"></div>
 
 ## Sprawdź się
 
